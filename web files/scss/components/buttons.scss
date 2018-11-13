@@ -1,0 +1,20 @@
+.btn {
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 5.5rem;
+  padding: 0.5rem 1.5rem;
+  border-width: ($border-width + 1px);
+  font-size: ($font-size - .0625rem);
+  &.btn-primary {
+    &:hover {
+      color: $white;
+    }
+  }
+  &.btn-outline-gradient {
+    border-radius: 5.5rem;
+    -moz-border-image: -moz-linear-gradient(left, #ff9024 0%, #ff705e 44%, #ff5a85 55%, #ff2cd6 100%);
+    -webkit-border-image: -webkit-linear-gradient(left, #ff9024 0%, #ff705e 44%, #ff5a85 55%, #ff2cd6 100%);
+    border-image: linear-gradient(to right, #ff9024 0%, #ff705e 44%, #ff5a85 55%, #ff2cd6 100%);
+    border-image-slice: 1;
+  }
+}

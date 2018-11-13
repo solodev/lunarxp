@@ -1,0 +1,20 @@
+Based off of the discoverbetter site
+  - a few changes
+  - new email service for a quote
+  - 
+
+
+Admin -> Both in page and partials/components/carousel-hero-2.php
+ 	- css is in gulp
+
+template-landing-page-2
+
+
+shm_agentcubed/api/agentcubed/agentcubed.php
+asset/api/autoquote/consumeremail.php - with mailgun
+
+
+
+HEALTHPLANS
+  - same thing different colors
+  - use this - this has a fixed up custom field stuff

@@ -1,0 +1,30 @@
+/** ===========================================
+    Paging
+  ============================================ */
+.pagination {
+  box-shadow: 0 2px 14px -1px rgba($black, .08);
+  ul {
+    li {
+      a {
+        padding-top: 8px;
+        padding-bottom: 8px;
+        border: $border-width solid theme-color("tertiary-dark");
+        width: 41px;
+        display: block;
+      }
+      a,
+      .fas {
+        color: theme-color("primary");
+      }
+      &.current,
+      &:hover {
+        background-color: theme-color("primary");
+        border-color: theme-color("primary");
+        a,
+        .fas {
+          color: $white;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+aside {
+	.interior-nav {
+		li {
+            &:not(:last-child) {
+                border-bottom: 1px solid theme-color('gray');
+            }
+			margin-bottom: 0;
+            padding: 1rem;
+			a {
+            	font-family: proxima-nova,"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+            	font-weight: bold;
+                font-size: 1.25rem;
+                text-transform: uppercase;
+            	text-decoration: none;
+				color: theme-color('black');
+			}
+            &:hover {
+             a {
+					color: theme-color('secondary');
+				}
+            }
+			&.Highlight {
+				a {
+					color: theme-color('primary')
+				}
+			}
+		}
+	}
+}

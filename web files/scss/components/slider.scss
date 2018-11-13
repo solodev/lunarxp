@@ -1,0 +1,155 @@
+@import "../mixins";
+
+.slick {
+  line-height: 0;
+  .slick-list {
+    .slick-track {
+      // Fix for sliders that have slides with different heights
+      display: flex;
+      align-items: center;
+      .slide {
+        line-height: 1.5;
+        @include media-breakpoint-up(md) {
+          &.slide-img-right {
+            img {
+              max-width: 360px;
+            }
+          }
+        }
+        .slide-content {
+          width: 100%;
+          @include media-breakpoint-up(lg) {
+            max-width: 40%;
+          }
+          @include media-breakpoint-up(xl) {
+            max-width: 25%;
+          }
+        }
+      }
+    }
+  }
+  .slick-dots {
+    text-align: center;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    padding: 0;
+    margin: 0;
+    @include media-breakpoint-up(sm){
+      bottom: 15px;
+    }
+    li {
+      position: relative;
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      padding: 0;
+      cursor: pointer;
+      button {
+        font-size: 0;
+        line-height: 0;
+        display: block;
+        padding: 5px;
+        cursor: pointer;
+        border: 0;
+        outline: none;
+        background: transparent;
+        &:before {
+          content: '\f111';
+          font-family: $fa-font;
+          font-size: ($font-size - 0.125rem);
+          text-align: center;
+          color: $white;
+        }
+      }
+      &.slick-active {
+        button {
+          &:before {
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }
+}
+
+.carousel-controls {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  z-index: 1;
+  top: calc(100% - 100px);
+  @include media-breakpoint-up(md) {
+    top: calc(50% - 25px);
+  }
+  .prev,
+  .next {
+    position: absolute;
+    top: 0;
+    color: $white;
+    cursor: pointer;
+    width: 40px;
+    height: 100px;
+    @include media-breakpoint-up(md) {
+      width: 60px;
+    }
+    &:before,
+    &:after {
+      content: "";
+      position: absolute;
+      height: 2px;
+      width: 100%;
+      background: $white;
+      transition: transform .25s ease, bottom .25s ease;
+    }
+  }
+  .prev {
+    left: 0;
+    &:before {
+      @include transform(rotate(-60deg));
+    }
+    &:after {
+      @include transform(rotate(60deg));
+      bottom: 64px;
+      @include media-breakpoint-up(md) {
+        bottom: 47px;
+      }
+    }
+    @include media-breakpoint-up(md) {
+      &:hover {
+        &:before {
+          @include transform(rotate(-45deg));
+        }
+        &:after {
+          @include transform(rotate(45deg));
+          bottom: 55px;
+        }
+      }
+    }
+  }
+  .next {
+    right: 0;
+    &:before {
+      @include transform(rotate(60deg));
+    }
+    &:after {
+      @include transform(rotate(-60deg));
+      bottom: 64px;
+      @include media-breakpoint-up(md) {
+        bottom: 47px;
+      }
+    }
+    @include media-breakpoint-up(md) {
+      &:hover {
+        &:before {
+          @include transform(rotate(45deg));
+        }
+        &:after {
+          @include transform(rotate(-45deg));
+          bottom: 55px;
+        }
+      }
+    }
+  }
+}

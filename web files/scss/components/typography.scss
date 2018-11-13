@@ -1,0 +1,59 @@
+body {
+  font-family: $font-family;
+  font-size: $font-size-base;
+}
+h1, .h1, 
+h2, .h2, 
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: scale;
+  font-family: $primary-font;
+  margin-bottom: 1rem;
+}
+h1,
+.h1 {
+  font-size: ($font-size-lg + 2.2rem);
+  @include media-breakpoint-down(sm) {
+    font-size: ($font-size-lg + 1.6rem);
+  }
+}
+h2,
+.h2 {
+  font-size: ($font-size-lg + 1.4rem);
+  @include media-breakpoint-down(sm) {
+    font-size: ($font-size-lg + 1rem);
+  }
+}
+h3,
+.h3 {
+  font-size: ($font-size-lg + .9rem);
+  @include media-breakpoint-down(sm) {
+    font-size: ($font-size-lg + .2rem);
+  }
+}
+.display-4 {
+  @include media-breakpoint-down(sm) {
+    font-size: ($font-size-lg + 1rem);
+  }
+}
+
+small,
+.small {
+  font-size: 88%;
+}
+.lead {
+  @include media-breakpoint-down(sm) {
+    font-size: $font-size;
+  }
+}
+.lead-sm {
+  font-size: 1.15em;
+  font-weight: $font-weight-light;
+}
+.lead-lg {
+  font-size: 1.35em;
+  font-weight: $font-weight-light;
+}

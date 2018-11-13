@@ -1,0 +1,72 @@
+@import "mixins";
+
+/** ===========================================
+    # Theme Type Settings
+============================================ */
+$font-family: "Arial", "Helvetica Neue", "Helvetica", "Roboto", sans-serif;
+$primary-font: "proxima-nova", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+$fa-font: 'Font Awesome 5 Free';
+$font-size: $font-size-base;
+
+$body-color: theme-color("black");
+$heading-color: theme-color("black");
+
+/** ===========================================
+    # Theme Color Pallette
+  ============================================ */
+$theme-colors: (
+  "primary": #e60da1,
+  "primary-light": lighten(#e60da1, 10%),
+  "primary-dark": darken(#e60da1, 10%),
+  "secondary": #3d5d6f,
+  "secondary-light": lighten(#3d5d6f, 10%),
+  "secondary-dark": darken(#3d5d6f, 10%),
+  "light-gray": #f3f3f3,
+  "eerie-black": #1b1b1b,
+  "black": $black,
+  "white": $white,
+  "yellow": #ff9b27,
+  "orange": #ff8d02,
+  "orange-dark": #ff7b49,
+  "watermelon": #ff6177,
+  "rose": #ff48a4,
+  "alpha2": rgba($black, .2),
+  "alpha4": rgba($black, .4),
+  "alpha6": rgba($black, .6),
+  "alpha8": rgba($black, .8),
+  "alpha2-white": rgba($white, .2),
+  "alpha4-white": rgba($white, .4),
+  "alpha6-white": rgba($white, .6),
+  "alpha8-white": rgba($white, .8),
+
+  "lite-gray": #ccc,
+  "gray": #b7b6b6,
+  "mid-gray": #656b71,
+  "scarlet": #ff2400,
+  "facebook": #3b5998,
+  "linkedin": #0077B5,
+  "twitter": #1da1f2,
+);
+
+/** ===========================================
+    # Theme Text and BG Hover Styles
+============================================ */
+@each $color, $value in $theme-colors {
+
+  // Generate `.bg-*` color utilities
+  @include bg-variant('.bg-#{$color}', $value);
+
+  // Generate `.text-*` color utilities
+  @include text-emphasis-variant(".text-#{$color}", $value);
+
+  // Generate `.btn-*` color utilities
+  .btn-#{$color} {
+    @include button-variant($value, $value);
+  }
+
+  // Generate `.btn-*` color utilities
+  .btn-outline-#{$color} {
+    @include button-outline-variant($value);
+  }
+
+}

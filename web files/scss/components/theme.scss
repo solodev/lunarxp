@@ -1,0 +1,209 @@
+/** ===========================================
+    Business Theme Color Pallette Classes
+  ============================================ */
+.filter-white {
+  -webkit-filter: brightness(0) invert(1);
+  filter: brightness(0) invert(1);
+}
+.gradient-border {
+  height: 20px;
+  background: #ff9024; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #ff9024 1%, #ff705e 44%, #ff5a85 55%, #ff2cd6 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #ff9024 1%,#ff705e 44%,#ff5a85 55%,#ff2cd6 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #ff9024 1%,#ff705e 44%,#ff5a85 55%,#ff2cd6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9024', endColorstr='#ff2cd6',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+i
+/** ===========================================
+    Links
+  ============================================ */
+a {
+  color: theme-color('primary');
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+    color: theme-color('primary-dark');
+  }
+}
+
+/** ===========================================
+    Lists
+  ============================================ */
+ul,
+ol {
+  li {
+    &:not(.nav-item) {
+      margin-bottom: 0.5rem;
+    }
+  }
+}
+
+ul,
+ol {
+  &.list-bordered {
+    li {
+      padding: 0 1rem 0 0.5rem;
+      margin: 0;
+      border-right: $border-width solid $white;
+      line-height: 0.75;
+
+      &:first-of-type {
+        padding-left: 0;
+      }
+
+      &:last-of-type {
+        border-right: 0;
+      }
+    }
+  }
+}
+
+/** ===========================================
+    Nav Tabs/Accordions
+  ============================================ */
+.nav-tabs {
+  a {
+    &.active {
+      background: theme-color("primary");
+      color: $white;
+    }
+  }
+}
+
+
+/** ===========================================
+    Width
+  ============================================ */
+.w-max {
+  width: max-content;
+}
+.w-min {
+  width: min-content;
+}
+
+
+/** ===========================================
+    Borders
+  ============================================ */
+.primary-top-border {
+  border-top: solid 6px theme-color("primary");
+}
+.primary-separator {
+  border-bottom: solid 2px theme-color("primary");
+  width: 180px;
+}
+.box-shadow {
+  box-shadow: 0 5px 13px 0 rgba(58,78,96,.2);
+}
+
+/** ===========================================
+    Visibility, Overflows and Z-indexes
+  ============================================ */
+.pointer {
+  cursor: pointer;
+}
+.animated {
+  opacity: 0;
+}
+.hidden {
+  opacity: 0;
+}
+.visible {
+  opacity: 1;
+}
+.overflow {
+  overflow: visible;
+}
+.overflow-auto {
+  overflow: auto;
+}
+.overflow-hidden {
+  overflow: hidden;
+}
+.z-index-1 {
+  z-index: 1;
+}
+.z-index-dropdown {
+  z-index: $zindex-dropdown;
+}
+.z-index-max {
+  z-index: 9999;
+}
+/** ===========================================
+    Positioning
+  ============================================ */
+.top-0 {
+  top: 0;
+}
+.right-0 {
+  right: 0;
+}
+.bottom-0 {
+  bottom: 0;
+}
+.left-0 {
+  left: 0;
+}
+.top-neg {
+  top: -12px;
+}
+.v-align {
+  top: 50%;
+  @include transform(translate(0%, -50%));
+}
+
+/** ===========================================
+    Images
+  ============================================ */
+.fauxcrop {
+  overflow: hidden;
+  max-height: 200px;
+}
+.box-sizing {
+  box-sizing: border-box;
+}
+.rounded-2 {
+  border-radius: 2px;
+}
+.underline-no-hover {
+  text-decoration: underline;
+  &:hover {
+    text-decoration: none;
+  }
+}
+.cover {
+  object-fit: cover;
+}
+/** ===========================================
+    IE
+  ============================================ */
+
+
+.image-hero-container {
+	background-size: cover;
+	background-position: center center;
+	height: 100%;
+}
+#baguetteBox-overlay {
+  .full-image { 
+    figcaption {
+      font-size: ($font-size + 1.1rem);
+    }
+  } 
+}
+
+/** ===========================================
+    Tags
+  ============================================ */
+.tags-list {
+	a {
+      &:first-child {
+        &:before {
+			content: "\f02e";
+            font-family: 'Font Awesome 5 Free';
+            color: theme-color('scarlet');
+            padding-right: 1rem;
+        }
+       }
+    }
+}

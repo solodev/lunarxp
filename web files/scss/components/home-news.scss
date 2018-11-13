@@ -1,0 +1,12 @@
+.home-news-box {
+  border-bottom: 1px solid theme-color('lite-gray');
+  border-right: 1px solid theme-color('lite-gray');
+  &:last-of-type {
+    border-right: 0;
+  }
+}
+@include media-breakpoint-down(lg) {
+  .home-news-box {
+    border-right: none;
+  }
+}
