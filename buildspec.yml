@@ -15,7 +15,7 @@ phases:
       - aws configure set aws_secret_access_key `./jq -r '.SecretAccessKey' aws_credentials.json`
       - aws configure set aws_session_token `./jq -r '.Token' aws_credentials.json`
       - ls -al
-      - yum -y install aws
+      - yum -y install zip
       - zip -r lunarxp.zip .
       - aws s3 cp lunarxp.zip s3://solodev-aws-ha
       - rm -Rf lunarxp.zip
