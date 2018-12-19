@@ -3297,35 +3297,6 @@
             ]
         },
         {
-            "name": "talon.png",
-            "from_path": "/www/_/images/talon.png",
-            "to_path": "/www/_/images/talon.png"
-        },
-        {
-            "name": "talon2.stml",
-            "from_path": "/www/ships/talon2.stml",
-            "to_path": "/www/ships/talon2.stml",
-            "title": "Talon2",
-            "structure": 1,
-            "rank": null,
-            "menu": null,
-            "meta_description": null,
-            "meta_keywords": null,
-            "description": null,
-            "headerBlock": null,
-            "content_title": null,
-            "body_id": null,
-            "body_role": null,
-            "body_class": null,
-            "contents": [
-                {
-                    "area": "dd.0",
-                    "type": "file",
-                    "from_path": "/web files/templates/basetemplate.tpl"
-                }
-            ]
-        },
-        {
             "name": "team-detail.tpl",
             "from_path": "/web files/content/about-us/team/team-detail.tpl",
             "to_path": "/web files/content/about-us/team/team-detail.tpl"
