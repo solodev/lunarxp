@@ -3297,6 +3297,70 @@
             ]
         },
         {
+            "name": "talon.png",
+            "from_path": "/www/_/images/talon.png",
+            "to_path": "/www/_/images/talon.png"
+        },
+        {
+            "name": "talon2.stml",
+            "from_path": "/www/ships/talon2.stml",
+            "to_path": "/www/ships/talon2.stml",
+            "title": "Talon2",
+            "structure": 1,
+            "rank": null,
+            "menu": null,
+            "meta_description": null,
+            "meta_keywords": null,
+            "description": null,
+            "headerBlock": null,
+            "content_title": null,
+            "body_id": null,
+            "body_role": null,
+            "body_class": null,
+            "contents": [
+                {
+                    "area": "dd.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/basetemplate.tpl"
+                },
+                {
+                    "area": "dd.0.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/nav/top-nav.tpl"
+                },
+                {
+                    "area": "dd.0.1",
+                    "type": "file",
+                    "from_path": "/web files/templates/hero/sectional-hero.tpl"
+                },
+                {
+                    "area": "dd.0.2",
+                    "type": "file",
+                    "from_path": "/web files/templates/nav/breadcrumb.tpl"
+                },
+                {
+                    "area": "dd.0.3",
+                    "type": "file",
+                    "from_path": "/web files/templates/interiors/sectional-template.tpl"
+                },
+                {
+                    "area": "dd.0.3.0",
+                    "type": "file",
+                    "from_path": "/web files/content/services/programming.tpl"
+                },
+                {
+                    "area": "dd.0.3.4",
+                    "type": "file",
+                    "from_path": "/web files/templates/nav/left-nav.tpl"
+                },
+                {
+                    "area": "dd.0.7",
+                    "type": "file",
+                    "from_path": "/web files/templates/footer/footer.tpl"
+                }
+            ]
+        },
+        {
             "name": "team-detail.tpl",
             "from_path": "/web files/content/about-us/team/team-detail.tpl",
             "to_path": "/web files/content/about-us/team/team-detail.tpl"
@@ -3352,6 +3416,30 @@
             "to_path": "/www/_/images/team4.jpg"
         },
         {
+            "name": "test.stml",
+            "from_path": "/www/test.stml",
+            "to_path": "/www/test.stml",
+            "title": null,
+            "structure": "0",
+            "rank": null,
+            "menu": null,
+            "meta_description": null,
+            "meta_keywords": null,
+            "description": null,
+            "headerBlock": null,
+            "content_title": null,
+            "body_id": null,
+            "body_role": null,
+            "body_class": null,
+            "contents": [
+                {
+                    "area": "dd.0",
+                    "type": "file",
+                    "from_path": "/web files/content/test.tpl"
+                }
+            ]
+        },
+        {
             "name": "test.tpl",
             "from_path": "/web files/content/test.tpl",
             "to_path": "/web files/content/test.tpl"
@@ -3365,6 +3453,65 @@
             "name": "testimonials1.jpg",
             "from_path": "/www/_/images/testimonials1.jpg",
             "to_path": "/www/_/images/testimonials1.jpg"
+        },
+        {
+            "name": "thank-you.stml",
+            "from_path": "/www/contact/thank-you.stml",
+            "to_path": "/www/contact/thank-you.stml",
+            "title": "Your Message Was Sent",
+            "structure": "0",
+            "rank": null,
+            "menu": null,
+            "meta_description": null,
+            "meta_keywords": null,
+            "description": null,
+            "headerBlock": null,
+            "content_title": null,
+            "body_id": null,
+            "body_role": null,
+            "body_class": null,
+            "contents": [
+                {
+                    "area": "dd.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/basetemplate.tpl"
+                },
+                {
+                    "area": "dd.0.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/nav/top-nav.tpl"
+                },
+                {
+                    "area": "dd.0.1",
+                    "type": "file",
+                    "from_path": "/web files/templates/hero/sectional-hero.tpl"
+                },
+                {
+                    "area": "dd.0.2",
+                    "type": "file",
+                    "from_path": "/web files/templates/interiors/sectional-template.tpl"
+                },
+                {
+                    "area": "dd.0.2.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/nav/breadcrumb.tpl"
+                },
+                {
+                    "area": "dd.0.2.1",
+                    "type": "file",
+                    "from_path": "/web files/content/contact/thank-you.tpl"
+                },
+                {
+                    "area": "dd.0.2.4",
+                    "type": "file",
+                    "from_path": "/web files/templates/nav/left-nav.tpl"
+                },
+                {
+                    "area": "dd.0.7",
+                    "type": "file",
+                    "from_path": "/web files/templates/footer/footer.tpl"
+                }
+            ]
         },
         {
             "name": "thank-you.tpl",
@@ -3943,7 +4090,7 @@
                         "case-studies"
                     ],
                     "fields": {
-                        "event_title": "What's New in Valkyrie1",
+                        "event_title": "What's New in our Valkyrie1",
                         "start_time": "1539711660",
                         "rss_image": null,
                         "heading_title": null,
