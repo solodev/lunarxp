@@ -3416,30 +3416,6 @@
             "to_path": "/www/_/images/team4.jpg"
         },
         {
-            "name": "test.stml",
-            "from_path": "/www/test.stml",
-            "to_path": "/www/test.stml",
-            "title": null,
-            "structure": "0",
-            "rank": null,
-            "menu": null,
-            "meta_description": null,
-            "meta_keywords": null,
-            "description": null,
-            "headerBlock": null,
-            "content_title": null,
-            "body_id": null,
-            "body_role": null,
-            "body_class": null,
-            "contents": [
-                {
-                    "area": "dd.0",
-                    "type": "file",
-                    "from_path": "/web files/content/test.tpl"
-                }
-            ]
-        },
-        {
             "name": "test.tpl",
             "from_path": "/web files/content/test.tpl",
             "to_path": "/web files/content/test.tpl"
