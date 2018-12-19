@@ -3455,65 +3455,6 @@
             "to_path": "/www/_/images/testimonials1.jpg"
         },
         {
-            "name": "thank-you.stml",
-            "from_path": "/www/contact/thank-you.stml",
-            "to_path": "/www/contact/thank-you.stml",
-            "title": "Your Message Was Sent",
-            "structure": "0",
-            "rank": null,
-            "menu": null,
-            "meta_description": null,
-            "meta_keywords": null,
-            "description": null,
-            "headerBlock": null,
-            "content_title": null,
-            "body_id": null,
-            "body_role": null,
-            "body_class": null,
-            "contents": [
-                {
-                    "area": "dd.0",
-                    "type": "file",
-                    "from_path": "/web files/templates/basetemplate.tpl"
-                },
-                {
-                    "area": "dd.0.0",
-                    "type": "file",
-                    "from_path": "/web files/templates/nav/top-nav.tpl"
-                },
-                {
-                    "area": "dd.0.1",
-                    "type": "file",
-                    "from_path": "/web files/templates/hero/sectional-hero.tpl"
-                },
-                {
-                    "area": "dd.0.2",
-                    "type": "file",
-                    "from_path": "/web files/templates/interiors/sectional-template.tpl"
-                },
-                {
-                    "area": "dd.0.2.0",
-                    "type": "file",
-                    "from_path": "/web files/templates/nav/breadcrumb.tpl"
-                },
-                {
-                    "area": "dd.0.2.1",
-                    "type": "file",
-                    "from_path": "/web files/content/contact/thank-you.tpl"
-                },
-                {
-                    "area": "dd.0.2.4",
-                    "type": "file",
-                    "from_path": "/web files/templates/nav/left-nav.tpl"
-                },
-                {
-                    "area": "dd.0.7",
-                    "type": "file",
-                    "from_path": "/web files/templates/footer/footer.tpl"
-                }
-            ]
-        },
-        {
             "name": "thank-you.tpl",
             "from_path": "/web files/content/contact/thank-you.tpl",
             "to_path": "/web files/content/contact/thank-you.tpl"
