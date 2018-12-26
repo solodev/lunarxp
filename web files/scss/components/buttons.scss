@@ -11,6 +11,7 @@
     }
   }
   &.btn-outline-gradient {
+  	border-color: inherit;
     border-radius: 5.5rem;
     -moz-border-image: -moz-linear-gradient(left, #ff9024 0%, #ff705e 44%, #ff5a85 55%, #ff2cd6 100%);
     -webkit-border-image: -webkit-linear-gradient(left, #ff9024 0%, #ff705e 44%, #ff5a85 55%, #ff2cd6 100%);

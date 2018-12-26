@@ -52,13 +52,18 @@ window.onload = function() {
           newDiv.className = "image-hero-container";
 
           newDiv.style.backgroundImage = "url('" + thisSRC + "')";
-          newDiv.style.backgroundSize = "cover";
-          newDiv.style.backgroundPosition = "center";
-          newDiv.style.backgroundRepeat = "no-repeat";
+          
+          // If image is using height classes, take those for the containing div. These will override the fallback of height on page load.
+          for (var j = 0; j < obCoverImgs[i].classList.length; j++) {
+            if (obCoverImgs[i].classList[j].match(/^h-/)) {
+              newDiv.className += " " + obCoverImgs[i].classList[j];
+            }
+          }
+          newDiv.style.height = obCoverImgs[i].clientHeight + "px";
 
 
           newDiv.appendChild(obCoverImgs[i]);
-          thisParent.appendChild(newDiv);
+          thisParent.insertBefore(newDiv, thisParent.firstChild);
 
         }
       }

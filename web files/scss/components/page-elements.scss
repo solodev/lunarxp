@@ -1,0 +1,17 @@
+#top-alert-bar {
+  display: none;
+}
+
+
+.right-socials {
+	top: calc(50% - 125px);
+    li {
+      transition: width .25s ease, background .25s ease;
+      width: 50px;
+      background: theme-color('secondary');
+      &:hover {
+          background: theme-color('primary-dark');
+          width: 65px;
+      }
+  	} 
+}

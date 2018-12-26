@@ -1,32 +1,15 @@
 <section class="position-relative">
-  <div class="slick slick-testimonials w-100">
-    <div class="slide position-relative text-white text-center" style="background: url('/_/images/testimonials1.jpg') center/cover no-repeat;">
+  <div class="slick slick-testimonials w-100" style="background: url('/_/images/testimonials1.jpg') center/cover no-repeat;">
+  [repeater id='<%%{"path":"/web files/managers/Testimonials/Testimonials","type":"Calendar"}%%>'  limit="0,3" order="start_time desc" display_type="news" where="post_status='Published'"]
+    <div class="slide position-relative text-white text-center">
       <div class="container h-350p h-md-450p d-flex flex-column justify-content-center">
-        <p class="font-italic lead w-lg-600p mx-auto"><strong>"Living in the Lunar XP-1 colony has been a childhood dream come true! Every single day, we're breaking new scientific ground and exploring places that no human has gone before. This is more than a job - it's an adventure."</strong></p>
-        <p class="lead mt-4 mb-0"><strong>Eleanor Ripley</strong></p>
-        <p class="text-uppercase small">Colony Botanist</p>
+        <div class="font-weight-bold w-lg-600p mx-auto">
+          <span class="font-italic lead">{{testimonial_content}}</span>
+          <p class="lead mt-4 mb-0">{{testimonial_author}}</p>
+        </div>
+        <p class="text-uppercase small">{{testimonial_author_title}}</p>
       </div>
     </div>
-    <div class="slide position-relative text-white text-center" style="background: url('/_/images/testimonials1.jpg') center/cover no-repeat;">
-      <div class="container h-350p h-md-450p d-flex flex-column justify-content-center">
-        <p class="font-italic lead w-lg-600p mx-auto"><strong>"Living in the Lunar XP-1 colony has been a childhood dream come true! Every single day, we're breaking new scientific ground and exploring places that no human has gone before. This is more than a job - it's an adventure."</strong></p>
-        <p class="lead mt-4 mb-0"><strong>Eleanor Ripley</strong></p>
-        <p class="text-uppercase small">Colony Botanist</p>
-      </div>
-    </div>
-    <div class="slide position-relative text-white text-center" style="background: url('/_/images/testimonials1.jpg') center/cover no-repeat;">
-      <div class="container h-350p h-md-450p d-flex flex-column justify-content-center">
-        <p class="font-italic lead w-lg-600p mx-auto"><strong>"Living in the Lunar XP-1 colony has been a childhood dream come true! Every single day, we're breaking new scientific ground and exploring places that no human has gone before. This is more than a job - it's an adventure."</strong></p>
-        <p class="lead mt-4 mb-0"><strong>Eleanor Ripley</strong></p>
-        <p class="text-uppercase small">Colony Botanist</p>
-      </div>
-    </div>
-    <div class="slide position-relative text-white text-center" style="background: url('/_/images/testimonials1.jpg') center/cover no-repeat;">
-      <div class="container h-350p h-md-450p d-flex flex-column justify-content-center">
-        <p class="font-italic lead w-lg-600p mx-auto"><strong>"Living in the Lunar XP-1 colony has been a childhood dream come true! Every single day, we're breaking new scientific ground and exploring places that no human has gone before. This is more than a job - it's an adventure."</strong></p>
-        <p class="lead mt-4 mb-0"><strong>Eleanor Ripley</strong></p>
-        <p class="text-uppercase small">Colony Botanist</p>
-      </div>
-    </div> 
-  </div> 
+  [/repeater]
+  </div>
 </section>

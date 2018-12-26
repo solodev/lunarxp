@@ -15,13 +15,14 @@ $heading-color: theme-color("black");
     # Theme Color Pallette
   ============================================ */
 $theme-colors: (
-  "primary": #e60da1,
-  "primary-light": lighten(#e60da1, 10%),
-  "primary-dark": darken(#e60da1, 10%),
+  "primary": #d60e96,
+  "primary-light": lighten(#d60e96, 10%),
+  "primary-dark": darken(#d60e96, 10%),
   "secondary": #3d5d6f,
   "secondary-light": lighten(#3d5d6f, 10%),
   "secondary-dark": darken(#3d5d6f, 10%),
-  "light-gray": #f3f3f3,
+  "light-gray": #fafafa,
+  "light-gray-dark": darken(#fafafa, 10%),
   "eerie-black": #1b1b1b,
   "black": $black,
   "white": $white,
@@ -38,26 +39,31 @@ $theme-colors: (
   "alpha4-white": rgba($white, .4),
   "alpha6-white": rgba($white, .6),
   "alpha8-white": rgba($white, .8),
-
-  "lite-gray": #ccc,
-  "gray": #b7b6b6,
-  "mid-gray": #656b71,
-  "scarlet": #ff2400,
-  "facebook": #3b5998,
-  "linkedin": #0077B5,
-  "twitter": #1da1f2,
 );
 
 /** ===========================================
     # Theme Text and BG Hover Styles
 ============================================ */
 @each $color, $value in $theme-colors {
-
+  
   // Generate `.bg-*` color utilities
   @include bg-variant('.bg-#{$color}', $value);
+  
+  // Generate `.bg-hover*` color utilities
+  .bg-hover-#{$color} {
+    &:hover {
+      background-color: #{$value} !important;
+    }
+  }
 
   // Generate `.text-*` color utilities
   @include text-emphasis-variant(".text-#{$color}", $value);
+  
+  .text-hover-#{$color} {
+    &:hover {
+      color: #{$value} !important;
+    }
+  }
 
   // Generate `.btn-*` color utilities
   .btn-#{$color} {
@@ -69,4 +75,53 @@ $theme-colors: (
     @include button-outline-variant($value);
   }
 
+}
+
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: ($spacer * .25),
+  2: ($spacer * .5),
+  3: $spacer,
+  4: ($spacer * 1.5),
+  5: ($spacer * 3),
+  6: ($spacer * 3.5)
+) !default;
+
+// Height and Width Classes
+// This variable affects the `.h-*` and `.w-*` classes.
+// Iterate for what you need.
+$sizes: () !default;
+@for $i from 1 through 1000 {
+  @if $i <= 100 {
+    @if $i%5 == 0 {
+      $holdingArrayPercent: (
+        // Escape the Percentage Sign
+        '#{$i}': #{$i}#{'%'}
+      );
+      $sizes: map-merge($sizes, $holdingArrayPercent);
+      $holdingArrayPixels: (
+      '#{$i}p': #{$i}px
+      );
+      $sizes: map-merge($sizes, $holdingArrayPixels);
+    }
+  }
+  @if $i%25 == 0 {
+    $holdingArrayPixels: (
+      '#{$i}p': #{$i}px
+    );
+    $sizes: map-merge($sizes, $holdingArrayPixels);
+  }
+}
+
+//Loop through each breakpoint and provide classes for the sizes within the sizes map from previous loop
+
+@each $breakpoint-key, $breakpoint in $grid-breakpoints {
+  @media (min-width: #{$breakpoint}) {
+    @each $prop, $abbrev in (width: w-#{$breakpoint-key}, height: h-#{$breakpoint-key}) {
+      @each $size, $length in $sizes {
+         html .#{$abbrev}-#{$size} { #{$prop}: #{$length} !important;}
+      }
+    }
+  }
 }

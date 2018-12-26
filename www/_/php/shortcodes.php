@@ -236,29 +236,43 @@ function module_date_filter($atts, $content = null){
 }
 add_shortcode('module_date_filter', 'module_date_filter');
 
-function connect_images_to_folder($atts, $content= null) {
+function get_asset_from_folder($atts, $content= null) {
 	notify_solodev_shortcode();
     
     $path_id =$atts['path_id'];
-    
     global $page_id;
+
     $pageAssets = new Asset_File($page_id);
+    $pageName =  strtok($pageAssets->name, ".");
     $parent_id = $pageAssets->parent_category_id;
     $parentAssets = new Asset_File($parent_id);
     $parentData = new Asset_Category($parentAssets->asset_file_id);
-    
-    $images = Asset_Manager::getAssets("","parent_category_id=" . $path_id . " and name='" . $parentData->name . ".jpg'");
-    
+    $images = Asset_Manager::getAssets("","parent_category_id=" . $path_id);
     if($images) {
-    	$imageFilePath = "/core/fileparse.php/" . $path_id . "/urlt/" . $parentData->name . ".jpg";
+      foreach ($images as $image) {
+          if (strtok($image->name, ".") == $pageName) {
+          	$hasSelfImage = true;
+            break;
+          }
+          if (strtok($image->name, ".") == $parentData->name) {
+          	  $hasParentImage = true;
+          } 
+      }
+      if($hasSelfImage) {
+      	$imageFilePath = "/core/fileparse.php/" . $path_id . "/urlt/" . $pageName . ".jpg";
+      } else if($hasParentImage) {
+         $imageFilePath = "/core/fileparse.php/" . $path_id . "/urlt/" . $parentData->name . ".jpg";
+      } else {
+         $imageFilePath = "/core/fileparse.php/" . $path_id . "/urlt/default.jpg";
+       }
     }
+   	unset($image);
     
-    else {
-    	$imageFilePath = "/core/fileparse.php/" . $path_id . "/urlt/default.jpg";
-    }
+   
+    
     return $imageFilePath;
 }
-add_shortcode('connect_images_to_folder', 'connect_images_to_folder');
+add_shortcode('get_asset_from_folder', 'get_asset_from_folder');
 
 function social_share_fa_2($atts, $content = null) {
   notify_solodev_shortcode();
@@ -275,53 +289,52 @@ function social_share_fa_2($atts, $content = null) {
   $social_html = '
     <ul class="socials '. $sContainerClasses .'">';
 
-
-  if($atts['facebook']) {
-    $social_html .= '
-    <li class="facebook">
-      <a href="//www.facebook.com/sharer/sharer.php?u=' . $sProtocol . '://' . $sEncodedURL . '" target="_blank">';
-      if($atts['version'] > 4) {
-        $social_html .= '<i class="fab fa-facebook-f '. $sClasses.'"></i>';  
-      } else {
-        $social_html .= '<i class="fa fa-facebook '. $sClasses.'"></i>';
-      }
-          
-    $social_html .= '
-      </a>
-    </li>';
-    }
-
-  if($atts['twitter']) {
-    $social_html .= '
-    <li class="twitter">
-      <a href="//twitter.com/intent/tweet?text=' . $sEncodedTitle . '&amp;url=' . $sProtocol . '://' . $sEncodedURL . '" target="_blank">';
-      if($atts['version'] > 4) {
-        $social_html .= '<i class="fab fa-twitter '. $sClasses.'"></i>';  
-      } else {
-        $social_html .= '<i class="fa fa-twitter '. $sClasses.'"></i>';
-      }
+    if($atts['facebook']) {
       $social_html .= '
-      </a>
-    </li>';
-    }
-
-  if($atts['linkedin']) {
-    $social_html .= '
-    <li class="linkedin">
-      <a href="//www.linkedin.com/cws/share?url=' . $sProtocol . '://' . $sEncodedURL . '" target="_blank">';
-      if($atts['version'] > 4) {
-        $social_html .= '<i class="fab fa-linkedin-in '. $sClasses.'"></i>';  
-      } else {
-        $social_html .= '<i class="fa fa-linkedin '. $sClasses.'"></i>';
-      }
-    $social_html .= ' 
+      <li class="facebook mb-0 px-2">
+        <a href="//www.facebook.com/sharer/sharer.php?u=' . $sProtocol . '://' . $sEncodedURL . '" target="_blank">';
+        if($atts['version'] > 4) {
+          $social_html .= '<i class="fab fa-facebook-f '. $sClasses.'"></i>';  
+        } else {
+          $social_html .= '<i class="fa fa-facebook '. $sClasses.'"></i>';
+        }
+            
+      $social_html .= '
         </a>
-    </li>';
-    }
-    
-    if($atts['mail']) {
+      </li>';
+      }
+
+    if($atts['twitter']) {
+      $social_html .= '
+      <li class="twitter mb-0 px-2">
+        <a href="//twitter.com/intent/tweet?text=' . $sEncodedTitle . '&amp;url=' . $sProtocol . '://' . $sEncodedURL . '" target="_blank">';
+        if($atts['version'] > 4) {
+          $social_html .= '<i class="fab fa-twitter '. $sClasses.'"></i>';  
+        } else {
+          $social_html .= '<i class="fa fa-twitter '. $sClasses.'"></i>';
+        }
         $social_html .= '
-        <li class="mail">
+        </a>
+      </li>';
+      }
+
+    if($atts['linkedin']) {
+      $social_html .= '
+      <li class="linkedin mb-0 px-2">
+        <a href="//www.linkedin.com/cws/share?url=' . $sProtocol . '://' . $sEncodedURL . '" target="_blank">';
+        if($atts['version'] > 4) {
+          $social_html .= '<i class="fab fa-linkedin-in '. $sClasses.'"></i>';  
+        } else {
+          $social_html .= '<i class="fa fa-linkedin '. $sClasses.'"></i>';
+        }
+      $social_html .= ' 
+          </a>
+        </li>';
+      }
+      
+      if($atts['mail']) {
+        $social_html .= '
+        <li class="mail mb-0 px-2">
           <a href="mailto:?subject=Link%20on%100k.solodev.org/blog&amp;body=' . $sProtocol . '://' . $sEncodedURL . '" target="_blank">';
           if($atts['version'] > 4) {
             $social_html .= '<i class="far fa-envelope '. $sClasses.'"></i>';  
@@ -331,10 +344,9 @@ function social_share_fa_2($atts, $content = null) {
         $social_html .= ' 
             </a>
         </li>';
-        }
-    
+      }
 
-    $social_html .= '</ul>';
+      $social_html .= '</ul>';
 
   return do_shortcode($social_html);
 }

@@ -12,31 +12,53 @@ h6, .h6 {
   -moz-osx-font-smoothing: scale;
   font-family: $primary-font;
   margin-bottom: 1rem;
+  font-weight: 600;
 }
 h1,
 .h1 {
-  font-size: ($font-size-lg + 2.2rem);
+  font-size: ($font-size-base + 1.8rem);
   @include media-breakpoint-down(sm) {
-    font-size: ($font-size-lg + 1.6rem);
+    font-size: ($font-size-base + 1.6rem);
   }
 }
 h2,
 .h2 {
-  font-size: ($font-size-lg + 1.4rem);
+  font-size: ($font-size-base + 1.4rem);
   @include media-breakpoint-down(sm) {
-    font-size: ($font-size-lg + 1rem);
+    font-size: ($font-size-base + 1rem);
   }
 }
 h3,
 .h3 {
-  font-size: ($font-size-lg + .9rem);
+  font-size: ($font-size-base + 1rem);
   @include media-breakpoint-down(sm) {
-    font-size: ($font-size-lg + .2rem);
+    font-size: ($font-size-base + .6rem);
+  }
+}
+h4,
+.h4 {
+  font-size: ($font-size-base + .6rem);
+  @include media-breakpoint-down(sm) {
+    font-size: ($font-size-base + .4rem);
+  }
+}
+h5,
+.h5 {
+  font-size: ($font-size-base + .3rem);
+  @include media-breakpoint-down(sm) {
+    font-size: ($font-size-base + .2rem);
+  }
+}
+h6,
+.h6 {
+  font-size: ($font-size-base + .1rem);
+  @include media-breakpoint-down(sm) {
+    font-size: ($font-size-base + .1rem);
   }
 }
 .display-4 {
   @include media-breakpoint-down(sm) {
-    font-size: ($font-size-lg + 1rem);
+    font-size: ($font-size-base + 1.1rem);
   }
 }
 
@@ -56,4 +78,10 @@ small,
 .lead-lg {
   font-size: 1.35em;
   font-weight: $font-weight-light;
+}
+
+blockquote {
+  margin: 1rem 0 1rem 1rem;
+  border-left: 2px solid theme-color('secondary');
+  padding-left: 1rem;
 }

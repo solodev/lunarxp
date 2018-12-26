@@ -1,0 +1,3 @@
+<h2>The “Jumping Off” Point for Lunar Transport</h2>
+<p>Formerly NASA’s International Space Station, the LunarXP Orbiter-1 platform is the first stop on the standard route to the lunar surface. On Orbiter-1, you’ll find scientists from around the globe conducting Zero-G experiments and studying a variety of celestial phenomena aboard the world’s largest collaborative laboratory.</p>
+<p>Complete with luxury cabins, Orbiter-1 is also the first space-based hotel, offering weightless accommodations to visitors. Choose from a number of dining options with amazing views of the earth below. Orbiter-1 is the gateway to the moon, but it’s also a sought-after destination for the most adventurous traveler.</p>

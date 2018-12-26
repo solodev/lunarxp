@@ -1,16 +1,10 @@
 .menu-hamburger {
-  bottom: 25px;
-  right: 0;
+  bottom: calc(50% - 10px);
+  right: 8px;
   background-color: transparent;
   border: none;
   @include media-breakpoint-up(sm){
-    right: -7px;
-  }
-  @include media-breakpoint-up(lg){
-  	bottom: 16px;
-  }
-  @include media-breakpoint-up(xl){
-    right: -22px;
+    bottom: calc(50% - 23px);
   }
   span {
     width: 30px;
@@ -34,7 +28,7 @@
   li {
     &.nav-item {
       font-family: $primary-font;
-      font-size: $h4-font-size;
+      font-size: $h5-font-size;
 
       .active {
         background-color: theme-color("primary");

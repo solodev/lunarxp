@@ -1,5 +1,5 @@
 {
-	"name": "100K-theme",
+	"name": "LunarXP",
 	"version": "1.0.0",
 	"description": "",
 	"dependencies": {
@@ -33,9 +33,8 @@
 		"css-compile": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 scss/app.scss ./../www/_/css/app.css",
 		"css-prefix": "postcss --config node_modules/bootstrap/build/postcss.config.js --replace ./../www/_/css/*.css",
 		"css-minify": "cleancss --level 1 --source-map --source-map-inline-sources --output ./../www/_/css/app.min.css ./../www/_/css/app.css",
-		"js": "npm-run-all js-compile js-minify js-move-assets",
-		"js-compile": "shx cat node_modules/jquery/dist/jquery.min.js node_modules/bootstrap/dist/js/bootstrap.min.js node_modules/echo-js/dist/echo.min.js node_modules/slick-carousel/slick/slick.min.js node_modules/bootstrap-validator/dist/validator.min.js node_modules/baguettebox.js/dist/baguetteBox.min.js js/main.js js/ie.js js/privacy-banner.js js/slider.js js/table.js js/top-nav.js > ./../www/_/js/app.js",
-		"js-move-assets": "shx cp -Rf node_modules/slick-carousel/slick/ajax-loader.gif node_modules/slick-carousel/slick/fonts ./../www/_/css && shx cp -Rf node_modules/@fortawesome/fontawesome-free/webfonts ./../www/_/css/fonts",
+		"js": "npm-run-all js-compile js-minify",
+		"js-compile": "shx cat node_modules/jquery/dist/jquery.min.js node_modules/bootstrap/dist/js/bootstrap.min.js node_modules/echo-js/dist/echo.min.js node_modules/slick-carousel/slick/slick.min.js node_modules/bootstrap-validator/dist/validator.min.js node_modules/baguettebox.js/dist/baguetteBox.min.js js/alert-bar.js js/main.js js/ie.js js/privacy-banner.js js/slider.js js/table.js js/top-nav.js > ./../www/_/js/app.js",
 		"js-minify": "uglifyjs --output ./../www/_/js/app.min.js ./../www/_/js/app.js",
 		"html-compile": "bundle exec jekyll build",
 		"watch": "npm-run-all --parallel watch-css watch-js",
@@ -46,11 +45,11 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/DigitalUsAgency/100K-theme"
+		"url": "https://github.com/solodev/lunarxp"
 	},
 	"author": "",
 	"bugs": {
-		"url": "https://github.com/DigitalUsAgency/100K-theme/issues"
+		"url": "https://github.com/solodev/lunarxp/issues"
 	},
-	"homepage": "https://github.com/DigitalUsAgency/100K-theme"
+	"homepage": "https://github.com/solodev/lunarxp"
 }

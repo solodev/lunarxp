@@ -11,7 +11,7 @@
 
         <aside class="col-lg-5 col-xl-4">
           <form action="{{formcall}}" method="post" role="form" data-toggle="validator">
-               <div class="primary-top-border bg-tertiary mt-sm-4 mt-md-0 p-5">
+               <div class="primary-top-border bg-light-gray mt-sm-4 mt-md-0 p-5">
                   <h3 class="text-uppercase mb-5 text-center"><strong>{{formtitle}}</strong></h3>
                   <div class="form-group mt-4">
                     <label class="font-weight-bold" for="prospect_fname">First Name <span class="text-scarlet">*</span></label> 
@@ -83,18 +83,17 @@
         [/cond]
       </div>
     </section>
-    <section class="bg-light">
+    <section class="bg-light-gray">
       <div class="container">
-        <div class="row ">
+        <div class="row">
           <div class="col-md-5 py-3"><img alt="{{bottom_tile_title}} Image" class="img-fluid" src="[get_asset_file_url id={{bottom_tile_image}}]"></div>
           <div class="col-md-6 py-3 ml-auto d-flex align-items-center">
-            <div class="">
+            <div>
               <h3>{{bottom_tile_title}}</h3>
               <p>{{bottom_tile_text}}</p>
               <a class="btn btn-lg btn-primary" href="{{bottom_cta_link}}">{{bottom_cta_text}}</a>
             </div>
           </div>
-
         </div>
       </div>
     </section>
@@ -103,7 +102,7 @@
       <div class="row align-items-center justify-content-between">
         <div class="col-sm-6 text-center text-lg-left col-lg-3"><a href="/"><img alt="Logo" class="w-75" src="/_/images/logo.png" /></a></div>
 
-        <div class="col-sm-6 text-center  col-lg-3">
+        <div class="col-sm-6 text-center col-lg-3">
           <p class="m-0">© 2018 WebCorpCo. All Rights Reserved.</p>
         </div>
 

@@ -1,9 +1,9 @@
-<section class="mt-3 pr-s">
-    <p class="h4">Recent Posts</p>
+<section>
+  <h3 class="h4 text-uppercase">Recent Posts</h3>
   
     <?php 
   
-    $calendarID = 2;
+    $calendarID = 1;
     $oCalendar = new Calendar($calendarID);
     $nowTime = time();
     $entry_id = $_REQUEST['calendar_entry_id'];
@@ -25,22 +25,22 @@
           $oImage = new Asset_File($oEntry->listing_image);
           $imageURL = '/core/fileparse.php/' . $oImage->parent_category_id . '/urlt/' . $oImage->name . '';
         } ?>
-      <article class="col-sm-3 col-lg-12 mt-4">
-      <a class="d-block w-100 h-100 p-2" href="<?= $oEntry->path ?>">
-        <div class="row align-items-center">
-        
-          <div class="col-lg-4">
-            <div class="img-holder">
-              <img alt="<?= $item->event_title ?>" class="img-fluid" src="<?= $imageURL ?>">
+        <article class="col-sm-3 col-lg-12 mt-4">
+          <a class="d-block w-100 h-100 p-2" href="<?= $oEntry->path ?>">
+            <div class="row align-items-center">
+            
+              <div class="col-lg-4">
+                <div class="img-holder">
+                  <img alt="<?= $item->event_title ?>" class="img-fluid" src="<?= $imageURL ?>">
+                </div>
+              </div>
+              <div class="col-lg-8">
+                <p class="mb-0 text-uppercase text-black text-hover-secondary post-intro-small"><strong><?= $oEntry->event_title ?></strong></p>
+              </div>
             </div>
-          </div>
-          <div class="col-lg-8">
-            <p class="mb-0 text-uppercase text-black"><strong><?= $oEntry->event_title ?></strong></p>
-          </div>
-        </div>
-      </a>
-      </article>
-      <?php 
+          </a>
+        </article>
+        <?php 
         unset($oImage);
         }
       } ?>

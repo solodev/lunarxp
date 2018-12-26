@@ -1,11 +1,12 @@
-<nav id="sidenav" class="z-index-max nav-sidenav bg-eerie-black overflow-auto position-fixed top-0 h-100">
+<nav id="sidenav" class="z-index-max nav-sidenav bg-eerie-black overflow-auto position-fixed top-0 h-100 mw-100">
   <div class="d-flex align-items-center justify-content-between border-bottom border-alpha2-white p-4">
     <img src="/_/images/lunar-xp-logo-white.png" alt="Lunar XP Logo" class="w-75 img-fluid">
     <div id="sidenav-close-btn" class="sidenav-close pointer">
       <i class="fas fa-times fa-lg text-white" aria-label="Menu Toggle"></i>
     </div> 
   </div>
-  <ul class="nav flex-column my-4 text-uppercase">
+  <ul class="nav my-4 text-uppercase">
+    <div class="w-50 w-lg-100">
     <li class="nav-item">
       <a href="/blog/" class="nav-link text-white px-4"><strong>Blog</strong></a>
     </li>
@@ -18,22 +19,25 @@
     <li class="nav-item">
       <a href="/faq/" class="nav-link text-white px-4"><strong>FAQ</strong></a>
     </li>
+    </div>
+    <div class="w-50 w-lg-100">
     <li class="nav-item">
       <a href="/updates/" class="nav-link text-white px-4"><strong>Updates</strong></a>
     </li>
     <li class="nav-item">
-      <a href="/photos/" class="nav-link text-white px-4"><strong>Gallery</strong></a>
+      <a href="/gallery/" class="nav-link text-white px-4"><strong>Gallery</strong></a>
     </li>
     <li class="nav-item">
-      <a href="about-lunarxp/team/" class="nav-link text-white px-4"><strong>Team</strong></a>
+      <a href="/about-lunarxp/team/" class="nav-link text-white px-4"><strong>Team</strong></a>
     </li>
     <li class="nav-item">
       <a href="/contact/" class="nav-link text-white px-4"><strong>Contact</strong></a>
     </li>
+    </div>
   </ul>
   <div class="sub-nav border-top border-alpha2-white p-4 text-white">
     <p class="small">[site_address] <br> [site_city], [site_state] [site_postal_code]</p>
-    <p class="small mt-3"><a class="text-white" href="tel:18004626666">[site_phone] <br><a class="text-white" href="mailto:[site_email]">[site_email]</a></p>
+    <p class="small mt-3"><a class="text-white" href="tel:[site_phone]">[site_phone] <br><a class="text-white" href="mailto:[site_email]">[site_email]</a></p>
     <ul class="list-inline mt-4">
       <li class="list-inline-item mb-0 mr-3">
         <a href="[site_facebook]" target="_blank"><i class="fab fa-lg fa-facebook-f text-orange"></i></a>

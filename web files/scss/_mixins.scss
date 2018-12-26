@@ -16,14 +16,17 @@
 @mixin scale($scale) {
   @include transform(scale($scale));
 } 
+
 // translate
 @mixin translate ($x, $y) {
   @include transform(translate($x, $y));
 }
+
 // skew
-@mixin skew ($x, $y) {
+@mixin skew($x, $y) {
   @include transform(skew(#{$x}deg, #{$y}deg));
 }
+
 // transform origin
 @mixin transform-origin ($origin) {
   -moz-transform-origin: $origin;
