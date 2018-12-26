@@ -4820,7 +4820,7 @@
             "display_type": "Calendar",
             "has_photo_gallery": "0",
             "to_path": "/web files/managers/Events/Events",
-						"icon_type": "calendar-alt",
+						"icon_type": "calendar",
             "asset_category_map_anchor": {
                 "file_path": "/www/events"
             },
@@ -4998,7 +4998,7 @@
             "display_type": "Calendar",
             "has_photo_gallery": "0",
             "to_path": "/web files/managers/Gear/Gear",
-						"icon_type": "tshirt",
+						"icon_type": "credit-card",
             "form_template": {
                 "file_path": "/web files/managers/Gear/_Assets/resources-form.tpl"
             },
@@ -5563,7 +5563,7 @@
             "display_type": "Calendar",
             "has_photo_gallery": "0",
             "to_path": "/web files/managers/Team/Team",
-						"icon_type": "people-carry",
+						"icon_type": "users",
             "asset_category_map_anchor": {
                 "file_path": "/www/about-lunarxp/team"
             },
@@ -5699,7 +5699,7 @@
             "display_type": "News",
             "has_photo_gallery": "0",
             "to_path": "/web files/managers/Updates/Updates",
-						"icon_type": "newspaper",
+						"icon_type": "newspaper-o",
             "asset_category_map_anchor": {
                 "file_path": "/www/updates"
             },
@@ -5780,7 +5780,7 @@
             "module_type": "Datatable",
             "datatable_type": "Web",
             "to_path": "/web files/managers/Blog/Blog Authors",
-						"icon_type": "user-edit",
+						"icon_type": "user-circle",
             "form_template": {
                 "file_path": "/web files/managers/Blog/_Assets/blog-authors-form.tpl"
             },
