@@ -21,7 +21,7 @@ function site_name($atts, $content = null){
 	notify_solodev_shortcode();
 	
 	$siteSettings = getSiteSettings();
-	$output = $siteSettings->site_name;
+    $output = $siteSettings->properties->site_name->default;
 	
     return $output;
 }
@@ -31,7 +31,7 @@ function site_url($atts, $content = null){
 	notify_solodev_shortcode();
 	
 	$siteSettings = getSiteSettings();
-	$output = $siteSettings->site_url;
+	$output = $siteSettings->properties->site_url->default;
 	
     return $output;
 }
@@ -41,7 +41,7 @@ function site_logo($atts, $content = null){
 	notify_solodev_shortcode();
 	
 	$siteSettings = getSiteSettings();
-	$output = $siteSettings->site_logo;
+	$output = $siteSettings->properties->site_logo->default;
 	
     return $output;
 }
@@ -51,7 +51,7 @@ function site_logo_2($atts, $content = null){
 	notify_solodev_shortcode();
 	
 	$siteSettings = getSiteSettings();
-	$output = $siteSettings->site_logo_2;
+	$output = $siteSettings->properties->site_logo_2->default;
 	
     return $output;
 }
@@ -61,7 +61,7 @@ function site_phone($atts, $content = null){
 	notify_solodev_shortcode();
 	
 	$siteSettings = getSiteSettings();
-	$output = $siteSettings->site_phone;
+	$output = $siteSettings->properties->site_phone->default;
 	
     return $output;
 }
@@ -71,7 +71,7 @@ function site_email($atts, $content = null){
 	notify_solodev_shortcode();
 	
 	$siteSettings = getSiteSettings();
-	$output = $siteSettings->site_email;
+	$output = $siteSettings->properties->site_email->default;
 	
     return $output;
 }
@@ -81,7 +81,7 @@ function site_address($atts, $content = null){
 	notify_solodev_shortcode();
 	
 	$siteSettings = getSiteSettings();
-	$output = $siteSettings->site_address;
+	$output = $siteSettings->properties->site_address->default;
 	
     return $output;
 }
@@ -91,7 +91,7 @@ function site_city($atts, $content = null){
 	notify_solodev_shortcode();
 	
 	$siteSettings = getSiteSettings();
-	$output = $siteSettings->site_city;
+	$output = $siteSettings->properties->site_city->default;
 	
     return $output;
 }
@@ -101,7 +101,7 @@ function site_state($atts, $content = null){
 	notify_solodev_shortcode();
 	
 	$siteSettings = getSiteSettings();
-	$output = $siteSettings->site_state;
+	$output = $siteSettings->properties->site_state->default;
 	
     return $output;
 }
@@ -111,7 +111,7 @@ function site_postal_code($atts, $content = null){
 	notify_solodev_shortcode();
 	
 	$siteSettings = getSiteSettings();
-	$output = $siteSettings->site_postal_code;
+	$output = $siteSettings->properties->site_postal_code->default;
 	
     return $output;
 }
@@ -121,7 +121,7 @@ function site_facebook($atts, $content = null){
 	notify_solodev_shortcode();
 	
 	$siteSettings = getSiteSettings();
-	$output = $siteSettings->site_facebook;
+	$output = $siteSettings->properties->site_facebook->default;
 	
     return $output;
 }
@@ -131,7 +131,7 @@ function site_twitter($atts, $content = null){
 	notify_solodev_shortcode();
 	
 	$siteSettings = getSiteSettings();
-	$output = $siteSettings->site_twitter;
+	$output = $siteSettings->properties->site_twitter->default;
 	
     return $output;
 }
@@ -141,7 +141,7 @@ function site_linkedin($atts, $content = null){
 	notify_solodev_shortcode();
 	
 	$siteSettings = getSiteSettings();
-	$output = $siteSettings->site_linkedin;
+	$output = $siteSettings->properties->site_linked->default;
 	
     return $output;
 }
@@ -151,7 +151,7 @@ function site_youtube($atts, $content = null){
 	notify_solodev_shortcode();
 	
 	$siteSettings = getSiteSettings();
-	$output = $siteSettings->site_youtube;
+	$output = $siteSettings->properties->site_youtube->default;
 	
     return $output;
 }
@@ -161,7 +161,7 @@ function site_instagram($atts, $content = null){
 	notify_solodev_shortcode();
 	
 	$siteSettings = getSiteSettings();
-	$output = $siteSettings->site_instagram;
+	$output = $siteSettings->properties->site_instagram->default;
 	
     return $output;
 }

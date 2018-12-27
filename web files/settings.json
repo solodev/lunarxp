@@ -1,17 +1,100 @@
 {
-	"site_name":"LunarXP",
-	"site_url":"https://www.lunarxp.com/",
-    "site_logo":"/_/images/lunar-xp-logo.png",
-    "site_logo_2":"/_/images/lunar-xp-logo-white.png",
-    "site_phone":"(800) 859-7656",
-    "site_email":"info@lunarxp.com",
-    "site_address":"800 N. Magnolia Blvd.",
-    "site_city":"Orlando",
-    "site_state":"FL",
-    "site_postal_code":"32803",
-    "site_facebook":"https://www.facebook.com/",
-    "site_twitter":"https://twitter.com/",
-    "site_linkedin":"https://www.linkedin.com/",
-    "site_youtube":"https://www.youtube.com/",
-    "site_instagram":"https://www.instagram.com/"
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/product.schema.json",
+  "title": "LunarXP",
+  "description": "The LunarXP Solodev theme with corresponding site files and managers",
+  "type": "object",
+  "properties": {
+    "site_name": {
+      "description": "The unique name of your website",
+      "type": "string",
+			"default": "LunarXP",
+			"visible": true
+    },
+    "site_url": {
+      "description": "The domain name of your website",
+      "type": "string",
+			"default": "https://www.lunarxp.com/",
+			"visible": true
+    },
+    "site_logo": {
+      "description": "The website's primary logo",
+      "type": "string",
+			"default": "/_/images/lunar-xp-logo.png",
+			"visible": true
+    },
+    "site_logo_2": {
+      "description": "An alternate logo for use on dark backgrounds",
+      "type": "string",
+			"default": "/_/images/lunar-xp-logo-white.png",
+			"visible": true
+    },
+    "site_phone": {
+      "description": "The website's primary phone number",
+      "type": "string",
+			"default": "(800) 859-7656",
+			"visible": true
+    },
+    "site_email": {
+      "description": "The website's primary email address",
+      "type": "string",
+			"default": "info@lunarxp.com",
+			"visible": true
+    },
+    "site_address": {
+      "description": "The street address of the organization",
+      "type": "string",
+			"default": "800 N. Magnolia Blvd.",
+			"visible": true
+    },
+    "site_city": {
+      "description": "The city of the organization's address",
+      "type": "string",
+			"default": "Orlando",
+			"visible": true
+    },
+    "site_state": {
+      "description": "The state of the organization's address",
+      "type": "string",
+			"default": "FL",
+			"visible": true
+    },
+    "site_postal_code": {
+      "description": "The postal code of the organization's address",
+      "type": "string",
+			"default": "32803",
+			"visible": true
+    },
+    "site_facebook": {
+      "description": "The Facebook URL of the organization",
+      "type": "string",
+			"default": "https://www.facebook.com/",
+			"visible": true
+    },
+    "site_twitter": {
+      "description": "The Twitter URL of the organization",
+      "type": "string",
+			"default": "https://twitter.com/",
+			"visible": true
+    },
+    "site_linkedin": {
+      "description": "The LinkedIn URL of the organization",
+      "type": "string",
+			"default": "https://www.linkedin.com/",
+			"visible": true
+    },
+    "site_youtube": {
+      "description": "The YouTube URL of the organization",
+      "type": "string",
+			"default": "https://www.youtube.com/",
+			"visible": true
+    },	
+    "site_instagram": {
+      "description": "The Instagram URL of the organization",
+      "type": "string",
+			"default": "https://www.instagram.com/",
+			"visible": true
+    }			
+  },
+	"required": [ "site_name", "site_url", "site_logo" ]
 }
