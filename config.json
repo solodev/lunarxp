@@ -4535,7 +4535,7 @@
             "display_type": "News",
             "has_photo_gallery": "0",
             "to_path": "/web files/managers/Alerts/Alerts",
-						"icon_type": "exclamation-circle",
+						"icon_type": "fas fa-exclamation-circle",
             "form_template": {
                 "file_path": "/web files/managers/Alerts/_Assets/alerts-form.tpl"
             },
@@ -4563,7 +4563,7 @@
             "display_type": "Calendar",
             "has_photo_gallery": "0",
             "to_path": "/web files/managers/Banners/Banners",
-						"icon_type": "flag",
+						"icon_type": "fas fa-flag",
             "form_template": {
                 "file_path": "/web files/managers/Banners/_Assets/banners-form.tpl"
             },
@@ -4588,7 +4588,7 @@
             "display_type": "Forum",
             "has_photo_gallery": "0",
             "to_path": "/web files/managers/Blog/Blog",
-						"icon_type": "rss",
+						"icon_type": "fas fa-rss-square",
             "asset_category_map_anchor": {
                 "file_path": "/www/blog"
             },
@@ -4705,7 +4705,7 @@
             "display_type": "News",
             "has_photo_gallery": "0",
             "to_path": "/web files/managers/Careers/Careers",
-						"icon_type": "briefcase",
+						"icon_type": "fas fa-briefcase",
             "asset_category_map_anchor": {
                 "file_path": "/www/careers"
             },
@@ -4820,7 +4820,7 @@
             "display_type": "Calendar",
             "has_photo_gallery": "0",
             "to_path": "/web files/managers/Events/Events",
-						"icon_type": "calendar",
+						"icon_type": "far fa-calendar-alt",
             "asset_category_map_anchor": {
                 "file_path": "/www/events"
             },
@@ -4888,7 +4888,7 @@
             "display_type": "Calendar",
             "has_photo_gallery": "0",
             "to_path": "/web files/managers/FAQs/FAQs",
-						"icon_type": "question",
+						"icon_type": "fas fa-question-circle",
             "form_template": {
                 "file_path": "/web files/managers/FAQs/_Assets/faq-form.tpl"
             },
@@ -4998,7 +4998,7 @@
             "display_type": "Calendar",
             "has_photo_gallery": "0",
             "to_path": "/web files/managers/Gear/Gear",
-						"icon_type": "credit-card",
+						"icon_type": "fas fa-tshirt",
             "form_template": {
                 "file_path": "/web files/managers/Gear/_Assets/resources-form.tpl"
             },
@@ -5128,7 +5128,7 @@
             "display_type": "Landing Page",
             "has_photo_gallery": "0",
             "to_path": "/web files/managers/Landing Pages/Landing Pages",
-						"icon_type": "globe",
+						"icon_type": "fas fa-plane-arrival",
             "asset_category_map_anchor": {
                 "file_path": "/www/landing-pages"
             },
@@ -5211,7 +5211,7 @@
             "display_type": "Calendar",
             "has_photo_gallery": "0",
             "to_path": "/web files/managers/Partners/Partners",
-						"icon_type": "users",
+						"icon_type": "far fa-handshake",
             "asset_category_map_anchor": {
                 "file_path": "/www/partners"
             },
@@ -5409,7 +5409,7 @@
             "display_type": "Photos",
             "has_photo_gallery": 1,
             "to_path": "/web files/managers/Photo Galleries/Photo Galleries",
-						"icon_type": "camera",
+						"icon_type": "fas fa-camera",
             "asset_category_map_anchor": {
                 "file_path": "/www/gallery"
             },
@@ -5658,7 +5658,7 @@
             "display_type": "Other",
             "has_photo_gallery": "0",
             "to_path": "/web files/managers/Testimonials/Testimonials",
-						"icon_type": "quote-left",
+						"icon_type": "fas fa-quote-left",
             "form_template": {
                 "file_path": "/web files/managers/Testimonials/_Assets/testimonials-form.tpl"
             },
@@ -5699,7 +5699,7 @@
             "display_type": "News",
             "has_photo_gallery": "0",
             "to_path": "/web files/managers/Updates/Updates",
-						"icon_type": "newspaper-o",
+						"icon_type": "far fa-newspaper",
             "asset_category_map_anchor": {
                 "file_path": "/www/updates"
             },
@@ -5780,7 +5780,7 @@
             "module_type": "Datatable",
             "datatable_type": "Web",
             "to_path": "/web files/managers/Blog/Blog Authors",
-						"icon_type": "user-circle",
+						"icon_type": "fas fa-user-edit",
             "form_template": {
                 "file_path": "/web files/managers/Blog/_Assets/blog-authors-form.tpl"
             },
@@ -5800,7 +5800,7 @@
             "module_type": "Datatable",
             "datatable_type": "Form",
             "to_path": "/web files/forms/Blog Subscribe",
-						"icon_type": "wpforms",
+						"icon_type": "fab fa-wpforms",
             "form_template": {
                 "file_path": "/web files/forms/_Assets/blog-subscribe-form.tpl"
             },
@@ -5813,7 +5813,7 @@
             "module_type": "Datatable",
             "datatable_type": "Form",
             "to_path": "/web files/forms/Careers Form",
-						"icon_type": "wpforms",
+						"icon_type": "fab fa-wpforms",
             "form_template": {
                 "file_path": "/web files/forms/_Assets/careers-form.tpl"
             },
@@ -5826,7 +5826,7 @@
             "module_type": "Datatable",
             "datatable_type": "Form",
             "to_path": "/web files/forms/Contact Us Form",
-						"icon_type": "wpforms",
+						"icon_type": "fab fa-wpforms",
             "form_template": {
                 "file_path": "/web files/forms/_Assets/contact-us-form.tpl"
             },
@@ -5839,7 +5839,7 @@
             "module_type": "Datatable",
             "datatable_type": "Form",
             "to_path": "/web files/forms/Footer Form",
-						"icon_type": "wpforms",
+						"icon_type": "fab fa-wpforms",
             "form_template": {
                 "file_path": "/web files/forms/_Assets/footer-form.tpl"
             },
