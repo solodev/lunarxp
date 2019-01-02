@@ -41,6 +41,7 @@
 		"watch-html": "bundle exec jekyll build --watch",
 		"watch-css": "nodemon --ignore ./../www/ --ignore js/  -e scss -x \"npm run css\"",
 		"watch-js": "nodemon --ignore ./../www/ --ignore scss/ -e js -x \"npm run js\"",
+		"postinstall":"npm run compile",
 		"compile": "npm-run-all css js"
 	},
 	"repository": {
