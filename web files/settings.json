@@ -20,7 +20,7 @@
     "site_logo": {
       "description": "The website's primary logo",
       "type": "string",
-			"default": "<%%company_logo%%>",
+			"default": "<%%logo_location%%>",
 			"visible": true
     },
     "site_logo_2": {
