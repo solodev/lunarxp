@@ -20,7 +20,7 @@
     "site_logo": {
       "description": "The website's primary logo",
       "type": "string",
-			"default": "/_/images/lunar-xp-logo.png",
+			"default": "<%%site_logo%%>",
 			"visible": true
     },
     "site_logo_2": {
