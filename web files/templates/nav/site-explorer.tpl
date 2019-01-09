@@ -3,8 +3,7 @@
     <div class="row">
       <div class="col-md-6">
         <ul class="pl-0 list-unstyled">
-
-          [repeater id='<%%{"path":"/web files/managers/Site Explorer/Site Explorer","type":"Calendar"}%%>'  limit="0,2" order="start_time desc" display_type="news" where="post_status='Published'"]
+          [cal_repeat id='6' limit="0,2" order="start_time desc" display_type="news" where="post_status='Published']
           [is_set value={{quick_title}}]
           	<li class="mb-0 text-black"><a class="px-2 px-lg-3 text-white d-block w-100 h-100" href="{{quick_ref}}">{{quick_title}}</a></li>
           [/is_set]
@@ -12,20 +11,20 @@
           	<li class="mb-0 text-black"><a class="px-2 px-lg-3 text-white d-block w-100 h-100" href="{{quick_ref}}">{{event_title}}</a></li>
           [/is_empty]
 
-          [/repeater]
+          [/cal_repeat]
 
         </ul>
       </div>
       <div class="col-md-6">
         <ul class="pl-0 list-unstyled">
-          [repeater id='<%%{"path":"/web files/managers/Site Explorer/Site Explorer","type":"Calendar"}%%>'  limit="3,2" order="start_time desc" display_type="news" where="post_status='Published'"]
+          [cal_repeat id='6' limit="3,2" order="start_time desc" display_type="news" where="post_status='Published'"]
           [is_set value={{quick_title}}]
           	<li class="mb-0 text-black"><a class="px-2 px-lg-3 text-white d-block w-100 h-100" href="{{quick_ref}}">{{quick_title}}</a></li>
           [/is_set]
           [is_empty value={{quick_title}}]
           	<li class="mb-0 text-black"><a class="px-2 px-lg-3 text-white d-block w-100 h-100" href="{{quick_ref}}">{{event_title}}</a></li>
           [/is_empty]
-          [/repeater]
+          [/cal_repeat]
         </ul>
       </div>
       <div class="col-sm-12 text-center mt-4">
