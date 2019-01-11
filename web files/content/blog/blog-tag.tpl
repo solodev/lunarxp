@@ -7,7 +7,7 @@
 					<div class="w-100 w-lg-50 order-lg-1">
 						<img alt="Blog Image" src="[get_asset_file_url id={{listing_image}}]" class="img-fluid w-100">
 					</div>
-					<div class="w-100 w-lg-50 px-5 py-4 order-lg-0">
+					<div class="w-100 w-lg-50 p-3 p-lg-4 order-lg-0">
 						
 					
 						<h1 class="h2 mt-5">
@@ -35,7 +35,7 @@
 			<div class="col-sm-6 col-md-4 mt-3">
 				<div class="bg-light-gray pointer h-100" onclick="location.href='{{path}}'">
 						<img alt="Blog Image" src="[get_asset_file_url id={{listing_image}}]" class="img-fluid h-200p cover w-100">
-					<div class="p-3 p-lg-5">
+					<div class="p-3 p-lg-4">
 						
 						
 						<h2 class="h3 mt-4">
