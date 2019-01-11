@@ -1,8 +1,10 @@
 [entry]
-  <div class="text-center">
-    <p class="lead">{{post_intro}}</p>
+  <div class="row">
+    <div class="col-12 text-center">
+      <p class="lead">{{post_intro}}</p>
+      <img alt="{{heading_title}}" class="w-100 img-fluid my-4" src="[get_asset_file_url id={{featured_detail_image}}]">
+    </div>
   </div>
-  <img alt="{{heading_title}}" class="w-100 img-fluid my-4" src="[get_asset_file_url id={{featured_detail_image}}]"></div>
 
   <div class="row mt-5 px-5">
     <div class="col-lg-8">
@@ -18,7 +20,7 @@
       </div>
     </div>
     <div class="col-lg-3 ml-auto d-md-none d-lg-block">
-      <ul class="list-unstyled d-flex align-items-center pb-3">
+      <ul class="list-unstyled d-flex align-items-center pb-3 mt-3 mt-lg-0">
         <li class="lead mr-2 my-0"><strong>Share</strong></li>
         <li class="mb-0"><a href="#" class="text-secondary" target="_blank"><i class="pl-3 text-hover-primary fa-lg fab fa-facebook-f"></i></a></li>
         <li class="mb-0"><a href="#" class="text-secondary" target="_blank"><i class="pl-3 text-hover-primary fa-lg fab fa-twitter"></i></a></li>
