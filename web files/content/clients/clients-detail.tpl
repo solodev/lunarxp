@@ -19,7 +19,7 @@
         <a href="{{client_url}}" class="btn btn-lg btn-outline-secondary" target="blank">Launch Site</a>
       </div>
     </div>
-    <div class="col-lg-3 ml-auto d-md-none d-lg-block">
+    <div class="col-lg-3 ml-auto d-none d-lg-block">
       <ul class="list-unstyled d-flex align-items-center pb-3 mt-3 mt-lg-0">
         <li class="lead mr-2 my-0"><strong>Share</strong></li>
         <li class="mb-0"><a href="#" class="text-secondary" target="_blank"><i class="pl-3 text-hover-primary fa-lg fab fa-facebook-f"></i></a></li>
@@ -30,7 +30,7 @@
       <ul class="list-unstyled">
         [entry_categories_repeat id="{{calendar_entry_id}}"]
             <li>{{{title}}}</li>
-          [/entry_categories_repeat]
+        [/entry_categories_repeat]
       </ul>
     </div>
   </div>
