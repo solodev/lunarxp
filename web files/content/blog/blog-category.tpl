@@ -4,7 +4,7 @@
 			<div class="col-sm-12">
 				<div class="bg-light-gray bg-hover-light-gray-dark box-sizing align-items-center d-flex flex-column flex-lg-row h-100 pointer" onclick="location.href='{{path}}'">
 					
-					<div class="w-100 w-lg-50 order-1 order-lg-0 px-5 py-4">
+					<div class="w-100 w-lg-50 order-1 order-lg-0 p-3 p-lg-4">
 						<h1 class="h2 mt-5">
 							[is_set value="{{heading_title}}"]
 								<a class="text-secondary font-italic" href="{{path}}">{{heading_title}}</a>
@@ -33,7 +33,7 @@
 			<div class="col-sm-6 col-md-4 mt-3">
 				<div class="bg-light-gray pointer h-100" onclick="location.href='{{path}}'">
 						<img alt="Blog Image" src="[get_asset_file_url id={{listing_image}}]" class="img-fluid h-200p cover w-100">
-					<div class="p-3 p-lg-5">
+					<div class="p-3 p-lg-4">
 						
 						
 						<h2 class="h3 mt-4">
