@@ -6,7 +6,7 @@
     </div>
   </div>
 
-  <div class="row mt-5 px-5">
+  <div class="row mt-5 px-3 px-lg-5">
     <div class="col-lg-8">
       [is_set value={{heading_title}}]
        <h2 class="mb-5"><strong>{{heading_title}}</strong></h2>
