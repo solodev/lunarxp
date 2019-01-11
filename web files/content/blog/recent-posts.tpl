@@ -35,7 +35,7 @@
                 </div>
               </div>
               <div class="col-lg-8">
-                <p class="mb-0 text-uppercase text-black text-hover-secondary post-intro-small"><strong><?= $oEntry->event_title ?></strong></p>
+                <p class="mt-1 mb-0 text-uppercase text-black text-hover-secondary post-intro-small"><strong><?= $oEntry->event_title ?></strong></p>
               </div>
             </div>
           </a>
