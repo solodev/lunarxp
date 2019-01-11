@@ -37,8 +37,8 @@
           </div>
 
           <div class="col-md-6">
-            <h2><label class="label-control" for="banner_new_window">Open in New Window</label></h2>
-            <input type="checkbox" name="url_new_window" id="banner_new_window" value="1">
+            <h2><label class="label-control" for="url_new_window">Open in New Window</label></h2>
+            <input type="checkbox" name="url_new_window" id="url_new_window" value="1">
           </div>
           </div>
           <div class="row">
