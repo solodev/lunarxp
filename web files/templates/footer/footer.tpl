@@ -62,7 +62,7 @@
       
       <div class="col-md-2 pl-3 mt-2">
         <div class="position-relative">
-          <h4 class="h5 text-uppercase"><strong><a class="text-white" href="/contact/">Explore</a></strong></h4>
+          <h4 class="h5 text-uppercase"><strong><a class="text-white" href="/about-lunarxp/">Explore</a></strong></h4>
           <a class="pointer d-md-none text-white" aria-role="button" data-toggle="collapse" data-target="#collapseContact" aria-expanded="false" aria-controls="#collapseContact">
             <div class="position-absolute top-0 right-0 h-100 d-flex align-items-center d-md-none"><i class="fas fa-plus"></i></div>
           </a>
@@ -84,7 +84,7 @@
       <div class="row align-items-center justify-content-between">
         <div class="col-lg-7 mt-3 mt-lg-0 text-center text-md-left">
           <p class="small mb-0">&copy; 2018 [site_name]. All Rights Reserved worldwide and across the galaxy.
-            <a class="text-white pl-1" href="/sitemap.stml"><strong>Site Map</strong></a>
+            <a class="text-white pl-1" href="/sitemap.stml"><strong><u>Site Map</u></strong></a>
             <a class="text-white pl-1" href="/privacy-policy.stml"><strong><u>Privacy Policy</u></strong></a>
           </p>
         </div>
