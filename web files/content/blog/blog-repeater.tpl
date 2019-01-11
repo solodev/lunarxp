@@ -27,7 +27,7 @@
 	<div class="col-sm-12">
 		<div class="bg-light-gray bg-hover-light-gray-dark box-sizing align-items-center d-flex flex-column flex-lg-row h-100 pointer" onclick="location.href='{{path}}'">
 			
-			<div class="w-100 w-lg-50 p-4 px-5 order-1 order-lg-0">
+			<div class="w-100 w-lg-50 p-3 p-lg-4 order-1 order-lg-0">
 				
 				[entry_categories_repeat id="{{calendar_entry_id}}"]
 				<a class="btn btn-outline-secondary rounded-0 p-1 px-3" href="/blog/{{{name}}}">{{{title}}}</a>
