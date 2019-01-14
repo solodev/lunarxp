@@ -43,7 +43,7 @@
 </div>
 
 <div id="accordionContent">
-  <section class="card" class="mt-2">
+  <section class="card mt-2">
     <header class="card-header" id="headingContent" data-toggle="collapse" data-target="#collapseContent" aria-expanded="true" aria-controls="collapseContent">
       <h2 class="card-title">Alerts Content</h2>
       <div class="panel-actions">
@@ -86,7 +86,7 @@
 </div>
 
 <div id="accordionAdvanced">
-  <section class="card" class="mt-2">
+  <section class="card mt-2">
     <header class="card-header" id="headingAdvanced" data-toggle="collapse" data-target="#collapseAdvanced" aria-expanded="true" aria-controls="collapseAdvanced">
       <h2 class="card-title">Advanced</h2>
       <div class="panel-actions">
@@ -104,5 +104,5 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </div>
