@@ -4,7 +4,7 @@
 
 <div class="row mt-5">
 	<div class="col-md-4">
-		[module_category_filter id="1"] <!-- id may need to be updated -->
+		[module_category_filter id="1"]
 	</div>
 	<div class="col-md-4 mt-3 mt-md-0">
 		[module_tag_filter]
@@ -21,13 +21,13 @@
 	</div>
 </div>
 
-[repeater id='<%%{"path":"/web files/managers/Blog/Blog","type":"Calendar"}%%>'  pages="22" order="start_time desc" display_type="news" where="post_status='Published'"]
+[repeater id='1' pages="22" order="start_time desc" display_type="news" where="post_status='Published'"]
 	[cond type="is" subject="{{index}}" value="0"]
 <div class="row mt-5">
 	<div class="col-sm-12">
-		<div class="bg-light-gray bg-hover-light-gray-dark box-sizing align-items-center d-block d-lg-flex h-100 pointer" onclick="location.href='{{path}}'">
+		<div class="bg-light-gray bg-hover-light-gray-dark box-sizing align-items-center d-flex flex-column flex-lg-row h-100 pointer" onclick="location.href='{{path}}'">
 			
-			<div class="w-100 w-lg-50 p-4 px-5">
+			<div class="w-100 w-lg-50 p-3 p-lg-4 order-1 order-lg-0">
 				
 				[entry_categories_repeat id="{{calendar_entry_id}}"]
 				<a class="btn btn-outline-secondary rounded-0 p-1 px-3" href="/blog/{{{name}}}">{{{title}}}</a>
@@ -46,7 +46,7 @@
 					<a aria-label="Blog Post Read More" class="btn btn-primary btn-md" href="{{path}}">Read More</a>
 				</p>
 			</div>
-            <div class="w-100 w-lg-50">
+            <div class="w-100 w-lg-50 order-0 order-lg-1">
 				<img alt="{{event_title}}" src="[get_asset_file_url id={{listing_image}}]" class="img-fluid w-100">
 			</div>
 		</div>
@@ -56,7 +56,7 @@
 [/repeater]
 
 <div class="row">
-[repeater id='<%%{"path":"/web files/managers/Blog/Blog","type":"Calendar"}%%>'  pages="22" order="start_time desc" display_type="news" where="post_status='Published'"]
+[repeater id='1' pages="22" order="start_time desc" display_type="news" where="post_status='Published'"]
 	[cond type="is_not" subject="{{index}}" value="0"]
 	<div class="col-sm-6 col-lg-4 mt-4">
 		<div class="bg-light-gray bg-hover-light-gray-dark pointer box-sizing h-100" onclick="location.href='{{path}}'">

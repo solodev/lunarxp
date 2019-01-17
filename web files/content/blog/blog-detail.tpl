@@ -4,7 +4,7 @@
     <span class="text-muted mr-5"><i class="far fa-clock text-primary pr-2"></i> [print_date format="F d, Y" timestamp="{{start_time}}"]</span>
     <span class="tags-list">
       [entry_tags_repeat id="{{calendar_entry_id}}"]
-      <a href="/about-us/blog/tags/{{{name}}}.stml" class="text-capitalize"><u>{{{title}}}</u></a>
+      <a href="/blog/tags/{{{name}}}.stml" class="text-capitalize"><u>{{{title}}}</u></a>
       [/entry_tags_repeat]
     </span>
   </p>

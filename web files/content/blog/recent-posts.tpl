@@ -25,7 +25,7 @@
           $oImage = new Asset_File($oEntry->listing_image);
           $imageURL = '/core/fileparse.php/' . $oImage->parent_category_id . '/urlt/' . $oImage->name . '';
         } ?>
-        <article class="col-sm-3 col-lg-12 mt-4">
+        <article class="col-12 mt-4">
           <a class="d-block w-100 h-100 p-2" href="<?= $oEntry->path ?>">
             <div class="row align-items-center">
             
@@ -35,7 +35,7 @@
                 </div>
               </div>
               <div class="col-lg-8">
-                <p class="mb-0 text-uppercase text-black text-hover-secondary post-intro-small"><strong><?= $oEntry->event_title ?></strong></p>
+                <p class="mt-1 mb-0 text-uppercase text-black text-hover-secondary post-intro-small"><strong><?= $oEntry->event_title ?></strong></p>
               </div>
             </div>
           </a>
