@@ -1,9 +1,6 @@
-$(document).ready(function () {
-  $('.slick').slick({
-    lazyLoad: 'ondemand',
+jQuery('.slick').slick({
     slidesToShow: 1,
     autoplay: 0,
     dots: true,
     arrows: false
-  });
 });
