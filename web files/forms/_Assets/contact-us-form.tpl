@@ -8,12 +8,14 @@
   <div class="row">
     <div class="col-md-6 form-group">
       <label class="font-weight-bold" for="prospect_name">Name <span class="text-scarlet">*</span></label> 
-      <input class="form-control required" id="prospect_name" name="prospect_name" type="text" />
+      <input class="form-control required" required id="prospect_name" name="prospect_name" type="text" />
+      <div class="invalid-feedback">Please Enter a Name</div>
     </div>
     
     <div class="col-md-6 form-group">
       <label class="font-weight-bold" for="email">Email <span class="text-scarlet">*</span></label> 
-      <input class="form-control required" id="email" name="email" type="text" />
+      <input class="form-control required" id="email" name="email" type="text" required />
+      <div class="invalid-feedback">Please Enter an Email</div>
     </div>
   </div>
     
@@ -21,11 +23,13 @@
     <div class="col-md-6 form-group">
       <label class="font-weight-bold" for="company">Company <span class="text-scarlet">*</span></label> 
       <input class="form-control required" id="company" name="company" type="text" />
+      <div class="invalid-feedback">Please Enter a Company</div>
     </div>
     
     <div class="col-md-6 form-group">
       <label class="font-weight-bold" for="phone">Phone <span class="text-scarlet">*</span></label> 
       <input class="form-control required" id="phone" name="phone" type="text" />
+      <div class="invalid-feedback">Please Enter a Phone Number</div>
     </div>
   </div>
   
@@ -54,6 +58,7 @@
       <option value="infotech">Information Technology</option>
       <option value="sector">Public Sector Technology and Telecom</option> 
     </select>
+    <div class="invalid-feedback">Please Select a Questionr</div>
   </div>
     
   <div class="col-md-6 form-group">
@@ -66,13 +71,15 @@
       <option value="A link on some other website">A link on some other website</option>
       <option value="Other">Other</option> 
     </select>
+    <div class="invalid-feedback">Please Enter a Source</div>
   </div>
 </div>
     
 <div class="row">
   <div class="col-md-12">
     <label class="font-weight-bold" for="message">Message <span class="text-scarlet">*</span></label>
-    <textarea class="form-control" id="message" name="message" rows="8"></textarea>
+    <textarea class="required form-control" id="message" name="message" rows="8"></textarea>
+    <div class="invalid-feedback">Please Enter a Message</div>
   </div>
 </div>
     
@@ -81,4 +88,4 @@
     <input class="btn btn-primary btn-lg my-4" type="submit" value="Send" />
   </div>
 </div>
-    
+
