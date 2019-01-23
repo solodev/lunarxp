@@ -15,25 +15,29 @@
   <div class="col-sm-6">
     <div class="form-group">
       <label class="sr-only" for="first_name">First Name *</label> 
-      <input class="form-control" id="first_name" name="first_name" placeholder="First Name *" required="" type="text" />
+      <input class="form-control required" id="first_name" name="first_name" placeholder="First Name *" required type="text" />
+       <div class="invalid-feedback text-white">Please Enter a First Name</div>
     </div>
   </div>
   <div class="col-sm-6">
     <div class="form-group">
       <label class="sr-only" for="last_name">Last Name *</label> 
-      <input class="form-control" id="last_name" name="last_name" placeholder="Last Name *" required="" type="text" />
+      <input class="form-control required" id="last_name" name="last_name" placeholder="Last Name *" required type="text" />
+      <div class="invalid-feedback text-white">Please Enter a Last Name</div>
     </div>
   </div>
   <div class="col-sm-6">
     <div class="form-group">
       <label class="sr-only" for="email">Email *</label> 
-      <input class="form-control" id="email" name="email" placeholder="Email *" required="" type="email" />
+      <input class="form-control required" id="email" name="email" placeholder="Email *"  required type="email" />
+      <div class="invalid-feedback text-white">Please Enter an Email</div>
     </div>
   </div>
   <div class="col-sm-6">
     <div class="form-group">
       <label class="sr-only" for="phone">Phone *</label> 
-      <input class="form-control" id="phone" name="phone" placeholder="Phone *" required="" type="text" />
+      <input class="form-control required" id="phone" name="phone" placeholder="Phone *" required type="text" />
+      <div class="invalid-feedback text-white">Please Enter a Phone Number</div>
     </div>
   </div>
   <div class="col-12">
