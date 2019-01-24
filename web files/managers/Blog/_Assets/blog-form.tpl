@@ -80,12 +80,11 @@
           </div>
           <div class="col-md-6" id="listingImage">
             <h3 class="card-title"><label class="control-label" for="listing_image">Listing Image</label></h3>
-            <p class="card-subtitle">(Required) The image that appears in the post and normal blogroll feed. Dimensions:
-              951px by 561px.</p>
+            <p class="card-subtitle">(Required) The image that appears in the post and normal blogroll feed. Dimensions: 951px by 561px.</p>
             <input type="file" class="file_upload" name="listing_image" id="listing_image" required>
           </div>
           <div class="col-md-6" id="rssImage">
-            <h2><label class="control-label" for="rss_image">RSS Image</label></h2>
+            <h3 class="card-title"><label class="control-label" for="rss_image">RSS Image</label></h3>
             <p class="card-subtitle">(Required) The image that appears in RSS emails. Dimensions: 700px by 413px.</p>
             <input type="file" class="file_upload" name="rss_image" id="rss_image" required>
           </div>
@@ -197,7 +196,6 @@
     $calendar_entry = new Calendar_Entry($dataVars['calendar_entry_id']);
     if($calendar_entry->path) { 
 ?>
-
 <div id="accordionURL">
   <section class="card mt-2">
     <header class="card-header" id="headingURL" data-toggle="collapse" data-target="#collapseURL" aria-expanded="true" aria-controls="collapseURL">
@@ -216,17 +214,8 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </div>
 <?php 
   } 
 } ?>
-
-<script>
-  $('.wysiwyg').ckeditor(function () {}, {
-    customConfig: '/CK/config.js',
-    height: '600px',
-    basePath: '/CK/',
-    toolbar: 'WP'
-  });
-</script>

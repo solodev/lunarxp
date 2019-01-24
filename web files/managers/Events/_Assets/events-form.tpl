@@ -38,9 +38,9 @@
             <p class="card-subtitle my-1">Dimensions: 796px x 333px.</p>
             <input class="file_upload" id="event_image" name="event_image" required="" type="file" />
           </div>
-          <div class="col-md-3 position-relative" id="rssImage">
-            <h3 class="card-title"><label class="control-label" for="event_featured">Event Featured</label></h3>
+          <div class="col-md-3" id="rssImage">
             <input id="event_featured" name="event_featured" required="" type="checkbox" />
+            <label class="control-label" for="event_featured">Event Featured</label>
           </div>
           <div class="col-md-5">
             <h3 class="card-title"><label class="control-label" for="event_archived">Archived?</label></h3>

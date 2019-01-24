@@ -50,7 +50,7 @@
         <a class="panel-action panel-action-toggle" href="#"></a>
       </div>
     </header>
-    <div id="collapseContent" class="collapse" aria-labelledby="headingContent" data-parent="#accordionContent">
+    <div id="collapseContent" class="collapse show" aria-labelledby="headingContent" data-parent="#accordionContent">
       <div class="card-body">
         <div class="row">
           <div class="col-md-6 form-group">
@@ -77,7 +77,7 @@
           <div class="col-md-12">
             <h3 class="card-title"><label class="control-label" for="alert_text">Alert Text</label></h3>
             <p class="card-subtitle">(Required)</p>
-            <textarea class="form-control" name="alert_text" id="alert_text"></textarea>
+            <textarea class="form-control wysiwyg-basic" name="alert_text" id="alert_text"></textarea>
           </div>
         </div>
       </div>

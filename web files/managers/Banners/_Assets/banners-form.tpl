@@ -23,9 +23,9 @@
 </div>
 
 <div id="accordionContent">
-  <section class="card" class="mt-2">
+  <section class="card mt-2">
     <header class="card-header" id="headingContent" data-toggle="collapse" data-target="#collapseContent" aria-expanded="true" aria-controls="collapseContent">
-      <h2 class="card-title">Banner Info</h2>
+      <h2 class="card-title">Banner Information</h2>
       <div class="panel-actions">
         <a class="panel-action panel-action-toggle" href="#"></a>
       </div>
@@ -37,7 +37,7 @@
             <h3 class="card-title"><label class="control-label" for="banner_link">Link</label></h3>
             <input type="text" class="form-control" name="banner_link" id="banner_link">
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 position-relative">
             <div class="checkbox-custom checkbox-default checkbox-inline">
               <input type="checkbox" name="url_new_window" id="url_new_window" value="1">
               <label class="control-label mb-0 ml-3" for="url_new_window">Open in New Window</label>
@@ -48,9 +48,8 @@
           <div class="col-md-6" id="listingImage">
             <h3 class="card-title"><label class="control-label" for="banner_image">Banner Image</label></h3>
             <p class="card-subtitle">
-              <strong>Sizes:</strong><br>
               <strong>Square:</strong> (Right Sidebar) - 296px Width X 296px Height<br>
-              <strong>Rectangle:</strong> (Bottom of Page) - 727px Width x 113px Height<br>
+              <strong>Rectangle:</strong> (Bottom of Page) - 727px Width x 113px Height
             </p>
             <input type="file" class="file_upload mt-2" name="banner_image" id="banner_image" required>
           </div>
@@ -61,7 +60,7 @@
 </div>
 
 <div id="accordionBannerDisplay">
-  <section class="card" class="mt-2">
+  <section class="card mt-2">
     <header class="card-header" id="headingBannerDisplay" data-toggle="collapse" data-target="#collapseBannerDisplay" aria-expanded="true" aria-controls="collapseBannerDisplay">
       <h2 class="card-title">Banner Display</h2>
       <div class="panel-actions">
@@ -92,14 +91,14 @@
 </div>
 
 <div id="accordionAdvanced">
-  <section class="card" class="mt-2">
+  <section class="card mt-2">
     <header class="card-header" id="headingAdvanced" data-toggle="collapse" data-target="#collapseAdvanced" aria-expanded="true" aria-controls="collapseAdvanced">
       <h2 class="card-title">Advanced</h2>
       <div class="panel-actions">
         <a class="panel-action panel-action-toggle" href="#"></a>
       </div>
     </header>
-    <div id="collapseAdvanced" class="collapse show" aria-labelledby="headingAdvanced" data-parent="#accordionAdvanced">
+    <div id="collapseAdvanced" class="collapse" aria-labelledby="headingAdvanced" data-parent="#accordionAdvanced">
       <div class="card-body">
         <div class="row">
           <div class="col-md-12">

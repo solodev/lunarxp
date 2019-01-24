@@ -41,7 +41,5 @@
 				</div>
 			</div>
 		</div>
-	</div>
+  </section>
 </div>
-
-<script>$('.wysiwyg').ckeditor( function() {  }, { customConfig: '/CK/config.js', height: '200px', basePath : '/CK/', toolbar : 'WP' } );</script>
