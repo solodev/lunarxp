@@ -30,7 +30,7 @@
       <div class="panel-body">
         <div class="row">
           <div class="col-md-6">
-            <h2><label class="label-control" for="post_status">Post Status</label></h2>
+            <h2><label class="control-label" for="post_status">Post Status</label></h2>
             <select class="form-control" name="post_status" type="text">
               <option value="Draft">Draft</option>
               <option value="Published">Published</option>
@@ -38,7 +38,7 @@
           </div>
 
           <div class="col-md-6">
-            <h2><label class="label-control" for="post_author">Post Author</label></h2>
+            <h2><label class="control-label" for="post_author">Post Author</label></h2>
             <select class="form-control" name="post_author" type="text">
               <option value="None">None</option>
               <option value="AUTHOR_NAME">AUTHOR_NAME</option>
@@ -61,7 +61,7 @@
       <div class="panel-body">
         <div class="row">
           <div class="col-md-6" id="listingImage">
-            <h2><label class="label-control" for="news_image">News Image</label></h2>
+            <h2><label class="control-label" for="news_image">News Image</label></h2>
 
             <p class="subText">(Optional) The image that appears in the news article and normal news feed.</p>
             <input class="file_upload" id="news_image" name="news_image" type="file" />
@@ -70,7 +70,7 @@
 
         <div class="row">
           <div class="col-md-6">
-            <h2><label class="label-control" for="news_detail">News Detail</label></h2>
+            <h2><label class="control-label" for="news_detail">News Detail</label></h2>
             <select class="form-control" id="news_detail" name="news_detail">
               <option value="internalPage">Internal Page</option>
               <option value="externalLink">External Link</option>
@@ -78,14 +78,14 @@
           </div>
 
           <div class="col-md-6" id="postLink" style="display: none;">
-            <h2><label class="label-control" for="site_link">Link</label></h2>
+            <h2><label class="control-label" for="site_link">Link</label></h2>
             <input class="form-control" id="site_link" name="site_link" type="text" />
           </div>
         </div>
 
         <div class="row">
           <div class="col-md-12">
-            <h2><label class="label-control" for="post_intro">News Intro</label></h2>
+            <h2><label class="control-label" for="post_intro">News Intro</label></h2>
 
             <p class="subText">(Required) Content that appears before the Body Content and the introductory paragraph
               on the news feed.</p>
@@ -108,7 +108,7 @@
       <div class="panel-body">
         <div class="row">
           <div class="col-md-12">
-            <h2><label class="label-control" for="heading_title">Heading Overwrite</label></h2>
+            <h2><label class="control-label" for="heading_title">Heading Overwrite</label></h2>
 
             <p class="subText">(Optional) If specified, this will overwrite the article's title and become the main
               heading.</p>
@@ -118,7 +118,7 @@
 
         <div class="row">
           <div class="col-md-12">
-            <h2><label class="label-control" for="post_content">Body Content</label></h2>
+            <h2><label class="control-label" for="post_content">Body Content</label></h2>
 
             <p class="subText">(Required) The main content section for an article.</p>
             <textarea class="wysiwyg" id="post_content" name="post_content" required=""></textarea>
@@ -181,7 +181,7 @@
       <div class="panel-body">
         <div class="row">
           <div class="col-md-12">
-            <h2><label class="label-control" for="post_javascript">Custom JavaScript</label></h2>
+            <h2><label class="control-label" for="post_javascript">Custom JavaScript</label></h2>
 
             <p class="subText">(Optional) Use the following textbox to embed any custom JavaScript including tracking
               pixels and Google Analytics scripts. Be sure to open your JavaScript with a &lt;script&gt; tag and close

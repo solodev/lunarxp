@@ -9,7 +9,7 @@
       <div class="panel-body">
         <div class="row">
           <div class="col-md-6">
-            <h2><label class="label-control" for="post_status">Post Status</label></h2>
+            <h2><label class="control-label" for="post_status">Post Status</label></h2>
             <select class="form-control" name="post_status" type="text">
               <option value="Draft">Draft</option>
               <option value="Published">Published</option>
@@ -34,7 +34,7 @@
       <div class="panel-body">
         <div class="row">
           <div class="col-md-6">
-            <h2><label class="label-control" for="team_member_image">Team Member Image</label></h2>
+            <h2><label class="control-label" for="team_member_image">Team Member Image</label></h2>
 
             <p class="subText">(Required) The image that appears in the post and normal blogroll feed. Dimensions:
               951px by 561px.</p>
@@ -42,7 +42,7 @@
           </div>
 
           <div class="col-md-6">
-            <h2><label class="label-control" for="team_member_pos">Team Member Position</label></h2>
+            <h2><label class="control-label" for="team_member_pos">Team Member Position</label></h2>
             <input class="form-control" id="team_member_pos" name="team_member_pos" required="" type="text" />
           </div>
         </div>
@@ -62,22 +62,22 @@
       <div class="panel-body">
         <div class="row">
           <div class="col-md-3">
-            <h2><label class="label-control" for="team_member_email">Team Member Email</label></h2>
+            <h2><label class="control-label" for="team_member_email">Team Member Email</label></h2>
             <input class="form-control" id="team_member_email" name="team_member_email" required="" type="text" />
           </div>
 
           <div class="col-md-3">
-            <h2><label class="label-control" for="team_member_phone">Team Member Phone</label></h2>
+            <h2><label class="control-label" for="team_member_phone">Team Member Phone</label></h2>
             <input class="form-control" id="team_member_phone" name="team_member_phone" required="" type="text" />
           </div>
 
           <div class="col-md-3">
-            <h2><label class="label-control" for="team_member_location">Team Member Location</label></h2>
+            <h2><label class="control-label" for="team_member_location">Team Member Location</label></h2>
             <input class="form-control" id="team_member_location" name="team_member_location" required="" type="text" />
           </div>
 
           <div class="col-md-3">
-            <h2><label class="label-control" for="team_member_hours">Team Member Hours</label></h2>
+            <h2><label class="control-label" for="team_member_hours">Team Member Hours</label></h2>
             <input class="form-control" id="team_member_hours" name="team_member_hours" required="" type="text" />
           </div>
         </div>
@@ -97,7 +97,7 @@
       <div class="panel-body">
         <div class="row">
           <div class="col-md-12">
-            <h2><label class="label-control" for="heading_title">Heading Overwrite</label></h2>
+            <h2><label class="control-label" for="heading_title">Heading Overwrite</label></h2>
 
             <p class="subText">(Optional) If specified, this will overwrite the article's title and become the main
               heading.</p>
@@ -107,7 +107,7 @@
 
         <div class="row">
           <div class="col-md-12">
-            <h2><label class="label-control" for="post_intro">Intro/Subtitle</label></h2>
+            <h2><label class="control-label" for="post_intro">Intro/Subtitle</label></h2>
 
             <p class="subText">(Required) Content that appears before the Body Content and the introductory paragraph
               on the blogroll.</p>
@@ -117,7 +117,7 @@
 
         <div class="row">
           <div class="col-md-12">
-            <h2><label class="label-control" for="post_content">Body Content</label></h2>
+            <h2><label class="control-label" for="post_content">Body Content</label></h2>
 
             <p class="subText">(Required) The main content section for an article.</p>
             <textarea class="wysiwyg" id="post_content" name="post_content" required=""></textarea>
@@ -180,7 +180,7 @@
       <div class="panel-body">
         <div class="row">
           <div class="col-md-12">
-            <h2><label class="label-control" for="post_javascript">Custom JavaScript</label></h2>
+            <h2><label class="control-label" for="post_javascript">Custom JavaScript</label></h2>
 
             <p class="subText">(Optional) Use the following textbox to embed any custom JavaScript including tracking
               pixels and Google Analytics scripts. Be sure to open your JavaScript with a &lt;script&gt; tag and close

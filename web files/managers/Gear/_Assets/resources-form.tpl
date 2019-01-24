@@ -31,7 +31,7 @@ $(function() {
 
 				<div class="row">
 					<div class="col-md-3">
-						<h2><label class="label-control" for="post_status">Post Status</label></h2>
+						<h2><label class="control-label" for="post_status">Post Status</label></h2>
 						<select class="form-control" type="text" name="post_status">
 							<option value="Draft">Draft</option>
 							<option value="Published">Published</option>
@@ -56,7 +56,7 @@ $(function() {
 
 				<div class="row">
 					<div class="col-md-6">
-						<h2><label class="label-control" for="resource_type">Resource Type</label></h2>
+						<h2><label class="control-label" for="resource_type">Resource Type</label></h2>
 						<p class="subText">(Required) The main content section for the cow.</p>
 						<select class="form-control" name="resource_type" id="resource_type">
 						  <option value="Document">Document Download (i.e. PDF)</option>
@@ -67,14 +67,14 @@ $(function() {
                                             
 				<div class="row" class="documentOptions" id="documentOptions">
 					<div class="col-md-6">
-						<h2><label class="label-control" for="resource_file">Resource File</label></h2>
+						<h2><label class="control-label" for="resource_file">Resource File</label></h2>
 						<input class="form-control" type="file" name="resource_file" id="resource_file" />
 					</div>
 				</div>
 
 				<div class="row" class="linkOptions" id="linkOptions">
 					<div class="col-md-6">
-						<h2><label class="label-control" for="link_url">Link URL</label></h2>
+						<h2><label class="control-label" for="link_url">Link URL</label></h2>
                         <p class="subText">Include the full link including the "http://" or "https://" protocol.</p>
 						<input class="form-control" type="text" name="link_url" id="link_url" />
 					</div>

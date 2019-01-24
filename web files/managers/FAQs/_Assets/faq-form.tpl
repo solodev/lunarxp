@@ -9,7 +9,7 @@
             <div class="panel-body">
                 <div class="row">
                     <div class="col-md-3">
-                        <h2><label class="label-control" for="post_status">Post Status</label></h2>
+                        <h2><label class="control-label" for="post_status">Post Status</label></h2>
                         <select class="form-control" type="text" name="post_status">
                             <option value="Draft">Draft</option>
                             <option value="Published">Published</option>
@@ -34,14 +34,14 @@
             <div class="panel-body">
                 <div class="row">
                     <div class="col-md-12">
-                        <h2><label class="label-control" for="heading_title">FAQ Question</label></h2>
+                        <h2><label class="control-label" for="heading_title">FAQ Question</label></h2>
                         <p class="subText">(Required)</p>
                         <input type="text" class="form-control" name="heading_title" id="heading_title">
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12">
-                        <h2><label class="label-control" for="faq_answer">FAQ Answer</label></h2>
+                        <h2><label class="control-label" for="faq_answer">FAQ Answer</label></h2>
                         <p class="subText">(Required)</p>
                         <textarea class="form-control wysiwyg2" name="faq_answer" id="faq_answer"></textarea>
                     </div>
@@ -96,7 +96,7 @@
             <div class="panel-body">
                 <div class="row">
                     <div class="col-md-12">
-                        <h2><label class="label-control" for="post_javascript">Custom JavaScript</label></h2>
+                        <h2><label class="control-label" for="post_javascript">Custom JavaScript</label></h2>
                         <p class="subText">(Optional) Use the following textbox to embed any custom JavaScript including tracking pixels and Google Analytics scripts. Be sure to open your JavaScript with a &lt;script&gt; tag and close everything with a &lt;/script&gt; tag.</p>
                         <textarea class="form-control" name="post_javascript" id="post_javascript"></textarea>
                     </div>

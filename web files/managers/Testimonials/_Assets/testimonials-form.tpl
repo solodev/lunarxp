@@ -9,7 +9,7 @@
       <div class="panel-body">
         <div class="row">
           <div class="col-md-6">
-            <h2><label class="label-control" for="post_status">Post Status</label></h2>
+            <h2><label class="control-label" for="post_status">Post Status</label></h2>
             <select class="form-control" type="text" name="post_status">
               <option value="Draft">Draft</option>
               <option value="Published">Published</option>
@@ -32,19 +32,19 @@
       <div class="panel-body">
         <div class="row">
           <div class="col-md-6">
-            <h2><label class="label-control" for="testimonial_author">Testimonial Author</label></h2>
+            <h2><label class="control-label" for="testimonial_author">Testimonial Author</label></h2>
             <p class="subText">(Required)</p>
             <input type="text" class="form-control" name="testimonial_author" id="testimonial_author">
           </div>
           <div class="col-md-6">
-            <h2><label class="label-control" for="testimonial_author_title">Testimonial Author Title</label></h2>
+            <h2><label class="control-label" for="testimonial_author_title">Testimonial Author Title</label></h2>
             <p class="subText">(Required)</p>
             <input type="text" class="form-control" name="testimonial_author_title" id="testimonial_author_title">
           </div>
         </div>
         <div class="row">
           <div class="col-md-12">
-            <h2><label class="label-control" for="testimonial_content">Testimonial Content</label></h2>
+            <h2><label class="control-label" for="testimonial_content">Testimonial Content</label></h2>
             <p class="subText">(Required)</p>
             <textarea class="form-control wysiwyg-basic" name="testimonial_content" id="testimonial_content"></textarea>
           </div>
@@ -101,7 +101,7 @@
       <div class="panel-body">
         <div class="row">
           <div class="col-md-12">
-            <h2><label class="label-control" for="post_javascript">Custom JavaScript</label></h2>
+            <h2><label class="control-label" for="post_javascript">Custom JavaScript</label></h2>
             <p class="subText">(Optional) Use the following textbox to embed any custom JavaScript including tracking pixels and Google Analytics scripts. Be sure to open your JavaScript with a &lt;script&gt; tag and close everything with a &lt;/script&gt; tag.</p>
             <textarea class="form-control" name="post_javascript" id="post_javascript"></textarea>
           </div>

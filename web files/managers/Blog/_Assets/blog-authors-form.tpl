@@ -10,33 +10,33 @@
       <div class="card-body">
         <div class="row">
 					<div class="col-md-6 form-group">
-						<h3 class="card-title"><label class="label-control" for="author_name">Author Name</label></h3>
+						<h3 class="card-title"><label class="control-label" for="author_name">Author Name</label></h3>
 						<p class="card-subtitle">(Required) The author's full name.</p>
 						<input type="text" class="form-control" name="author_name" id="author_name" required>
 					</div>
 					<div class="col-md-6 form-group">
-						<h3 class="card-title"><label class="label-control" for="author_title">Author Title</label></h3>
+						<h3 class="card-title"><label class="control-label" for="author_title">Author Title</label></h3>
 						<p class="card-subtitle">(optional) The author's position within the company.</p>
 						<input type="text" class="form-control" name="author_title" id="author_title">
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-6 form-group">
-					  <h3 class="card-title"><label class="label-control" for="author_img">Author Picture</label></h3>
+					  <h3 class="card-title"><label class="control-label" for="author_img">Author Picture</label></h3>
 					  <p class="card-subtitle">(Optional) An author's picture.</p>
 					  <input type="file" class="form-control" name="author_img" id="author_img">
 					</div>
 					<div class="col-md-6 form-group">
-						<h3 class="card-title"><label class="label-control" for="author_twitter">Author's Twitter</label></h3>
+						<h3 class="card-title"><label class="control-label" for="author_twitter">Author's Twitter</label></h3>
 						<p class="card-subtitle">(optional) The author's twitter handler.</p>
 						<input type="text" class="form-control" name="author_twitter" id="author_twitter">
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-12">
-						<h3 class="card-title"><label class="label-control" for="author_bio">Author Biography</label></h3>
+						<h3 class="card-title"><label class="control-label" for="author_bio">Author Biography</label></h3>
 						<p class="card-subtitle">(Optional) An author's personal biography.</p>
-						<textarea class="wysiwyg" name="author_bio" id="author_bio"></textarea>
+						<textarea class="wysiwyg form-control" name="author_bio" id="author_bio"></textarea>
 					</div>
 				</div>
 			</div>

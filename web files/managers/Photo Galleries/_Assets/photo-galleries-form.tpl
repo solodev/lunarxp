@@ -9,7 +9,7 @@
       <div class="panel-body">
         <div class="row">
           <div class="col-md-3">
-            <h2><label class="label-control" for="post_status">Post Status</label></h2>
+            <h2><label class="control-label" for="post_status">Post Status</label></h2>
             <select class="form-control" name="post_status" type="text">
               <option value="Draft">Draft</option>
               <option value="Published">Published</option>
@@ -17,7 +17,7 @@
           </div>
 
           <div class="col-md-3">
-            <h2><label class="label-control" for="post_author">Post Author</label></h2>
+            <h2><label class="control-label" for="post_author">Post Author</label></h2>
             <select class="form-control" name="post_author" type="text">
               <option value="None">None</option>
               <option value="AUTHOR_NAME">AUTHOR_NAME</option>
@@ -40,15 +40,15 @@
       <div class="panel-body">
         <div class="row">
           <div class="col-md-4">
-            <h2><label class="label-control" for="featured_image">Featured Image</label></h2>
+            <h2><label class="control-label" for="featured_image">Featured Image</label></h2>
             <input class="file_upload" id="featured_image" name="featured_image" required="" type="file" />
           </div>
           <div class="col-md-4">
-            <h2><label class="label-control" for="heading_title">Album Name</label></h2>
+            <h2><label class="control-label" for="heading_title">Album Name</label></h2>
             <input class="form-control" id="heading_title" name="heading_title" required="" type="text" />
           </div>
           <div class="col-md-4">
-            <h2><label class="label-control" for="photo_album_intro">Album Intro</label></h2>
+            <h2><label class="control-label" for="photo_album_intro">Album Intro</label></h2>
             <input class="form-control" id="photo_album_intro" name="photo_album_intro" type="text" />
           </div>
         </div>
@@ -109,7 +109,7 @@
       <div class="panel-body">
         <div class="row">
           <div class="col-md-12">
-            <h2><label class="label-control" for="post_javascript">Custom JavaScript</label></h2>
+            <h2><label class="control-label" for="post_javascript">Custom JavaScript</label></h2>
 
             <p class="subText">(Optional) Use the following textbox to embed any custom JavaScript including tracking
               pixels and Google Analytics scripts. Be sure to open your JavaScript with a &lt;script&gt; tag and close

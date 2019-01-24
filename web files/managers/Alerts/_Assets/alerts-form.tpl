@@ -30,7 +30,7 @@
       <div class="card-body">
         <div class="row">
           <div class="col-md-3">
-            <h3 class="card-title"><label class="label-control" for="post_status">Post Status</label></h3>
+            <h3 class="card-title"><label class="control-label" for="post_status">Post Status</label></h3>
             <select class="form-control" type="text" name="post_status">
               <option value="Draft">Draft</option>
               <option value="Published">Published</option>
@@ -54,7 +54,7 @@
       <div class="card-body">
         <div class="row">
           <div class="col-md-6 form-group">
-            <h3 class="card-title"><label class="label-control" for="alert_destination">Alert Link Destination</label></h3>
+            <h3 class="card-title"><label class="control-label" for="alert_destination">Alert Link Destination</label></h3>
             <p class="card-subtitle">(Optional)</p>
             <select class="form-control" name="alert_destination" id="alert_destination">
               <option value="None">None</option>
@@ -63,19 +63,19 @@
             </select>
           </div>
           <div class="col-md-6 form-group" id="internal">
-            <h3 class="card-title"><label class="label-control" for="internal_link">Internal Link URL</label></h3>
+            <h3 class="card-title"><label class="control-label" for="internal_link">Internal Link URL</label></h3>
             <p class="card-subtitle">(Required - If Alert Link Destination is set)</p>
             <input type="text" class="form-control" name="internal_link" id="internal_link">
           </div>
           <div class="col-md-6 form-group" id="external">
-            <h3 class="card-title"><label class="label-control" for="external_link">External Link URL</label></h3>
+            <h3 class="card-title"><label class="control-label" for="external_link">External Link URL</label></h3>
             <p class="card-subtitle">(Required - If Alert Link Destination is set)</p>
             <input type="text" class="form-control" name="external_link" id="external_link">
           </div>
         </div>
         <div class="row">
           <div class="col-md-12">
-            <h3 class="card-title"><label class="label-control" for="alert_text">Alert Text</label></h3>
+            <h3 class="card-title"><label class="control-label" for="alert_text">Alert Text</label></h3>
             <p class="card-subtitle">(Required)</p>
             <textarea class="form-control" name="alert_text" id="alert_text"></textarea>
           </div>
@@ -97,7 +97,7 @@
       <div class="card-body">
         <div class="row">
           <div class="col-md-12">
-            <h3 class="card-title"><label class="label-control" for="post_javascript">Custom JavaScript</label></h3>
+            <h3 class="card-title"><label class="control-label" for="post_javascript">Custom JavaScript</label></h3>
             <p class="card-subtitle">(Optional) Use the following textbox to embed any custom JavaScript including tracking pixels and Google Analytics scripts. Be sure to open your JavaScript with a &lt;script&gt; tag and close everything with a &lt;/script&gt; tag.</p>
             <textarea class="form-control" name="post_javascript" id="post_javascript"></textarea>
           </div>

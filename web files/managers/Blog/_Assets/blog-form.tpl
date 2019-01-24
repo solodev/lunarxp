@@ -31,14 +31,14 @@
       <div class="card-body">
         <div class="row">
           <div class="col-md-3">
-            <h3 class="card-title"><label class="label-control" for="post_status">Post Status</label></h3>
+            <h3 class="card-title"><label class="control-label" for="post_status">Post Status</label></h3>
             <select class="form-control" type="text" name="post_status">
               <option value="Draft">Draft</option>
               <option value="Published">Published</option>
             </select>
           </div>
           <div class="col-md-3">
-            <h3 class="card-title"><label class="label-control" for="post_author">Post Author</label></h3>
+            <h3 class="card-title"><label class="control-label" for="post_author">Post Author</label></h3>
             <select class="form-control" type="text" name="post_author">
               <option value="None">None</option>
               <?php
@@ -71,7 +71,7 @@
       <div class="card-body">
         <div class="row">
           <div class="col-md-6">
-            <h3 class="card-title"><label class="label-control" for="resourceTypeSelect">Image Type</label></h3>
+            <h3 class="card-title"><label class="control-label" for="resourceTypeSelect">Image Type</label></h3>
             <p class="card-subtitle">(Required) The image selected.</p>
             <select class="form-control" name="resourceType" id="resourceTypeSelect">
               <option value="Listing Image">Listing Image</option>
@@ -79,13 +79,13 @@
             </select>
           </div>
           <div class="col-md-6" id="listingImage">
-            <h3 class="card-title"><label class="label-control" for="listing_image">Listing Image</label></h3>
+            <h3 class="card-title"><label class="control-label" for="listing_image">Listing Image</label></h3>
             <p class="card-subtitle">(Required) The image that appears in the post and normal blogroll feed. Dimensions:
               951px by 561px.</p>
             <input type="file" class="file_upload" name="listing_image" id="listing_image" required>
           </div>
           <div class="col-md-6" id="rssImage">
-            <h2><label class="label-control" for="rss_image">RSS Image</label></h2>
+            <h2><label class="control-label" for="rss_image">RSS Image</label></h2>
             <p class="card-subtitle">(Required) The image that appears in RSS emails. Dimensions: 700px by 413px.</p>
             <input type="file" class="file_upload" name="rss_image" id="rss_image" required>
           </div>
@@ -107,21 +107,21 @@
       <div class="card-body">
         <div class="row">
           <div class="col-md-12 form-group">
-            <h3 class="card-title"><label class="label-control" for="heading_title">Heading Overwrite</label></h3>
+            <h3 class="card-title"><label class="control-label" for="heading_title">Heading Overwrite</label></h3>
             <p class="card-subtitle">(Optional) If specified, this will overwrite the article's title and become the main heading.</p>
             <input type="text" class="form-control" name="heading_title" id="heading_title">
           </div>
         </div>
         <div class="row">
           <div class="col-md-12 form-group">
-            <h3 class="card-title"><label class="label-control" for="post_intro">Intro/Subtitle</label></h3>
+            <h3 class="card-title"><label class="control-label" for="post_intro">Intro/Subtitle</label></h3>
             <p class="card-subtitle">(Required) Content that appears before the Body Content and the introductory paragraph on the blogroll.</p>
             <textarea class="form-control" name="post_intro" id="post_intro" required></textarea>
           </div>
         </div>
         <div class="row">
           <div class="col-md-12 form-group">
-            <h3 class="card-title"><label class="label-control" for="post_content">Body Content</label></h3>
+            <h3 class="card-title"><label class="control-label" for="post_content">Body Content</label></h3>
             <p class="card-subtitle">(Required) The main content section for an article.</p>
             <textarea class="wysiwyg form-control" name="post_content" id="post_content" required></textarea>
           </div>
@@ -181,7 +181,7 @@
       <div class="card-body">
         <div class="row">
           <div class="col-md-12">
-            <h3 class="card-title"><label class="label-control" for="post_javascript">Custom JavaScript</label></h3>
+            <h3 class="card-title"><label class="control-label" for="post_javascript">Custom JavaScript</label></h3>
             <p class="card-subtitle">(Optional) Use the following textbox to embed any custom JavaScript including tracking
               pixels and Google Analytics scripts. Be sure to open your JavaScript with a &lt;script&gt; tag and close
               everything with a &lt;/script&gt; tag.</p>
