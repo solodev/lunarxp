@@ -195,7 +195,6 @@ if(isset($dataVars['calendar_entry_id'])){
   $calendar_entry = new Calendar_Entry($dataVars['calendar_entry_id']);
   if($calendar_entry->path) { 
 ?>
-
 <div id="accordionURL">
   <section class="card mt-2">
     <header class="card-header" id="headingURL" data-toggle="collapse" data-target="#collapseURL" aria-expanded="true" aria-controls="collapseURL">
@@ -204,7 +203,7 @@ if(isset($dataVars['calendar_entry_id'])){
         <a class="panel-action panel-action-toggle" href="#"></a>
       </div>
     </header>
-    <div id="collapseURL" class="collapse show" aria-labelledby="headingURL" data-parent="#accordionURL">
+    <div id="collapseURL" class="collapse" aria-labelledby="headingURL" data-parent="#accordionURL">
       <div class="card-body">
         <div class="row">
           <div class="col-md-12">

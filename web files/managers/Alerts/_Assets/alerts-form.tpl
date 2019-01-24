@@ -50,7 +50,7 @@
         <a class="panel-action panel-action-toggle" href="#"></a>
       </div>
     </header>
-    <div id="collapseContent" class="collapse show" aria-labelledby="headingContent" data-parent="#accordionContent">
+    <div id="collapseContent" class="collapse" aria-labelledby="headingContent" data-parent="#accordionContent">
       <div class="card-body">
         <div class="row">
           <div class="col-md-6 form-group">
@@ -93,7 +93,7 @@
         <a class="panel-action panel-action-toggle" href="#"></a>
       </div>
     </header>
-    <div id="collapseAdvanced" class="collapse show" aria-labelledby="headingAdvanced" data-parent="#accordionAdvanced">
+    <div id="collapseAdvanced" class="collapse" aria-labelledby="headingAdvanced" data-parent="#accordionAdvanced">
       <div class="card-body">
         <div class="row">
           <div class="col-md-12">
@@ -105,4 +105,4 @@
       </div>
     </div>
   </section>
-</div>
+</div> 
