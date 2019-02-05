@@ -13,11 +13,11 @@ document.addEventListener("DOMContentLoaded", function (evt) {
         function errorMsg() {
             if (cellsPerRow != tableHeadings.length) {
 
-                var errorDiv = SDTable[i].createElement('div');
+                var errorDiv = document.createElement('div');
                 errorDiv.className = "bg-warning text-white";
                 errorDiv.innerHTML =
                     "To use our responsive table, please create a table with equal cells per row and headings";
-                sdTable[0].appendChild(errorDiv);
+                SDTable[0].appendChild(errorDiv);
             }
         }
 
