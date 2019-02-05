@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function (evt) {
             if (cellsPerRow != tableHeadings.length) {
 
                 var errorDiv = document.createElement('div');
-                errorDiv.className = "bg-warning text-white";
+                errorDiv.className = "bg-danger text-white";
                 errorDiv.innerHTML =
                     "To use our responsive table, please create a table with equal cells per row and headings";
                 SDTable[0].appendChild(errorDiv);
