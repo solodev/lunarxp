@@ -1,27 +1,3 @@
-<div id="accordionPostStatus">
-  <section class="card">
-    <header class="card-header" id="headingPostStatus" data-toggle="collapse" data-target="#collapsePostStatus" aria-expanded="true" aria-controls="collapsePostStatus">
-      <h2 class="card-title">Post Status</h2>
-      <div class="panel-actions">
-        <a class="panel-action panel-action-toggle" href="#"></a>
-      </div>
-    </header>
-    <div id="collapsePostStatus" class="collapse show" aria-labelledby="headingPostStatus" data-parent="#accordionPostStatus">
-      <div class="card-body">
-        <div class="row">
-          <div class="col-md-3">
-            <h3 class="card-title"><label class="control-label" for="post_status">Post Status</label></h3>
-            <select class="form-control" type="text" name="post_status">
-              <option value="Draft">Draft</option>
-              <option value="Published">Published</option>
-            </select>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-</div>
-
 <div id="accordionCareerInfo">
   <section class="card mt-2">
     <header class="card-header" id="headingCareerInfo" data-toggle="collapse" data-target="#collapseCareerInfo" aria-expanded="true" aria-controls="collapseCareerInfo">
@@ -139,31 +115,3 @@
     </div>
   </section>
 </div>
-<?php
-  if(isset($dataVars['calendar_entry_id'])){     
-    $calendar_entry = new Calendar_Entry($dataVars['calendar_entry_id']);
-    if($calendar_entry->path) { 
-?>
-<div id="accordionURL">
-  <section class="card mt-2">
-    <header class="card-header" id="headingURL" data-toggle="collapse" data-target="#collapseURL" aria-expanded="true" aria-controls="collapseURL">
-      <h2 class="card-title">Post URL</h2>
-      <div class="panel-actions">
-        <a class="panel-action panel-action-toggle" href="#"></a>
-      </div>
-    </header>
-    <div id="collapseURL" class="collapse" aria-labelledby="headingURL" data-parent="#accordionURL">
-      <div class="card-body">
-        <div class="row">
-          <div class="col-md-12">
-            <p class="card-subtitle">You can access this blog post at the following URL:</p>
-            <a class="text-vivid-blue" href="http://lunar.solodev.org<?= $calendar_entry->path ?>" target="_blank">http://lunar.solodev.org<?= $calendar_entry->path ?></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<?php 
-  } 
-} ?>

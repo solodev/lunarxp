@@ -19,46 +19,6 @@
   });
 </script>
 
-<div id="accordionPostStatus">
-  <section class="card">
-    <header class="card-header" id="headingPostStatus" data-toggle="collapse" data-target="#collapsePostStatus" aria-expanded="true" aria-controls="collapsePostStatus">
-      <h2 class="card-title">Post Status</h2>
-      <div class="panel-actions">
-        <a class="panel-action panel-action-toggle" href="#"></a>
-      </div>
-    </header>
-    <div id="collapsePostStatus" class="collapse show" aria-labelledby="headingPostStatus" data-parent="#accordionPostStatus">
-      <div class="card-body">
-        <div class="row">
-          <div class="col-md-3">
-            <h3 class="card-title"><label class="control-label" for="post_status">Post Status</label></h3>
-            <select class="form-control" type="text" name="post_status">
-              <option value="Draft">Draft</option>
-              <option value="Published">Published</option>
-            </select>
-          </div>
-          <div class="col-md-3">
-            <h3 class="card-title"><label class="control-label" for="post_author">Post Author</label></h3>
-            <select class="form-control" type="text" name="post_author">
-              <option value="None">None</option>
-              <?php
-                $ref_datatable = new Datatable(3);
-                $ref_datatable_entries = $ref_datatable->getFilterDatatableEntries();
-                
-                sort($ref_datatable_entries);
-                
-                foreach($ref_datatable_entries as $oneEntry){
-                  echo '<option value="'.$oneEntry->author_name.'">'.$oneEntry->author_name.'</option>';
-                }
-              ?>
-            </select>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-</div>
-
 <div id="accordionImages">
   <section class="card mt-2">
     <header class="card-header" id="headingImages" data-toggle="collapse" data-target="#collapseImages" aria-expanded="true" aria-controls="collapseImages">
