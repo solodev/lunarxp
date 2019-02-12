@@ -82,3 +82,8 @@
     </div>
   </section>
 </div> 
+
+<script>
+  applyCodemirror($('#post_javascript')[0]);
+  $('.CodeMirror').addClass('h-xs-150p');
+</script>

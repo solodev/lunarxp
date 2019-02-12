@@ -128,54 +128,7 @@
   </section>
 </div>
 
-<div id="accordionAdvanced">
-  <section class="card mt-2">
-    <header class="card-header" id="headingAdvanced" data-toggle="collapse" data-target="#collapseAdvanced" aria-expanded="true" aria-controls="collapseAdvanced">
-      <h2 class="card-title">Advanced</h2>
-      <div class="panel-actions">
-        <a class="panel-action panel-action-toggle" href="#"></a>
-      </div>
-    </header>
-    <div id="collapseAdvanced" class="collapse" aria-labelledby="headingAdvanced" data-parent="#accordionAdvanced">
-      <div class="card-body">
-        <div class="row">
-          <div class="col-md-12">
-            <h3 class="card-title"><label class="control-label" for="post_javascript">Custom JavaScript</label></h3>
-            <p class="card-subtitle">(Optional) Use the following textbox to embed any custom JavaScript including tracking
-              pixels and Google Analytics scripts. Be sure to open your JavaScript with a &lt;script&gt; tag and close
-              everything with a &lt;/script&gt; tag.</p>
-            <textarea class="form-control" name="post_javascript" id="post_javascript"></textarea>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-</div>
-<?php
-  if(isset($dataVars['calendar_entry_id'])){     
-    $calendar_entry = new Calendar_Entry($dataVars['calendar_entry_id']);
-    if($calendar_entry->path) { 
-?>
-<div id="accordionURL">
-  <section class="card mt-2">
-    <header class="card-header" id="headingURL" data-toggle="collapse" data-target="#collapseURL" aria-expanded="true" aria-controls="collapseURL">
-      <h2 class="card-title">Post URL</h2>
-      <div class="panel-actions">
-        <a class="panel-action panel-action-toggle" href="#"></a>
-      </div>
-    </header>
-    <div id="collapseURL" class="collapse" aria-labelledby="headingURL" data-parent="#accordionURL">
-      <div class="card-body">
-        <div class="row">
-          <div class="col-md-12">
-            <p class="card-subtitle">You can access this blog post at the following URL:</p>
-            <a class="text-vivid-blue" href="http://lunar.solodev.org<?= $calendar_entry->path ?>" target="_blank">http://lunar.solodev.org<?= $calendar_entry->path ?></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-</div>
-<?php 
-  } 
-} ?>
+<script>
+  applyCodemirror($('#post_javascript')[0]);
+  $('.CodeMirror').addClass('h-xs-150p');
+</script>
