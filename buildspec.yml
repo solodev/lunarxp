@@ -19,6 +19,7 @@ phases:
       - cd web\ files
       - npm install --loglevel info --no-progress
       - cd ../
+      - sed 's@abc@'"$ABC"'@' web\ files/settings.json
       - zip -r lunarxp.zip web\ files www config.json
       - aws s3 cp lunarxp.zip s3://solodev-aws-ha
       - rm -Rf lunarxp.zip
