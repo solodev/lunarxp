@@ -24,7 +24,7 @@
 		"particles.js": "^2.0.0",
 		"postcss-cli": "^4.1.0",
 		"shx": "^0.2.2",
-		"slick-carousel": "git+https://git@github.com/kenwheeler/slick.git",
+		"slick-carousel": "git://github.com/kenwheeler/slick.git",
 		"uglify-js": "^3.4.9"
 	},
 	"scripts": {
