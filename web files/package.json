@@ -24,6 +24,7 @@
 		"particles.js": "^2.0.0",
 		"postcss-cli": "^4.1.0",
 		"shx": "^0.2.2",
+		"slick-slider": "^1.8.2",
 		"uglify-js": "^3.4.9"
 	},
 	"scripts": {
@@ -33,7 +34,7 @@
 		"css-prefix": "postcss --config node_modules/bootstrap/build/postcss.config.js --replace ./../www/_/css/*.css",
 		"css-minify": "cleancss --level 1 --source-map --source-map-inline-sources --output ./../www/_/css/app.min.css ./../www/_/css/app.css",
 		"js": "npm-run-all js-compile js-minify",
-		"js-compile": "shx cat node_modules/jquery/dist/jquery.min.js node_modules/bootstrap/dist/js/bootstrap.min.js node_modules/echo-js/dist/echo.min.js node_modules/slick-carousel/slick/slick.min.js node_modules/bootstrap-validator/dist/validator.min.js node_modules/baguettebox.js/dist/baguetteBox.min.js js/alert-bar.js js/main.js js/ie.js js/privacy-banner.js js/slider.js js/table.js js/top-nav.js > ./../www/_/js/app.js",
+		"js-compile": "shx cat node_modules/jquery/dist/jquery.min.js node_modules/bootstrap/dist/js/bootstrap.min.js node_modules/echo-js/dist/echo.min.js node_modules/slick-slider/slick/slick.min.js node_modules/bootstrap-validator/dist/validator.min.js node_modules/baguettebox.js/dist/baguetteBox.min.js js/alert-bar.js js/main.js js/ie.js js/privacy-banner.js js/slider.js js/table.js js/top-nav.js > ./../www/_/js/app.js",
 		"js-minify": "uglifyjs --output ./../www/_/js/app.min.js ./../www/_/js/app.js",
 		"html-compile": "bundle exec jekyll build",
 		"watch": "npm-run-all --parallel watch-css watch-js",
