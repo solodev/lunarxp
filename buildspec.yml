@@ -16,6 +16,9 @@ phases:
       - aws configure set aws_session_token `./jq -r '.Token' aws_credentials.json`
       - ls -al
       - yum -y install zip
+      - cd web\ files
+      - npm install --loglevel info --no-progress
+      - cd ../
       - zip -r lunarxp.zip web\ files www config.json
       - aws s3 cp lunarxp.zip s3://solodev-aws-ha
       - rm -Rf lunarxp.zip
