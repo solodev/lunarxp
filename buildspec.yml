@@ -17,23 +17,20 @@ phases:
       - ls -al
       - curl -sL https://rpm.nodesource.com/setup_11.x | bash -
       - yum install -y --enablerepo=nodesource nodejs zip
-      - cd web\ files
-      - ls -al
-      - sed 's@LunarXP@'"$SITENAME"'@' settings.json
-      - sed 's@https://www.lunarxp.com/@'"$SITEURL"'@' settings.json
-      - sed 's@lunar-xp-logo.png@'"$LOGONAME"'@' settings.json
-      - sed 's@(800) 859-7656@'"$SITEPHONE"'@' settings.json
-      - sed 's@800 N. Magnolia Blvd.@'"$SITEADDRESS"'@' settings.json
-      - sed 's@Orlando@'"$SITECITY"'@' settings.json
-      - sed 's@FL@'"$SITESTATE"'@' settings.json
-      - sed 's@32803@'"$SITEPOSTAL"'@' settings.json
-      - sed 's@https://www.facebook.com/@'"$SITEFACEBOOK"'@' settings.json
-      - sed 's@https://twitter.com/@'"$SITETWITTER"'@' settings.json
-      - sed 's@https://www.linkedin.com/@'"$SITELINKEDIN"'@' settings.json
-      - sed 's@https://www.youtube.com/@'"$SITEYOUTUBE"'@' settings.json
-      - sed 's@https://www.instagram.com/@'"$SITEINSTAGRAM"'@' settings.json
-      - npm install --loglevel info --no-progress
-      - cd ../
+      - cd web\ files && sed 's@LunarXP@'"$SITENAME"'@' settings.json
+      - cd web\ files && sed 's@https://www.lunarxp.com/@'"$SITEURL"'@' settings.json
+      - cd web\ files && sed 's@lunar-xp-logo.png@'"$LOGONAME"'@' settings.json
+      - cd web\ files && sed 's@(800) 859-7656@'"$SITEPHONE"'@' settings.json
+      - cd web\ files && sed 's@800 N. Magnolia Blvd.@'"$SITEADDRESS"'@' settings.json
+      - cd web\ files && sed 's@Orlando@'"$SITECITY"'@' settings.json
+      - cd web\ files && sed 's@FL@'"$SITESTATE"'@' settings.json
+      - cd web\ files && sed 's@32803@'"$SITEPOSTAL"'@' settings.json
+      - cd web\ files && sed 's@https://www.facebook.com/@'"$SITEFACEBOOK"'@' settings.json
+      - cd web\ files && sed 's@https://twitter.com/@'"$SITETWITTER"'@' settings.json
+      - cd web\ files && sed 's@https://www.linkedin.com/@'"$SITELINKEDIN"'@' settings.json
+      - cd web\ files && sed 's@https://www.youtube.com/@'"$SITEYOUTUBE"'@' settings.json
+      - cd web\ files && sed 's@https://www.instagram.com/@'"$SITEINSTAGRAM"'@' settings.json
+      - cd web\ files && npm install --loglevel info --no-progress
       - zip -r lunarxp.zip web\ files www config.json
       - aws s3 cp lunarxp.zip s3://solodev-aws-ha
       - git init
