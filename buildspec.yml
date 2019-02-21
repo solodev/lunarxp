@@ -30,17 +30,17 @@ phases:
       - cd web\ files && sed 's@https://www.linkedin.com/@'"$SITELINKEDIN"'@' settings.json
       - cd web\ files && sed 's@https://www.youtube.com/@'"$SITEYOUTUBE"'@' settings.json
       - cd web\ files && sed 's@https://www.instagram.com/@'"$SITEINSTAGRAM"'@' settings.json
-      - cd web\ files && npm install --loglevel info --no-progress
       - zip -r lunarxp.zip web\ files www config.json
       - aws s3 cp lunarxp.zip s3://solodev-aws-ha
+      - mkdir marketplace
+      - cd marketplace
+      - yum install git
       - git init
-      - git config --global user.email "${GITEMAIL}"
       - git remote remove origin
-      - git remote add origin https://${AUTH_STRING}@scott.org/${GITORG}/${REPO}.git
-      - git config --global push.default simple
-      - git fetch
-      - git checkout master
+      - git remote add origin https://${GITUSER}:${GITTOKEN}@github.com/${GITORG}/${GITREPO}.git
+      - git pull origin master
+      - cd depot/themes
       - git add lunarxp.zip
-      - git commit -m "updating lunarxp.zip"
+      - git commit -m "Updating LunarXP Theme"
       - git push origin master
       - rm -Rf lunarxp.zip
