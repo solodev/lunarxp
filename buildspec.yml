@@ -37,6 +37,7 @@ phases:
       - git init
       - git remote remove origin
       - git remote add origin https://${GITUSER}:${GITTOKEN}@github.com/${GITORG}/${GITREPO}.git
+      - git config --global push.default simple
       - git pull origin master
       - cd depot/themes
       - git add lunarxp.zip
