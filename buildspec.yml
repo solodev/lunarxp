@@ -36,4 +36,14 @@ phases:
       - sed 's@https://www.instagram.com/@'"$SITEINSTAGRAM"'@' web\ files/settings.json
       - zip -r lunarxp.zip web\ files www config.json
       - aws s3 cp lunarxp.zip s3://solodev-aws-ha
+      - git init
+      - git config --global user.email "${GITEMAIL}"
+      - git remote remove origin
+      - git remote add origin https://${AUTH_STRING}@scott.org/${GITORG}/${REPO}.git
+      - git config --global push.default simple
+      - git fetch
+      - git checkout master
+      - git add lunarxp.zip
+      - git commit -m "updating lunarxp.zip"
+      - git push origin master
       - rm -Rf lunarxp.zip
