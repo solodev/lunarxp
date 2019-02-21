@@ -17,6 +17,7 @@ phases:
       - ls -al
       - curl -sL https://rpm.nodesource.com/setup_11.x | bash -
       - yum install -y --enablerepo=nodesource nodejs zip git
+      - cd web\ files && npm install --loglevel info --no-progress
       - cd web\ files && sed 's@LunarXP@'"$SITENAME"'@' settings.json
       - cd web\ files && sed 's@https://www.lunarxp.com/@'"$SITEURL"'@' settings.json
       - cd web\ files && sed 's@lunar-xp-logo.png@'"$LOGONAME"'@' settings.json
