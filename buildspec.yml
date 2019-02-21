@@ -18,7 +18,7 @@ phases:
       - curl -sL https://rpm.nodesource.com/setup_11.x | bash -
       - yum install -y --enablerepo=nodesource nodejs zip
       - cd web\ files
-      - npm install --loglevel info --no-progress
+      - ls -al
       - sed 's@LunarXP@'"$SITENAME"'@' settings.json
       - sed 's@https://www.lunarxp.com/@'"$SITEURL"'@' settings.json
       - sed 's@lunar-xp-logo.png@'"$LOGONAME"'@' settings.json
@@ -32,6 +32,7 @@ phases:
       - sed 's@https://www.linkedin.com/@'"$SITELINKEDIN"'@' settings.json
       - sed 's@https://www.youtube.com/@'"$SITEYOUTUBE"'@' settings.json
       - sed 's@https://www.instagram.com/@'"$SITEINSTAGRAM"'@' settings.json
+      - npm install --loglevel info --no-progress
       - cd ../
       - zip -r lunarxp.zip web\ files www config.json
       - aws s3 cp lunarxp.zip s3://solodev-aws-ha
