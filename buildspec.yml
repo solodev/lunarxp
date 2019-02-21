@@ -39,7 +39,7 @@ phases:
       - git config --global user.email "${GITUSER}@solodev.com"
       - git config --global push.default simple
       - git pull origin master
-      - mv lunarxp.zip depot/themes/
+      - mv ../lunarxp.zip depot/themes/
       - cd depot/themes
       - git add lunarxp.zip
       - git commit -m "Updating LunarXP Theme"
