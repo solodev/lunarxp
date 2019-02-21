@@ -1,4 +1,4 @@
-[repeater id='<%%{"path":"/web files/managers/Events/Events","type":"Calendar"}%%>'  pages="22" order="start_time desc" display_type="news" where="post_status='Published'"]
+[repeater id='<%%{"path":"/web files/managers/Events/Events","type":"Calendar"}%%>'  pages="22" order="start_time desc" display_type="news"]
 <a href="{{path}}" class="text-black">
   <div class="row pb-4">
     <div class="col-sm-2  mx-auto mx-sm-0 mt-3 mt-sm-0 ">

@@ -6,7 +6,7 @@
     </div> 
   </div>
   <ul class="nav my-4 text-uppercase">
-    <div class="w-50 w-lg-100">
+    <div class="w-50">
     <li class="nav-item">
       <a href="/blog/" class="nav-link text-white px-4"><strong>Blog</strong></a>
     </li>
@@ -20,12 +20,12 @@
       <a href="/faq/" class="nav-link text-white px-4"><strong>FAQ</strong></a>
     </li>
     </div>
-    <div class="w-50 w-lg-100">
+    <div class="w-50">
     <li class="nav-item">
       <a href="/updates/" class="nav-link text-white px-4"><strong>Updates</strong></a>
     </li>
     <li class="nav-item">
-      <a href="/gallery/" class="nav-link text-white px-4"><strong>Gallery</strong></a>
+      <a href="/photo-gallery/" class="nav-link text-white px-4"><strong>Gallery</strong></a>
     </li>
     <li class="nav-item">
       <a href="/about-lunarxp/team/" class="nav-link text-white px-4"><strong>Team</strong></a>

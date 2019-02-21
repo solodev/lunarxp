@@ -1,6 +1,11 @@
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WSJVXQP"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
 <!-- Start Alert Bar -->
 
-[repeater id='<%%{"path":"/web files/managers/Alerts/Alerts","type":"Calendar"}%%>'  limit="0,1" display_type="news" where="post_status='Published'"]
+[repeater id='<%%{"path":"/web files/managers/Alerts/Alerts","type":"Calendar"}%%>'  limit="0,1" display_type="news"]
   <div id="top-alert-bar" class="w-100 bg-secondary text-center">
     <div class="container position-relative py-3">
       [cond type="is" subject="{{alert_destination}}" value="Internal Link"]

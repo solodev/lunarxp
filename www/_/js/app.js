@@ -213,7 +213,29 @@ jQuery(function($) {
     $(this).addClass('active');
    }
   });
-});window.onload = function() {
+});
+/** ===========================================
+   # Forms
+============================================ */
+(function() {
+  'use strict';
+  window.addEventListener('load', function() {
+  $('.required').attr('required',true);
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.getElementsByName('contentForm');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})();
+window.onload = function() {
 
     // Detect IE
     function detectIE() {
@@ -328,11 +350,11 @@ document.addEventListener("DOMContentLoaded", function (evt) {
         function errorMsg() {
             if (cellsPerRow != tableHeadings.length) {
 
-                var errorDiv = SDTable[i].createElement('div');
+                var errorDiv = document.createElement('div');
                 errorDiv.className = "bg-warning text-white";
                 errorDiv.innerHTML =
                     "To use our responsive table, please create a table with equal cells per row and headings";
-                sdTable[0].appendChild(errorDiv);
+                SDTable[0].appendChild(errorDiv);
             }
         }
 

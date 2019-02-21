@@ -1,5 +1,5 @@
 <section id="accordion">
-[repeater id='5' pages="22" order="start_time desc" display_type="news" where="post_status='Published'"]
+[repeater id='<%%{"path":"/web files/managers/FAQs/FAQs","type":"Calendar"}%%>'  pages="22" order="start_time desc" display_type="news" where="post_status='Published'"]
     <a class="py-3 d-block h-100 w-100 position-relative z-index-1 pr-1 text-secondary  border-top" aria-controls="faq-{{calendar_entry_id}}" aria-expanded="false" data-toggle="collapse" href="#faq-{{calendar_entry_id}}" role="button">
   <div class="position-relative">
   [cond type="is" subject="{{index}}" value="0"]

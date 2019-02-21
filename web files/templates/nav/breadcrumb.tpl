@@ -3,7 +3,7 @@
     <div class="row align-items-center">
       <div class="col-sm-6 col-lg-8">
         <small>
-          [breadcrumb delimiter="/"]
+          [breadcrumb]
         </small>
       </div>
       <div class="col-sm-6 col-lg-4 hidden-sm">

@@ -69,7 +69,7 @@
         </div>
         <div id="collapseContact" class="collapse d-md-block">
           <ul class="list-unstyled small border-left pl-4 mt-md-4 border-alpha4-white">
-          	  <li><a class="text-white" href="/gallery/">Gallery</a></li>
+          	  <li><a class="text-white" href="/photo-gallery/">Gallery</a></li>
               <li><a class="text-white" href="/faq/">FAQs</a></li>
               <li><a class="text-white" href="/events/">Events</a></li>
               <li><a class="text-white" href="/blog/">Blog</a></li>

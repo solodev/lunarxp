@@ -1,3 +1,7 @@
 ### .htaccess file ###
 
 ErrorDocument 404 /404.stml
+
+### .htaccess file ###
+
+ErrorDocument 404 /404.stml

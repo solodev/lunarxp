@@ -9,7 +9,7 @@
   [repeater id='<%%{"path":"/web files/managers/Careers/Careers","type":"Calendar"}%%>'  pages="22" order="start_time desc" display_type="news" where="post_status='Published'"]
   <div class="col-md-6 mt-2 mt-md-0 p-2">
     <div class="d-flex p-3 bg-light-gray align-items-center justify-content-between">
-      <div>
+      <div class="p-1">
         [is_set value="{{heading_title}}"]
         <h3 class="h4 mt-3 text-uppercase">{{heading_title}}</h3>
         [/is_set]
@@ -18,7 +18,7 @@
         [/is_empty]
         <p class="mt-3">{{career_intro}}</p>
       </div>
-      <div class="">
+      <div class="p-1">
         <a href="{{path}}" class="btn btn-primary btn-md">Apply</a>
       </div>
     </div>
