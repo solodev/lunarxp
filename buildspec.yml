@@ -36,6 +36,7 @@ phases:
       - cd marketplace
       - git init
       - git remote add origin https://${GITUSER}:${GITTOKEN}@github.com/${GITORG}/${GITREPO}.git
+      - git config --global user.email "${GITUSER}@solodev.com"
       - git config --global push.default simple
       - git pull origin master
       - cd depot/themes
