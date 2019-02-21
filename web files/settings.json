@@ -8,19 +8,19 @@
     "site_name": {
       "description": "The unique name of your website",
       "type": "string",
-			"default": "<%%site_name%%>",
+			"default": "LunarXP",
 			"visible": true
     },
     "site_url": {
       "description": "The domain name of your website",
       "type": "string",
-			"default": "<%%site_url%%>",
+			"default": "https://www.lunarxp.com/",
 			"visible": true
     },
     "site_logo": {
       "description": "The website's primary logo",
       "type": "string",
-			"default": "/_/images/<%%logo_name%%>",
+			"default": "/_/images/lunar-xp-logo.png",
 			"visible": true
     },
     "site_logo_2": {
@@ -32,67 +32,67 @@
     "site_phone": {
       "description": "The website's primary phone number",
       "type": "string",
-			"default": "<%%site_phone%%>",
+			"default": "(800) 859-7656",
 			"visible": true
     },
     "site_email": {
       "description": "The website's primary email address",
       "type": "string",
-			"default": "<%%site_email%%>",
+			"default": "info@lunarxp.com",
 			"visible": true
     },
     "site_address": {
       "description": "The street address of the organization",
       "type": "string",
-			"default": "<%%site_address%%>",
+			"default": "800 N. Magnolia Blvd.",
 			"visible": true
     },
     "site_city": {
       "description": "The city of the organization's address",
       "type": "string",
-			"default": "<%%site_city%%>",
+			"default": "Orlando",
 			"visible": true
     },
     "site_state": {
       "description": "The state of the organization's address",
       "type": "string",
-			"default": "<%%site_state%%>",
+			"default": "FL",
 			"visible": true
     },
     "site_postal_code": {
       "description": "The postal code of the organization's address",
       "type": "string",
-			"default": "<%%site_postal_code%%>",
+			"default": "32803",
 			"visible": true
     },
     "site_facebook": {
       "description": "The Facebook URL of the organization",
       "type": "string",
-			"default": "<%%site_facebook%%>",
+			"default": "https://www.facebook.com/",
 			"visible": true
     },
     "site_twitter": {
       "description": "The Twitter URL of the organization",
       "type": "string",
-			"default": "<%%site_twitter%%>",
+			"default": "https://twitter.com/",
 			"visible": true
     },
     "site_linkedin": {
       "description": "The LinkedIn URL of the organization",
       "type": "string",
-			"default": "<%%site_linkedin%%>",
+			"default": "https://www.linkedin.com/",
 			"visible": true
     },
     "site_youtube": {
       "description": "The YouTube URL of the organization",
       "type": "string",
-			"default": "<%%site_youtube%%>",
+			"default": "https://www.youtube.com/",
 			"visible": true
     },	
     "site_instagram": {
       "description": "The Instagram URL of the organization",
       "type": "string",
-			"default": "<%%site_instagram%%>",
+			"default": "https://www.instagram.com/",
 			"visible": true
     }			
   },

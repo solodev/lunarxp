@@ -19,7 +19,19 @@ phases:
       - cd web\ files
       - npm install --loglevel info --no-progress
       - cd ../
-      - sed 's@abc@'"$ABC"'@' web\ files/settings.json
+      - sed 's@LunarXP@'"$SITENAME"'@' web\ files/settings.json
+      - sed 's@https://www.lunarxp.com/@'"$SITEURL"'@' web\ files/settings.json
+      - sed 's@lunar-xp-logo.png@'"$LOGONAME"'@' web\ files/settings.json
+      - sed 's@(800) 859-7656@'"$SITEPHONE"'@' web\ files/settings.json
+      - sed 's@800 N. Magnolia Blvd.@'"$SITEADDRESS"'@' web\ files/settings.json
+      - sed 's@Orlando@'"$SITECITY"'@' web\ files/settings.json
+      - sed 's@FL@'"$SITESTATE"'@' web\ files/settings.json
+      - sed 's@32803@'"$SITEPOSTAL"'@' web\ files/settings.json
+      - sed 's@https://www.facebook.com/@'"$SITEFACEBOOK"'@' web\ files/settings.json
+      - sed 's@https://twitter.com/@'"$SITETWITTER"'@' web\ files/settings.json
+      - sed 's@https://www.linkedin.com/@'"$SITELINKEDIN"'@' web\ files/settings.json
+      - sed 's@https://www.youtube.com/@'"$SITEYOUTUBE"'@' web\ files/settings.json
+      - sed 's@https://www.instagram.com/@'"$SITEINSTAGRAM"'@' web\ files/settings.json
       - zip -r lunarxp.zip web\ files www config.json
       - aws s3 cp lunarxp.zip s3://solodev-aws-ha
       - rm -Rf lunarxp.zip
