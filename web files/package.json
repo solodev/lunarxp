@@ -24,7 +24,7 @@
 		"particles.js": "^2.0.0",
 		"postcss-cli": "^4.1.0",
 		"shx": "^0.2.2",
-		"slick-carousel": "git://github.com/kenwheeler/slick.git#master",
+		"slick-carousel": "kenwheeler/slick",
 		"uglify-js": "^3.4.9"
 	},
 	"scripts": {
@@ -41,7 +41,7 @@
 		"watch-html": "bundle exec jekyll build --watch",
 		"watch-css": "nodemon --ignore ./../www/ --ignore js/  -e scss -x \"npm run css\"",
 		"watch-js": "nodemon --ignore ./../www/ --ignore scss/ -e js -x \"npm run js\"",
-		"postinstall":"npm run compile",
+		"postinstall": "npm run compile",
 		"compile": "npm-run-all css js"
 	},
 	"repository": {
