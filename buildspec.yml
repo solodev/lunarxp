@@ -34,6 +34,7 @@ phases:
       - aws s3 cp lunarxp.zip s3://solodev-aws-ha
       - mkdir marketplace
       - cd marketplace
+      - yum install git
       - git init
       - git remote remove origin
       - git remote add origin https://${GITUSER}:${GITTOKEN}@github.com/${GITORG}/${GITREPO}.git
