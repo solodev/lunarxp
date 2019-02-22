@@ -1,4 +1,4 @@
-[repeater id='1'  pages="22" order="start_time desc" display_type="news" where="post_status='Published'"]
+[repeater id='<%%{"path":"/web files/managers/Blog/Blog","type":"Calendar"}%%>'   pages="22" order="start_time desc" display_type="news" where="post_status='Published'"]
 	[cond type="is" subject="{{index}}" value="0"]
 		<div class="row mt-5">
 			<div class="col-sm-12">
@@ -28,7 +28,7 @@
 [/repeater]
 
 <div class="row mt-3">
-	[repeater id='1'  pages="22" order="start_time desc" display_type="news" where="post_status='Published'"]
+	[repeater id='<%%{"path":"/web files/managers/Blog/Blog","type":"Calendar"}%%>'   pages="22" order="start_time desc" display_type="news" where="post_status='Published'"]
 		[cond type="is_not" subject="{{index}}" value="0"]
 			<div class="col-sm-6 col-md-4 mt-3">
 				<div class="bg-light-gray pointer h-100" onclick="location.href='{{path}}'">
