@@ -8,24 +8,11 @@
 		"baguettebox.js": "^1.11.0",
 		"bootstrap": "^4.1.3",
 		"bootstrap-validator": "^0.11.9",
-		"codemirror-minified": "^5.37.0",
 		"echo-js": "^1.7.3",
 		"jquery": "^3.2.1",
 		"lazyload": "^2.0.0-beta.2",
-		"npm": "^6.4.1",
-		"popper.js": "^1.14.4"
-	},
-	"devDependencies": {
-		"autoprefixer": "^7.2.6",
-		"clean-css-cli": "^4.2.1",
-		"node-sass": "^4.9.3",
-		"nodemon": "^1.18.4",
-		"npm-run-all": "^4.1.3",
-		"particles.js": "^2.0.0",
-		"postcss-cli": "^4.1.0",
-		"shx": "^0.2.2",
-		"slick-slider": "^1.8.2",
-		"uglify-js": "^3.4.9"
+		"popper.js": "^1.14.4",
+		"slick-slider": "^1.8.2"
 	},
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
