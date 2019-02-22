@@ -100,28 +100,42 @@
         </div>
       </div>
     </section>
-    <div class="bg-secondary text-white py-4 small">
-     <div class="container">
-      <div class="row align-items-center justify-content-between">
-        <div class="col-sm-6 text-center text-lg-left col-lg-3"><a href="/"><img alt="Logo" class="w-75" src="/_/images/lunar-xp-logo-white.png" /></a></div>
-
-        <div class="col-sm-6 text-center col-lg-3">
-          <p class="m-0">© 2018 WebCorpCo. All Rights Reserved.</p>
-        </div>
-
-        <div class="col-sm-6 text-center col-lg-3">
-          <ul class="list-unstyled list-inline list-bordered mb-0">
-            <li class="list-inline-item"><a class="text-white" href="/sitemap.stml">Site Map</a></li>
-            <li class="list-inline-item"><a class="text-white" href="/privacy-policy.stml">Privacy Policy</a></li>
-            <li class="list-inline-item"><a class="text-white" href="/contact-us.stml">Contact Us</a></li>
-          </ul>
-        </div>
-
-        <div class="col-sm-6 text-center text-lg-right col-lg-3">
-          <p class="m-0">Powered by <a class="text-light" href="https://www.solodev.com" target="_blank">Solodev CMS</a></p>
-        </div>
+    <footer>
+    <div class="bg-eerie-black text-white py-4 mt-5">
+  <div class="container">
+    <div class="row align-items-center justify-content-between">
+      <div class="col-lg-7 mt-3 mt-lg-0 text-center text-md-left">
+        <p class="small mb-0">&copy; 2018 [site_name]. All Rights Reserved worldwide and across the galaxy.
+          <a class="text-white pl-1" href="/sitemap.stml"><strong><u>Site Map</u></strong></a>
+          <a class="text-white pl-1" href="/privacy-policy.stml"><strong><u>Privacy Policy</u></strong></a>
+        </p>
+      </div>
+      <div class="col-sm-6 col-lg-2 p-0 mt-3 mt-lg-0 text-center">
+        <p class="mb-0 small">Powered by <a class="text-white" href="https://www.solodev.com" target="_blank"><u>Solodev
+              CMS</u></a><i id="scroll-top" class="pointer pl-3 fas fa-chevron-circle-up fa-lg"></i></p>
+      </div>
+      <div class="col-sm-6 col-lg-3 mt-3 mt-lg-0 text-md-right text-center">
+        <ul class="list-inline mb-0">
+          <li class="list-inline-item mb-0 mr-3">
+            <a href="[site_facebook]" target="_blank"><i class="fab fa-lg fa-facebook-f text-orange"></i></a>
+          </li>
+          <li class="list-inline-item mb-0 mr-3">
+            <a href="[site_twitter]" target="_blank"><i class="fab fa-lg fa-twitter text-orange-dark"></i></a>
+          </li>
+          <li class="list-inline-item mb-0 mr-3">
+            <a href="[site_linkedin]" target="_blank"><i class="fab fa-lg fa-linkedin-in text-watermelon"></i></a>
+          </li>
+          <li class="list-inline-item mb-0 mr-3">
+            <a href="[site_youtube]" target="_blank"><i class="fab fa-lg fa-youtube text-rose"></i></a>
+          </li>
+          <li class="list-inline-item mb-0">
+            <a href="[site_instagram]" target="_blank"><i class="fab fa-lg fa-instagram text-primary"></i></a>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
+</div>
+</footer>
   {{post_javascript}}
 [/entry]

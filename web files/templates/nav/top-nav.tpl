@@ -9,7 +9,7 @@
       </div>
       <div class="col-xl-9 col-lg-10 col-sm-8 col-7">
         <div class="d-sm-flex d-none justify-content-end pt-2 w-100 mw-100">
-          <a class="text-secondary text-hover-primary px-2 px-md-3 small" href="/gallery/">Gallery</a>
+          <a class="text-secondary text-hover-primary px-2 px-md-3 small" href="/photo-gallery/">Gallery</a>
           <a class="text-secondary text-hover-primary px-2 px-md-3 small" href="/faq/">FAQs</a>
           <a class="text-secondary text-hover-primary px-2 px-md-3 small" href="/events/">Events</a>
           <a class="text-secondary text-hover-primary px-2 px-md-3 small" href="/blog/">Blog</a>
@@ -24,6 +24,9 @@
               <ul class="list-unstyled">
                 <li class="bg-primary">
                   <a class="text-white px-2 d-block w-100" href="/about-lunarxp/team/">Team</a>
+                </li>
+                <li class="bg-primary">
+                  <a class="text-white px-2 d-block w-100" href="/about-lunarxp/partners/">Partners</a>
                 </li>
               </ul>
             </div>

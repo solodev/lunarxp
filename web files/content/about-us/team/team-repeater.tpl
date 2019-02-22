@@ -7,7 +7,7 @@
   
 <div class="row pb-5">
 [repeater id='<%%{"path":"/web files/managers/Team/Team","type":"Calendar"}%%>'  pages="22" order="start_time desc" display_type="news" where="post_status='Published'"]
-  <div class="col-md-6 col-lg-3">
+  <div class="col-md-6 col-lg-3 mt-3">
     <a href="{{path}}">
       <div class="position-relative bg-secondary bg-hover-secondary-dark">
         <img alt="Team Image" src="[get_asset_file_url id={{team_member_image}}]" class="w-100 img-fluid">

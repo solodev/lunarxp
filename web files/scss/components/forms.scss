@@ -34,11 +34,11 @@ select {
   &.form-control {
     padding: 0 1rem;
     -webkit-appearance: none;
-    background-image: url('/__/images/angle-down.png');
+    background-image: url('/_/images/angle-down.png');
     background-size: 10px;
     background-position: 96% 50%;
     background-repeat: no-repeat;
-    color: theme-color('vulcan');
+    color: theme-color('secondary');
   }
   &.h4 {
     font-family: $font-family;
@@ -47,3 +47,9 @@ select {
 textarea {
   padding-top: 1rem;
 }
+
+.search-input-row {
+  	.search-page-search-submit {
+    	border-radius: 0;
+  }
+} 
