@@ -31,7 +31,7 @@ phases:
       - cd web\ files && sed 's@https://www.linkedin.com/@'"$SITELINKEDIN"'@' settings.json
       - cd web\ files && sed 's@https://www.youtube.com/@'"$SITEYOUTUBE"'@' settings.json
       - cd web\ files && sed 's@https://www.instagram.com/@'"$SITEINSTAGRAM"'@' settings.json
-      - zip -r lunarxp.zip web\ files www config.json
+      - zip --symlinks -r lunarxp.zip web\ files www config.json
       - aws s3 cp lunarxp.zip s3://solodev-aws-ha
       - mkdir marketplace
       - cd marketplace
