@@ -1,4 +1,4 @@
-<header class="position-relative h-sm-350p h-400p d-flex align-items-center text-center text-md-left" style='background: url([get_asset_from_folder path_id="64"] <!-- id may need to be updated -->) center/cover no-repeat'>
+<header class="position-relative h-sm-350p h-400p d-flex align-items-center text-center text-md-left" style='background: url([get_asset_from_folder path_id='<%%{"path":"/www/_/images/sectional-images","type":"Asset_Category"}%%>' ]) center/cover no-repeat'>
   <div class="position-absolute top-0 left-0 w-100 h-100 bg-alpha2"></div>
 
   <div class="w-100 z-index-1">
