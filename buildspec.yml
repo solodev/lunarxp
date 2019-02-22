@@ -15,8 +15,7 @@ phases:
       - aws configure set aws_secret_access_key `./jq -r '.SecretAccessKey' aws_credentials.json`
       - aws configure set aws_session_token `./jq -r '.Token' aws_credentials.json`
       - ls -al
-      - curl -sL https://rpm.nodesource.com/setup_11.x | bash -
-      - yum install -y --enablerepo=nodesource nodejs zip git
+      - yum install -y zip git
       - cd web\ files && sed 's@LunarXP@'"$SITENAME"'@' settings.json
       - cd web\ files && sed 's@https://www.lunarxp.com/@'"$SITEURL"'@' settings.json
       - cd web\ files && sed 's@lunar-xp-logo.png@'"$LOGONAME"'@' settings.json
