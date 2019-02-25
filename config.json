@@ -361,8 +361,8 @@
         },
         {
             "name": "blog-1.jpg",
-            "from_path": "/web files/managers/Blog/_Assets/blog-1.jpg",
-            "to_path": "/web files/managers/Blog/_Assets/blog-1.jpg"
+            "from_path": "/web files/managers/Gear/_Assets/blog-1.jpg",
+            "to_path": "/web files/managers/Gear/_Assets/blog-1.jpg"
         },
         {
             "name": "blog-1.jpg",
@@ -371,8 +371,8 @@
         },
         {
             "name": "blog-1.jpg",
-            "from_path": "/web files/managers/Gear/_Assets/blog-1.jpg",
-            "to_path": "/web files/managers/Gear/_Assets/blog-1.jpg"
+            "from_path": "/web files/managers/Blog/_Assets/blog-1.jpg",
+            "to_path": "/web files/managers/Blog/_Assets/blog-1.jpg"
         },
         {
             "name": "blog-1.jpg",
@@ -476,6 +476,11 @@
         },
         {
             "name": "blog1.jpg",
+            "from_path": "/web files/managers/Blog/_Assets/blog1.jpg",
+            "to_path": "/web files/managers/Blog/_Assets/blog1.jpg"
+        },
+        {
+            "name": "blog1.jpg",
             "from_path": "/www/_/images/blog1.jpg",
             "to_path": "/www/_/images/blog1.jpg"
         },
@@ -490,19 +495,14 @@
             "to_path": "/web files/managers/Blog/_Assets/blog1.jpg"
         },
         {
-            "name": "blog1.jpg",
-            "from_path": "/web files/managers/Blog/_Assets/blog1.jpg",
-            "to_path": "/web files/managers/Blog/_Assets/blog1.jpg"
+            "name": "blog2.jpg",
+            "from_path": "/web files/managers/Blog/_Assets/blog2.jpg",
+            "to_path": "/web files/managers/Blog/_Assets/blog2.jpg"
         },
         {
             "name": "blog2.jpg",
             "from_path": "/www/_/images/blog2.jpg",
             "to_path": "/www/_/images/blog2.jpg"
-        },
-        {
-            "name": "blog2.jpg",
-            "from_path": "/web files/managers/Blog/_Assets/blog2.jpg",
-            "to_path": "/web files/managers/Blog/_Assets/blog2.jpg"
         },
         {
             "name": "blog2.jpg",
@@ -543,70 +543,6 @@
             "name": "careers.jpg",
             "from_path": "/www/_/images/sectional-images/careers.jpg",
             "to_path": "/www/_/images/sectional-images/careers.jpg"
-        },
-        {
-            "name": "category.stml",
-            "from_path": "/www/events/category.stml",
-            "to_path": "/www/events/category.stml",
-            "title": null,
-            "structure": "0",
-            "rank": null,
-            "menu": null,
-            "meta_description": null,
-            "meta_keywords": null,
-            "description": null,
-            "headerBlock": null,
-            "content_title": null,
-            "body_id": null,
-            "body_role": null,
-            "body_class": null,
-            "contents": [
-                {
-                    "area": "dd.0",
-                    "type": "file",
-                    "from_path": "/web files/templates/basetemplate.tpl"
-                },
-                {
-                    "area": "dd.0.1",
-                    "type": "file",
-                    "from_path": "/web files/templates/nav/top-nav.tpl"
-                },
-                {
-                    "area": "dd.0.2",
-                    "type": "file",
-                    "from_path": "/web files/templates/hero/sectional-hero.tpl"
-                },
-                {
-                    "area": "dd.0.3",
-                    "type": "file",
-                    "from_path": "/web files/templates/nav/breadcrumb.tpl"
-                },
-                {
-                    "area": "dd.0.4",
-                    "type": "file",
-                    "from_path": "/web files/templates/interiors/sectional-template.tpl"
-                },
-                {
-                    "area": "dd.0.4.4",
-                    "type": "file",
-                    "from_path": "/web files/templates/nav/left-nav.tpl"
-                },
-                {
-                    "area": "dd.0.4.0",
-                    "type": "file",
-                    "from_path": "/web files/content/events/events-category.tpl"
-                },
-                {
-                    "area": "dd.0.11",
-                    "type": "file",
-                    "from_path": "/web files/templates/footer/footer.tpl"
-                },
-                {
-                    "area": "dd.0.10",
-                    "type": "file",
-                    "from_path": "/web files/templates/footer/footer-form.tpl"
-                }
-            ]
         },
         {
             "name": "category.stml",
@@ -786,6 +722,70 @@
             ]
         },
         {
+            "name": "category.stml",
+            "from_path": "/www/events/category.stml",
+            "to_path": "/www/events/category.stml",
+            "title": null,
+            "structure": "0",
+            "rank": null,
+            "menu": null,
+            "meta_description": null,
+            "meta_keywords": null,
+            "description": null,
+            "headerBlock": null,
+            "content_title": null,
+            "body_id": null,
+            "body_role": null,
+            "body_class": null,
+            "contents": [
+                {
+                    "area": "dd.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/basetemplate.tpl"
+                },
+                {
+                    "area": "dd.0.1",
+                    "type": "file",
+                    "from_path": "/web files/templates/nav/top-nav.tpl"
+                },
+                {
+                    "area": "dd.0.2",
+                    "type": "file",
+                    "from_path": "/web files/templates/hero/sectional-hero.tpl"
+                },
+                {
+                    "area": "dd.0.3",
+                    "type": "file",
+                    "from_path": "/web files/templates/nav/breadcrumb.tpl"
+                },
+                {
+                    "area": "dd.0.4",
+                    "type": "file",
+                    "from_path": "/web files/templates/interiors/sectional-template.tpl"
+                },
+                {
+                    "area": "dd.0.4.4",
+                    "type": "file",
+                    "from_path": "/web files/templates/nav/left-nav.tpl"
+                },
+                {
+                    "area": "dd.0.4.0",
+                    "type": "file",
+                    "from_path": "/web files/content/events/events-category.tpl"
+                },
+                {
+                    "area": "dd.0.11",
+                    "type": "file",
+                    "from_path": "/web files/templates/footer/footer.tpl"
+                },
+                {
+                    "area": "dd.0.10",
+                    "type": "file",
+                    "from_path": "/web files/templates/footer/footer-form.tpl"
+                }
+            ]
+        },
+        {
             "name": "chartz-mockup.png",
             "from_path": "/web files/managers/Partners/_Assets/chartz-mockup.png",
             "to_path": "/web files/managers/Partners/_Assets/chartz-mockup.png"
@@ -822,6 +822,11 @@
         },
         {
             "name": "client2.png",
+            "from_path": "/web files/managers/Partners/_Assets/client2.png",
+            "to_path": "/web files/managers/Partners/_Assets/client2.png"
+        },
+        {
+            "name": "client2.png",
             "from_path": "/www/_/images/client2.png",
             "to_path": "/www/_/images/client2.png"
         },
@@ -831,19 +836,14 @@
             "to_path": "/web files/managers/Partners/_Assets/client2.png"
         },
         {
-            "name": "client2.png",
-            "from_path": "/web files/managers/Partners/_Assets/client2.png",
-            "to_path": "/web files/managers/Partners/_Assets/client2.png"
+            "name": "client3.png",
+            "from_path": "/www/_/images/client3.png",
+            "to_path": "/www/_/images/client3.png"
         },
         {
             "name": "client3.png",
             "from_path": "/web files/managers/Partners/_Assets/client3.png",
             "to_path": "/web files/managers/Partners/_Assets/client3.png"
-        },
-        {
-            "name": "client3.png",
-            "from_path": "/www/_/images/client3.png",
-            "to_path": "/www/_/images/client3.png"
         },
         {
             "name": "client3.png",
@@ -872,6 +872,11 @@
         },
         {
             "name": "client7.png",
+            "from_path": "/web files/managers/Partners/_Assets/client7.png",
+            "to_path": "/web files/managers/Partners/_Assets/client7.png"
+        },
+        {
+            "name": "client7.png",
             "from_path": "/www/_/images/client7.png",
             "to_path": "/www/_/images/client7.png"
         },
@@ -879,11 +884,6 @@
             "name": "client7.png",
             "from_path": "/web files/managers/Gear/_Assets/client7.png",
             "to_path": "/web files/managers/Gear/_Assets/client7.png"
-        },
-        {
-            "name": "client7.png",
-            "from_path": "/web files/managers/Partners/_Assets/client7.png",
-            "to_path": "/web files/managers/Partners/_Assets/client7.png"
         },
         {
             "name": "client8.png",
@@ -1995,13 +1995,362 @@
         },
         {
             "name": "index.html",
+            "from_path": "/web files/content/index.html",
+            "to_path": "/web files/content/index.html"
+        },
+        {
+            "name": "index.html",
             "from_path": "/web files/content/ships/index.html",
             "to_path": "/web files/content/ships/index.html"
         },
         {
-            "name": "index.html",
-            "from_path": "/web files/content/index.html",
-            "to_path": "/web files/content/index.html"
+            "name": "index.stml",
+            "from_path": "/www/gallery/index.stml",
+            "to_path": "/www/gallery/index.stml",
+            "title": "Gallery",
+            "structure": "0",
+            "rank": null,
+            "menu": null,
+            "meta_description": null,
+            "meta_keywords": null,
+            "description": null,
+            "headerBlock": null,
+            "content_title": null,
+            "body_id": null,
+            "body_role": null,
+            "body_class": null,
+            "contents": [
+                {
+                    "area": "dd.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/basetemplate.tpl"
+                },
+                {
+                    "area": "dd.0.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/nav/top-nav.tpl"
+                },
+                {
+                    "area": "dd.0.2",
+                    "type": "file",
+                    "from_path": "/web files/templates/nav/breadcrumb.tpl"
+                },
+                {
+                    "area": "dd.0.3",
+                    "type": "file",
+                    "from_path": "/web files/templates/interiors/sectional-full.tpl"
+                },
+                {
+                    "area": "dd.0.3.0",
+                    "type": "file",
+                    "from_path": "/web files/content/gallery/gallery-repeater.tpl"
+                },
+                {
+                    "area": "dd.0.6",
+                    "type": "file",
+                    "from_path": "/web files/templates/footer/footer-form.tpl"
+                },
+                {
+                    "area": "dd.0.7",
+                    "type": "file",
+                    "from_path": "/web files/templates/footer/footer.tpl"
+                },
+                {
+                    "area": "dd.0.1",
+                    "type": "file",
+                    "from_path": "/web files/templates/hero/sectional-hero.tpl"
+                }
+            ]
+        },
+        {
+            "name": "index.stml",
+            "from_path": "/www/index.stml",
+            "to_path": "/www/index.stml",
+            "title": null,
+            "structure": "0",
+            "rank": null,
+            "menu": null,
+            "meta_description": "..",
+            "meta_keywords": "marketing,business,learn,webcorpco,content,cms,sales,data,management,big",
+            "description": null,
+            "headerBlock": null,
+            "content_title": null,
+            "body_id": null,
+            "body_role": null,
+            "body_class": null,
+            "contents": [
+                {
+                    "area": "dd.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/basetemplate.tpl"
+                },
+                {
+                    "area": "dd.0.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/nav/top-nav.tpl"
+                },
+                {
+                    "area": "dd.0.1",
+                    "type": "file",
+                    "from_path": "/web files/content/home/homepage-slider.tpl"
+                },
+                {
+                    "area": "dd.0.2",
+                    "type": "file",
+                    "from_path": "/web files/content/home/home-video.tpl"
+                },
+                {
+                    "area": "dd.0.3",
+                    "type": "file",
+                    "from_path": "/web files/templates/sections/blog-section.tpl"
+                },
+                {
+                    "area": "dd.0.4",
+                    "type": "file",
+                    "from_path": "/web files/templates/sections/testimonials-slider.tpl"
+                },
+                {
+                    "area": "dd.0.5",
+                    "type": "file",
+                    "from_path": "/web files/content/index.html"
+                },
+                {
+                    "area": "dd.0.9",
+                    "type": "file",
+                    "from_path": "/web files/templates/footer/footer.tpl"
+                },
+                {
+                    "area": "dd.0.8",
+                    "type": "file",
+                    "from_path": "/web files/templates/footer/footer-form.tpl"
+                },
+                {
+                    "area": "dd.0.10",
+                    "type": "file",
+                    "from_path": "/web files/templates/nav/socials-fixed.tpl"
+                }
+            ]
+        },
+        {
+            "name": "index.stml",
+            "from_path": "/www/faq/index.stml",
+            "to_path": "/www/faq/index.stml",
+            "title": "FAQs",
+            "structure": "0",
+            "rank": null,
+            "menu": null,
+            "meta_description": null,
+            "meta_keywords": null,
+            "description": null,
+            "headerBlock": null,
+            "content_title": null,
+            "body_id": null,
+            "body_role": null,
+            "body_class": null,
+            "contents": [
+                {
+                    "area": "dd.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/basetemplate.tpl"
+                },
+                {
+                    "area": "dd.0.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/nav/top-nav.tpl"
+                },
+                {
+                    "area": "dd.0.1",
+                    "type": "file",
+                    "from_path": "/web files/templates/hero/sectional-hero.tpl"
+                },
+                {
+                    "area": "dd.0.2",
+                    "type": "file",
+                    "from_path": "/web files/templates/nav/breadcrumb.tpl"
+                },
+                {
+                    "area": "dd.0.3",
+                    "type": "file",
+                    "from_path": "/web files/templates/interiors/sectional-full.tpl"
+                },
+                {
+                    "area": "dd.0.3.0",
+                    "type": "file",
+                    "from_path": "/web files/content/faq/faq-repeater.tpl"
+                },
+                {
+                    "area": "dd.0.6",
+                    "type": "file",
+                    "from_path": "/web files/templates/footer/footer-form.tpl"
+                },
+                {
+                    "area": "dd.0.7",
+                    "type": "file",
+                    "from_path": "/web files/templates/footer/footer.tpl"
+                }
+            ]
+        },
+        {
+            "name": "index.stml",
+            "from_path": "/www/intranet/index.stml",
+            "to_path": "/www/intranet/index.stml",
+            "title": "Intranet",
+            "structure": "0",
+            "rank": null,
+            "menu": null,
+            "meta_description": null,
+            "meta_keywords": null,
+            "description": null,
+            "headerBlock": null,
+            "content_title": null,
+            "body_id": null,
+            "body_role": null,
+            "body_class": null,
+            "contents": [
+                {
+                    "area": "dd.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/basetemplate.tpl"
+                },
+                {
+                    "area": "dd.0.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/nav/top-nav.tpl"
+                },
+                {
+                    "area": "dd.0.1",
+                    "type": "file",
+                    "from_path": "/web files/templates/hero/sectional-hero.tpl"
+                },
+                {
+                    "area": "dd.0.2",
+                    "type": "file",
+                    "from_path": "/web files/templates/interiors/sectional-full.tpl"
+                },
+                {
+                    "area": "dd.0.2.0",
+                    "type": "file",
+                    "from_path": "/web files/content/intranet/index.tpl"
+                },
+                {
+                    "area": "dd.0.7",
+                    "type": "file",
+                    "from_path": "/web files/templates/footer/footer.tpl"
+                }
+            ]
+        },
+        {
+            "name": "index.stml",
+            "from_path": "/www/blog/index.stml",
+            "to_path": "/www/blog/index.stml",
+            "title": "LunarXP Blog",
+            "structure": "0",
+            "rank": null,
+            "menu": null,
+            "meta_description": null,
+            "meta_keywords": null,
+            "description": null,
+            "headerBlock": null,
+            "content_title": null,
+            "body_id": null,
+            "body_role": null,
+            "body_class": null,
+            "contents": [
+                {
+                    "area": "dd.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/basetemplate.tpl"
+                },
+                {
+                    "area": "dd.0.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/nav/top-nav.tpl"
+                },
+                {
+                    "area": "dd.0.1",
+                    "type": "file",
+                    "from_path": "/web files/templates/hero/sectional-hero.tpl"
+                },
+                {
+                    "area": "dd.0.3",
+                    "type": "file",
+                    "from_path": "/web files/templates/interiors/sectional-full.tpl"
+                },
+                {
+                    "area": "dd.0.3.0",
+                    "type": "file",
+                    "from_path": "/web files/content/blog/blog-repeater.tpl"
+                },
+                {
+                    "area": "dd.0.6",
+                    "type": "file",
+                    "from_path": "/web files/templates/footer/footer-form.tpl"
+                },
+                {
+                    "area": "dd.0.7",
+                    "type": "file",
+                    "from_path": "/web files/templates/footer/footer.tpl"
+                },
+                {
+                    "area": "dd.0.2",
+                    "type": "file",
+                    "from_path": "/web files/templates/nav/breadcrumb.tpl"
+                }
+            ]
+        },
+        {
+            "name": "index.stml",
+            "from_path": "/www/colony/index.stml",
+            "to_path": "/www/colony/index.stml",
+            "title": "Colony",
+            "structure": "0",
+            "rank": null,
+            "menu": null,
+            "meta_description": null,
+            "meta_keywords": null,
+            "description": null,
+            "headerBlock": null,
+            "content_title": null,
+            "body_id": null,
+            "body_role": null,
+            "body_class": null,
+            "contents": [
+                {
+                    "area": "dd.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/basetemplate.tpl"
+                },
+                {
+                    "area": "dd.0.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/nav/top-nav.tpl"
+                },
+                {
+                    "area": "dd.0.1",
+                    "type": "file",
+                    "from_path": "/web files/templates/hero/sectional-hero.tpl"
+                },
+                {
+                    "area": "dd.0.2",
+                    "type": "file",
+                    "from_path": "/web files/templates/nav/breadcrumb.tpl"
+                },
+                {
+                    "area": "dd.0.11",
+                    "type": "file",
+                    "from_path": "/web files/templates/footer/footer.tpl"
+                },
+                {
+                    "area": "dd.0.3",
+                    "type": "file",
+                    "from_path": "/web files/templates/interiors/sectional-full.tpl"
+                },
+                {
+                    "area": "dd.0.3.0",
+                    "type": "file",
+                    "from_path": "/web files/content/colony/index.tpl"
+                }
+            ]
         },
         {
             "name": "index.stml",
@@ -2638,353 +2987,14 @@
             ]
         },
         {
-            "name": "index.stml",
-            "from_path": "/www/gallery/index.stml",
-            "to_path": "/www/gallery/index.stml",
-            "title": "Gallery",
-            "structure": "0",
-            "rank": null,
-            "menu": null,
-            "meta_description": null,
-            "meta_keywords": null,
-            "description": null,
-            "headerBlock": null,
-            "content_title": null,
-            "body_id": null,
-            "body_role": null,
-            "body_class": null,
-            "contents": [
-                {
-                    "area": "dd.0",
-                    "type": "file",
-                    "from_path": "/web files/templates/basetemplate.tpl"
-                },
-                {
-                    "area": "dd.0.0",
-                    "type": "file",
-                    "from_path": "/web files/templates/nav/top-nav.tpl"
-                },
-                {
-                    "area": "dd.0.2",
-                    "type": "file",
-                    "from_path": "/web files/templates/nav/breadcrumb.tpl"
-                },
-                {
-                    "area": "dd.0.3",
-                    "type": "file",
-                    "from_path": "/web files/templates/interiors/sectional-full.tpl"
-                },
-                {
-                    "area": "dd.0.3.0",
-                    "type": "file",
-                    "from_path": "/web files/content/gallery/gallery-repeater.tpl"
-                },
-                {
-                    "area": "dd.0.6",
-                    "type": "file",
-                    "from_path": "/web files/templates/footer/footer-form.tpl"
-                },
-                {
-                    "area": "dd.0.7",
-                    "type": "file",
-                    "from_path": "/web files/templates/footer/footer.tpl"
-                },
-                {
-                    "area": "dd.0.1",
-                    "type": "file",
-                    "from_path": "/web files/templates/hero/sectional-hero.tpl"
-                }
-            ]
+            "name": "index.tpl",
+            "from_path": "/web files/content/intranet/secure/index.tpl",
+            "to_path": "/web files/content/intranet/secure/index.tpl"
         },
         {
-            "name": "index.stml",
-            "from_path": "/www/index.stml",
-            "to_path": "/www/index.stml",
-            "title": null,
-            "structure": "0",
-            "rank": null,
-            "menu": null,
-            "meta_description": "..",
-            "meta_keywords": "marketing,business,learn,webcorpco,content,cms,sales,data,management,big",
-            "description": null,
-            "headerBlock": null,
-            "content_title": null,
-            "body_id": null,
-            "body_role": null,
-            "body_class": null,
-            "contents": [
-                {
-                    "area": "dd.0",
-                    "type": "file",
-                    "from_path": "/web files/templates/basetemplate.tpl"
-                },
-                {
-                    "area": "dd.0.0",
-                    "type": "file",
-                    "from_path": "/web files/templates/nav/top-nav.tpl"
-                },
-                {
-                    "area": "dd.0.1",
-                    "type": "file",
-                    "from_path": "/web files/content/home/homepage-slider.tpl"
-                },
-                {
-                    "area": "dd.0.2",
-                    "type": "file",
-                    "from_path": "/web files/content/home/home-video.tpl"
-                },
-                {
-                    "area": "dd.0.3",
-                    "type": "file",
-                    "from_path": "/web files/templates/sections/blog-section.tpl"
-                },
-                {
-                    "area": "dd.0.4",
-                    "type": "file",
-                    "from_path": "/web files/templates/sections/testimonials-slider.tpl"
-                },
-                {
-                    "area": "dd.0.5",
-                    "type": "file",
-                    "from_path": "/web files/content/index.html"
-                },
-                {
-                    "area": "dd.0.9",
-                    "type": "file",
-                    "from_path": "/web files/templates/footer/footer.tpl"
-                },
-                {
-                    "area": "dd.0.8",
-                    "type": "file",
-                    "from_path": "/web files/templates/footer/footer-form.tpl"
-                },
-                {
-                    "area": "dd.0.10",
-                    "type": "file",
-                    "from_path": "/web files/templates/nav/socials-fixed.tpl"
-                }
-            ]
-        },
-        {
-            "name": "index.stml",
-            "from_path": "/www/faq/index.stml",
-            "to_path": "/www/faq/index.stml",
-            "title": "FAQs",
-            "structure": "0",
-            "rank": null,
-            "menu": null,
-            "meta_description": null,
-            "meta_keywords": null,
-            "description": null,
-            "headerBlock": null,
-            "content_title": null,
-            "body_id": null,
-            "body_role": null,
-            "body_class": null,
-            "contents": [
-                {
-                    "area": "dd.0",
-                    "type": "file",
-                    "from_path": "/web files/templates/basetemplate.tpl"
-                },
-                {
-                    "area": "dd.0.0",
-                    "type": "file",
-                    "from_path": "/web files/templates/nav/top-nav.tpl"
-                },
-                {
-                    "area": "dd.0.1",
-                    "type": "file",
-                    "from_path": "/web files/templates/hero/sectional-hero.tpl"
-                },
-                {
-                    "area": "dd.0.2",
-                    "type": "file",
-                    "from_path": "/web files/templates/nav/breadcrumb.tpl"
-                },
-                {
-                    "area": "dd.0.3",
-                    "type": "file",
-                    "from_path": "/web files/templates/interiors/sectional-full.tpl"
-                },
-                {
-                    "area": "dd.0.3.0",
-                    "type": "file",
-                    "from_path": "/web files/content/faq/faq-repeater.tpl"
-                },
-                {
-                    "area": "dd.0.6",
-                    "type": "file",
-                    "from_path": "/web files/templates/footer/footer-form.tpl"
-                },
-                {
-                    "area": "dd.0.7",
-                    "type": "file",
-                    "from_path": "/web files/templates/footer/footer.tpl"
-                }
-            ]
-        },
-        {
-            "name": "index.stml",
-            "from_path": "/www/intranet/index.stml",
-            "to_path": "/www/intranet/index.stml",
-            "title": "Intranet",
-            "structure": "0",
-            "rank": null,
-            "menu": null,
-            "meta_description": null,
-            "meta_keywords": null,
-            "description": null,
-            "headerBlock": null,
-            "content_title": null,
-            "body_id": null,
-            "body_role": null,
-            "body_class": null,
-            "contents": [
-                {
-                    "area": "dd.0",
-                    "type": "file",
-                    "from_path": "/web files/templates/basetemplate.tpl"
-                },
-                {
-                    "area": "dd.0.0",
-                    "type": "file",
-                    "from_path": "/web files/templates/nav/top-nav.tpl"
-                },
-                {
-                    "area": "dd.0.1",
-                    "type": "file",
-                    "from_path": "/web files/templates/hero/sectional-hero.tpl"
-                },
-                {
-                    "area": "dd.0.2",
-                    "type": "file",
-                    "from_path": "/web files/templates/interiors/sectional-full.tpl"
-                },
-                {
-                    "area": "dd.0.2.0",
-                    "type": "file",
-                    "from_path": "/web files/content/intranet/index.tpl"
-                },
-                {
-                    "area": "dd.0.7",
-                    "type": "file",
-                    "from_path": "/web files/templates/footer/footer.tpl"
-                }
-            ]
-        },
-        {
-            "name": "index.stml",
-            "from_path": "/www/blog/index.stml",
-            "to_path": "/www/blog/index.stml",
-            "title": "LunarXP Blog",
-            "structure": "0",
-            "rank": null,
-            "menu": null,
-            "meta_description": null,
-            "meta_keywords": null,
-            "description": null,
-            "headerBlock": null,
-            "content_title": null,
-            "body_id": null,
-            "body_role": null,
-            "body_class": null,
-            "contents": [
-                {
-                    "area": "dd.0",
-                    "type": "file",
-                    "from_path": "/web files/templates/basetemplate.tpl"
-                },
-                {
-                    "area": "dd.0.0",
-                    "type": "file",
-                    "from_path": "/web files/templates/nav/top-nav.tpl"
-                },
-                {
-                    "area": "dd.0.1",
-                    "type": "file",
-                    "from_path": "/web files/templates/hero/sectional-hero.tpl"
-                },
-                {
-                    "area": "dd.0.3",
-                    "type": "file",
-                    "from_path": "/web files/templates/interiors/sectional-full.tpl"
-                },
-                {
-                    "area": "dd.0.3.0",
-                    "type": "file",
-                    "from_path": "/web files/content/blog/blog-repeater.tpl"
-                },
-                {
-                    "area": "dd.0.6",
-                    "type": "file",
-                    "from_path": "/web files/templates/footer/footer-form.tpl"
-                },
-                {
-                    "area": "dd.0.7",
-                    "type": "file",
-                    "from_path": "/web files/templates/footer/footer.tpl"
-                },
-                {
-                    "area": "dd.0.2",
-                    "type": "file",
-                    "from_path": "/web files/templates/nav/breadcrumb.tpl"
-                }
-            ]
-        },
-        {
-            "name": "index.stml",
-            "from_path": "/www/colony/index.stml",
-            "to_path": "/www/colony/index.stml",
-            "title": "Colony",
-            "structure": "0",
-            "rank": null,
-            "menu": null,
-            "meta_description": null,
-            "meta_keywords": null,
-            "description": null,
-            "headerBlock": null,
-            "content_title": null,
-            "body_id": null,
-            "body_role": null,
-            "body_class": null,
-            "contents": [
-                {
-                    "area": "dd.0",
-                    "type": "file",
-                    "from_path": "/web files/templates/basetemplate.tpl"
-                },
-                {
-                    "area": "dd.0.0",
-                    "type": "file",
-                    "from_path": "/web files/templates/nav/top-nav.tpl"
-                },
-                {
-                    "area": "dd.0.1",
-                    "type": "file",
-                    "from_path": "/web files/templates/hero/sectional-hero.tpl"
-                },
-                {
-                    "area": "dd.0.2",
-                    "type": "file",
-                    "from_path": "/web files/templates/nav/breadcrumb.tpl"
-                },
-                {
-                    "area": "dd.0.11",
-                    "type": "file",
-                    "from_path": "/web files/templates/footer/footer.tpl"
-                },
-                {
-                    "area": "dd.0.3",
-                    "type": "file",
-                    "from_path": "/web files/templates/interiors/sectional-full.tpl"
-                },
-                {
-                    "area": "dd.0.3.0",
-                    "type": "file",
-                    "from_path": "/web files/content/colony/index.tpl"
-                }
-            ]
+            "name": "index.tpl",
+            "from_path": "/web files/content/contact/index.tpl",
+            "to_path": "/web files/content/contact/index.tpl"
         },
         {
             "name": "index.tpl",
@@ -2995,16 +3005,6 @@
             "name": "index.tpl",
             "from_path": "/web files/content/colony/index.tpl",
             "to_path": "/web files/content/colony/index.tpl"
-        },
-        {
-            "name": "index.tpl",
-            "from_path": "/web files/content/intranet/secure/index.tpl",
-            "to_path": "/web files/content/intranet/secure/index.tpl"
-        },
-        {
-            "name": "index.tpl",
-            "from_path": "/web files/content/contact/index.tpl",
-            "to_path": "/web files/content/contact/index.tpl"
         },
         {
             "name": "iStock-185215907.jpg",
@@ -3043,18 +3043,18 @@
         },
         {
             "name": "logic-mockup.jpg",
-            "from_path": "/web files/managers/Partners/_Assets/logic-mockup.jpg",
-            "to_path": "/web files/managers/Partners/_Assets/logic-mockup.jpg"
-        },
-        {
-            "name": "logic-mockup.jpg",
-            "from_path": "/web files/managers/Partners/_Assets/logic-mockup.jpg",
-            "to_path": "/web files/managers/Partners/_Assets/logic-mockup.jpg"
-        },
-        {
-            "name": "logic-mockup.jpg",
             "from_path": "/www/_/images/logic-mockup.jpg",
             "to_path": "/www/_/images/logic-mockup.jpg"
+        },
+        {
+            "name": "logic-mockup.jpg",
+            "from_path": "/web files/managers/Partners/_Assets/logic-mockup.jpg",
+            "to_path": "/web files/managers/Partners/_Assets/logic-mockup.jpg"
+        },
+        {
+            "name": "logic-mockup.jpg",
+            "from_path": "/web files/managers/Partners/_Assets/logic-mockup.jpg",
+            "to_path": "/web files/managers/Partners/_Assets/logic-mockup.jpg"
         },
         {
             "name": "logo-target.png",
@@ -3108,6 +3108,11 @@
         },
         {
             "name": "lunar_xplorer.jpg",
+            "from_path": "/www/_/images/sectional-images/lunar_xplorer.jpg",
+            "to_path": "/www/_/images/sectional-images/lunar_xplorer.jpg"
+        },
+        {
+            "name": "lunar_xplorer.jpg",
             "from_path": "/www/_/images/lunar_xplorer.jpg",
             "to_path": "/www/_/images/lunar_xplorer.jpg"
         },
@@ -3115,11 +3120,6 @@
             "name": "lunar_xplorer.jpg",
             "from_path": "/web files/managers/Photo Galleries/_Assets/lunar_xplorer.jpg",
             "to_path": "/web files/managers/Photo Galleries/_Assets/lunar_xplorer.jpg"
-        },
-        {
-            "name": "lunar_xplorer.jpg",
-            "from_path": "/www/_/images/sectional-images/lunar_xplorer.jpg",
-            "to_path": "/www/_/images/sectional-images/lunar_xplorer.jpg"
         },
         {
             "name": "lunar_xplorer.stml",
@@ -3529,13 +3529,13 @@
         },
         {
             "name": "photos1.jpg",
-            "from_path": "/web files/managers/Photo Galleries/_Assets/photos1.jpg",
-            "to_path": "/web files/managers/Photo Galleries/_Assets/photos1.jpg"
+            "from_path": "/www/_/images/photos1.jpg",
+            "to_path": "/www/_/images/photos1.jpg"
         },
         {
             "name": "photos1.jpg",
-            "from_path": "/www/_/images/photos1.jpg",
-            "to_path": "/www/_/images/photos1.jpg"
+            "from_path": "/web files/managers/Photo Galleries/_Assets/photos1.jpg",
+            "to_path": "/web files/managers/Photo Galleries/_Assets/photos1.jpg"
         },
         {
             "name": "popcorn-movie-party-entertainment.jpg",
@@ -4212,13 +4212,13 @@
         },
         {
             "name": "talon2.jpg",
-            "from_path": "/www/_/images/sectional-images/talon2.jpg",
-            "to_path": "/www/_/images/sectional-images/talon2.jpg"
+            "from_path": "/www/_/images/talon2.jpg",
+            "to_path": "/www/_/images/talon2.jpg"
         },
         {
             "name": "talon2.jpg",
-            "from_path": "/www/_/images/talon2.jpg",
-            "to_path": "/www/_/images/talon2.jpg"
+            "from_path": "/www/_/images/sectional-images/talon2.jpg",
+            "to_path": "/www/_/images/sectional-images/talon2.jpg"
         },
         {
             "name": "talon2.jpg",
@@ -4316,11 +4316,6 @@
         },
         {
             "name": "team2.jpg",
-            "from_path": "/web files/managers/Team/_Assets/team2.jpg",
-            "to_path": "/web files/managers/Team/_Assets/team2.jpg"
-        },
-        {
-            "name": "team2.jpg",
             "from_path": "/www/_/images/team2.jpg",
             "to_path": "/www/_/images/team2.jpg"
         },
@@ -4330,19 +4325,24 @@
             "to_path": "/web files/managers/Team/_Assets/team2.jpg"
         },
         {
-            "name": "team3.jpg",
-            "from_path": "/web files/managers/Team/_Assets/team3.jpg",
-            "to_path": "/web files/managers/Team/_Assets/team3.jpg"
-        },
-        {
-            "name": "team3.jpg",
-            "from_path": "/web files/managers/Team/_Assets/team3.jpg",
-            "to_path": "/web files/managers/Team/_Assets/team3.jpg"
+            "name": "team2.jpg",
+            "from_path": "/web files/managers/Team/_Assets/team2.jpg",
+            "to_path": "/web files/managers/Team/_Assets/team2.jpg"
         },
         {
             "name": "team3.jpg",
             "from_path": "/www/_/images/team3.jpg",
             "to_path": "/www/_/images/team3.jpg"
+        },
+        {
+            "name": "team3.jpg",
+            "from_path": "/web files/managers/Team/_Assets/team3.jpg",
+            "to_path": "/web files/managers/Team/_Assets/team3.jpg"
+        },
+        {
+            "name": "team3.jpg",
+            "from_path": "/web files/managers/Team/_Assets/team3.jpg",
+            "to_path": "/web files/managers/Team/_Assets/team3.jpg"
         },
         {
             "name": "team4.jpg",
@@ -4539,6 +4539,11 @@
             "to_path": "/web files/content/ships/valkyrie1.html"
         },
         {
+            "name": "Valkyrie1.jpg",
+            "from_path": "/web files/managers/Photo Galleries/_Assets/Valkyrie1.jpg",
+            "to_path": "/web files/managers/Photo Galleries/_Assets/Valkyrie1.jpg"
+        },
+        {
             "name": "valkyrie1.jpg",
             "from_path": "/www/_/images/valkyrie1.jpg",
             "to_path": "/www/_/images/valkyrie1.jpg"
@@ -4547,11 +4552,6 @@
             "name": "valkyrie1.jpg",
             "from_path": "/www/_/images/sectional-images/valkyrie1.jpg",
             "to_path": "/www/_/images/sectional-images/valkyrie1.jpg"
-        },
-        {
-            "name": "Valkyrie1.jpg",
-            "from_path": "/web files/managers/Photo Galleries/_Assets/Valkyrie1.jpg",
-            "to_path": "/web files/managers/Photo Galleries/_Assets/Valkyrie1.jpg"
         },
         {
             "name": "valkyrie1.stml",
@@ -4757,6 +4757,11 @@
             "datatable_category_group": "/web files/managers/Blog/Blog Categories"
         },
         {
+            "from_path": "/web files/content/careers",
+            "to_path": "/web files/content/careers",
+            "title": "Careers"
+        },
+        {
             "from_path": "/www/careers",
             "to_path": "/www/careers",
             "title": "Careers",
@@ -4766,11 +4771,6 @@
             "from_path": "/web files/managers/Careers",
             "to_path": "/web files/managers/Careers",
             "structure": "0"
-        },
-        {
-            "from_path": "/web files/content/careers",
-            "to_path": "/web files/content/careers",
-            "title": "Careers"
         },
         {
             "from_path": "/www/colony",
@@ -4961,6 +4961,12 @@
             "to_path": "/www/_/page-templates"
         },
         {
+            "from_path": "/www/about-lunarxp/partners",
+            "to_path": "/www/about-lunarxp/partners",
+            "title": "Partners",
+            "structure": 1
+        },
+        {
             "from_path": "/web files/content/partners",
             "to_path": "/web files/content/partners",
             "title": "Partners",
@@ -4971,12 +4977,6 @@
             "to_path": "/web files/managers/Partners",
             "title": "partners",
             "structure": "0"
-        },
-        {
-            "from_path": "/www/about-lunarxp/partners",
-            "to_path": "/www/about-lunarxp/partners",
-            "title": "Partners",
-            "structure": 1
         },
         {
             "from_path": "/web files/managers/Photo Galleries",
@@ -5023,16 +5023,16 @@
             "structure": "0"
         },
         {
-            "from_path": "/web files/content/ships",
-            "to_path": "/web files/content/ships",
-            "title": "Ships",
-            "structure": "0"
-        },
-        {
             "from_path": "/www/ships",
             "to_path": "/www/ships",
             "title": "Ships",
             "structure": 1
+        },
+        {
+            "from_path": "/web files/content/ships",
+            "to_path": "/web files/content/ships",
+            "title": "Ships",
+            "structure": "0"
         },
         {
             "from_path": "/web files/managers/Site Explorer",
@@ -5066,6 +5066,13 @@
             "structure": "0"
         },
         {
+            "from_path": "/www/updates",
+            "to_path": "/www/updates",
+            "title": "Updates",
+            "structure": 1,
+            "datatable_category_group": "/web files/managers/Updates/Updates Categories"
+        },
+        {
             "from_path": "/web files/managers/Updates",
             "to_path": "/web files/managers/Updates",
             "structure": "0"
@@ -5075,13 +5082,6 @@
             "to_path": "/web files/content/updates",
             "title": "Updates",
             "structure": "0"
-        },
-        {
-            "from_path": "/www/updates",
-            "to_path": "/www/updates",
-            "title": "Updates",
-            "structure": 1,
-            "datatable_category_group": "/web files/managers/Updates/Updates Categories"
         },
         {
             "from_path": "/web files",
@@ -5094,6 +5094,22 @@
         {
             "from_path": "/www/_",
             "to_path": "/www/_"
+        },
+        {
+            "from_path": "/web files/managers/Updates/_Assets",
+            "to_path": "/web files/managers/Updates/_Assets"
+        },
+        {
+            "from_path": "/web files/managers/Testimonials/_Assets",
+            "to_path": "/web files/managers/Testimonials/_Assets"
+        },
+        {
+            "from_path": "/web files/managers/Banners/_Assets",
+            "to_path": "/web files/managers/Banners/_Assets"
+        },
+        {
+            "from_path": "/web files/managers/Partners/_Assets",
+            "to_path": "/web files/managers/Partners/_Assets"
         },
         {
             "from_path": "/web files/managers/Alerts/_Assets",
@@ -5138,22 +5154,6 @@
         {
             "from_path": "/web files/forms/_Assets",
             "to_path": "/web files/forms/_Assets"
-        },
-        {
-            "from_path": "/web files/managers/Updates/_Assets",
-            "to_path": "/web files/managers/Updates/_Assets"
-        },
-        {
-            "from_path": "/web files/managers/Testimonials/_Assets",
-            "to_path": "/web files/managers/Testimonials/_Assets"
-        },
-        {
-            "from_path": "/web files/managers/Banners/_Assets",
-            "to_path": "/web files/managers/Banners/_Assets"
-        },
-        {
-            "from_path": "/web files/managers/Partners/_Assets",
-            "to_path": "/web files/managers/Partners/_Assets"
         }
     ],
     "Calendar": [
