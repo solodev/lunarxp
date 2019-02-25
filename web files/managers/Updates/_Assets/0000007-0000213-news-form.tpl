@@ -1,12 +1,3 @@
-
-
-<div class="row">
-	<div class="col-md-12">
-		<h2><label class="label-control" for="heading_title">Heading Overwrite <small>(Optional)</small></label></h2>
-		<input class="form-control" id="heading_title" name="heading_title" type="text" placeholder="If specified his will the main heading"/>
-	</div>
-</div>
-
 <div class="row">
 	<div class="col-md-12">
 		<h2><label class="label-control" for="post_content">Content <small>(Required)</small></label></h2>
@@ -44,6 +35,13 @@
               page's source code.</p>
             <input class="form-control" id="meta_title" name="meta_title" type="text" />
           </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-12">
+                <h2><label class="label-control" for="heading_title">Heading Title <small>(Optional)</small></label></h2>
+                <input class="form-control" id="heading_title" name="heading_title" type="text" placeholder="If specified his will the main heading"/>
+            </div>
         </div>
 
         <div class="row">
