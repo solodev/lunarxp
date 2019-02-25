@@ -2254,7 +2254,7 @@
                 {
                     "area": "dd.0.2",
                     "type": "file",
-                    "from_path": "/www/index.stml"
+                    "from_path": "/web files/content/home/home-video.tpl"
                 },
                 {
                     "area": "dd.0.3",
