@@ -1,34 +1,15 @@
 <div class="row">
   <div class="col-md-12 form-group">
-    <label class="control-label" for="post_intro">Intro / Subtitle</label>
-    <p class="card-subtitle">(Required) Content that appears before the body content and the introductory paragraph on the client roll.</p>
-    <textarea class="form-control wysiwyg-basic" id="post_intro" name="post_intro"></textarea>
+    <label class="label-control" for="faq_question">FAQ Question</label>
+    <p class="card-subtitle">(Required) Frequently Asked Questions.</p>
+    <input type="text" class="form-control" name="faq_question" id="faq_question">
   </div>
 </div>
 <div class="row">
   <div class="col-md-12 form-group">
-    <label class="control-label" for="post_content">Body Content</label>
-    <p class="card-subtitle">(Required) The main content section for an article.</p>
-    <textarea class="form-control wysiwyg-basic" id="post_content" name="post_content"></textarea>
-  </div>
-</div>
-<div class="row">
-  <div class="col-md-6 form-group">
-    <label class="control-label" for="featured_client_image">Featured Image</label>
-    <p class="card-subtitle">(Required) Main image that appears on the client roll. <strong>Dimensions:</strong> 158px by 146px.</p>
-    <input class="file_upload" id="featured_client_image" name="featured_client_image" type="file" />
-  </div>
-  <div class="col-md-6 form-group">
-    <label class="control-label" for="featured_detail_image">Detail Image</label>
-    <p class="card-subtitle">(Optional) Upload an image to show on the detail page. <strong>Dimensions:</strong> 1110px by 534px.</p>
-    <input class="file_upload" id="featured_detail_image" name="featured_detail_image" type="file" />
-  </div>
-</div>
-<div class="row">
-  <div class="col-md-12 form-group">
-    <label class="control-label" for="client_url">Client Website URL</label>
-    <p class="card-subtitle">(Optional) Full URL address.</p>
-    <input class="form-control" id="client_url" name="client_url" type="text" />
+    <label class="label-control" for="faq_answer">FAQ Answer</label>
+    <p class="card-subtitle">(Required) Answers to Frequently Asked Questions.</p>
+    <textarea class="form-control wysiwyg-basic" name="faq_answer" id="faq_answer"></textarea>
   </div>
 </div>
 
@@ -74,12 +55,3 @@
     </div>
   </section>
 </div>
-
-<script>
-  CKEDITOR.replace("post_content", {
-    basePath: '/CK/', 
-    customConfig: '/__/js/ck/config.js', 
-    height: '600px', 
-    toolbar: 'Basic'
-  });
-</script>

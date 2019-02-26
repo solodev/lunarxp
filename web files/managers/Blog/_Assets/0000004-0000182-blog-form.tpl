@@ -1,191 +1,65 @@
-<script>
-  $(function() {
-    $("#resourceTypeSelect").change(function() {
-      if ($(this).val() == "Listing Image") {
-        $('#listingImage').show();
-        $('#rssImage').hide();
-      } else if ($(this).val() == "RSS Image") {
-        $('#rssImage').show();
-        $('#listingImage').hide();
-      } else {
-        $('#listingImage').hide();
-        $('#rssImage').hide();
-      }
-
-    });
-
-    $("#resourceTypeSelect").trigger("change");
-
-  });
-</script>
-
-<div class="panel-group">
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" href="#collapseImages" aria-expanded="true">Image Uploads <span class="toggle" aria-hidden="true"></span></a>
-      </h4>
-    </div>
-    <div id="collapseImages" class="panel-collapse collapse in">
-      <div class="panel-body">
-        <div class="row">
-          <div class="col-md-6">
-            <h2><label class="label-control" for="resourceTypeSelect">Image Type</label></h2>
-            <p class="subText">(Required) The image selected.</p>
-
-            <select class="form-control" name="resourceType" id="resourceTypeSelect">
-              <option value="Listing Image">Listing Image</option>
-              <option value="RSS Image">RSS Image</option>
-            </select>
-          </div>
-
-          <div class="col-md-6" id="listingImage">
-            <h2><label class="label-control" for="listing_image">Listing Image</label></h2>
-            <p class="subText">(Required) The image that appears in the post and normal blogroll feed. Dimensions:
-              951px by 561px.</p>
-            <input type="file" class="file_upload" name="listing_image" id="listing_image" required>
-          </div>
-
-          <div class="col-md-6" id="rssImage">
-            <h2><label class="label-control" for="rss_image">RSS Image</label></h2>
-            <p class="subText">(Required) The image that appears in RSS emails. Dimensions: 700px by 413px.</p>
-            <input type="file" class="file_upload" name="rss_image" id="rss_image" required>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="row">
+  <div class="col-md-12 form-group">
+    <label class="control-label" for="post_intro">Intro/Subtitle</label>
+    <p class="card-subtitle">(Required) Content that appears before the Body Content and the introductory paragraph
+      on the blog roll.</p>
+    <textarea class="form-control wysiwyg-basic" name="post_intro" id="post_intro" required></textarea>
   </div>
 </div>
-
-<div class="panel-group">
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" href="#collapseContent" aria-expanded="true">Post Content<span class="toggle" aria-hidden="true"></span></a>
-      </h4>
-    </div>
-    <div id="collapseContent" class="panel-collapse collapse in">
-      <div class="panel-body">
-        <div class="row">
-          <div class="col-md-12">
-            <h2><label class="label-control" for="heading_title">Heading Overwrite</label></h2>
-            <p class="subText">(Optional) If specified, this will overwrite the article's title and become the main
-              heading.</p>
-            <input type="text" class="form-control" name="heading_title" id="heading_title">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12">
-            <h2><label class="label-control" for="post_intro">Intro/Subtitle</label></h2>
-            <p class="subText">(Required) Content that appears before the Body Content and the introductory paragraph
-              on the blogroll.</p>
-            <textarea class="form-control" name="post_intro" id="post_intro" required></textarea>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12">
-            <h2><label class="label-control" for="post_content">Body Content</label></h2>
-            <p class="subText">(Required) The main content section for an article.</p>
-            <textarea class="wysiwyg" name="post_content" id="post_content" required></textarea>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="row">
+  <div class="col-md-12 form-group">
+    <label class="control-label" for="post_content">Body Content</label>
+    <p class="card-subtitle">(Required) The main content section for an article.</p>
+    <textarea class="form-control wysiwyg" name="post_content" id="post_content" required></textarea>
   </div>
 </div>
-
-<div class="panel-group">
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" href="#collapseMeta">META Data <span class="toggle" aria-hidden="true"></span></a>
-      </h4>
-    </div>
-    <div id="collapseMeta" class="panel-collapse collapse">
-      <div class="panel-body">
+<div class="row">
+  <div class="col-md-6 form-group">
+    <label class="control-label" for="resourceTypeSelect">Featured Image</label>
+    <p class="card-subtitle mb-2">(Required) The image that appears in the post and normal blog roll feed. <strong>Dimensions:</strong> 951px x 561px.</p>
+    <input type="file" class="file_upload" name="listing_image" id="listing_image">
+  </div>
+</div>
+  
+<div id="accordionMetaData">
+  <section class="card">
+    <header id="status" class="card-header" id="headingMetaData" data-toggle="collapse" data-target="#collapseMetaData" aria-expanded="true" aria-controls="collapseMetaData">
+      <h2 class="card-title">Meta Data</h2>
+      <div class="panel-actions">
+        <a href="#" class="panel-action panel-action-toggle"></a>
+      </div>
+    </header>
+    <div id="collapseMetaData" class="collapse" aria-labelledby="headingMetaData" data-parent="#accordionMetaData">
+      <div class="card-body">
         <div class="row">
-          <div class="col-md-12">
-            <h2><label name="meta_title">Meta Title</label></h2>
-            <p class="subText">(Optional) Include a custom META Title that will show in your browser tab and in the
-              page's source code.</p>
+          <div class="col-md-12 form-group">
+            <label class="control-label" for="meta_title">Meta Title</label>
+            <p class="card-subtitle mt-0">(Optional) Include a custom META Title that will show in your browser tab and in the page's source code.</p>
             <input type="text" class="form-control" name="meta_title" id="meta_title">
           </div>
         </div>
         <div class="row">
-          <div class="col-md-12">
-            <h2><label name="meta_description">Meta Description</label></h2>
-            <p class="subText">(Optional) Include a custom META Description that search engines will index. 50-160
-              Characters</p>
+          <div class="col-md-12 form-group form-group">
+            <label class="control-label" for="heading_title">Heading Title</label>
+            <p class="card-subtitle mt-0">(Optional) If specified, this will overwrite the article's title and become the main heading.</p>
+            <input type="text" class="form-control" name="heading_title" id="heading_title">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 form-group">
+            <label class="control-label" for="meta_description">Meta Description</label>
+            <p class="card-subtitle mt-0">(Optional) Include a custom META Description that search engines will index. 50-160 Characters</p>
             <textarea class="form-control" id="meta_description" name="meta_description"></textarea>
           </div>
         </div>
         <div class="row">
-          <div class="col-md-12">
-            <h2><label name="meta_keywords">Meta Keywords</label></h2>
-            <p class="subText">(Optional) Include the main keywords of the blog article.</p>
+          <div class="col-md-12 form-group">
+            <label class="control-label" for="meta_keywords">Meta Keywords</label>
+            <p class="card-subtitle mt-0">(Optional) Include the main keywords of the blog article.</p>
             <textarea class="form-control" id="meta_keywords" name="meta_keywords"></textarea>
           </div>
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </div>
-<div class="panel-group">
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" href="#collapseAdvanced">Advanced <span class="toggle" aria-hidden="true"></span></a>
-      </h4>
-    </div>
-    <div id="collapseAdvanced" class="panel-collapse collapse">
-      <div class="panel-body">
-        <div class="row">
-          <div class="col-md-12">
-            <h2><label class="label-control" for="post_javascript">Custom JavaScript</label></h2>
-            <p class="subText">(Optional) Use the following textbox to embed any custom JavaScript including tracking
-              pixels and Google Analytics scripts. Be sure to open your JavaScript with a &lt;script&gt; tag and close
-              everything with a &lt;/script&gt; tag.</p>
-            <textarea class="form-control" name="post_javascript" id="post_javascript"></textarea>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<?php
-  if(isset($dataVars['calendar_entry_id'])){     
-    $calendar_entry = new Calendar_Entry($dataVars['calendar_entry_id']);
-    if($calendar_entry->path) { 
-?>
-<div class="panel-group">
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" href="#collapseURL">Post URL <span class="toggle" aria-hidden="true"></span></a>
-      </h4>
-    </div>
-    <div id="collapseURL" class="panel-collapse collapse in">
-      <div class="panel-body">
-        <div class="row">
-          <div class="col-md-12">
-            <p class="subText">You can access this blog post at the following URL:</p>
-            <a href="http://lunar.solodev.org<?= $calendar_entry->path ?>" target="_blank">http://lunar.solodev.org
-              <?= $calendar_entry->path ?></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<?php 
-  } 
-} ?>
-
-<script>
-  $('.wysiwyg').ckeditor(function () {}, {
-    customConfig: '/CK/config.js',
-    height: '600px',
-    basePath: '/CK/',
-    toolbar: 'WP'
-  });
-</script>

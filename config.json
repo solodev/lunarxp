@@ -51,9 +51,9 @@
             "to_path": "/web files/managers/Site Explorer/_Assets/0000012-0000272-how-do-i-form.tpl"
         },
         {
-            "name": "0000013-0000274-faq-form.tpl",
-            "from_path": "/web files/managers/FAQs/_Assets/0000013-0000274-faq-form.tpl",
-            "to_path": "/web files/managers/FAQs/_Assets/0000013-0000274-faq-form.tpl"
+            "name": "0000013-faq-form.tpl",
+            "from_path": "/web files/managers/FAQs/_Assets/0000013-faq-form.tpl",
+            "to_path": "/web files/managers/FAQs/_Assets/0000013-faq-form.tpl"
         },
         {
             "name": "0000015-0000280-contact-form.tpl",
@@ -672,6 +672,61 @@
         },
         {
             "name": "category.stml",
+            "from_path": "/www/gear/category.stml",
+            "to_path": "/www/gear/category.stml",
+            "title": null,
+            "structure": "0",
+            "rank": null,
+            "menu": null,
+            "meta_description": null,
+            "meta_keywords": null,
+            "description": null,
+            "headerBlock": null,
+            "content_title": null,
+            "body_id": null,
+            "body_role": null,
+            "body_class": null,
+            "isTemplate": "0",
+            "contents": [
+                {
+                    "area": "dd.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/basetemplate.tpl"
+                },
+                {
+                    "area": "dd.0.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/nav/top-nav.tpl"
+                },
+                {
+                    "area": "dd.0.1",
+                    "type": "file",
+                    "from_path": "/web files/templates/hero/sectional-hero.tpl"
+                },
+                {
+                    "area": "dd.0.2",
+                    "type": "file",
+                    "from_path": "/web files/templates/nav/breadcrumb.tpl"
+                },
+                {
+                    "area": "dd.0.3",
+                    "type": "file",
+                    "from_path": "/web files/templates/interiors/sectional-full.tpl"
+                },
+                {
+                    "area": "dd.0.3.0",
+                    "type": "file",
+                    "from_path": "/web files/content/gear/gear-detail.tpl"
+                },
+                {
+                    "area": "dd.0.7",
+                    "type": "file",
+                    "from_path": "/web files/templates/footer/footer.tpl"
+                }
+            ]
+        },
+        {
+            "name": "category.stml",
             "from_path": "/www/updates/category.stml",
             "to_path": "/www/updates/category.stml",
             "title": null,
@@ -732,61 +787,6 @@
                     "area": "dd.0.10",
                     "type": "file",
                     "from_path": "/web files/templates/footer/footer-form.tpl"
-                }
-            ]
-        },
-        {
-            "name": "category.stml",
-            "from_path": "/www/gear/category.stml",
-            "to_path": "/www/gear/category.stml",
-            "title": null,
-            "structure": "0",
-            "rank": null,
-            "menu": null,
-            "meta_description": null,
-            "meta_keywords": null,
-            "description": null,
-            "headerBlock": null,
-            "content_title": null,
-            "body_id": null,
-            "body_role": null,
-            "body_class": null,
-            "isTemplate": "0",
-            "contents": [
-                {
-                    "area": "dd.0",
-                    "type": "file",
-                    "from_path": "/web files/templates/basetemplate.tpl"
-                },
-                {
-                    "area": "dd.0.0",
-                    "type": "file",
-                    "from_path": "/web files/templates/nav/top-nav.tpl"
-                },
-                {
-                    "area": "dd.0.1",
-                    "type": "file",
-                    "from_path": "/web files/templates/hero/sectional-hero.tpl"
-                },
-                {
-                    "area": "dd.0.2",
-                    "type": "file",
-                    "from_path": "/web files/templates/nav/breadcrumb.tpl"
-                },
-                {
-                    "area": "dd.0.3",
-                    "type": "file",
-                    "from_path": "/web files/templates/interiors/sectional-full.tpl"
-                },
-                {
-                    "area": "dd.0.3.0",
-                    "type": "file",
-                    "from_path": "/web files/content/gear/gear-detail.tpl"
-                },
-                {
-                    "area": "dd.0.7",
-                    "type": "file",
-                    "from_path": "/web files/templates/footer/footer.tpl"
                 }
             ]
         },
@@ -2422,61 +2422,6 @@
         },
         {
             "name": "index.stml",
-            "from_path": "/www/colony/index.stml",
-            "to_path": "/www/colony/index.stml",
-            "title": "Colony",
-            "structure": "0",
-            "rank": null,
-            "menu": null,
-            "meta_description": null,
-            "meta_keywords": null,
-            "description": null,
-            "headerBlock": null,
-            "content_title": null,
-            "body_id": null,
-            "body_role": null,
-            "body_class": null,
-            "isTemplate": "0",
-            "contents": [
-                {
-                    "area": "dd.0",
-                    "type": "file",
-                    "from_path": "/web files/templates/basetemplate.tpl"
-                },
-                {
-                    "area": "dd.0.0",
-                    "type": "file",
-                    "from_path": "/web files/templates/nav/top-nav.tpl"
-                },
-                {
-                    "area": "dd.0.1",
-                    "type": "file",
-                    "from_path": "/web files/templates/hero/sectional-hero.tpl"
-                },
-                {
-                    "area": "dd.0.2",
-                    "type": "file",
-                    "from_path": "/web files/templates/nav/breadcrumb.tpl"
-                },
-                {
-                    "area": "dd.0.11",
-                    "type": "file",
-                    "from_path": "/web files/templates/footer/footer.tpl"
-                },
-                {
-                    "area": "dd.0.3",
-                    "type": "file",
-                    "from_path": "/web files/templates/interiors/sectional-full.tpl"
-                },
-                {
-                    "area": "dd.0.3.0",
-                    "type": "file",
-                    "from_path": "/web files/content/colony/index.tpl"
-                }
-            ]
-        },
-        {
-            "name": "index.stml",
             "from_path": "/www/blog/index.stml",
             "to_path": "/www/blog/index.stml",
             "title": "LunarXP Blog",
@@ -2532,6 +2477,61 @@
                     "area": "dd.0.2",
                     "type": "file",
                     "from_path": "/web files/templates/nav/breadcrumb.tpl"
+                }
+            ]
+        },
+        {
+            "name": "index.stml",
+            "from_path": "/www/colony/index.stml",
+            "to_path": "/www/colony/index.stml",
+            "title": "Colony",
+            "structure": "0",
+            "rank": null,
+            "menu": null,
+            "meta_description": null,
+            "meta_keywords": null,
+            "description": null,
+            "headerBlock": null,
+            "content_title": null,
+            "body_id": null,
+            "body_role": null,
+            "body_class": null,
+            "isTemplate": "0",
+            "contents": [
+                {
+                    "area": "dd.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/basetemplate.tpl"
+                },
+                {
+                    "area": "dd.0.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/nav/top-nav.tpl"
+                },
+                {
+                    "area": "dd.0.1",
+                    "type": "file",
+                    "from_path": "/web files/templates/hero/sectional-hero.tpl"
+                },
+                {
+                    "area": "dd.0.2",
+                    "type": "file",
+                    "from_path": "/web files/templates/nav/breadcrumb.tpl"
+                },
+                {
+                    "area": "dd.0.11",
+                    "type": "file",
+                    "from_path": "/web files/templates/footer/footer.tpl"
+                },
+                {
+                    "area": "dd.0.3",
+                    "type": "file",
+                    "from_path": "/web files/templates/interiors/sectional-full.tpl"
+                },
+                {
+                    "area": "dd.0.3.0",
+                    "type": "file",
+                    "from_path": "/web files/content/colony/index.tpl"
                 }
             ]
         },
@@ -4257,13 +4257,13 @@
         },
         {
             "name": "talon2.jpg",
-            "from_path": "/www/_/images/sectional-images/talon2.jpg",
-            "to_path": "/www/_/images/sectional-images/talon2.jpg"
+            "from_path": "/www/_/images/talon2.jpg",
+            "to_path": "/www/_/images/talon2.jpg"
         },
         {
             "name": "talon2.jpg",
-            "from_path": "/www/_/images/talon2.jpg",
-            "to_path": "/www/_/images/talon2.jpg"
+            "from_path": "/www/_/images/sectional-images/talon2.jpg",
+            "to_path": "/www/_/images/sectional-images/talon2.jpg"
         },
         {
             "name": "talon2.jpg",
@@ -4439,6 +4439,25 @@
             "name": "temp-space.tpl",
             "from_path": "/web files/content/gallery/temp-space.tpl",
             "to_path": "/web files/content/gallery/temp-space.tpl"
+        },
+        {
+            "name": "test.stml",
+            "from_path": "/www/ships/test.stml",
+            "to_path": "/www/ships/test.stml",
+            "title": null,
+            "structure": "0",
+            "rank": null,
+            "menu": null,
+            "meta_description": null,
+            "meta_keywords": null,
+            "description": null,
+            "headerBlock": null,
+            "content_title": null,
+            "body_id": null,
+            "body_role": null,
+            "body_class": null,
+            "isTemplate": "0",
+            "contents": []
         },
         {
             "name": "testimonials-slider.tpl",
@@ -5246,6 +5265,7 @@
             "entries": [
                 {
                     "fields": {
+                        "entry_status": "publish",
                         "event_title": "SD Banner",
                         "start_time": "1539967080",
                         "banner_link": "https://www.solodev.com",
@@ -5314,6 +5334,7 @@
                         "press-releases"
                     ],
                     "fields": {
+                        "entry_status": "publish",
                         "event_title": "LunarXP Colony Expands Habitat Offerings to Include New Hydroponics Lab",
                         "start_time": "1542206220",
                         "listing_image": {
@@ -5338,6 +5359,7 @@
                         "press-releases"
                     ],
                     "fields": {
+                        "entry_status": "publish",
                         "event_title": "Building The Talon-2",
                         "start_time": "1539710220",
                         "listing_image": {
@@ -5362,6 +5384,7 @@
                         "press-releases"
                     ],
                     "fields": {
+                        "entry_status": "publish",
                         "event_title": "LunarXP Voted Best Mars Mission",
                         "start_time": "1539710520",
                         "listing_image": {
@@ -5383,6 +5406,7 @@
                 },
                 {
                     "fields": {
+                        "entry_status": "publish",
                         "event_title": "New Features on the Valkyrie-1 Spacecraft",
                         "start_time": "1539711660",
                         "listing_image": {
@@ -5422,6 +5446,7 @@
             "entries": [
                 {
                     "fields": {
+                        "entry_status": "publish",
                         "event_title": "Vehicle Support",
                         "start_time": "1542746460",
                         "career_intro": "Work on our reusable rocket systems",
@@ -5438,6 +5463,7 @@
                 },
                 {
                     "fields": {
+                        "entry_status": "publish",
                         "event_title": "Launch Team",
                         "start_time": "1542746460",
                         "career_intro": "Keep our ships flying safely and efficiently",
@@ -5454,6 +5480,7 @@
                 },
                 {
                     "fields": {
+                        "entry_status": "publish",
                         "event_title": "Flight Systems",
                         "start_time": "1542746460",
                         "career_intro": "Keep our ships flying safely and efficiently",
@@ -5470,6 +5497,7 @@
                 },
                 {
                     "fields": {
+                        "entry_status": "publish",
                         "event_title": "Lunar Mining",
                         "start_time": "1542746400",
                         "career_intro": "Discover new minerals and metals",
@@ -5486,6 +5514,7 @@
                 },
                 {
                     "fields": {
+                        "entry_status": "publish",
                         "event_title": "Nuclear Engineering",
                         "start_time": "1542746400",
                         "career_intro": "Support our state-of-the-art ion technology",
@@ -5502,6 +5531,7 @@
                 },
                 {
                     "fields": {
+                        "entry_status": "publish",
                         "event_title": "Astro Botonist",
                         "start_time": "1542746340",
                         "career_intro": "Grow and maintain our food supply",
@@ -5540,6 +5570,7 @@
                         "training"
                     ],
                     "fields": {
+                        "entry_status": "publish",
                         "event_title": "Astronaut Leadership Training",
                         "start_time": "1539722040",
                         "event_image": {
@@ -5557,7 +5588,7 @@
                         "post_status": "Published",
                         "post_author": "AUTHOR_NAME",
                         "event_archived": "no",
-                        "post_intro": "Learn how to become a great astronaut. ",
+                        "post_intro": "Learn how to become a great astronaut.",
                         "post_content": "<p>Listen to a panel of legendary astronauts on their experiences and advice on how to become a great astronaut.</p>\r\n",
                         "meta_description": null,
                         "meta_keywords": null,
@@ -5603,7 +5634,7 @@
             "has_photo_gallery": "0",
             "to_path": "/web files/managers/FAQs/FAQs",
             "form_template": {
-                "file_path": "/web files/managers/FAQs/_Assets/0000013-0000274-faq-form.tpl"
+                "file_path": "/web files/managers/FAQs/_Assets/0000013-faq-form.tpl"
             },
             "datatable_category_group": "/web files/managers/FAQs/FAQs Categories",
             "entries": [
@@ -5612,15 +5643,17 @@
                         "about-contacting-us"
                     ],
                     "fields": {
+                        "entry_status": "publish",
                         "event_title": "Call Time",
                         "start_time": "1539805260",
-                        "heading_title": "What is the best time to call?",
+                        "heading_title": null,
                         "meta_title": null,
                         "post_status": "Published",
-                        "faq_answer": "The best time to call is 24/7! We are always available to answer any questions. ",
+                        "faq_answer": "The best time to call is 24/7! We are always available to answer any questions.",
                         "meta_description": null,
                         "meta_keywords": null,
-                        "post_javascript": null
+                        "post_javascript": null,
+                        "faq_question": "What is the best time to call?"
                     }
                 },
                 {
@@ -5628,15 +5661,17 @@
                         "about-our-services"
                     ],
                     "fields": {
+                        "entry_status": "publish",
                         "event_title": "Contact Info",
                         "start_time": "1539805560",
-                        "heading_title": "Where can I read more about this company?",
+                        "heading_title": null,
                         "meta_title": null,
                         "post_status": "Published",
                         "faq_answer": "Lorem ipsum dolor sit!",
                         "meta_description": null,
                         "meta_keywords": null,
-                        "post_javascript": null
+                        "post_javascript": null,
+                        "faq_question": "Where can I read more about this company?"
                     }
                 },
                 {
@@ -5644,15 +5679,17 @@
                         "about-contacting-us"
                     ],
                     "fields": {
-                        "event_title": "Best Emali",
+                        "entry_status": "publish",
+                        "event_title": "Best Email",
                         "start_time": "1539805740",
-                        "heading_title": "What is the best email to reach you at?",
+                        "heading_title": null,
                         "meta_title": null,
                         "post_status": "Published",
-                        "faq_answer": "The best email for any inquiries is fake@email.com!",
+                        "faq_answer": "The best email for any inquiries is email@email.com!",
                         "meta_description": null,
                         "meta_keywords": null,
-                        "post_javascript": null
+                        "post_javascript": null,
+                        "faq_question": "What is the best email to reach you at?"
                     }
                 },
                 {
@@ -5660,15 +5697,17 @@
                         "about-our-mission"
                     ],
                     "fields": {
+                        "entry_status": "publish",
                         "event_title": "Purpose",
                         "start_time": "1539805800",
-                        "heading_title": "What is the purpose of LunarXP?",
+                        "heading_title": null,
                         "meta_title": null,
                         "post_status": "Published",
                         "faq_answer": "The purpose of [site_name] is to give you the best Mars experience!",
                         "meta_description": null,
                         "meta_keywords": null,
-                        "post_javascript": null
+                        "post_javascript": null,
+                        "faq_question": "What is the purpose of LunarXP?"
                     }
                 },
                 {
@@ -5676,15 +5715,17 @@
                         "about-our-mission"
                     ],
                     "fields": {
+                        "entry_status": "publish",
                         "event_title": "Mission",
                         "start_time": "1539805980",
-                        "heading_title": "What is the official mission statement?",
+                        "heading_title": null,
                         "meta_title": null,
                         "post_status": "Published",
                         "faq_answer": "Our official mission statement is lorem ipsum dolor sit.",
                         "meta_description": null,
                         "meta_keywords": null,
-                        "post_javascript": null
+                        "post_javascript": null,
+                        "faq_question": "What is the official mission statement?"
                     }
                 },
                 {
@@ -5692,15 +5733,17 @@
                         "about-our-services"
                     ],
                     "fields": {
+                        "entry_status": "publish",
                         "event_title": "More Wanted",
                         "start_time": "1539806100",
-                        "heading_title": "What if I want custom gear?",
+                        "heading_title": null,
                         "meta_title": null,
                         "post_status": "Published",
                         "faq_answer": "Custom gear can be ordered through our contact form. Additional fees may apply.",
                         "meta_description": null,
                         "meta_keywords": null,
-                        "post_javascript": null
+                        "post_javascript": null,
+                        "faq_question": "What if I want custom gear?"
                     }
                 }
             ]
@@ -5952,6 +5995,7 @@
                         "web-design"
                     ],
                     "fields": {
+                        "entry_status": "publish",
                         "event_title": "Logic",
                         "start_time": "1539790920",
                         "featured_client_image": {
@@ -5979,6 +6023,7 @@
                         "web-design"
                     ],
                     "fields": {
+                        "entry_status": "publish",
                         "event_title": "Zeina",
                         "start_time": "1539792480",
                         "featured_client_image": {
@@ -6006,6 +6051,7 @@
                         "seo-sem"
                     ],
                     "fields": {
+                        "entry_status": "publish",
                         "event_title": "Smart Co.",
                         "start_time": "1539792840",
                         "featured_client_image": {
@@ -6033,6 +6079,7 @@
                         "web-development"
                     ],
                     "fields": {
+                        "entry_status": "publish",
                         "event_title": "Softtech",
                         "start_time": "1539793200",
                         "featured_client_image": {
@@ -6048,7 +6095,7 @@
                         "meta_title": null,
                         "post_status": "Published",
                         "post_author": "None",
-                        "post_intro": "A Reputation for Quality\r\n\r\n",
+                        "post_intro": "A Reputation for Quality",
                         "post_content": "<p>Softtech is one of the leading talent recruitment and outplacement firms for the architecture, interior design, engineering and manufacturing industries. The focus of Softtech's business is talent recruitment and placement so security is a high priority in order to protect the confidential nature of the job search process. That's one reason Solodev CMS's secure content management software was the right choice for this project.</p>\r\n\r\n<p>A dynamic jobs portal integrates with Softtech's applicant tracking system and the multi-segmented blog allows visitors to select their areas of interest. A slider manager allows Softtech staff to easily keep the site looking fresh with new homepages visuals.</p>\r\n",
                         "meta_description": null,
                         "meta_keywords": null,
@@ -6060,6 +6107,7 @@
                         "seo-sem"
                     ],
                     "fields": {
+                        "entry_status": "publish",
                         "event_title": "Wheel",
                         "start_time": "1539793380",
                         "featured_client_image": {
@@ -6088,6 +6136,7 @@
                         "branding"
                     ],
                     "fields": {
+                        "entry_status": "publish",
                         "event_title": "3designs",
                         "start_time": "1539793440",
                         "featured_client_image": {
@@ -6113,6 +6162,7 @@
                         "seo-sem"
                     ],
                     "fields": {
+                        "entry_status": "publish",
                         "event_title": "Heart",
                         "start_time": "1539793560",
                         "featured_client_image": {
@@ -6141,6 +6191,7 @@
                         "seo-sem"
                     ],
                     "fields": {
+                        "entry_status": "publish",
                         "event_title": "Devtech",
                         "start_time": "1539793620",
                         "featured_client_image": {
@@ -6169,6 +6220,7 @@
                         "web-design"
                     ],
                     "fields": {
+                        "entry_status": "publish",
                         "event_title": "Chartz",
                         "start_time": "1539793860",
                         "featured_client_image": {
@@ -6211,6 +6263,7 @@
             "entries": [
                 {
                     "fields": {
+                        "entry_status": "publish",
                         "event_title": "Space Travel",
                         "start_time": "1539715620",
                         "featured_image": {
@@ -6229,6 +6282,7 @@
                 },
                 {
                     "fields": {
+                        "entry_status": "publish",
                         "event_title": "Mars",
                         "start_time": "1539716280",
                         "featured_image": {
@@ -6247,6 +6301,7 @@
                 },
                 {
                     "fields": {
+                        "entry_status": "publish",
                         "event_title": "Our Ships",
                         "start_time": "1539716460",
                         "featured_image": {
@@ -6277,6 +6332,7 @@
             "entries": [
                 {
                     "fields": {
+                        "entry_status": "publish",
                         "event_title": "Training Programs",
                         "start_time": "1539801840",
                         "quick_title": "Training",
@@ -6293,6 +6349,7 @@
                 },
                 {
                     "fields": {
+                        "entry_status": "publish",
                         "event_title": "Launch Schedule",
                         "start_time": "1539801900",
                         "quick_title": "Launch Schedule",
@@ -6309,6 +6366,7 @@
                 },
                 {
                     "fields": {
+                        "entry_status": "publish",
                         "event_title": "Log in",
                         "start_time": "1539801960",
                         "quick_title": "Log in ",
@@ -6325,6 +6383,7 @@
                 },
                 {
                     "fields": {
+                        "entry_status": "publish",
                         "event_title": "Apply for a Job",
                         "start_time": "1539802080",
                         "quick_title": "Apply for a Job",
@@ -6341,6 +6400,7 @@
                 },
                 {
                     "fields": {
+                        "entry_status": "publish",
                         "event_title": "Conference",
                         "start_time": "1539802140",
                         "quick_title": "Conference",
@@ -6375,6 +6435,7 @@
             "entries": [
                 {
                     "fields": {
+                        "entry_status": "publish",
                         "event_title": "Veronica Gutierrez, MD",
                         "start_time": "1542751080",
                         "team_member_image": {
@@ -6398,6 +6459,7 @@
                 },
                 {
                     "fields": {
+                        "entry_status": "publish",
                         "event_title": "Capt. Nathan Patrick",
                         "start_time": "1542751020",
                         "team_member_image": {
@@ -6421,6 +6483,7 @@
                 },
                 {
                     "fields": {
+                        "entry_status": "publish",
                         "event_title": "Jacquelyn Li",
                         "start_time": "1542750960",
                         "team_member_image": {
@@ -6444,6 +6507,7 @@
                 },
                 {
                     "fields": {
+                        "entry_status": "publish",
                         "event_title": "Cmdr. Adam Paul",
                         "start_time": "1542750900",
                         "team_member_image": {
@@ -6479,6 +6543,7 @@
             "entries": [
                 {
                     "fields": {
+                        "entry_status": "publish",
                         "event_title": "Neil Armstrong",
                         "start_time": "1542207960",
                         "testimonial_author": "Neil Armstrong",
@@ -6493,6 +6558,7 @@
                 },
                 {
                     "fields": {
+                        "entry_status": "publish",
                         "event_title": "Eleanor Ripley",
                         "start_time": "1542222240",
                         "testimonial_author": "Eleanor Ripley",
@@ -6579,6 +6645,7 @@
                         "awards"
                     ],
                     "fields": {
+                        "entry_status": "publish",
                         "event_title": "LunarXP Wins  Space Innovator of the Year Award",
                         "start_time": "1539720000",
                         "news_image": {
