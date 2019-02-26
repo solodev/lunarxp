@@ -21,7 +21,7 @@
   </div>
 </div>
   
-<div id="accordionMetaData">
+<div id="accordionMetaData" class="hide-on-add">
   <section class="card">
     <header id="status" class="card-header" id="headingMetaData" data-toggle="collapse" data-target="#collapseMetaData" aria-expanded="true" aria-controls="collapseMetaData">
       <h2 class="card-title">Meta Data</h2>
