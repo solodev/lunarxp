@@ -256,9 +256,9 @@
             "to_path": "/www/_/images/sectional-images/about-lunarxp.jpg"
         },
         {
-            "name": "about-us.tpl",
-            "from_path": "/web files/content/about-us/about-us.tpl",
-            "to_path": "/web files/content/about-us/about-us.tpl"
+            "name": "about-us.html",
+            "from_path": "/web files/content/about-us/about-us.html",
+            "to_path": "/web files/content/about-us/about-us.html"
         },
         {
             "name": "about1.jpg",
@@ -2671,7 +2671,7 @@
                 {
                     "area": "dd.0.2",
                     "type": "file",
-                    "from_path": "/web files/content/about-us/about-us.tpl"
+                    "from_path": "/web files/content/about-us/about-us.html"
                 }
             ]
         },
@@ -4262,13 +4262,13 @@
         },
         {
             "name": "talon2.jpg",
-            "from_path": "/www/_/images/sectional-images/talon2.jpg",
-            "to_path": "/www/_/images/sectional-images/talon2.jpg"
+            "from_path": "/www/_/images/talon2.jpg",
+            "to_path": "/www/_/images/talon2.jpg"
         },
         {
             "name": "talon2.jpg",
-            "from_path": "/www/_/images/talon2.jpg",
-            "to_path": "/www/_/images/talon2.jpg"
+            "from_path": "/www/_/images/sectional-images/talon2.jpg",
+            "to_path": "/www/_/images/sectional-images/talon2.jpg"
         },
         {
             "name": "talon2.stml",
@@ -6926,20 +6926,6 @@
                     "start_date": "1550250060"
                 }
             ]
-        },
-        {
-            "name": "test",
-            "module_type": "Scheduler",
-            "to_path": "/web files/content/about-us/test",
-            "scheduler_files": []
-        }
-    ],
-    "File_Group": [
-        {
-            "name": "test",
-            "module_type": "File_Group",
-            "to_path": "/web files/content/about-us/test",
-            "filegroup_files": []
         }
     ],
     "Experiment": [
