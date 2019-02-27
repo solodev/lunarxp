@@ -8,19 +8,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 [repeater id='<%%{"path":"/web files/managers/Alerts/Alerts","type":"Calendar"}%%>'  limit="0,1" display_type="news"]
   <div id="top-alert-bar" class="w-100 bg-secondary text-center">
     <div class="container position-relative py-3">
+    
       [cond type="is" subject="{{alert_destination}}" value="Internal Link"]
-      <a class="text-white h5" href="/{{internal_link}}">
-        <strong>{{alert_text}}</strong>
-      </a>
+      	<a class="text-white h5" href="/{{internal_link}}"><strong>{{alert_text}}</strong></a>
       [/cond]
       [cond type="is" subject="{{alert_destination}}" value="External Link"]
-      <a class="text-white h5" href="{{external_link}}" target="_blank">
-        <strong>{{alert_text}}</strong>
-      </a>
+      	<a class="text-white h5" href="{{external_link}}" target="_blank"><strong>{{alert_text}}</strong></a>
       [/cond]
-
       [cond type="is" subject="{{alert_destination}}" value="None"]
-      <p class="text-white h5 mb-0"><strong>{{alert_text}}</strong></p>
+      	<p class="text-white h5 mb-0"><strong>{{alert_text}}</strong></p>
       [/cond]
       
       <div class="position-absolute top-0 right-0 d-flex align-items-center h-100">

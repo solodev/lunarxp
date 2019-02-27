@@ -5,7 +5,7 @@
       <p>Stay up-to-date with the latest news and announcements from the [site_name] Mission.</p>
     </div>
     <div class="row my-5">
-      [repeater id='<%%{"path":"/web files/managers/Blog/Blog","type":"Calendar"}%%>'  limit="0,2" order="start_time desc" display_type="news" where="post_status='Published'"]
+      [repeater id='<%%{"path":"/web files/managers/Blog/Blog","type":"Calendar"}%%>'  limit="0,2" order="start_time desc" display_type="news"]
       <div class="col-md-6 px-md-4 mt-3 mt-md-0">
         <img class="w-100 img-fluid" alt="{{event_title}}" src="[get_asset_file_url id={{listing_image}}]" />
 
