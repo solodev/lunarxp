@@ -1,106 +1,41 @@
-<div class="panel-group">
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" href="#collapseStatus" aria-expanded="true">Post Status<span class="toggle" aria-hidden="true"></span></a>
-      </h4>
+<div class="row">
+  <div class="col-md-6 form-group">
+    <label class="control-label" for="banner_size">Ad Size</label>
+    <p class="card-subtitle">(Required) Select the size of the banner.</p>
+    <select class="form-control" type="text" name="banner_size">
+      <option value="square">Square</option>
+      <option value="rectangle">Rectangle</option>
+    </select>
+  </div>
+  <div class="col-md-6 form-group">
+    <label class="control-label" for="banner_all_pages">Show on All Pages</label>
+    <p class="card-subtitle">(Required) Select if you would like the banner to appear on all pages or only selected ones.</p>
+    <select class="form-control" type="text" name="banner_all_pages">
+      <option value="no">No</option>
+      <option value="yes">Yes</option>
+    </select>
+  </div>
+</div>
+<div class="row align-items-center">
+  <div class="col-md-8 form-group">
+    <label class="control-label" for="banner_link">Link</label>
+    <p class="card-subtitle">(Optional) Add the link of the page where you would like the banner to show.</p>
+    <input type="text" class="form-control" name="banner_link" id="banner_link">
+  </div>
+  <div class="col-md-4 mt-md-4">
+    <div class="form-check checkbox-custom">
+      <input type="checkbox" name="url_new_window" id="url_new_window" value="1">
+      <label class="control-label" for="url_new_window">Open in New Window</label>
     </div>
-    <div id="collapseStatus" class="panel-collapse collapse in">
-      <div class="panel-body">
-        <div class="row">
-          <div class="col-md-3">
-            <h2><label class="label-control" for="post_status">Post Status</label></h2>
-            <select class="form-control" type="text" name="post_status">
-              <option value="Draft">Draft</option>
-              <option value="Published">Published</option>
-            </select>
-          </div>
-        </div>
+  </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6 form-group" id="listingImage">
+      <label class="control-label" for="banner_image">Banner Image</label>
+      <p class="card-subtitle mt-1"><strong>Dimensions: Square (Right Sidebar)</strong> - 296px by 296px<br /> <strong>Dimensions: Rectangle (Bottom of Page)</strong> 727px by 113px</p>
+      <div class="mt-3">
+        <input type="file" class="file_upload" name="banner_image" id="banner_image">
       </div>
-    </div>
   </div>
 </div>
 
-<div class="panel-group">
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" href="#collapseLinks" aria-expanded="true">Banner Info <span class="toggle" aria-hidden="true"></span></a>
-      </h4>
-    </div>
-    <div id="collapseLinks" class="panel-collapse collapse in">
-      <div class="panel-body">
-        <div class="row">
-          <div class="col-md-6">
-            <h2><label class="label-control" for="banner_link">Link</label></h2>
-            <input type="text" class="form-control" name="banner_link" id="banner_link">
-          </div>
-
-          <div class="col-md-6">
-            <h2><label class="label-control" for="url_new_window">Open in New Window</label></h2>
-            <input type="checkbox" name="url_new_window" id="url_new_window" value="1">
-          </div>
-          </div>
-          <div class="row">
-          <div class="col-md-6" id="listingImage">
-                <h2><label class="label-control" for="banner_image">Banner Image</label></h2>
-                <p class="subText"><strong>Sizes:</strong><br /> Square (Right Sidebar) - 296X296<br />Rectangle: (Bottom of Page) 727 Width X 113 Height</p>
-                <input type="file" class="file_upload" name="banner_image" id="banner_image" required>
-            </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="panel-group">
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" href="#collapseBannerDisplay"  aria-expanded="true">Banner Display <span class="toggle" aria-hidden="true"></span></a>
-      </h4>
-    </div>
-    <div id="collapseBannerDisplay" class="panel-collapse collapse in">
-      <div class="panel-body">
-        <div class="row">
-        <div class="col-md-3">
-            <h2><label class="label-control" for="banner_size">Ad Size</label></h2>
-            <select class="form-control" type="text" name="banner_size">
-              <option value="square">Square</option>
-              <option value="rectangle">Rectangle</option>
-            </select>
-          </div>
-          <div class="col-md-3">
-            <h2><label class="label-control" for="banner_all_pages">Show on All Pages</label></h2>
-            <select class="form-control" type="text" name="banner_all_pages">
-              <option value="no">No</option>
-              <option value="yes">Yes</option>
-            </select>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-<div class="panel-group">
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" href="#collapseBannerDisplay">Advanced <span class="toggle" aria-hidden="true"></span></a>
-      </h4>
-    </div>
-    <div id="collapseBannerDisplay" class="panel-collapse collapse">
-      <div class="panel-body">
-        <div class="row">
-          <div class="col-md-12">
-            <h2><label class="label-control" for="post_javascript">Custom JavaScript</label></h2>
-            <p class="subText">(Optional) Use the following textbox to embed any custom JavaScript including tracking pixels and Google Analytics scripts. Be sure to open your JavaScript with a &lt;script&gt; tag and close everything with a &lt;/script&gt; tag.</p>
-            <textarea class="form-control" name="post_javascript" id="post_javascript"></textarea>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>

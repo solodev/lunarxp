@@ -1,7 +1,0 @@
-<div class="container pt-5">
-  <div class="row pt-3">
-      <div class="col-md-8 mx-auto text-md-center">
-      	<p>At LunarXP, we’re dreamers and explorers. We’ve always looked up for purpose – and we’ve never looked back. As a company, we believe that the future of mankind lies beyond earth and in the stars. Together, we can make a better tomorrow for all of us. It starts with one small step.</p>
-      </div>
-  </div>
-</div>

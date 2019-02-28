@@ -17,19 +17,20 @@ phases:
       - ls -al
       - yum install -y zip git
       - cd web\ files && npm install --loglevel info --no-progress
-      - cd web\ files && sed 's@LunarXP@'"$SITENAME"'@' settings.json
-      - cd web\ files && sed 's@https://www.lunarxp.com/@'"$SITEURL"'@' settings.json
-      - cd web\ files && sed 's@lunar-xp-logo.png@'"$LOGONAME"'@' settings.json
-      - cd web\ files && sed 's@(800) 859-7656@'"$SITEPHONE"'@' settings.json
-      - cd web\ files && sed 's@800 N. Magnolia Blvd.@'"$SITEADDRESS"'@' settings.json
-      - cd web\ files && sed 's@Orlando@'"$SITECITY"'@' settings.json
-      - cd web\ files && sed 's@FL@'"$SITESTATE"'@' settings.json
-      - cd web\ files && sed 's@32803@'"$SITEPOSTAL"'@' settings.json
-      - cd web\ files && sed 's@https://www.facebook.com/@'"$SITEFACEBOOK"'@' settings.json
-      - cd web\ files && sed 's@https://twitter.com/@'"$SITETWITTER"'@' settings.json
-      - cd web\ files && sed 's@https://www.linkedin.com/@'"$SITELINKEDIN"'@' settings.json
-      - cd web\ files && sed 's@https://www.youtube.com/@'"$SITEYOUTUBE"'@' settings.json
-      - cd web\ files && sed 's@https://www.instagram.com/@'"$SITEINSTAGRAM"'@' settings.json
+      - cd web\ files && sed -i 's@LunarXP@'"$SITENAME"'@' settings.json
+      - cd web\ files && sed -i 's@https://www.lunarxp.com/@'"$SITEURL"'@' settings.json
+      - cd web\ files && sed -i 's@lunar-xp-logo.png@'"$LOGONAME"'@' settings.json
+      - cd web\ files && sed -i 's@(800) 859-7656@'"$SITEPHONE"'@' settings.json
+      - cd web\ files && sed -i 's@info\@solodev.com@'"$SITEEMAIL"'@' settings.json
+      - cd web\ files && sed -i 's@800 N. Magnolia Blvd.@'"$SITEADDRESS"'@' settings.json
+      - cd web\ files && sed -i 's@Orlando@'"$SITECITY"'@' settings.json
+      - cd web\ files && sed -i 's@FL@'"$SITESTATE"'@' settings.json
+      - cd web\ files && sed -i 's@32803@'"$SITEPOSTAL"'@' settings.json
+      - cd web\ files && sed -i 's@https://www.facebook.com/@'"$SITEFACEBOOK"'@' settings.json
+      - cd web\ files && sed -i 's@https://twitter.com/@'"$SITETWITTER"'@' settings.json
+      - cd web\ files && sed -i 's@https://www.linkedin.com/@'"$SITELINKEDIN"'@' settings.json
+      - cd web\ files && sed -i 's@https://www.youtube.com/@'"$SITEYOUTUBE"'@' settings.json
+      - cd web\ files && sed -i 's@https://www.instagram.com/@'"$SITEINSTAGRAM"'@' settings.json
       - zip --symlinks -r lunarxp.zip web\ files www config.json
       - aws s3 cp lunarxp.zip s3://solodev-aws-ha
       - mkdir marketplace
