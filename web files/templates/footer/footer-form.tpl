@@ -10,7 +10,7 @@
           <a class="text-white" href="mailto:join@lunarxp.com">join@lunarxp.com</a></p>
         </div>
         <div class="col-md-8 ml-auto">
-          [form id='<%%{"path":"/web files/forms/Footer Form","type":"Datatable"}%%>' ]
+          [form id='<%%{"path":"/web files/forms/Footer","type":"Datatable"}%%>' ]
         </div>
       </div>
     </div>
