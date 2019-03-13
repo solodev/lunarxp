@@ -9,7 +9,7 @@ Explore the breathtaking visual backdrop to the LunarXP mission.</p>
   <div class="col-sm-6 col-md-4 mt-3 mt-sm-0">
     <div class="bg-light-gray bg-hover-light-gray-dark pointer box-sizing h-100">
       <a href="/photo-gallery/ships.stml" class="text-black">
-        <img class="w-100 h-200p cover img-fluid" alt="Ships Gallery" src="/core/fileparse.php/74/urlt/Gallery_Photo_1.jpg">
+        <img class="w-100 h-200p cover img-fluid" alt="Ships Gallery" src="/core/fileparse.php/{{Asset_Category path="/web files/managers/Photo Galleries/_Assets"}}/urlt/Gallery_Photo_1.jpg">
         <div class="p-3 p-lg-4">
           <h2 class="h3 mt-2 text-secondary">
             Our Ships    
@@ -24,7 +24,7 @@ Explore the breathtaking visual backdrop to the LunarXP mission.</p>
     <div class="col-sm-6 col-md-4 mt-3 mt-sm-0">
     <div class="bg-light-gray bg-hover-light-gray-dark pointer box-sizing h-100">
       <a href="/photo-gallery/mars.stml" class="text-black">
-        <img class="w-100 h-200p cover img-fluid" alt="Mars Gallery" src="/core/fileparse.php/74/urlt/Gallery_Photo_2.jpg">
+        <img class="w-100 h-200p cover img-fluid" alt="Mars Gallery" src="/core/fileparse.php/{{Asset_Category path="/web files/managers/Photo Galleries/_Assets"}}/urlt/Gallery_Photo_2.jpg">
         <div class="p-3 p-lg-4">
           <h2 class="h3 mt-2 text-secondary">
             Mars 
@@ -39,7 +39,7 @@ Explore the breathtaking visual backdrop to the LunarXP mission.</p>
   <div class="col-sm-6 col-md-4 mt-3 mt-sm-0">
     <div class="bg-light-gray bg-hover-light-gray-dark pointer box-sizing h-100">
       <a href="/photo-gallery/space-travel.stml" class="text-black">
-        <img class="w-100 h-200p cover img-fluid" alt="Mars Gallery" src="/core/fileparse.php/74/urlt/Gallery_Photo_3.jpg">
+        <img class="w-100 h-200p cover img-fluid" alt="Mars Gallery" src="/core/fileparse.php/{{Asset_Category path="/web files/managers/Photo Galleries/_Assets"}}/urlt/Gallery_Photo_3.jpg">
         <div class="p-3 p-lg-4">
           <h2 class="h3 mt-2 text-secondary">
             Space Travel 

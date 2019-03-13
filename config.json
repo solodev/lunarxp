@@ -2171,7 +2171,7 @@
                 {
                     "area": "dd.0.2",
                     "type": "Experiment",
-                    "from_path": "/web files/experiments/Watch Video A/B Test "
+                    "from_path": "/web files/experiments/Video Button Exp 3"
                 },
                 {
                     "area": "dd.0.3",
@@ -2192,6 +2192,11 @@
                     "area": "dd.0.10",
                     "type": "file",
                     "from_path": "/web files/templates/footer/footer-form.tpl"
+                },
+                {
+                    "area": "dd.0.5",
+                    "type": "file",
+                    "from_path": "/web files/content/home/home-content.tpl"
                 }
             ]
         },
@@ -4257,13 +4262,13 @@
         },
         {
             "name": "talon2.jpg",
-            "from_path": "/www/_/images/talon2.jpg",
-            "to_path": "/www/_/images/talon2.jpg"
+            "from_path": "/www/_/images/sectional-images/talon2.jpg",
+            "to_path": "/www/_/images/sectional-images/talon2.jpg"
         },
         {
             "name": "talon2.jpg",
-            "from_path": "/www/_/images/sectional-images/talon2.jpg",
-            "to_path": "/www/_/images/sectional-images/talon2.jpg"
+            "from_path": "/www/_/images/talon2.jpg",
+            "to_path": "/www/_/images/talon2.jpg"
         },
         {
             "name": "talon2.jpg",
@@ -6929,66 +6934,33 @@
     ],
     "Experiment": [
         {
-            "name": "Explore Our Ships",
+            "name": "Video Button Exp 3",
             "module_type": "Experiment",
-            "to_path": "/web files/experiments/Explore Our Ships",
-            "ga_experiment": "VOtAWbfRTaibJuEx88vWAQ",
-            "description": "Explore Our Ships v1 vs v2",
+            "to_path": "/web files/experiments/Video Button Exp 3",
+            "ga_experiment": "AekRaefCTdmVx_bhdAU4vg",
             "experiment_items": [
                 {
-                    "name": "Original",
-                    "rank": "0",
-                    "object_id": "/web files/content/home/home-content.tpl",
-                    "object_name": "home-content.tpl",
-                    "my_module_object_id": 2,
-                    "percentage": 54,
-                    "active": 1,
-                    "views": 62,
-                    "conversions": 1,
-                    "ga_experiment_variant": "0"
-                },
-                {
-                    "name": "Home-Content-2",
-                    "rank": 1,
-                    "object_id": "/web files/content/home/home-content-2.tpl",
-                    "object_name": "home-content-2.tpl",
-                    "my_module_object_id": 2,
-                    "percentage": 55,
-                    "active": 1,
-                    "views": 58,
-                    "conversions": 3,
-                    "ga_experiment_variant": 1
-                }
-            ]
-        },
-        {
-            "name": "Watch Video A/B Test ",
-            "module_type": "Experiment",
-            "to_path": "/web files/experiments/Watch Video A/B Test ",
-            "ga_experiment": "h6ilAYKDSjSzCEm5HCyJ0A",
-            "experiment_items": [
-                {
-                    "name": "Original",
+                    "name": "home1",
                     "rank": "0",
                     "object_id": "/web files/content/home/home-video.tpl",
                     "object_name": "home-video.tpl",
                     "my_module_object_id": 2,
-                    "percentage": 46,
+                    "percentage": 47,
                     "active": 1,
-                    "views": 138,
-                    "conversions": 4,
+                    "views": 9,
+                    "conversions": 2,
                     "ga_experiment_variant": "0"
                 },
                 {
-                    "name": "Take Me to Mars",
+                    "name": "home2",
                     "rank": 1,
                     "object_id": "/web files/content/home/home-video-2.tpl",
                     "object_name": "home-video-2.tpl",
                     "my_module_object_id": 2,
-                    "percentage": 46,
+                    "percentage": 47,
                     "active": 1,
-                    "views": 145,
-                    "conversions": 9,
+                    "views": 12,
+                    "conversions": 2,
                     "ga_experiment_variant": 1
                 }
             ]

@@ -7,7 +7,7 @@
       <a href="/about-lunarxp/" class="mt-3 btn btn-primary text-white">Watch the Video</a>
     </div>
     <div class="col-md-6 ml-auto mt-md-0 mt-5">
-      <img class="w-100 img-fluid" alt="Lunar XP Video" src="/core/fileparse.php/44/urlt/lunarxp-video.jpg"/>
+      <img class="w-100 img-fluid" alt="Lunar XP Video" src="/core/fileparse.php/{{Asset_Category path="/www/_/images"}}/urlt/lunarxp-video.jpg"/>
     </div>
   </div>
 </div>
