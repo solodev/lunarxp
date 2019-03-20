@@ -38,7 +38,7 @@
     "site_email": {
       "description": "The website's primary email address",
       "type": "string",
-			"default": "info@solodev.com",
+			"default": "info@lunarxp.com",
 			"visible": true
     },
     "site_address": {

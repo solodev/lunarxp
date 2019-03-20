@@ -1,3 +1,0 @@
-<h2>HAB-1 is Your “Home Away from Home”</h2>
-<p>LunarXP makes life on the moon more than habitable. Our deluxe HAB-1 accommodations provide near-earth gravity environments with an array of features that make your space-based life a little more livable. While you’ll be working on another planet, you’ll have a full kitchen, sleeping quarters, a private fitness room, two bathrooms and small hydroponic garden.</p>
-<p>Each HAB-1 facility is located within a colonial settlement. Depending on your area of expertise, you might find yourself taking in the views from the Sea of Tranquility Station or the venturing out across the Kepler Crater. A new world awaits – start living beyond your dreams with LunarXP.</p>

@@ -1,0 +1,1 @@
+<p>Thank you for applying for a position on the LunarXP team!</p>

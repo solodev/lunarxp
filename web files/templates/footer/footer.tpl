@@ -62,14 +62,14 @@
       
       <div class="col-md-2 pl-3 mt-2">
         <div class="position-relative">
-          <h4 class="h5 text-uppercase"><strong><a class="text-white" href="/about-lunarxp/">Explore</a></strong></h4>
+          <h4 class="h5 text-uppercase"><strong><a class="text-white" href="/about/">Explore</a></strong></h4>
           <a class="pointer d-md-none text-white" aria-role="button" data-toggle="collapse" data-target="#collapseContact" aria-expanded="false" aria-controls="#collapseContact">
             <div class="position-absolute top-0 right-0 h-100 d-flex align-items-center d-md-none"><i class="fas fa-plus"></i></div>
           </a>
         </div>
         <div id="collapseContact" class="collapse d-md-block">
           <ul class="list-unstyled small border-left pl-4 mt-md-4 border-alpha4-white">
-          	  <li><a class="text-white" href="/photo-gallery/">Gallery</a></li>
+          	  <li><a class="text-white" href="/gallery/">Gallery</a></li>
               <li><a class="text-white" href="/faq/">FAQs</a></li>
               <li><a class="text-white" href="/events/">Events</a></li>
               <li><a class="text-white" href="/blog/">Blog</a></li>

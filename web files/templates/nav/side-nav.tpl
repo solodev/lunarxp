@@ -25,10 +25,10 @@
       <a href="/updates/" class="nav-link text-white px-4"><strong>Updates</strong></a>
     </li>
     <li class="nav-item">
-      <a href="/photo-gallery/" class="nav-link text-white px-4"><strong>Gallery</strong></a>
+      <a href="/gallery/" class="nav-link text-white px-4"><strong>Gallery</strong></a>
     </li>
     <li class="nav-item">
-      <a href="/about-lunarxp/team/" class="nav-link text-white px-4"><strong>Team</strong></a>
+      <a href="/about/team/" class="nav-link text-white px-4"><strong>Team</strong></a>
     </li>
     <li class="nav-item">
       <a href="/contact/" class="nav-link text-white px-4"><strong>Contact</strong></a>

@@ -1,7 +1,6 @@
 ### .htaccess file ###
-
 ErrorDocument 404 /404.stml
 
-### .htaccess file ###
-
-ErrorDocument 404 /404.stml
+### 301 Redirects ###
+Redirect 301 /sample-redirect/ http://www.lunarxp.com/about-lunarxp/index.stml
+Redirect 301 /additional-redirect/ http://www.lunarxp.com/ships/index.stml

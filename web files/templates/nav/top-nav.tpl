@@ -9,7 +9,7 @@
       </div>
       <div class="col-xl-9 col-lg-10 col-sm-8 col-7">
         <div class="d-sm-flex d-none justify-content-end pt-2 w-100 mw-100">
-          <a class="text-secondary text-hover-primary px-2 px-md-3 small" href="/photo-gallery/">Gallery</a>
+          <a class="text-secondary text-hover-primary px-2 px-md-3 small" href="/gallery/">Gallery</a>
           <a class="text-secondary text-hover-primary px-2 px-md-3 small" href="/faq/">FAQs</a>
           <a class="text-secondary text-hover-primary px-2 px-md-3 small" href="/events/">Events</a>
           <a class="text-secondary text-hover-primary px-2 px-md-3 small" href="/blog/">Blog</a>
@@ -18,15 +18,14 @@
         </div>
         <ul class="navbar-nav flex-row justify-content-end flex-wrap align-items-center mr-lg-4 mr-xl-0">
           <li class="nav-item px-3 text-uppercase mb-0 position-relative d-none d-lg-flex">
-            <a class="d-block w-100 h-100 text-black py-4 position-relative top-link" href="/about-lunarxp/"><strong>About
-                [site_name]</strong></a>
+            <a class="d-block w-100 h-100 text-black py-4 position-relative top-link" href="/about/"><strong>About</strong></a>
             <div class="dropdown position-absolute">
               <ul class="list-unstyled">
                 <li class="bg-primary">
-                  <a class="text-white px-2 d-block w-100" href="/about-lunarxp/team/">Team</a>
+                  <a class="text-white px-2 d-block w-100" href="/about/team/">Team</a>
                 </li>
                 <li class="bg-primary">
-                  <a class="text-white px-2 d-block w-100" href="/about-lunarxp/partners/">Partners</a>
+                  <a class="text-white px-2 d-block w-100" href="/about/partners/">Partners</a>
                 </li>
               </ul>
             </div>

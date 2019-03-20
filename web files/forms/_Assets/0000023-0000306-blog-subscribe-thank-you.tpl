@@ -1,0 +1,1 @@
+<p>Thank you for subscribing to LunarXP blog!</p>

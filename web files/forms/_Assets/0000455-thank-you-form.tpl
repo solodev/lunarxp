@@ -1,1 +1,1 @@
-<p>test</p>
+<p>Thank you for your submission.</p>
