@@ -21,7 +21,7 @@ phases:
       - cd web\ files && sed -i 's@https://www.lunarxp.com/@'"$SITEURL"'@' settings.json
       - cd web\ files && sed -i 's@lunar-xp-logo.png@'"$LOGONAME"'@' settings.json
       - cd web\ files && sed -i 's@(800) 859-7656@'"$SITEPHONE"'@' settings.json
-      - cd web\ files && sed -i 's@info\@solodev.com@'"$SITEEMAIL"'@' settings.json
+      - cd web\ files && sed -i 's@info\@lunarxp.com@'"$SITEEMAIL"'@' settings.json
       - cd web\ files && sed -i 's@800 N. Magnolia Blvd.@'"$SITEADDRESS"'@' settings.json
       - cd web\ files && sed -i 's@Orlando@'"$SITECITY"'@' settings.json
       - cd web\ files && sed -i 's@FL@'"$SITESTATE"'@' settings.json
