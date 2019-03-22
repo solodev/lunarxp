@@ -4,7 +4,7 @@
 	</div>
 </div>
 <div class="row py-5">
-	[repeater id='<%%{"path":"/web files/managers/Photo Galleries/Photo Galleries","type":"Calendar"}%%>'  pages="22" order="start_time desc" display_type="news" where="post_status='Published'"]
+	[repeater id='<%%{"path":"/web files/managers/Photo Galleries/Photo Galleries","type":"Calendar"}%%>'  pages="22" order="start_time desc" display_type="news"]
 		<div class="col-sm-6 col-md-4 mt-3 mt-sm-0">
 			<div class="bg-light-gray bg-hover-light-gray-dark pointer box-sizing h-100">
 				<a href="{{path}}" class="text-black">

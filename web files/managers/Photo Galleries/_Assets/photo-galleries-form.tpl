@@ -1,12 +1,5 @@
 <div class="row">
   <div class="col-md-12 form-group">
-    <label class="control-label" for="heading_title">Album Name</label>
-    <p class="card-subtitle">(Required) The name of your photo gallery album.</p>
-    <input class="form-control" id="heading_title" name="heading_title" type="text" />
-  </div>
-</div>
-<div class="row">
-  <div class="col-md-12 form-group">
     <label class="control-label" for="featured_image">Featured Image</label>
     <p class="card-subtitle mb-2">(Required) The image that appears in the post and normal photo gallery roll feed. <strong>Minimun Required Dimensions:</strong> 350px by 200px.</p>
     <input class="file_upload" id="featured_image" name="featured_image" type="file" />

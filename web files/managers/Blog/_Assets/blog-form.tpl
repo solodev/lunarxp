@@ -1,65 +1,66 @@
 <div class="row">
-  <div class="col-md-12 form-group">
-    <label class="control-label" for="post_intro">Intro/Subtitle</label>
-    <p class="card-subtitle">(Required) Content that appears before the Body Content and the introductory paragraph
-      on the blog roll.</p>
-    <textarea class="form-control wysiwyg-basic" name="post_intro" id="post_intro" required></textarea>
-  </div>
+	<div class="col-md-12 form-group">
+		<label class="control-label" for="post_content">Content</label>
+		<p class="card-subtitle">(Required) The main content section for an entry.</p>
+		<textarea class="form-control wysiwyg" id="post_content" name="post_content" required=""></textarea>
+	</div>
 </div>
 <div class="row">
-  <div class="col-md-12 form-group">
-    <label class="control-label" for="post_content">Body Content</label>
-    <p class="card-subtitle">(Required) The main content section for an article.</p>
-    <textarea class="form-control wysiwyg" name="post_content" id="post_content" required></textarea>
-  </div>
+	<div class="col-md-12 form-group">
+		<label class="control-label" for="post_intro">Intro/Excerpt</label>
+		<p class="card-subtitle">(Required) Content that appears on the main index page for the manager.</p>
+		<textarea class="form-control wysiwyg-basic" id="post_intro" name="post_intro" required=""></textarea>
+	</div>
 </div>
 <div class="row">
-  <div class="col-md-6 form-group">
-    <label class="control-label" for="resourceTypeSelect">Featured Image</label>
-    <p class="card-subtitle mb-2">(Required) The image that appears in the post and normal blog roll feed. <strong>Dimensions:</strong> 951px x 561px.</p>
-    <input type="file" class="file_upload" name="listing_image" id="listing_image">
-  </div>
+	<div class="col-md-6 form-group">
+		<label class="control-label" for="resourceTypeSelect">Featured Image</label>
+		<p class="card-subtitle">(Required) The featured image associated with the entry. <strong>Dimensions:</strong> 951px x 561px.</p>
+        <input class="file_upload" id="listing_image" name="listing_image" type="file">
+	</div>
 </div>
-  
-<div id="accordionMetaData" class="hide-on-add">
-  <section class="card">
-    <header id="status" class="card-header" id="headingMetaData" data-toggle="collapse" data-target="#collapseMetaData" aria-expanded="true" aria-controls="collapseMetaData">
-      <h2 class="card-title">Meta Data</h2>
-      <div class="panel-actions">
-        <a href="#" class="panel-action panel-action-toggle"></a>
-      </div>
-    </header>
-    <div id="collapseMetaData" class="collapse" aria-labelledby="headingMetaData" data-parent="#accordionMetaData">
-      <div class="card-body">
-        <div class="row">
-          <div class="col-md-12 form-group">
-            <label class="control-label" for="meta_title">Meta Title</label>
-            <p class="card-subtitle mt-0">(Optional) Include a custom META Title that will show in your browser tab and in the page's source code.</p>
-            <input type="text" class="form-control" name="meta_title" id="meta_title">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12 form-group form-group">
-            <label class="control-label" for="heading_title">Heading Title</label>
-            <p class="card-subtitle mt-0">(Optional) If specified, this will overwrite the article's title and become the main heading.</p>
-            <input type="text" class="form-control" name="heading_title" id="heading_title">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12 form-group">
-            <label class="control-label" for="meta_description">Meta Description</label>
-            <p class="card-subtitle mt-0">(Optional) Include a custom META Description that search engines will index. 50-160 Characters</p>
-            <textarea class="form-control" id="meta_description" name="meta_description"></textarea>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12 form-group">
-            <label class="control-label" for="meta_keywords">Meta Keywords</label>
-            <p class="card-subtitle mt-0">(Optional) Include the main keywords of the blog article.</p>
-            <textarea class="form-control" id="meta_keywords" name="meta_keywords"></textarea>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+<div class="hide-on-add" id="accordionMetaData">
+	<section class="card">
+		<header aria-controls="collapseMetaData" aria-expanded="true" class="card-header" data-target="#collapseMetaData" data-toggle="collapse" id="headingMetaData">
+			<h2 class="card-title">Meta Data</h2>
+			<div class="panel-actions">
+				<a class="panel-action panel-action-toggle" href="#"></a>
+			</div>
+		</header>
+		<div aria-labelledby="headingMetaData" class="collapse" data-parent="#accordionMetaData" id="collapseMetaData">
+			<div class="card-body">
+				<div class="row">
+					<div class="col-md-6 form-group">
+						<label class="control-label" for="meta_title">Meta Title</label>
+						<p class="card-subtitle mt-0">(Optional) Include a custom Meta Title that will show in your browser tab and in the entry's source code.</p>
+                        <input class="form-control" id="meta_title" name="meta_title" type="text">
+					</div>
+					<div class="col-md-6 form-group form-group">
+						<label class="control-label" for="heading_title">Heading Title</label>
+						<p class="card-subtitle mt-0">(Optional) If specified, this will overwrite the entry's title and become the main heading (H1).</p>
+                        <input class="form-control" id="heading_title" name="heading_title" type="text">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 form-group">
+						<label class="control-label" for="meta_description">Meta Description</label>
+						<p class="card-subtitle mt-0">(Optional) Include a custom Meta Description that search engines will index. 50-160 Characters</p>
+						<textarea class="form-control" id="meta_description" name="meta_description"></textarea>
+					</div>
+					<div class="col-md-6 form-group">
+						<label class="control-label" for="meta_keywords">Meta Keywords</label>
+						<p class="card-subtitle mt-0">(Optional) Include the main Meta Keywords of the entry.</p>
+						<textarea class="form-control" id="meta_keywords" name="meta_keywords"></textarea>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 form-group">
+						<label class="control-label" for="meta_tags">Additional Meta Tags</label>
+						<p class="card-subtitle mt-0">(Optional) Include additional meta tags such as OG (Open Graph) tags.</p>
+						<textarea class="form-control" id="meta_tags" name="meta_tags"></textarea>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 </div>

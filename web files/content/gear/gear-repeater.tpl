@@ -6,12 +6,12 @@
 </div>
   
 <div class="row py-5">
-	[category_list id="7"] <!-- id may need to be updated -->
+	[category_list id='<%%{"path":"/web files/managers/Gear/Gear Categories","type":"Datatable_Category_Group"}%%>' ]
     	<div class="col-md-4 mt-4 mt-sm-0">
 			<div class="bg-primary bg-hover-primary-dark text-center h-100">
         		<a href="{{name}}/">
 					<div class="h-100 w-100">
-						<img class="w-100 h-250p cover" alt="{{title}} Gear Image" src="[get_asset_file_url id={{category_image}}]">
+						<img class="w-100 h-250p cover" alt="{{title}} Gear Image" src="[get_asset_file_url id='{{category_image}}']">
 						<div class="p-3 text-white">
 							<h3 class="h5 text-uppercase m-0">{{title}}</h3>
 							[is_set value="{{description}}"]

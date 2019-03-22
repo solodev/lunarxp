@@ -1,32 +1,44 @@
 <div class="row">
-	<div class="col-md-4">
-		<h2><label class="label-control" for="small_text">Small Heading Text</label></h2>
-		<input class="form-control" type="text" name="small_text" id="small_text">
+	<div class="col-md-6 form-group">
+		<label class="control-label" for="small_text">Small Heading Text</label>
+		<p class="card-subtitle">(Optional) The first line of the slide title.</p>
+		<input class="form-control" id="small_text" name="small_text" type="text">
 	</div>
-	<div class="col-md-4">
-		<h2><label class="label-control" for="large_text">Large Heading Text</label></h2>
-		<input class="form-control" type="text" name="large_text" id="large_text">
-	</div>
-	<div class="col-md-4">
-		<h2><label class="label-control" for="slider_content">Slider Content</label></h2>
-		<input class="form-control" type="text" name="slider_content" id="slider_content">
+	<div class="col-md-6 form-group">
+		<label class="control-label" for="large_text">Large Heading Text</label>
+		<p class="card-subtitle">(Optional) The second line of the slide title.</p>
+		<input class="form-control" id="large_text" name="large_text" type="text">
 	</div>
 </div>
-
 <div class="row">
-	<div class="col-md-6">
-		<h2><label class="label-control" for="button_link">Link</label></h2>
-		<input class="form-control" type="text" name="button_link" id="button_link">
+	<div class="col-md-3 form-group">
+		<label class="control-label" for="button_link">Link</label>
+		<p class="card-subtitle">(Required) The link URL of the slide button.</p>
+		<input class="form-control" id="button_link" name="button_link" type="text">
 	</div>
-	<div class="col-md-6">
-		<h2><label class="label-control" for="button_text">Button Text</label></h2>
-		<input class="form-control" type="text" name="button_text" id="button_text">
+	<div class="col-md-3 form-group mt-md-5">
+		<div class="form-check checkbox-custom mt-md-2">
+			<input id="url_new_window" name="link_external" type="checkbox" value="1">
+            <label class="control-label" for="link_external">External Link?</label>
+		</div>
+	</div>
+	<div class="col-md-6 form-group">
+		<label class="control-label" for="button_text">Button Text</label>
+		<p class="card-subtitle">(Required) The text included inside the slide button.</p>
+		<input class="form-control" id="button_text" name="button_text" type="text">
 	</div>
 </div>
-
 <div class="row">
-	<div class="col-md-6">
-		<h2><label class="label-control" for="slide_picture">Image <small>Dimensions (3000x840)</small></label></h2>
-		<input class="form-control" id="slide_picture" name="slide_picture" type="file" />
+	<div class="col-md-12 form-group">
+		<label class="control-label" for="slider_content">Slider Content</label>
+		<p class="card-subtitle">(Required) The content of the slide under its title.</p>
+		<textarea class="form-control wysiwyg-basic" id="slider_content" name="slider_content" required=""></textarea>
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-6 form-group">
+		<label class="control-label" for="slide_picture">Featured Image</label>
+		<p class="card-subtitle">(Required) The main content section for an entry. <strong>Dimensions:</strong> 3000px by 840px.</p>
+		<input class="form-control" id="slide_picture" name="slide_picture" type="file">
 	</div>
 </div>
