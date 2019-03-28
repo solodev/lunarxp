@@ -1,6 +1,6 @@
 <div class="row mt-5">
 	<div class="col-md-4">
-		[module_category_filter id="1"] <!-- id may need to be updated -->
+		[module_category_filter id="5"] <!-- id may need to be updated -->
 	</div>
 	<div class="col-md-4 mt-3 mt-md-0">
 		[module_tag_filter]
@@ -18,13 +18,13 @@
 </div>
 
 <div class="row">
-	[repeater id='<%%{"path":"/web files/managers/Blog/Blog","type":"Calendar"}%%>' ]
+	[repeater id='<%%{"path":"/web files/managers/Updates/Updates","type":"Calendar"}%%>'  pages="22" order="start_time desc" display_type="news"]
 		<div class="col-sm-6 col-lg-4 mt-4">
 			<div class="bg-light-gray bg-hover-light-gray-dark pointer box-sizing h-100" onclick="location.href='{{path}}'">
-				<img alt="{{event_title}}" src="[get_asset_file_url id='{{listing_image}}']" class="img-fluid h-200p cover w-100">
+				<img alt="{{event_title}}" src="[get_asset_file_url id='{{news_image}}']" class="img-fluid h-200p cover w-100">
 				<div class="p-3 p-lg-4">					
 					[entry_categories_repeat id="{{calendar_entry_id}}"]
-						<a class="btn btn-outline-secondary rounded-0 p-1 px-3" href="/blog/{{{name}}}/">{{{title}}}</a>
+						<a class="btn btn-outline-secondary rounded-0 p-1 px-3" href="/updates/{{{name}}}">{{{title}}}</a>
 					[/entry_categories_repeat]
 					
 					<h2 class="h4 mt-4 post-intro">
@@ -45,3 +45,4 @@
 		</div>
 	[/repeater]
 </div>
+

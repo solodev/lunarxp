@@ -50,38 +50,38 @@
         },
         {
             "name": "0000292-blog-1.jpg",
-            "from_path": "/web files/managers/Gear/_Assets/0000292-blog-1.jpg",
-            "to_path": "/web files/managers/Gear/_Assets/0000292-blog-1.jpg",
+            "from_path": "/web files/managers/Shop/_Assets/0000292-blog-1.jpg",
+            "to_path": "/web files/managers/Shop/_Assets/0000292-blog-1.jpg",
             "publish_date": "1541454085"
         },
         {
             "name": "0000293-blog-4.jpg",
-            "from_path": "/web files/managers/Gear/_Assets/0000293-blog-4.jpg",
-            "to_path": "/web files/managers/Gear/_Assets/0000293-blog-4.jpg",
+            "from_path": "/web files/managers/Shop/_Assets/0000293-blog-4.jpg",
+            "to_path": "/web files/managers/Shop/_Assets/0000293-blog-4.jpg",
             "publish_date": "1541454085"
         },
         {
             "name": "0000294-blog-3.jpg",
-            "from_path": "/web files/managers/Gear/_Assets/0000294-blog-3.jpg",
-            "to_path": "/web files/managers/Gear/_Assets/0000294-blog-3.jpg",
+            "from_path": "/web files/managers/Shop/_Assets/0000294-blog-3.jpg",
+            "to_path": "/web files/managers/Shop/_Assets/0000294-blog-3.jpg",
             "publish_date": "1541454086"
         },
         {
             "name": "0000332-Gear_Glasses.jpg",
-            "from_path": "/web files/managers/Gear/_Assets/0000332-Gear_Glasses.jpg",
-            "to_path": "/web files/managers/Gear/_Assets/0000332-Gear_Glasses.jpg",
+            "from_path": "/web files/managers/Shop/_Assets/0000332-Gear_Glasses.jpg",
+            "to_path": "/web files/managers/Shop/_Assets/0000332-Gear_Glasses.jpg",
             "publish_date": "1541787059"
         },
         {
             "name": "0000333-Gear_Hat.jpg",
-            "from_path": "/web files/managers/Gear/_Assets/0000333-Gear_Hat.jpg",
-            "to_path": "/web files/managers/Gear/_Assets/0000333-Gear_Hat.jpg",
+            "from_path": "/web files/managers/Shop/_Assets/0000333-Gear_Hat.jpg",
+            "to_path": "/web files/managers/Shop/_Assets/0000333-Gear_Hat.jpg",
             "publish_date": "1541787101"
         },
         {
             "name": "0000334-Gear_Tshirt.jpg",
-            "from_path": "/web files/managers/Gear/_Assets/0000334-Gear_Tshirt.jpg",
-            "to_path": "/web files/managers/Gear/_Assets/0000334-Gear_Tshirt.jpg",
+            "from_path": "/web files/managers/Shop/_Assets/0000334-Gear_Tshirt.jpg",
+            "to_path": "/web files/managers/Shop/_Assets/0000334-Gear_Tshirt.jpg",
             "publish_date": 1541787136
         },
         {
@@ -101,6 +101,11 @@
             "from_path": "/www/_/images/0000545-New File.txt",
             "to_path": "/www/_/images/0000545-New File.txt",
             "publish_date": "1548080850"
+        },
+        {
+            "name": "1-column-template.tpl",
+            "from_path": "/web files/templates/content/1-column-template.tpl",
+            "to_path": "/web files/templates/content/1-column-template.tpl"
         },
         {
             "name": "3designs.png",
@@ -179,8 +184,8 @@
         },
         {
             "name": "6-Critical-Reasons-Landing.jpg",
-            "from_path": "/web files/managers/Gear/_Assets/6-Critical-Reasons-Landing.jpg",
-            "to_path": "/web files/managers/Gear/_Assets/6-Critical-Reasons-Landing.jpg",
+            "from_path": "/web files/managers/Shop/_Assets/6-Critical-Reasons-Landing.jpg",
+            "to_path": "/web files/managers/Shop/_Assets/6-Critical-Reasons-Landing.jpg",
             "publish_date": "1541454089"
         },
         {
@@ -276,12 +281,6 @@
             "publish_date": "1541454060"
         },
         {
-            "name": "banner-repeater.tpl",
-            "from_path": "/web files/templates/sections/banner-repeater.tpl",
-            "to_path": "/web files/templates/sections/banner-repeater.tpl",
-            "publish_date": "1545855180"
-        },
-        {
             "name": "banners-form.tpl",
             "from_path": "/web files/managers/Banners/_Assets/banners-form.tpl",
             "to_path": "/web files/managers/Banners/_Assets/banners-form.tpl"
@@ -294,8 +293,8 @@
         },
         {
             "name": "blog-1.jpg",
-            "from_path": "/web files/managers/Gear/_Assets/blog-1.jpg",
-            "to_path": "/web files/managers/Gear/_Assets/blog-1.jpg",
+            "from_path": "/web files/managers/Shop/_Assets/blog-1.jpg",
+            "to_path": "/web files/managers/Shop/_Assets/blog-1.jpg",
             "publish_date": "1541454094"
         },
         {
@@ -312,15 +311,15 @@
         },
         {
             "name": "blog-2.jpg",
-            "from_path": "/web files/managers/Blog/_Assets/blog-2.jpg",
-            "to_path": "/web files/managers/Blog/_Assets/blog-2.jpg",
-            "publish_date": 1553118621
+            "from_path": "/web files/managers/Shop/_Assets/blog-2.jpg",
+            "to_path": "/web files/managers/Shop/_Assets/blog-2.jpg",
+            "publish_date": "1542650874"
         },
         {
             "name": "blog-2.jpg",
-            "from_path": "/web files/managers/Gear/_Assets/blog-2.jpg",
-            "to_path": "/web files/managers/Gear/_Assets/blog-2.jpg",
-            "publish_date": "1542650874"
+            "from_path": "/web files/managers/Blog/_Assets/blog-2.jpg",
+            "to_path": "/web files/managers/Blog/_Assets/blog-2.jpg",
+            "publish_date": 1553118621
         },
         {
             "name": "blog-3.jpg",
@@ -382,28 +381,10 @@
             "publish_date": "1541454060"
         },
         {
-            "name": "blog-section.tpl",
-            "from_path": "/web files/templates/sections/blog-section.tpl",
-            "to_path": "/web files/templates/sections/blog-section.tpl",
-            "publish_date": "1541793360"
-        },
-        {
-            "name": "blog-signup.tpl",
-            "from_path": "/web files/templates/sections/blog-signup.tpl",
-            "to_path": "/web files/templates/sections/blog-signup.tpl",
-            "publish_date": "1541454060"
-        },
-        {
             "name": "blog-slide2.jpg",
             "from_path": "/www/_/images/blog-slide2.jpg",
             "to_path": "/www/_/images/blog-slide2.jpg",
             "publish_date": "1541454099"
-        },
-        {
-            "name": "blog-slider.tpl",
-            "from_path": "/web files/templates/sections/blog-slider.tpl",
-            "to_path": "/web files/templates/sections/blog-slider.tpl",
-            "publish_date": "1541454060"
         },
         {
             "name": "blog-subscribe-detail.tpl",
@@ -484,138 +465,6 @@
         },
         {
             "name": "category.stml",
-            "from_path": "/www/events/category.stml",
-            "to_path": "/www/events/category.stml",
-            "publish_date": "1544201774",
-            "title": null,
-            "structure": "0",
-            "rank": null,
-            "menu": null,
-            "meta_description": null,
-            "meta_keywords": null,
-            "description": null,
-            "headerBlock": null,
-            "content_title": null,
-            "body_id": null,
-            "body_role": null,
-            "body_class": null,
-            "isTemplate": "0",
-            "contents": [
-                {
-                    "area": "dd.0",
-                    "type": "file",
-                    "from_path": "/web files/templates/basetemplate.tpl"
-                },
-                {
-                    "area": "dd.0.1",
-                    "type": "file",
-                    "from_path": "/web files/templates/nav/top-nav.tpl"
-                },
-                {
-                    "area": "dd.0.2",
-                    "type": "file",
-                    "from_path": "/web files/templates/hero/sectional-hero.tpl"
-                },
-                {
-                    "area": "dd.0.3",
-                    "type": "file",
-                    "from_path": "/web files/templates/nav/breadcrumb.tpl"
-                },
-                {
-                    "area": "dd.0.4",
-                    "type": "file",
-                    "from_path": "/web files/templates/interiors/sectional-template.tpl"
-                },
-                {
-                    "area": "dd.0.4.4",
-                    "type": "file",
-                    "from_path": "/web files/templates/nav/left-nav.tpl"
-                },
-                {
-                    "area": "dd.0.4.0",
-                    "type": "file",
-                    "from_path": "/web files/content/events/events-category.tpl"
-                },
-                {
-                    "area": "dd.0.11",
-                    "type": "file",
-                    "from_path": "/web files/templates/footer/footer.tpl"
-                },
-                {
-                    "area": "dd.0.10",
-                    "type": "file",
-                    "from_path": "/web files/templates/footer/footer-form.tpl"
-                }
-            ]
-        },
-        {
-            "name": "category.stml",
-            "from_path": "/www/updates/category.stml",
-            "to_path": "/www/updates/category.stml",
-            "publish_date": "1544202249",
-            "title": null,
-            "structure": "0",
-            "rank": null,
-            "menu": null,
-            "meta_description": null,
-            "meta_keywords": null,
-            "description": null,
-            "headerBlock": null,
-            "content_title": null,
-            "body_id": null,
-            "body_role": null,
-            "body_class": null,
-            "isTemplate": "0",
-            "contents": [
-                {
-                    "area": "dd.0",
-                    "type": "file",
-                    "from_path": "/web files/templates/basetemplate.tpl"
-                },
-                {
-                    "area": "dd.0.0",
-                    "type": "file",
-                    "from_path": "/web files/templates/nav/top-nav.tpl"
-                },
-                {
-                    "area": "dd.0.1",
-                    "type": "file",
-                    "from_path": "/web files/templates/hero/sectional-hero.tpl"
-                },
-                {
-                    "area": "dd.0.2",
-                    "type": "file",
-                    "from_path": "/web files/templates/nav/breadcrumb.tpl"
-                },
-                {
-                    "area": "dd.0.3",
-                    "type": "file",
-                    "from_path": "/web files/templates/interiors/sectional-template.tpl"
-                },
-                {
-                    "area": "dd.0.3.4",
-                    "type": "file",
-                    "from_path": "/web files/templates/nav/left-nav.tpl"
-                },
-                {
-                    "area": "dd.0.3.0",
-                    "type": "file",
-                    "from_path": "/web files/content/updates/updates-category.tpl"
-                },
-                {
-                    "area": "dd.0.11",
-                    "type": "file",
-                    "from_path": "/web files/templates/footer/footer.tpl"
-                },
-                {
-                    "area": "dd.0.10",
-                    "type": "file",
-                    "from_path": "/web files/templates/footer/footer-form.tpl"
-                }
-            ]
-        },
-        {
-            "name": "category.stml",
             "from_path": "/www/blog/category.stml",
             "to_path": "/www/blog/category.stml",
             "publish_date": "1541454160",
@@ -644,11 +493,6 @@
                     "from_path": "/web files/templates/nav/top-nav.tpl"
                 },
                 {
-                    "area": "dd.0.1",
-                    "type": "file",
-                    "from_path": "/web files/templates/hero/sectional-hero.tpl"
-                },
-                {
                     "area": "dd.0.2",
                     "type": "file",
                     "from_path": "/web files/templates/nav/breadcrumb.tpl"
@@ -656,7 +500,7 @@
                 {
                     "area": "dd.0.3",
                     "type": "file",
-                    "from_path": "/web files/templates/interiors/sectional-full.tpl"
+                    "from_path": "/web files/templates/content/1-column-template.tpl"
                 },
                 {
                     "area": "dd.0.3.0",
@@ -672,13 +516,18 @@
                     "area": "dd.0.7",
                     "type": "file",
                     "from_path": "/web files/templates/footer/footer.tpl"
+                },
+                {
+                    "area": "dd.0.1",
+                    "type": "file",
+                    "from_path": "/web files/templates/hero/hero.tpl"
                 }
             ]
         },
         {
             "name": "category.stml",
-            "from_path": "/www/gear/category.stml",
-            "to_path": "/www/gear/category.stml",
+            "from_path": "/www/shop/category.stml",
+            "to_path": "/www/shop/category.stml",
             "publish_date": 1541454161,
             "title": null,
             "structure": "0",
@@ -705,11 +554,6 @@
                     "from_path": "/web files/templates/nav/top-nav.tpl"
                 },
                 {
-                    "area": "dd.0.1",
-                    "type": "file",
-                    "from_path": "/web files/templates/hero/sectional-hero.tpl"
-                },
-                {
                     "area": "dd.0.2",
                     "type": "file",
                     "from_path": "/web files/templates/nav/breadcrumb.tpl"
@@ -717,17 +561,149 @@
                 {
                     "area": "dd.0.3",
                     "type": "file",
-                    "from_path": "/web files/templates/interiors/sectional-full.tpl"
+                    "from_path": "/web files/templates/content/1-column-template.tpl"
                 },
                 {
                     "area": "dd.0.3.0",
                     "type": "file",
-                    "from_path": "/web files/content/gear/gear-detail.tpl"
+                    "from_path": "/web files/content/shop/shop-detail.tpl"
                 },
                 {
                     "area": "dd.0.7",
                     "type": "file",
                     "from_path": "/web files/templates/footer/footer.tpl"
+                },
+                {
+                    "area": "dd.0.1",
+                    "type": "file",
+                    "from_path": "/web files/templates/hero/hero.tpl"
+                }
+            ]
+        },
+        {
+            "name": "category.stml",
+            "from_path": "/www/events/category.stml",
+            "to_path": "/www/events/category.stml",
+            "publish_date": "1544201774",
+            "title": null,
+            "structure": "0",
+            "rank": null,
+            "menu": null,
+            "meta_description": null,
+            "meta_keywords": null,
+            "description": null,
+            "headerBlock": null,
+            "content_title": null,
+            "body_id": null,
+            "body_role": null,
+            "body_class": null,
+            "isTemplate": "0",
+            "contents": [
+                {
+                    "area": "dd.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/basetemplate.tpl"
+                },
+                {
+                    "area": "dd.0.1",
+                    "type": "file",
+                    "from_path": "/web files/templates/nav/top-nav.tpl"
+                },
+                {
+                    "area": "dd.0.3",
+                    "type": "file",
+                    "from_path": "/web files/templates/nav/breadcrumb.tpl"
+                },
+                {
+                    "area": "dd.0.4",
+                    "type": "file",
+                    "from_path": "/web files/templates/content/two-column-template.tpl"
+                },
+                {
+                    "area": "dd.0.4.4",
+                    "type": "file",
+                    "from_path": "/web files/templates/nav/left-nav.tpl"
+                },
+                {
+                    "area": "dd.0.4.0",
+                    "type": "file",
+                    "from_path": "/web files/content/events/events-category.tpl"
+                },
+                {
+                    "area": "dd.0.11",
+                    "type": "file",
+                    "from_path": "/web files/templates/footer/footer.tpl"
+                },
+                {
+                    "area": "dd.0.10",
+                    "type": "file",
+                    "from_path": "/web files/templates/footer/footer-form.tpl"
+                },
+                {
+                    "area": "dd.0.2",
+                    "type": "file",
+                    "from_path": "/web files/templates/hero/hero.tpl"
+                }
+            ]
+        },
+        {
+            "name": "category.stml",
+            "from_path": "/www/news/category.stml",
+            "to_path": "/www/news/category.stml",
+            "publish_date": "1544202249",
+            "title": null,
+            "structure": "0",
+            "rank": null,
+            "menu": null,
+            "meta_description": null,
+            "meta_keywords": null,
+            "description": null,
+            "headerBlock": null,
+            "content_title": null,
+            "body_id": null,
+            "body_role": null,
+            "body_class": null,
+            "isTemplate": "0",
+            "contents": [
+                {
+                    "area": "dd.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/basetemplate.tpl"
+                },
+                {
+                    "area": "dd.0.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/nav/top-nav.tpl"
+                },
+                {
+                    "area": "dd.0.2",
+                    "type": "file",
+                    "from_path": "/web files/templates/nav/breadcrumb.tpl"
+                },
+                {
+                    "area": "dd.0.11",
+                    "type": "file",
+                    "from_path": "/web files/templates/footer/footer.tpl"
+                },
+                {
+                    "area": "dd.0.10",
+                    "type": "file",
+                    "from_path": "/web files/templates/footer/footer-form.tpl"
+                },
+                {
+                    "area": "dd.0.3",
+                    "type": "file",
+                    "from_path": "/web files/templates/content/1-column-template.tpl"
+                },
+                {
+                    "area": "dd.0.3.0",
+                    "type": "file",
+                    "from_path": "/web files/content/news/news-category.tpl"
+                },
+                {
+                    "area": "dd.0.1",
+                    "type": "file",
+                    "from_path": "/web files/templates/hero/hero.tpl"
                 }
             ]
         },
@@ -781,8 +757,8 @@
         },
         {
             "name": "client7.png",
-            "from_path": "/web files/managers/Gear/_Assets/client7.png",
-            "to_path": "/web files/managers/Gear/_Assets/client7.png",
+            "from_path": "/web files/managers/Shop/_Assets/client7.png",
+            "to_path": "/web files/managers/Shop/_Assets/client7.png",
             "publish_date": "1541454106"
         },
         {
@@ -877,7 +853,7 @@
                 {
                     "area": "dd.0.1",
                     "type": "file",
-                    "from_path": "/web files/templates/hero/sectional-hero.tpl"
+                    "from_path": null
                 },
                 {
                     "area": "dd.0.2",
@@ -887,7 +863,7 @@
                 {
                     "area": "dd.0.3",
                     "type": "file",
-                    "from_path": "/web files/templates/interiors/sectional-template.tpl"
+                    "from_path": "/web files/templates/content/two-column-template.tpl"
                 },
                 {
                     "area": "dd.0.3.4",
@@ -912,6 +888,67 @@
             "from_path": "/www/_/images/design.jpg",
             "to_path": "/www/_/images/design.jpg",
             "publish_date": "1541454109"
+        },
+        {
+            "name": "detail.stml",
+            "from_path": "/www/about/partners/detail.stml",
+            "to_path": "/www/about/partners/detail.stml",
+            "publish_date": 1541454167,
+            "title": null,
+            "structure": "0",
+            "rank": null,
+            "menu": null,
+            "meta_description": null,
+            "meta_keywords": null,
+            "description": null,
+            "headerBlock": null,
+            "content_title": null,
+            "body_id": null,
+            "body_role": null,
+            "body_class": null,
+            "isTemplate": "0",
+            "contents": [
+                {
+                    "area": "dd.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/basetemplate.tpl"
+                },
+                {
+                    "area": "dd.0.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/nav/top-nav.tpl"
+                },
+                {
+                    "area": "dd.0.2",
+                    "type": "file",
+                    "from_path": "/web files/templates/nav/breadcrumb.tpl"
+                },
+                {
+                    "area": "dd.0.3",
+                    "type": "file",
+                    "from_path": "/web files/templates/content/1-column-template.tpl"
+                },
+                {
+                    "area": "dd.0.3.0",
+                    "type": "file",
+                    "from_path": "/web files/content/about/partners/partner-detail.tpl"
+                },
+                {
+                    "area": "dd.0.6",
+                    "type": "file",
+                    "from_path": "/web files/templates/footer/footer-form.tpl"
+                },
+                {
+                    "area": "dd.0.7",
+                    "type": "file",
+                    "from_path": "/web files/templates/footer/footer.tpl"
+                },
+                {
+                    "area": "dd.0.1",
+                    "type": "file",
+                    "from_path": "/web files/templates/hero/hero-entry.tpl"
+                }
+            ]
         },
         {
             "name": "detail.stml",
@@ -945,7 +982,7 @@
                 {
                     "area": "dd.0.1",
                     "type": "file",
-                    "from_path": "/web files/templates/hero/sectional-hero-large.tpl"
+                    "from_path": "/web files/templates/hero/hero-entry.tpl"
                 },
                 {
                     "area": "dd.0.2",
@@ -955,7 +992,7 @@
                 {
                     "area": "dd.0.3",
                     "type": "file",
-                    "from_path": "/web files/templates/interiors/sectional-with-form.tpl"
+                    "from_path": null
                 },
                 {
                     "area": "dd.0.3.0",
@@ -1004,34 +1041,34 @@
                     "from_path": "/web files/templates/basetemplate.tpl"
                 },
                 {
+                    "area": "dd.0.7",
+                    "type": "file",
+                    "from_path": "/web files/templates/footer/footer.tpl"
+                },
+                {
                     "area": "dd.0.0",
                     "type": "file",
                     "from_path": "/web files/templates/nav/top-nav.tpl"
                 },
                 {
-                    "area": "dd.0.2",
+                    "area": "dd.0.1",
                     "type": "file",
-                    "from_path": "/web files/templates/hero/sectional-hero-bar.tpl"
+                    "from_path": "/web files/templates/hero/hero-entry.tpl"
                 },
                 {
-                    "area": "dd.0.3",
+                    "area": "dd.0.2",
                     "type": "file",
                     "from_path": "/web files/templates/nav/breadcrumb.tpl"
                 },
                 {
-                    "area": "dd.0.4",
+                    "area": "dd.0.3",
                     "type": "file",
-                    "from_path": "/web files/templates/interiors/sectional-full.tpl"
+                    "from_path": "/web files/templates/content/1-column-template.tpl"
                 },
                 {
-                    "area": "dd.0.4.0",
+                    "area": "dd.0.3.0",
                     "type": "file",
                     "from_path": "/web files/content/gallery/gallery-detail.tpl"
-                },
-                {
-                    "area": "dd.0.7",
-                    "type": "file",
-                    "from_path": "/web files/templates/footer/footer.tpl"
                 }
             ]
         },
@@ -1096,29 +1133,14 @@
                     "from_path": "/web files/templates/nav/top-nav.tpl"
                 },
                 {
-                    "area": "dd.0.1",
+                    "area": "dd.0.4",
                     "type": "file",
-                    "from_path": "/web files/templates/hero/sectional-hero.tpl"
+                    "from_path": "/web files/templates/footer/footer-form.tpl"
                 },
                 {
-                    "area": "dd.0.3",
+                    "area": "dd.0.5",
                     "type": "file",
-                    "from_path": "/web files/templates/interiors/sectional-two-col.tpl"
-                },
-                {
-                    "area": "dd.0.3.0",
-                    "type": "file",
-                    "from_path": "/web files/content/blog/blog-detail.tpl"
-                },
-                {
-                    "area": "dd.0.3.4",
-                    "type": "Datatable",
-                    "from_path": "/web files/forms/Blog Subscribe"
-                },
-                {
-                    "area": "dd.0.3.5",
-                    "type": "file",
-                    "from_path": "/web files/content/blog/recent-posts.tpl"
+                    "from_path": "/web files/templates/footer/footer.tpl"
                 },
                 {
                     "area": "dd.0.6",
@@ -1134,6 +1156,21 @@
                     "area": "dd.0.2",
                     "type": "file",
                     "from_path": "/web files/templates/nav/breadcrumb.tpl"
+                },
+                {
+                    "area": "dd.0.1",
+                    "type": "file",
+                    "from_path": "/web files/templates/hero/hero-entry.tpl"
+                },
+                {
+                    "area": "dd.0.3",
+                    "type": "file",
+                    "from_path": "/web files/templates/content/two-column-template.tpl"
+                },
+                {
+                    "area": "dd.0.3.0",
+                    "type": "file",
+                    "from_path": "/web files/content/blog/blog-detail.tpl"
                 }
             ]
         },
@@ -1167,11 +1204,6 @@
                     "from_path": "/web files/templates/nav/top-nav.tpl"
                 },
                 {
-                    "area": "dd.0.1",
-                    "type": "file",
-                    "from_path": "/web files/templates/hero/sectional-hero.tpl"
-                },
-                {
                     "area": "dd.0.2",
                     "type": "file",
                     "from_path": "/web files/templates/nav/breadcrumb.tpl"
@@ -1179,7 +1211,7 @@
                 {
                     "area": "dd.0.3",
                     "type": "file",
-                    "from_path": "/web files/templates/interiors/sectional-full.tpl"
+                    "from_path": "/web files/templates/content/1-column-template.tpl"
                 },
                 {
                     "area": "dd.0.3.0",
@@ -1195,13 +1227,18 @@
                     "area": "dd.0.7",
                     "type": "file",
                     "from_path": "/web files/templates/footer/footer.tpl"
+                },
+                {
+                    "area": "dd.0.1",
+                    "type": "file",
+                    "from_path": "/web files/templates/hero/hero-entry.tpl"
                 }
             ]
         },
         {
             "name": "detail.stml",
-            "from_path": "/www/updates/detail.stml",
-            "to_path": "/www/updates/detail.stml",
+            "from_path": "/www/news/detail.stml",
+            "to_path": "/www/news/detail.stml",
             "publish_date": 1541454166,
             "title": null,
             "structure": "0",
@@ -1228,11 +1265,6 @@
                     "from_path": "/web files/templates/nav/top-nav.tpl"
                 },
                 {
-                    "area": "dd.0.1",
-                    "type": "file",
-                    "from_path": "/web files/templates/hero/sectional-hero.tpl"
-                },
-                {
                     "area": "dd.0.2",
                     "type": "file",
                     "from_path": "/web files/templates/nav/breadcrumb.tpl"
@@ -1240,12 +1272,12 @@
                 {
                     "area": "dd.0.3",
                     "type": "file",
-                    "from_path": "/web files/templates/interiors/sectional-full.tpl"
+                    "from_path": "/web files/templates/content/1-column-template.tpl"
                 },
                 {
                     "area": "dd.0.3.0",
                     "type": "file",
-                    "from_path": "/web files/content/updates/updates-detail.tpl"
+                    "from_path": "/web files/content/news/news-detail.tpl"
                 },
                 {
                     "area": "dd.0.5",
@@ -1256,6 +1288,11 @@
                     "area": "dd.0.6",
                     "type": "file",
                     "from_path": "/web files/templates/footer/footer.tpl"
+                },
+                {
+                    "area": "dd.0.1",
+                    "type": "file",
+                    "from_path": "/web files/templates/hero/hero-entry.tpl"
                 }
             ]
         },
@@ -1289,11 +1326,6 @@
                     "from_path": "/web files/templates/nav/top-nav.tpl"
                 },
                 {
-                    "area": "dd.0.1",
-                    "type": "file",
-                    "from_path": "/web files/templates/hero/sectional-hero.tpl"
-                },
-                {
                     "area": "dd.0.2",
                     "type": "file",
                     "from_path": "/web files/templates/nav/breadcrumb.tpl"
@@ -1301,7 +1333,7 @@
                 {
                     "area": "dd.0.3",
                     "type": "file",
-                    "from_path": "/web files/templates/interiors/sectional-full.tpl"
+                    "from_path": "/web files/templates/content/1-column-template.tpl"
                 },
                 {
                     "area": "dd.0.3.0",
@@ -1317,67 +1349,11 @@
                     "area": "dd.0.7",
                     "type": "file",
                     "from_path": "/web files/templates/footer/footer.tpl"
-                }
-            ]
-        },
-        {
-            "name": "detail.stml",
-            "from_path": "/www/about/partners/detail.stml",
-            "to_path": "/www/about/partners/detail.stml",
-            "publish_date": 1541454167,
-            "title": null,
-            "structure": "0",
-            "rank": null,
-            "menu": null,
-            "meta_description": null,
-            "meta_keywords": null,
-            "description": null,
-            "headerBlock": null,
-            "content_title": null,
-            "body_id": null,
-            "body_role": null,
-            "body_class": null,
-            "isTemplate": "0",
-            "contents": [
-                {
-                    "area": "dd.0",
-                    "type": "file",
-                    "from_path": "/web files/templates/basetemplate.tpl"
-                },
-                {
-                    "area": "dd.0.0",
-                    "type": "file",
-                    "from_path": "/web files/templates/nav/top-nav.tpl"
                 },
                 {
                     "area": "dd.0.1",
                     "type": "file",
-                    "from_path": "/web files/templates/hero/sectional-hero.tpl"
-                },
-                {
-                    "area": "dd.0.2",
-                    "type": "file",
-                    "from_path": "/web files/templates/nav/breadcrumb.tpl"
-                },
-                {
-                    "area": "dd.0.3",
-                    "type": "file",
-                    "from_path": "/web files/templates/interiors/sectional-full.tpl"
-                },
-                {
-                    "area": "dd.0.3.0",
-                    "type": "file",
-                    "from_path": "/web files/content/about/partners/partner-detail.tpl"
-                },
-                {
-                    "area": "dd.0.6",
-                    "type": "file",
-                    "from_path": "/web files/templates/footer/footer-form.tpl"
-                },
-                {
-                    "area": "dd.0.7",
-                    "type": "file",
-                    "from_path": "/web files/templates/footer/footer.tpl"
+                    "from_path": "/web files/templates/hero/hero-entry.tpl"
                 }
             ]
         },
@@ -1386,6 +1362,12 @@
             "from_path": "/web files/managers/Partners/_Assets/devtech.png",
             "to_path": "/web files/managers/Partners/_Assets/devtech.png",
             "publish_date": 1553117517
+        },
+        {
+            "name": "div-inserts.tpl",
+            "from_path": "/web files/templates/content/div-inserts.tpl",
+            "to_path": "/web files/templates/content/div-inserts.tpl",
+            "publish_date": 1553549944
         },
         {
             "name": "events-category.tpl",
@@ -1597,12 +1579,12 @@
                 {
                     "area": "dd.0.1",
                     "type": "file",
-                    "from_path": "/web files/templates/hero/sectional-hero.tpl"
+                    "from_path": null
                 },
                 {
                     "area": "dd.0.2",
                     "type": "file",
-                    "from_path": "/web files/templates/interiors/sectional-full.tpl"
+                    "from_path": "/web files/templates/content/1-column-template.tpl"
                 },
                 {
                     "area": "dd.0.2.0",
@@ -1620,12 +1602,6 @@
             "name": "forgot-password.tpl",
             "from_path": "/web files/content/intranet/forgot-password.tpl",
             "to_path": "/web files/content/intranet/forgot-password.tpl",
-            "publish_date": 1541454122
-        },
-        {
-            "name": "form-todo.tpl",
-            "from_path": "/web files/templates/sections/form-todo.tpl",
-            "to_path": "/web files/templates/sections/form-todo.tpl",
             "publish_date": 1541454122
         },
         {
@@ -1666,7 +1642,7 @@
                 {
                     "area": "dd.0.1",
                     "type": "file",
-                    "from_path": "/web files/templates/hero/sectional-hero.tpl"
+                    "from_path": null
                 },
                 {
                     "area": "dd.0.2",
@@ -1681,9 +1657,14 @@
                 {
                     "area": "dd.0.3",
                     "type": "file",
-                    "from_path": "/web files/templates/interiors/sectional-full.tpl"
+                    "from_path": "/web files/templates/content/1-column-template.tpl"
                 }
             ]
+        },
+        {
+            "name": "full-width-template.tpl",
+            "from_path": "/web files/templates/content/full-width-template.tpl",
+            "to_path": "/web files/templates/content/full-width-template.tpl"
         },
         {
             "name": "gallery-detail.tpl",
@@ -1702,24 +1683,6 @@
             "from_path": "/www/_/images/sectional-images/gallery.jpg",
             "to_path": "/www/_/images/sectional-images/gallery.jpg",
             "publish_date": 1547138156
-        },
-        {
-            "name": "gear-detail.tpl",
-            "from_path": "/web files/content/gear/gear-detail.tpl",
-            "to_path": "/web files/content/gear/gear-detail.tpl",
-            "publish_date": "1541454120"
-        },
-        {
-            "name": "gear-repeater.tpl",
-            "from_path": "/web files/content/gear/gear-repeater.tpl",
-            "to_path": "/web files/content/gear/gear-repeater.tpl",
-            "publish_date": "1541454120"
-        },
-        {
-            "name": "gear.jpg",
-            "from_path": "/www/_/images/sectional-images/gear.jpg",
-            "to_path": "/www/_/images/sectional-images/gear.jpg",
-            "publish_date": "1542385980"
         },
         {
             "name": "hab-1.html",
@@ -1741,8 +1704,8 @@
             "structure": 1,
             "rank": null,
             "menu": null,
-            "meta_description": null,
-            "meta_keywords": null,
+            "meta_description": "HAB-1 is Your \u201cHome Away from Home\u201d LunarXP makes life on the moon more than habitable. Our deluxe HAB-1 accommodations provide near-earth gravity environ.",
+            "meta_keywords": "hab,life,home,lunarxp,taking,small,hydroponic,garden,facility,located",
             "description": null,
             "headerBlock": null,
             "content_title": null,
@@ -1762,11 +1725,6 @@
                     "from_path": "/web files/templates/nav/top-nav.tpl"
                 },
                 {
-                    "area": "dd.0.1",
-                    "type": "file",
-                    "from_path": "/web files/templates/hero/sectional-hero.tpl"
-                },
-                {
                     "area": "dd.0.2",
                     "type": "file",
                     "from_path": "/web files/templates/nav/breadcrumb.tpl"
@@ -1774,7 +1732,7 @@
                 {
                     "area": "dd.0.3",
                     "type": "file",
-                    "from_path": "/web files/templates/interiors/sectional-template.tpl"
+                    "from_path": "/web files/templates/content/two-column-template.tpl"
                 },
                 {
                     "area": "dd.0.3.4",
@@ -1790,6 +1748,11 @@
                     "area": "dd.0.11",
                     "type": "file",
                     "from_path": "/web files/templates/footer/footer.tpl"
+                },
+                {
+                    "area": "dd.0.1",
+                    "type": "file",
+                    "from_path": "/web files/templates/hero/hero.tpl"
                 }
             ]
         },
@@ -1812,6 +1775,11 @@
             "publish_date": 1553117532
         },
         {
+            "name": "hero-entry.tpl",
+            "from_path": "/web files/templates/hero/hero-entry.tpl",
+            "to_path": "/web files/templates/hero/hero-entry.tpl"
+        },
+        {
             "name": "hero-slider-form.tpl",
             "from_path": "/web files/managers/Hero Slider/_Assets/hero-slider-form.tpl",
             "to_path": "/web files/managers/Hero Slider/_Assets/hero-slider-form.tpl"
@@ -1823,16 +1791,20 @@
             "publish_date": 1541454125
         },
         {
-            "name": "home-content.tpl",
-            "from_path": "/web files/content/home/home-content.tpl",
-            "to_path": "/web files/content/home/home-content.tpl",
-            "publish_date": "1541454120"
+            "name": "hero.tpl",
+            "from_path": "/web files/templates/hero/hero.tpl",
+            "to_path": "/web files/templates/hero/hero.tpl"
         },
         {
             "name": "home-news.scss",
             "from_path": "/web files/scss/components/home-news.scss",
             "to_path": "/web files/scss/components/home-news.scss",
             "publish_date": 1541454126
+        },
+        {
+            "name": "home-ships.tpl",
+            "from_path": "/web files/content/home/home-ships.tpl",
+            "to_path": "/web files/content/home/home-ships.tpl"
         },
         {
             "name": "home-slide-1.jpg",
@@ -1871,14 +1843,299 @@
         },
         {
             "name": "index.html",
+            "from_path": "/web files/content/ships/index.html",
+            "to_path": "/web files/content/ships/index.html",
+            "publish_date": "1541454120"
+        },
+        {
+            "name": "index.html",
             "from_path": "/web files/content/contact/index.html",
             "to_path": "/web files/content/contact/index.html"
         },
         {
-            "name": "index.html",
-            "from_path": "/web files/content/ships/index.html",
-            "to_path": "/web files/content/ships/index.html",
-            "publish_date": "1541454120"
+            "name": "index.stml",
+            "from_path": "/www/about/team/index.stml",
+            "to_path": "/www/about/team/index.stml",
+            "title": "Team",
+            "publish_date": 1541454174,
+            "structure": "0",
+            "rank": null,
+            "menu": null,
+            "meta_description": null,
+            "meta_keywords": null,
+            "description": null,
+            "headerBlock": null,
+            "content_title": null,
+            "body_id": null,
+            "body_role": null,
+            "body_class": null,
+            "isTemplate": "0",
+            "contents": [
+                {
+                    "area": "dd.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/basetemplate.tpl"
+                },
+                {
+                    "area": "dd.0.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/nav/top-nav.tpl"
+                },
+                {
+                    "area": "dd.0.2",
+                    "type": "file",
+                    "from_path": "/web files/templates/nav/breadcrumb.tpl"
+                },
+                {
+                    "area": "dd.0.3",
+                    "type": "file",
+                    "from_path": "/web files/templates/content/1-column-template.tpl"
+                },
+                {
+                    "area": "dd.0.3.0",
+                    "type": "file",
+                    "from_path": "/web files/content/about/team/team-repeater.tpl"
+                },
+                {
+                    "area": "dd.0.6",
+                    "type": "file",
+                    "from_path": "/web files/templates/footer/footer-form.tpl"
+                },
+                {
+                    "area": "dd.0.7",
+                    "type": "file",
+                    "from_path": "/web files/templates/footer/footer.tpl"
+                },
+                {
+                    "area": "dd.0.1",
+                    "type": "file",
+                    "from_path": "/web files/templates/hero/hero.tpl"
+                }
+            ]
+        },
+        {
+            "name": "index.stml",
+            "from_path": "/www/contact/index.stml",
+            "to_path": "/www/contact/index.stml",
+            "title": "Contact ",
+            "publish_date": 1541454175,
+            "structure": "0",
+            "rank": null,
+            "menu": null,
+            "meta_description": "Send Us a Signal Name * Please Enter a Name Email * Please Enter an Email Company * Please Enter a Company Phone * Please.",
+            "meta_keywords": "enter,telecom,message,email,company,phone,technology,source,google,did",
+            "description": null,
+            "headerBlock": null,
+            "content_title": null,
+            "body_id": null,
+            "body_role": null,
+            "body_class": null,
+            "isTemplate": "0",
+            "contents": [
+                {
+                    "area": "dd.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/basetemplate.tpl"
+                },
+                {
+                    "area": "dd.0.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/nav/top-nav.tpl"
+                },
+                {
+                    "area": "dd.0.2",
+                    "type": "file",
+                    "from_path": "/web files/templates/content/1-column-template.tpl"
+                },
+                {
+                    "area": "dd.0.2.0",
+                    "type": "file",
+                    "from_path": "/web files/content/contact/index.html"
+                },
+                {
+                    "area": "dd.0.7",
+                    "type": "file",
+                    "from_path": "/web files/templates/footer/footer.tpl"
+                },
+                {
+                    "area": "dd.0.1",
+                    "type": "file",
+                    "from_path": "/web files/templates/hero/hero.tpl"
+                }
+            ]
+        },
+        {
+            "name": "index.stml",
+            "from_path": "/www/gallery/index.stml",
+            "to_path": "/www/gallery/index.stml",
+            "title": "Gallery",
+            "publish_date": 1541454175,
+            "structure": "0",
+            "rank": null,
+            "menu": null,
+            "meta_description": null,
+            "meta_keywords": null,
+            "description": null,
+            "headerBlock": null,
+            "content_title": null,
+            "body_id": null,
+            "body_role": null,
+            "body_class": null,
+            "isTemplate": "0",
+            "contents": [
+                {
+                    "area": "dd.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/basetemplate.tpl"
+                },
+                {
+                    "area": "dd.0.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/nav/top-nav.tpl"
+                },
+                {
+                    "area": "dd.0.2",
+                    "type": "file",
+                    "from_path": "/web files/templates/nav/breadcrumb.tpl"
+                },
+                {
+                    "area": "dd.0.3",
+                    "type": "file",
+                    "from_path": "/web files/templates/content/1-column-template.tpl"
+                },
+                {
+                    "area": "dd.0.3.0",
+                    "type": "file",
+                    "from_path": "/web files/content/gallery/gallery-repeater.tpl"
+                },
+                {
+                    "area": "dd.0.6",
+                    "type": "file",
+                    "from_path": "/web files/templates/footer/footer-form.tpl"
+                },
+                {
+                    "area": "dd.0.7",
+                    "type": "file",
+                    "from_path": "/web files/templates/footer/footer.tpl"
+                },
+                {
+                    "area": "dd.0.1",
+                    "type": "file",
+                    "from_path": "/web files/templates/hero/hero.tpl"
+                }
+            ]
+        },
+        {
+            "name": "index.stml",
+            "from_path": "/www/faq/index.stml",
+            "to_path": "/www/faq/index.stml",
+            "title": "FAQs",
+            "publish_date": 1541454168,
+            "structure": "0",
+            "rank": null,
+            "menu": null,
+            "meta_description": null,
+            "meta_keywords": null,
+            "description": null,
+            "headerBlock": null,
+            "content_title": null,
+            "body_id": null,
+            "body_role": null,
+            "body_class": null,
+            "isTemplate": "0",
+            "contents": [
+                {
+                    "area": "dd.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/basetemplate.tpl"
+                },
+                {
+                    "area": "dd.0.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/nav/top-nav.tpl"
+                },
+                {
+                    "area": "dd.0.2",
+                    "type": "file",
+                    "from_path": "/web files/templates/nav/breadcrumb.tpl"
+                },
+                {
+                    "area": "dd.0.3",
+                    "type": "file",
+                    "from_path": "/web files/templates/content/1-column-template.tpl"
+                },
+                {
+                    "area": "dd.0.3.0",
+                    "type": "file",
+                    "from_path": "/web files/content/faq/faq-repeater.tpl"
+                },
+                {
+                    "area": "dd.0.6",
+                    "type": "file",
+                    "from_path": "/web files/templates/footer/footer-form.tpl"
+                },
+                {
+                    "area": "dd.0.7",
+                    "type": "file",
+                    "from_path": "/web files/templates/footer/footer.tpl"
+                },
+                {
+                    "area": "dd.0.1",
+                    "type": "file",
+                    "from_path": "/web files/templates/hero/hero.tpl"
+                }
+            ]
+        },
+        {
+            "name": "index.stml",
+            "from_path": "/www/intranet/index.stml",
+            "to_path": "/www/intranet/index.stml",
+            "title": "Intranet",
+            "publish_date": 1541454176,
+            "structure": "0",
+            "rank": null,
+            "menu": null,
+            "meta_description": null,
+            "meta_keywords": null,
+            "description": null,
+            "headerBlock": null,
+            "content_title": null,
+            "body_id": null,
+            "body_role": null,
+            "body_class": null,
+            "isTemplate": "0",
+            "contents": [
+                {
+                    "area": "dd.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/basetemplate.tpl"
+                },
+                {
+                    "area": "dd.0.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/nav/top-nav.tpl"
+                },
+                {
+                    "area": "dd.0.1",
+                    "type": "file",
+                    "from_path": null
+                },
+                {
+                    "area": "dd.0.2",
+                    "type": "file",
+                    "from_path": "/web files/templates/content/1-column-template.tpl"
+                },
+                {
+                    "area": "dd.0.2.0",
+                    "type": "file",
+                    "from_path": "/web files/content/intranet/index.tpl"
+                },
+                {
+                    "area": "dd.0.7",
+                    "type": "file",
+                    "from_path": "/web files/templates/footer/footer.tpl"
+                }
+            ]
         },
         {
             "name": "index.stml",
@@ -1910,14 +2167,9 @@
                     "from_path": "/web files/templates/nav/top-nav.tpl"
                 },
                 {
-                    "area": "dd.0.1",
-                    "type": "file",
-                    "from_path": "/web files/templates/hero/sectional-hero.tpl"
-                },
-                {
                     "area": "dd.0.3",
                     "type": "file",
-                    "from_path": "/web files/templates/interiors/sectional-full.tpl"
+                    "from_path": "/web files/templates/content/1-column-template.tpl"
                 },
                 {
                     "area": "dd.0.3.0",
@@ -1938,14 +2190,19 @@
                     "area": "dd.0.2",
                     "type": "file",
                     "from_path": "/web files/templates/nav/breadcrumb.tpl"
+                },
+                {
+                    "area": "dd.0.1",
+                    "type": "file",
+                    "from_path": "/web files/templates/hero/hero.tpl"
                 }
             ]
         },
         {
             "name": "index.stml",
-            "from_path": "/www/gear/index.stml",
-            "to_path": "/www/gear/index.stml",
-            "title": "Gear",
+            "from_path": "/www/shop/index.stml",
+            "to_path": "/www/shop/index.stml",
+            "title": "Shop",
             "publish_date": 1541454177,
             "structure": "0",
             "rank": null,
@@ -1973,7 +2230,7 @@
                 {
                     "area": "dd.0.1",
                     "type": "file",
-                    "from_path": "/web files/templates/hero/sectional-hero-large.tpl"
+                    "from_path": "/web files/templates/hero/hero.tpl"
                 },
                 {
                     "area": "dd.0.2",
@@ -1983,12 +2240,12 @@
                 {
                     "area": "dd.0.3",
                     "type": "file",
-                    "from_path": "/web files/templates/interiors/sectional-full.tpl"
+                    "from_path": "/web files/templates/content/1-column-template.tpl"
                 },
                 {
                     "area": "dd.0.3.0",
                     "type": "file",
-                    "from_path": "/web files/content/gear/gear-repeater.tpl"
+                    "from_path": "/web files/content/shop/shop-repeater.tpl"
                 },
                 {
                     "area": "dd.0.6",
@@ -2034,12 +2291,12 @@
                 {
                     "area": "dd.0.1",
                     "type": "file",
-                    "from_path": "/web files/templates/hero/sectional-hero-large.tpl"
+                    "from_path": "/web files/templates/hero/hero.tpl"
                 },
                 {
                     "area": "dd.0.2",
                     "type": "file",
-                    "from_path": "/web files/templates/interiors/sectional-full.tpl"
+                    "from_path": "/web files/templates/content/1-column-template.tpl"
                 },
                 {
                     "area": "dd.0.2.0",
@@ -2093,11 +2350,6 @@
                     "from_path": "/web files/templates/nav/top-nav.tpl"
                 },
                 {
-                    "area": "dd.0.1",
-                    "type": "file",
-                    "from_path": "/web files/templates/hero/sectional-hero.tpl"
-                },
-                {
                     "area": "dd.0.2",
                     "type": "file",
                     "from_path": "/web files/templates/nav/breadcrumb.tpl"
@@ -2105,7 +2357,7 @@
                 {
                     "area": "dd.0.3",
                     "type": "file",
-                    "from_path": "/web files/templates/interiors/sectional-full.tpl"
+                    "from_path": "/web files/templates/content/1-column-template.tpl"
                 },
                 {
                     "area": "dd.0.3.0",
@@ -2121,326 +2373,11 @@
                     "area": "dd.0.7",
                     "type": "file",
                     "from_path": "/web files/templates/footer/footer.tpl"
-                }
-            ]
-        },
-        {
-            "name": "index.stml",
-            "from_path": "/www/events/index.stml",
-            "to_path": "/www/events/index.stml",
-            "title": "Events",
-            "publish_date": 1541454171,
-            "structure": "0",
-            "rank": null,
-            "menu": null,
-            "meta_description": null,
-            "meta_keywords": null,
-            "description": null,
-            "headerBlock": null,
-            "content_title": null,
-            "body_id": null,
-            "body_role": null,
-            "body_class": null,
-            "isTemplate": "0",
-            "contents": [
-                {
-                    "area": "dd.0",
-                    "type": "file",
-                    "from_path": "/web files/templates/basetemplate.tpl"
-                },
-                {
-                    "area": "dd.0.0",
-                    "type": "file",
-                    "from_path": "/web files/templates/nav/top-nav.tpl"
                 },
                 {
                     "area": "dd.0.1",
                     "type": "file",
-                    "from_path": "/web files/templates/hero/sectional-hero.tpl"
-                },
-                {
-                    "area": "dd.0.2",
-                    "type": "file",
-                    "from_path": "/web files/templates/nav/breadcrumb.tpl"
-                },
-                {
-                    "area": "dd.0.3",
-                    "type": "file",
-                    "from_path": "/web files/templates/interiors/sectional-template.tpl"
-                },
-                {
-                    "area": "dd.0.3.0",
-                    "type": "file",
-                    "from_path": "/web files/content/events/events-repeater.tpl"
-                },
-                {
-                    "area": "dd.0.3.4",
-                    "type": "file",
-                    "from_path": "/web files/templates/nav/left-nav.tpl"
-                },
-                {
-                    "area": "dd.0.5",
-                    "type": "file",
-                    "from_path": "/web files/templates/footer/footer-form.tpl"
-                },
-                {
-                    "area": "dd.0.6",
-                    "type": "file",
-                    "from_path": "/web files/templates/footer/footer.tpl"
-                }
-            ]
-        },
-        {
-            "name": "index.stml",
-            "from_path": "/www/updates/index.stml",
-            "to_path": "/www/updates/index.stml",
-            "title": "Updates",
-            "publish_date": 1541454171,
-            "structure": "0",
-            "rank": null,
-            "menu": null,
-            "meta_description": null,
-            "meta_keywords": null,
-            "description": null,
-            "headerBlock": null,
-            "content_title": null,
-            "body_id": null,
-            "body_role": null,
-            "body_class": null,
-            "isTemplate": "0",
-            "contents": [
-                {
-                    "area": "dd.0",
-                    "type": "file",
-                    "from_path": "/web files/templates/basetemplate.tpl"
-                },
-                {
-                    "area": "dd.0.0",
-                    "type": "file",
-                    "from_path": "/web files/templates/nav/top-nav.tpl"
-                },
-                {
-                    "area": "dd.0.1",
-                    "type": "file",
-                    "from_path": "/web files/templates/hero/sectional-hero.tpl"
-                },
-                {
-                    "area": "dd.0.3",
-                    "type": "file",
-                    "from_path": "/web files/templates/interiors/sectional-template.tpl"
-                },
-                {
-                    "area": "dd.0.3.4",
-                    "type": "file",
-                    "from_path": "/web files/templates/nav/left-nav.tpl"
-                },
-                {
-                    "area": "dd.0.3.0",
-                    "type": "file",
-                    "from_path": "/web files/content/updates/updates-repeater.tpl"
-                },
-                {
-                    "area": "dd.0.6",
-                    "type": "file",
-                    "from_path": "/web files/templates/footer/footer-form.tpl"
-                },
-                {
-                    "area": "dd.0.7",
-                    "type": "file",
-                    "from_path": "/web files/templates/footer/footer.tpl"
-                },
-                {
-                    "area": "dd.0.2",
-                    "type": "file",
-                    "from_path": "/web files/templates/nav/breadcrumb.tpl"
-                }
-            ]
-        },
-        {
-            "name": "index.stml",
-            "from_path": "/www/ships/index.stml",
-            "to_path": "/www/ships/index.stml",
-            "title": "Ships",
-            "publish_date": 1541454172,
-            "structure": "0",
-            "rank": null,
-            "menu": null,
-            "meta_description": "Moving you from the Earth to the Moon From the dawn of the modern space age, exploring the moon has been the dream of every.",
-            "meta_keywords": "earth,moon,lunar,lunarxp,space,orbit,moving,vessels,vehicles,reusable",
-            "description": null,
-            "headerBlock": "<!-- Anti-flicker snippet (recommended)  -->\r\n<style>.async-hide { opacity: 0 !important} </style>\r\n<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;\r\nh.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};\r\n(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;\r\n})(window,document.documentElement,'async-hide','dataLayer',4000,\r\n{'GTM-WK44XKJ':true});</script>\r\n\r\n<!-- Modified Analytics tracking code with Optimize plugin -->\r\n    <script>\r\n    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\r\n    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\r\n    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\r\n\r\n    ga('create', 'UA-3849724-15', 'auto');\r\n    ga('require', 'GTM-WK44XKJ');\r\n    ga('send', 'pageview');\r\n    </script>",
-            "content_title": null,
-            "body_id": null,
-            "body_role": null,
-            "body_class": null,
-            "isTemplate": "0",
-            "contents": [
-                {
-                    "area": "dd.0",
-                    "type": "file",
-                    "from_path": "/web files/templates/basetemplate.tpl"
-                },
-                {
-                    "area": "dd.0.0",
-                    "type": "file",
-                    "from_path": "/web files/templates/nav/top-nav.tpl"
-                },
-                {
-                    "area": "dd.0.1",
-                    "type": "file",
-                    "from_path": "/web files/templates/hero/sectional-hero.tpl"
-                },
-                {
-                    "area": "dd.0.2",
-                    "type": "file",
-                    "from_path": "/web files/templates/nav/breadcrumb.tpl"
-                },
-                {
-                    "area": "dd.0.3",
-                    "type": "file",
-                    "from_path": "/web files/templates/interiors/sectional-template.tpl"
-                },
-                {
-                    "area": "dd.0.3.0",
-                    "type": "file",
-                    "from_path": "/web files/content/ships/index.html"
-                },
-                {
-                    "area": "dd.0.3.4",
-                    "type": "file",
-                    "from_path": "/web files/templates/nav/left-nav.tpl"
-                },
-                {
-                    "area": "dd.0.7",
-                    "type": "file",
-                    "from_path": "/web files/templates/footer/footer.tpl"
-                }
-            ]
-        },
-        {
-            "name": "index.stml",
-            "from_path": "/www/colony/index.stml",
-            "to_path": "/www/colony/index.stml",
-            "title": "Colony",
-            "publish_date": 1545345724,
-            "structure": "0",
-            "rank": null,
-            "menu": null,
-            "meta_description": null,
-            "meta_keywords": null,
-            "description": null,
-            "headerBlock": null,
-            "content_title": null,
-            "body_id": null,
-            "body_role": null,
-            "body_class": null,
-            "isTemplate": "0",
-            "contents": [
-                {
-                    "area": "dd.0",
-                    "type": "file",
-                    "from_path": "/web files/templates/basetemplate.tpl"
-                },
-                {
-                    "area": "dd.0.0",
-                    "type": "file",
-                    "from_path": "/web files/templates/nav/top-nav.tpl"
-                },
-                {
-                    "area": "dd.0.1",
-                    "type": "file",
-                    "from_path": "/web files/templates/hero/sectional-hero.tpl"
-                },
-                {
-                    "area": "dd.0.2",
-                    "type": "file",
-                    "from_path": "/web files/templates/nav/breadcrumb.tpl"
-                },
-                {
-                    "area": "dd.0.11",
-                    "type": "file",
-                    "from_path": "/web files/templates/footer/footer.tpl"
-                },
-                {
-                    "area": "dd.0.3",
-                    "type": "file",
-                    "from_path": "/web files/templates/interiors/sectional-full.tpl"
-                },
-                {
-                    "area": "dd.0.3.0",
-                    "type": "file",
-                    "from_path": "/web files/content/colony/index.tpl"
-                }
-            ]
-        },
-        {
-            "name": "index.stml",
-            "from_path": "/www/about/index.stml",
-            "to_path": "/www/about/index.stml",
-            "title": "About",
-            "publish_date": 1541454172,
-            "structure": "0",
-            "rank": null,
-            "menu": null,
-            "meta_description": "At LunarXP, we\u2019re dreamers and explorers. We\u2019ve always looked up for purpose \u2013 and we\u2019ve never looked back. As a company, we believe that the.",
-            "meta_keywords": "looked,lunarxp,earth,small,starts,tomorrow,better,make,stars,lies",
-            "description": null,
-            "headerBlock": "<!-- Anti-flicker snippet (recommended)  -->\r\n<style>.async-hide { opacity: 0 !important} </style>\r\n<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;\r\nh.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};\r\n(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;\r\n})(window,document.documentElement,'async-hide','dataLayer',4000,\r\n{'GTM-WK44XKJ':true});</script>\r\n\r\n<!-- Modified Analytics tracking code with Optimize plugin -->\r\n    <script>\r\n    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\r\n    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\r\n    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\r\n\r\n    ga('create', 'UA-3849724-15', 'auto');\r\n    ga('require', 'GTM-WK44XKJ');\r\n    ga('send', 'pageview');\r\n    </script>",
-            "content_title": null,
-            "body_id": null,
-            "body_role": null,
-            "body_class": null,
-            "isTemplate": "0",
-            "contents": [
-                {
-                    "area": "dd.0",
-                    "type": "file",
-                    "from_path": "/web files/templates/basetemplate.tpl"
-                },
-                {
-                    "area": "dd.0.0",
-                    "type": "file",
-                    "from_path": "/web files/templates/nav/top-nav.tpl"
-                },
-                {
-                    "area": "dd.0.1",
-                    "type": "file",
-                    "from_path": "/web files/templates/hero/sectional-hero-large.tpl"
-                },
-                {
-                    "area": "dd.0.3",
-                    "type": "file",
-                    "from_path": "/web files/templates/sections/recent-updates.tpl"
-                },
-                {
-                    "area": "dd.0.4",
-                    "type": "file",
-                    "from_path": "/web files/templates/sections/blog-slider.tpl"
-                },
-                {
-                    "area": "dd.0.5",
-                    "type": "file",
-                    "from_path": "/web files/content/about/about-boxes.tpl"
-                },
-                {
-                    "area": "dd.0.6",
-                    "type": "file",
-                    "from_path": "/web files/templates/footer/footer-form.tpl"
-                },
-                {
-                    "area": "dd.0.7",
-                    "type": "file",
-                    "from_path": "/web files/templates/footer/footer.tpl"
-                },
-                {
-                    "area": "dd.0.8",
-                    "type": "file",
-                    "from_path": "/web files/templates/nav/socials-fixed.tpl"
-                },
-                {
-                    "area": "dd.0.2",
-                    "type": "file",
-                    "from_path": "/web files/content/about/about.html"
+                    "from_path": "/web files/templates/hero/hero.tpl"
                 }
             ]
         },
@@ -2479,21 +2416,6 @@
                     "from_path": "/web files/content/home/home-slider.tpl"
                 },
                 {
-                    "area": "dd.0.2",
-                    "type": "Experiment",
-                    "from_path": "/web files/content/experiments/Homepage Video Button Color"
-                },
-                {
-                    "area": "dd.0.3",
-                    "type": "file",
-                    "from_path": "/web files/templates/sections/blog-section.tpl"
-                },
-                {
-                    "area": "dd.0.4",
-                    "type": "file",
-                    "from_path": "/web files/templates/sections/testimonials-slider.tpl"
-                },
-                {
                     "area": "dd.0.11",
                     "type": "file",
                     "from_path": "/web files/templates/footer/footer.tpl"
@@ -2506,7 +2428,372 @@
                 {
                     "area": "dd.0.5",
                     "type": "file",
-                    "from_path": "/web files/content/home/home-content.tpl"
+                    "from_path": "/web files/templates/footer/footer.tpl"
+                },
+                {
+                    "area": "dd.0.4",
+                    "type": "file",
+                    "from_path": "/web files/templates/footer/footer-form.tpl"
+                },
+                {
+                    "area": "dd.0.3",
+                    "type": "file",
+                    "from_path": "/web files/templates/content/full-width-template.tpl"
+                },
+                {
+                    "area": "dd.0.3.0",
+                    "type": "Experiment",
+                    "from_path": "/web files/content/experiments/Homepage Video Button Color"
+                },
+                {
+                    "area": "dd.0.3.1",
+                    "type": "file",
+                    "from_path": "/web files/templates/components/recent-blog.tpl"
+                },
+                {
+                    "area": "dd.0.3.2",
+                    "type": "file",
+                    "from_path": "/web files/content/home/home-ships.tpl"
+                }
+            ]
+        },
+        {
+            "name": "index.stml",
+            "from_path": "/www/events/index.stml",
+            "to_path": "/www/events/index.stml",
+            "title": "Events",
+            "publish_date": 1541454171,
+            "structure": "0",
+            "rank": null,
+            "menu": null,
+            "meta_description": null,
+            "meta_keywords": null,
+            "description": null,
+            "headerBlock": null,
+            "content_title": null,
+            "body_id": null,
+            "body_role": null,
+            "body_class": null,
+            "isTemplate": "0",
+            "contents": [
+                {
+                    "area": "dd.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/basetemplate.tpl"
+                },
+                {
+                    "area": "dd.0.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/nav/top-nav.tpl"
+                },
+                {
+                    "area": "dd.0.2",
+                    "type": "file",
+                    "from_path": "/web files/templates/nav/breadcrumb.tpl"
+                },
+                {
+                    "area": "dd.0.3",
+                    "type": "file",
+                    "from_path": "/web files/templates/content/two-column-template.tpl"
+                },
+                {
+                    "area": "dd.0.3.0",
+                    "type": "file",
+                    "from_path": "/web files/content/events/events-repeater.tpl"
+                },
+                {
+                    "area": "dd.0.3.4",
+                    "type": "file",
+                    "from_path": "/web files/templates/nav/left-nav.tpl"
+                },
+                {
+                    "area": "dd.0.5",
+                    "type": "file",
+                    "from_path": "/web files/templates/footer/footer-form.tpl"
+                },
+                {
+                    "area": "dd.0.6",
+                    "type": "file",
+                    "from_path": "/web files/templates/footer/footer.tpl"
+                },
+                {
+                    "area": "dd.0.1",
+                    "type": "file",
+                    "from_path": "/web files/templates/hero/hero.tpl"
+                }
+            ]
+        },
+        {
+            "name": "index.stml",
+            "from_path": "/www/news/index.stml",
+            "to_path": "/www/news/index.stml",
+            "title": "News",
+            "publish_date": 1541454171,
+            "structure": "0",
+            "rank": null,
+            "menu": null,
+            "meta_description": null,
+            "meta_keywords": null,
+            "description": null,
+            "headerBlock": null,
+            "content_title": null,
+            "body_id": null,
+            "body_role": null,
+            "body_class": null,
+            "isTemplate": "0",
+            "contents": [
+                {
+                    "area": "dd.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/basetemplate.tpl"
+                },
+                {
+                    "area": "dd.0.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/nav/top-nav.tpl"
+                },
+                {
+                    "area": "dd.0.2",
+                    "type": "file",
+                    "from_path": "/web files/templates/nav/breadcrumb.tpl"
+                },
+                {
+                    "area": "dd.0.3",
+                    "type": "file",
+                    "from_path": "/web files/templates/content/1-column-template.tpl"
+                },
+                {
+                    "area": "dd.0.3.0",
+                    "type": "file",
+                    "from_path": "/web files/content/news/news-repeater.tpl"
+                },
+                {
+                    "area": "dd.0.11",
+                    "type": "file",
+                    "from_path": "/web files/templates/footer/footer.tpl"
+                },
+                {
+                    "area": "dd.0.10",
+                    "type": "file",
+                    "from_path": "/web files/templates/footer/footer-form.tpl"
+                },
+                {
+                    "area": "dd.0.1",
+                    "type": "file",
+                    "from_path": "/web files/templates/hero/hero.tpl"
+                }
+            ]
+        },
+        {
+            "name": "index.stml",
+            "from_path": "/www/colony/index.stml",
+            "to_path": "/www/colony/index.stml",
+            "title": "Colony",
+            "publish_date": 1545345724,
+            "structure": "0",
+            "rank": null,
+            "menu": null,
+            "meta_description": null,
+            "meta_keywords": null,
+            "description": null,
+            "headerBlock": null,
+            "content_title": null,
+            "body_id": null,
+            "body_role": null,
+            "body_class": null,
+            "isTemplate": "0",
+            "contents": [
+                {
+                    "area": "dd.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/basetemplate.tpl"
+                },
+                {
+                    "area": "dd.0.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/nav/top-nav.tpl"
+                },
+                {
+                    "area": "dd.0.2",
+                    "type": "file",
+                    "from_path": "/web files/templates/nav/breadcrumb.tpl"
+                },
+                {
+                    "area": "dd.0.11",
+                    "type": "file",
+                    "from_path": "/web files/templates/footer/footer.tpl"
+                },
+                {
+                    "area": "dd.0.3",
+                    "type": "file",
+                    "from_path": "/web files/templates/content/1-column-template.tpl"
+                },
+                {
+                    "area": "dd.0.3.0",
+                    "type": "file",
+                    "from_path": "/web files/content/colony/index.tpl"
+                },
+                {
+                    "area": "dd.0.1",
+                    "type": "file",
+                    "from_path": "/web files/templates/hero/hero.tpl"
+                }
+            ]
+        },
+        {
+            "name": "index.stml",
+            "from_path": "/www/ships/index.stml",
+            "to_path": "/www/ships/index.stml",
+            "title": "Ships",
+            "publish_date": 1541454172,
+            "structure": "0",
+            "rank": null,
+            "menu": null,
+            "meta_description": "Moving you from the Earth to the Moon From the dawn of the modern space age, exploring the moon has been the dream of every.",
+            "meta_keywords": "earth,moon,lunar,lunarxp,space,orbit,moving,vessels,vehicles,reusable",
+            "description": null,
+            "headerBlock": "<!-- Anti-flicker snippet (recommended)  -->\r\n<style>.async-hide { opacity: 0 !important} </style>\r\n<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;\r\nh.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};\r\n(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;\r\n})(window,document.documentElement,'async-hide','dataLayer',4000,\r\n{'GTM-WK44XKJ':true});</script>\r\n\r\n<!-- Modified Analytics tracking code with Optimize plugin -->\r\n    <script>\r\n    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\r\n    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\r\n    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\r\n\r\n    ga('create', 'UA-3849724-15', 'auto');\r\n    ga('require', 'GTM-WK44XKJ');\r\n    ga('send', 'pageview');\r\n    </script>",
+            "content_title": null,
+            "body_id": null,
+            "body_role": null,
+            "body_class": null,
+            "isTemplate": "0",
+            "contents": [
+                {
+                    "area": "dd.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/basetemplate.tpl"
+                },
+                {
+                    "area": "dd.0.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/nav/top-nav.tpl"
+                },
+                {
+                    "area": "dd.0.2",
+                    "type": "file",
+                    "from_path": "/web files/templates/nav/breadcrumb.tpl"
+                },
+                {
+                    "area": "dd.0.3",
+                    "type": "file",
+                    "from_path": "/web files/templates/content/two-column-template.tpl"
+                },
+                {
+                    "area": "dd.0.3.0",
+                    "type": "file",
+                    "from_path": "/web files/content/ships/index.html"
+                },
+                {
+                    "area": "dd.0.3.4",
+                    "type": "file",
+                    "from_path": "/web files/templates/nav/left-nav.tpl"
+                },
+                {
+                    "area": "dd.0.7",
+                    "type": "file",
+                    "from_path": "/web files/templates/footer/footer.tpl"
+                },
+                {
+                    "area": "dd.0.1",
+                    "type": "file",
+                    "from_path": "/web files/templates/hero/hero.tpl"
+                }
+            ]
+        },
+        {
+            "name": "index.stml",
+            "from_path": "/www/about/index.stml",
+            "to_path": "/www/about/index.stml",
+            "title": "About",
+            "publish_date": 1541454172,
+            "structure": "0",
+            "rank": null,
+            "menu": null,
+            "meta_description": "At LunarXP, we\u2019re dreamers and explorers. We\u2019ve always looked up for purpose \u2013 and we\u2019ve never looked back. As a company, we believe that the.",
+            "meta_keywords": "looked,lunarxp,earth,small,starts,tomorrow,better,make,stars,lies",
+            "description": null,
+            "headerBlock": "<!-- Anti-flicker snippet (recommended)  -->\r\n<style>.async-hide { opacity: 0 !important} </style>\r\n<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;\r\nh.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};\r\n(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;\r\n})(window,document.documentElement,'async-hide','dataLayer',4000,\r\n{'GTM-WK44XKJ':true});</script>\r\n\r\n<!-- Modified Analytics tracking code with Optimize plugin -->\r\n    <script>\r\n    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\r\n    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\r\n    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\r\n\r\n    ga('create', 'UA-3849724-15', 'auto');\r\n    ga('require', 'GTM-WK44XKJ');\r\n    ga('send', 'pageview');\r\n    </script>",
+            "content_title": null,
+            "body_id": null,
+            "body_role": null,
+            "body_class": null,
+            "isTemplate": "0",
+            "contents": [
+                {
+                    "area": "dd.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/basetemplate.tpl"
+                },
+                {
+                    "area": "dd.0.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/nav/top-nav.tpl"
+                },
+                {
+                    "area": "dd.0.1",
+                    "type": "file",
+                    "from_path": "/web files/templates/hero/hero.tpl"
+                },
+                {
+                    "area": "dd.0.6",
+                    "type": "file",
+                    "from_path": "/web files/templates/footer/footer-form.tpl"
+                },
+                {
+                    "area": "dd.0.7",
+                    "type": "file",
+                    "from_path": "/web files/templates/footer/footer.tpl"
+                },
+                {
+                    "area": "dd.0.8",
+                    "type": "file",
+                    "from_path": null
+                },
+                {
+                    "area": "dd.0.5",
+                    "type": "file",
+                    "from_path": "/web files/templates/footer/footer.tpl"
+                },
+                {
+                    "area": "dd.0.4",
+                    "type": "file",
+                    "from_path": "/web files/templates/footer/footer-form.tpl"
+                },
+                {
+                    "area": "dd.0.2",
+                    "type": "file",
+                    "from_path": "/web files/templates/nav/breadcrumb.tpl"
+                },
+                {
+                    "area": "dd.0.3",
+                    "type": "file",
+                    "from_path": "/web files/templates/content/full-width-template.tpl"
+                },
+                {
+                    "area": "dd.0.3.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/content/1-column-template.tpl"
+                },
+                {
+                    "area": "dd.0.3.0.0",
+                    "type": "file",
+                    "from_path": "/web files/content/about/about.html"
+                },
+                {
+                    "area": "dd.0.3.3",
+                    "type": "file",
+                    "from_path": "/web files/content/about/about-boxes.tpl"
+                },
+                {
+                    "area": "dd.0.3.2",
+                    "type": "file",
+                    "from_path": "/web files/templates/components/slider-blog.tpl"
+                },
+                {
+                    "area": "dd.0.3.1",
+                    "type": "file",
+                    "from_path": "/web files/templates/components/recent-news.tpl"
                 }
             ]
         },
@@ -2542,12 +2829,12 @@
                 {
                     "area": "dd.0.1",
                     "type": "file",
-                    "from_path": "/web files/templates/hero/sectional-hero.tpl"
+                    "from_path": null
                 },
                 {
                     "area": "dd.0.2",
                     "type": "file",
-                    "from_path": "/web files/templates/interiors/sectional-full.tpl"
+                    "from_path": "/web files/templates/content/1-column-template.tpl"
                 },
                 {
                     "area": "dd.0.2.0",
@@ -2562,301 +2849,16 @@
             ]
         },
         {
-            "name": "index.stml",
-            "from_path": "/www/about/team/index.stml",
-            "to_path": "/www/about/team/index.stml",
-            "title": "Team",
-            "publish_date": 1541454174,
-            "structure": "0",
-            "rank": null,
-            "menu": null,
-            "meta_description": null,
-            "meta_keywords": null,
-            "description": null,
-            "headerBlock": null,
-            "content_title": null,
-            "body_id": null,
-            "body_role": null,
-            "body_class": null,
-            "isTemplate": "0",
-            "contents": [
-                {
-                    "area": "dd.0",
-                    "type": "file",
-                    "from_path": "/web files/templates/basetemplate.tpl"
-                },
-                {
-                    "area": "dd.0.0",
-                    "type": "file",
-                    "from_path": "/web files/templates/nav/top-nav.tpl"
-                },
-                {
-                    "area": "dd.0.1",
-                    "type": "file",
-                    "from_path": "/web files/templates/hero/sectional-hero.tpl"
-                },
-                {
-                    "area": "dd.0.2",
-                    "type": "file",
-                    "from_path": "/web files/templates/nav/breadcrumb.tpl"
-                },
-                {
-                    "area": "dd.0.3",
-                    "type": "file",
-                    "from_path": "/web files/templates/interiors/sectional-full.tpl"
-                },
-                {
-                    "area": "dd.0.3.0",
-                    "type": "file",
-                    "from_path": "/web files/content/about/team/team-repeater.tpl"
-                },
-                {
-                    "area": "dd.0.6",
-                    "type": "file",
-                    "from_path": "/web files/templates/footer/footer-form.tpl"
-                },
-                {
-                    "area": "dd.0.7",
-                    "type": "file",
-                    "from_path": "/web files/templates/footer/footer.tpl"
-                }
-            ]
-        },
-        {
-            "name": "index.stml",
-            "from_path": "/www/contact/index.stml",
-            "to_path": "/www/contact/index.stml",
-            "title": "Contact ",
-            "publish_date": 1541454175,
-            "structure": "0",
-            "rank": null,
-            "menu": null,
-            "meta_description": null,
-            "meta_keywords": null,
-            "description": null,
-            "headerBlock": null,
-            "content_title": null,
-            "body_id": null,
-            "body_role": null,
-            "body_class": null,
-            "isTemplate": "0",
-            "contents": [
-                {
-                    "area": "dd.0",
-                    "type": "file",
-                    "from_path": "/web files/templates/basetemplate.tpl"
-                },
-                {
-                    "area": "dd.0.0",
-                    "type": "file",
-                    "from_path": "/web files/templates/nav/top-nav.tpl"
-                },
-                {
-                    "area": "dd.0.1",
-                    "type": "file",
-                    "from_path": "/web files/templates/hero/sectional-hero.tpl"
-                },
-                {
-                    "area": "dd.0.2",
-                    "type": "file",
-                    "from_path": "/web files/templates/interiors/sectional-full.tpl"
-                },
-                {
-                    "area": "dd.0.2.0",
-                    "type": "file",
-                    "from_path": "/web files/content/contact/index.html"
-                },
-                {
-                    "area": "dd.0.7",
-                    "type": "file",
-                    "from_path": "/web files/templates/footer/footer.tpl"
-                }
-            ]
-        },
-        {
-            "name": "index.stml",
-            "from_path": "/www/gallery/index.stml",
-            "to_path": "/www/gallery/index.stml",
-            "title": "Gallery",
-            "publish_date": 1541454175,
-            "structure": "0",
-            "rank": null,
-            "menu": null,
-            "meta_description": null,
-            "meta_keywords": null,
-            "description": null,
-            "headerBlock": null,
-            "content_title": null,
-            "body_id": null,
-            "body_role": null,
-            "body_class": null,
-            "isTemplate": "0",
-            "contents": [
-                {
-                    "area": "dd.0",
-                    "type": "file",
-                    "from_path": "/web files/templates/basetemplate.tpl"
-                },
-                {
-                    "area": "dd.0.0",
-                    "type": "file",
-                    "from_path": "/web files/templates/nav/top-nav.tpl"
-                },
-                {
-                    "area": "dd.0.2",
-                    "type": "file",
-                    "from_path": "/web files/templates/nav/breadcrumb.tpl"
-                },
-                {
-                    "area": "dd.0.3",
-                    "type": "file",
-                    "from_path": "/web files/templates/interiors/sectional-full.tpl"
-                },
-                {
-                    "area": "dd.0.3.0",
-                    "type": "file",
-                    "from_path": "/web files/content/gallery/gallery-repeater.tpl"
-                },
-                {
-                    "area": "dd.0.6",
-                    "type": "file",
-                    "from_path": "/web files/templates/footer/footer-form.tpl"
-                },
-                {
-                    "area": "dd.0.7",
-                    "type": "file",
-                    "from_path": "/web files/templates/footer/footer.tpl"
-                },
-                {
-                    "area": "dd.0.1",
-                    "type": "file",
-                    "from_path": "/web files/templates/hero/sectional-hero.tpl"
-                }
-            ]
-        },
-        {
-            "name": "index.stml",
-            "from_path": "/www/faq/index.stml",
-            "to_path": "/www/faq/index.stml",
-            "title": "FAQs",
-            "publish_date": 1541454168,
-            "structure": "0",
-            "rank": null,
-            "menu": null,
-            "meta_description": null,
-            "meta_keywords": null,
-            "description": null,
-            "headerBlock": null,
-            "content_title": null,
-            "body_id": null,
-            "body_role": null,
-            "body_class": null,
-            "isTemplate": "0",
-            "contents": [
-                {
-                    "area": "dd.0",
-                    "type": "file",
-                    "from_path": "/web files/templates/basetemplate.tpl"
-                },
-                {
-                    "area": "dd.0.0",
-                    "type": "file",
-                    "from_path": "/web files/templates/nav/top-nav.tpl"
-                },
-                {
-                    "area": "dd.0.1",
-                    "type": "file",
-                    "from_path": "/web files/templates/hero/sectional-hero.tpl"
-                },
-                {
-                    "area": "dd.0.2",
-                    "type": "file",
-                    "from_path": "/web files/templates/nav/breadcrumb.tpl"
-                },
-                {
-                    "area": "dd.0.3",
-                    "type": "file",
-                    "from_path": "/web files/templates/interiors/sectional-full.tpl"
-                },
-                {
-                    "area": "dd.0.3.0",
-                    "type": "file",
-                    "from_path": "/web files/content/faq/faq-repeater.tpl"
-                },
-                {
-                    "area": "dd.0.6",
-                    "type": "file",
-                    "from_path": "/web files/templates/footer/footer-form.tpl"
-                },
-                {
-                    "area": "dd.0.7",
-                    "type": "file",
-                    "from_path": "/web files/templates/footer/footer.tpl"
-                }
-            ]
-        },
-        {
-            "name": "index.stml",
-            "from_path": "/www/intranet/index.stml",
-            "to_path": "/www/intranet/index.stml",
-            "title": "Intranet",
-            "publish_date": 1541454176,
-            "structure": "0",
-            "rank": null,
-            "menu": null,
-            "meta_description": null,
-            "meta_keywords": null,
-            "description": null,
-            "headerBlock": null,
-            "content_title": null,
-            "body_id": null,
-            "body_role": null,
-            "body_class": null,
-            "isTemplate": "0",
-            "contents": [
-                {
-                    "area": "dd.0",
-                    "type": "file",
-                    "from_path": "/web files/templates/basetemplate.tpl"
-                },
-                {
-                    "area": "dd.0.0",
-                    "type": "file",
-                    "from_path": "/web files/templates/nav/top-nav.tpl"
-                },
-                {
-                    "area": "dd.0.1",
-                    "type": "file",
-                    "from_path": "/web files/templates/hero/sectional-hero.tpl"
-                },
-                {
-                    "area": "dd.0.2",
-                    "type": "file",
-                    "from_path": "/web files/templates/interiors/sectional-full.tpl"
-                },
-                {
-                    "area": "dd.0.2.0",
-                    "type": "file",
-                    "from_path": "/web files/content/intranet/index.tpl"
-                },
-                {
-                    "area": "dd.0.7",
-                    "type": "file",
-                    "from_path": "/web files/templates/footer/footer.tpl"
-                }
-            ]
+            "name": "index.tpl",
+            "from_path": "/web files/content/intranet/secure/index.tpl",
+            "to_path": "/web files/content/intranet/secure/index.tpl",
+            "publish_date": 1541454129
         },
         {
             "name": "index.tpl",
             "from_path": "/web files/content/colony/index.tpl",
             "to_path": "/web files/content/colony/index.tpl",
             "publish_date": "1545345420"
-        },
-        {
-            "name": "index.tpl",
-            "from_path": "/web files/content/intranet/secure/index.tpl",
-            "to_path": "/web files/content/intranet/secure/index.tpl",
-            "publish_date": 1541454129
         },
         {
             "name": "index.tpl",
@@ -2995,11 +2997,6 @@
                     "from_path": "/web files/templates/nav/top-nav.tpl"
                 },
                 {
-                    "area": "dd.0.1",
-                    "type": "file",
-                    "from_path": "/web files/templates/hero/sectional-hero.tpl"
-                },
-                {
                     "area": "dd.0.2",
                     "type": "file",
                     "from_path": "/web files/templates/nav/breadcrumb.tpl"
@@ -3007,7 +3004,7 @@
                 {
                     "area": "dd.0.3",
                     "type": "file",
-                    "from_path": "/web files/templates/interiors/sectional-template.tpl"
+                    "from_path": "/web files/templates/content/two-column-template.tpl"
                 },
                 {
                     "area": "dd.0.3.4",
@@ -3023,6 +3020,11 @@
                     "area": "dd.0.7",
                     "type": "file",
                     "from_path": "/web files/templates/footer/footer.tpl"
+                },
+                {
+                    "area": "dd.0.1",
+                    "type": "file",
+                    "from_path": "/web files/templates/hero/hero.tpl"
                 }
             ]
         },
@@ -3087,6 +3089,11 @@
             "publish_date": 1553177365
         },
         {
+            "name": "mobile-nav.tpl",
+            "from_path": "/web files/templates/nav/mobile-nav.tpl",
+            "to_path": "/web files/templates/nav/mobile-nav.tpl"
+        },
+        {
             "name": "mobile_app2.jpg",
             "from_path": "/www/_/images/mobile_app2.jpg",
             "to_path": "/www/_/images/mobile_app2.jpg",
@@ -3105,15 +3112,35 @@
             "publish_date": 1552321444
         },
         {
+            "name": "news-category.tpl",
+            "from_path": "/web files/content/news/news-category.tpl",
+            "to_path": "/web files/content/news/news-category.tpl"
+        },
+        {
+            "name": "news-detail.tpl",
+            "from_path": "/web files/content/news/news-detail.tpl",
+            "to_path": "/web files/content/news/news-detail.tpl"
+        },
+        {
             "name": "news-form.tpl",
             "from_path": "/web files/managers/Updates/_Assets/news-form.tpl",
             "to_path": "/web files/managers/Updates/_Assets/news-form.tpl"
+        },
+        {
+            "name": "news-repeater.tpl",
+            "from_path": "/web files/content/news/news-repeater.tpl",
+            "to_path": "/web files/content/news/news-repeater.tpl"
         },
         {
             "name": "news-thumb.jpg",
             "from_path": "/www/_/images/news-thumb.jpg",
             "to_path": "/www/_/images/news-thumb.jpg",
             "publish_date": 1541454136
+        },
+        {
+            "name": "news.jpg",
+            "from_path": "/www/_/images/sectional-images/news.jpg",
+            "to_path": "/www/_/images/sectional-images/news.jpg"
         },
         {
             "name": "news.jpg",
@@ -3147,8 +3174,8 @@
             "structure": 1,
             "rank": null,
             "menu": null,
-            "meta_description": null,
-            "meta_keywords": null,
+            "meta_description": "The \u201cJumping Off\u201d Point for Lunar Transport Formerly NASA\u2019s International Space Station, the LunarXP Orbiter-1 platform is the first stop on the standar.",
+            "meta_keywords": "orbiter,space,lunar,jumping,choose,complete,luxury,cabins,based,hotel",
             "description": null,
             "headerBlock": null,
             "content_title": null,
@@ -3168,11 +3195,6 @@
                     "from_path": "/web files/templates/nav/top-nav.tpl"
                 },
                 {
-                    "area": "dd.0.1",
-                    "type": "file",
-                    "from_path": "/web files/templates/hero/sectional-hero.tpl"
-                },
-                {
                     "area": "dd.0.2",
                     "type": "file",
                     "from_path": "/web files/templates/nav/breadcrumb.tpl"
@@ -3180,7 +3202,7 @@
                 {
                     "area": "dd.0.3",
                     "type": "file",
-                    "from_path": "/web files/templates/interiors/sectional-template.tpl"
+                    "from_path": "/web files/templates/content/two-column-template.tpl"
                 },
                 {
                     "area": "dd.0.3.4",
@@ -3196,6 +3218,11 @@
                     "area": "dd.0.11",
                     "type": "file",
                     "from_path": "/web files/templates/footer/footer.tpl"
+                },
+                {
+                    "area": "dd.0.1",
+                    "type": "file",
+                    "from_path": "/web files/templates/hero/hero.tpl"
                 }
             ]
         },
@@ -3296,12 +3323,12 @@
                 {
                     "area": "dd.0.1",
                     "type": "file",
-                    "from_path": "/web files/templates/hero/sectional-hero.tpl"
+                    "from_path": null
                 },
                 {
                     "area": "dd.0.2",
                     "type": "file",
-                    "from_path": "/web files/templates/interiors/sectional-full.tpl"
+                    "from_path": "/web files/templates/content/1-column-template.tpl"
                 },
                 {
                     "area": "dd.0.2.0",
@@ -3388,8 +3415,8 @@
             "structure": 1,
             "rank": null,
             "menu": null,
-            "meta_description": null,
-            "meta_keywords": null,
+            "meta_description": "This Privacy Policy (\"Policy\") covers how Just Program, LLC d/b/a (hereinafter, \"\") treats personal information that it collects and receives from you during.",
+            "meta_keywords": "information,site,personal,use,cookies,collected,services,provide,policy,web",
             "description": null,
             "headerBlock": null,
             "content_title": null,
@@ -3409,11 +3436,6 @@
                     "from_path": "/web files/templates/nav/top-nav.tpl"
                 },
                 {
-                    "area": "dd.0.1",
-                    "type": "file",
-                    "from_path": "/web files/templates/hero/sectional-hero.tpl"
-                },
-                {
                     "area": "dd.0.2",
                     "type": "file",
                     "from_path": "/web files/templates/nav/breadcrumb.tpl"
@@ -3421,7 +3443,7 @@
                 {
                     "area": "dd.0.3",
                     "type": "file",
-                    "from_path": "/web files/templates/interiors/sectional-template.tpl"
+                    "from_path": "/web files/templates/content/two-column-template.tpl"
                 },
                 {
                     "area": "dd.0.3.0",
@@ -3442,6 +3464,11 @@
                     "area": "dd.0.7",
                     "type": "file",
                     "from_path": "/web files/templates/footer/footer.tpl"
+                },
+                {
+                    "area": "dd.0.1",
+                    "type": "file",
+                    "from_path": "/web files/templates/hero/hero.tpl"
                 }
             ]
         },
@@ -3452,15 +3479,19 @@
             "publish_date": 1541454141
         },
         {
+            "name": "recent-blog.tpl",
+            "from_path": "/web files/templates/components/recent-blog.tpl",
+            "to_path": "/web files/templates/components/recent-blog.tpl"
+        },
+        {
+            "name": "recent-news.tpl",
+            "from_path": "/web files/templates/components/recent-news.tpl",
+            "to_path": "/web files/templates/components/recent-news.tpl"
+        },
+        {
             "name": "recent-posts.tpl",
             "from_path": "/web files/content/blog/recent-posts.tpl",
             "to_path": "/web files/content/blog/recent-posts.tpl",
-            "publish_date": "1541454120"
-        },
-        {
-            "name": "recent-updates.tpl",
-            "from_path": "/web files/templates/sections/recent-updates.tpl",
-            "to_path": "/web files/templates/sections/recent-updates.tpl",
             "publish_date": "1541454120"
         },
         {
@@ -3495,12 +3526,12 @@
                 {
                     "area": "dd.0.1",
                     "type": "file",
-                    "from_path": "/web files/templates/hero/sectional-hero.tpl"
+                    "from_path": null
                 },
                 {
                     "area": "dd.0.2",
                     "type": "file",
-                    "from_path": "/web files/templates/interiors/sectional-full.tpl"
+                    "from_path": "/web files/templates/content/1-column-template.tpl"
                 },
                 {
                     "area": "dd.0.2.0",
@@ -3522,8 +3553,8 @@
         },
         {
             "name": "resources-form.tpl",
-            "from_path": "/web files/managers/Gear/_Assets/resources-form.tpl",
-            "to_path": "/web files/managers/Gear/_Assets/resources-form.tpl"
+            "from_path": "/web files/managers/Shop/_Assets/resources-form.tpl",
+            "to_path": "/web files/managers/Shop/_Assets/resources-form.tpl"
         },
         {
             "name": "resources.jpg",
@@ -3533,15 +3564,15 @@
         },
         {
             "name": "resources1.jpg",
-            "from_path": "/web files/managers/Gear/_Assets/resources1.jpg",
-            "to_path": "/web files/managers/Gear/_Assets/resources1.jpg",
-            "publish_date": 1541454143
-        },
-        {
-            "name": "resources1.jpg",
             "from_path": "/www/_/images/resources1.jpg",
             "to_path": "/www/_/images/resources1.jpg",
             "publish_date": 1541454144
+        },
+        {
+            "name": "resources1.jpg",
+            "from_path": "/web files/managers/Shop/_Assets/resources1.jpg",
+            "to_path": "/web files/managers/Shop/_Assets/resources1.jpg",
+            "publish_date": 1541454143
         },
         {
             "name": "sales.jpg",
@@ -3579,12 +3610,17 @@
                     "from_path": "/web files/templates/nav/top-nav.tpl"
                 },
                 {
-                    "area": "dd.0.2",
+                    "area": "dd.0.3",
                     "type": "file",
-                    "from_path": "/web files/templates/interiors/sectional-full.tpl"
+                    "from_path": "/web files/templates/content/1-column-template.tpl"
                 },
                 {
-                    "area": "dd.0.2.0",
+                    "area": "dd.0.3.0",
+                    "type": "Asset_Category",
+                    "from_path": "/web files/content/search"
+                },
+                {
+                    "area": "dd.0.3.0.0",
                     "type": "file",
                     "from_path": "/web files/content/search/search.tpl"
                 },
@@ -3601,7 +3637,12 @@
                 {
                     "area": "dd.0.1",
                     "type": "file",
-                    "from_path": "/web files/templates/hero/sectional-hero-bar.tpl"
+                    "from_path": "/web files/templates/hero/hero.tpl"
+                },
+                {
+                    "area": "dd.0.2",
+                    "type": "file",
+                    "from_path": "/web files/templates/nav/breadcrumb.tpl"
                 }
             ]
         },
@@ -3612,52 +3653,10 @@
             "publish_date": "1541454120"
         },
         {
-            "name": "sectional-full.tpl",
-            "from_path": "/web files/templates/interiors/sectional-full.tpl",
-            "to_path": "/web files/templates/interiors/sectional-full.tpl",
-            "publish_date": "1541454120"
-        },
-        {
-            "name": "sectional-hero-bar.tpl",
-            "from_path": "/web files/templates/hero/sectional-hero-bar.tpl",
-            "to_path": "/web files/templates/hero/sectional-hero-bar.tpl",
-            "publish_date": "1541454120"
-        },
-        {
-            "name": "sectional-hero-large.tpl",
-            "from_path": "/web files/templates/hero/sectional-hero-large.tpl",
-            "to_path": "/web files/templates/hero/sectional-hero-large.tpl",
-            "publish_date": "1544134200"
-        },
-        {
             "name": "sectional-hero.jpg",
             "from_path": "/www/_/images/sectional-hero.jpg",
             "to_path": "/www/_/images/sectional-hero.jpg",
             "publish_date": 1541454146
-        },
-        {
-            "name": "sectional-hero.tpl",
-            "from_path": "/web files/templates/hero/sectional-hero.tpl",
-            "to_path": "/web files/templates/hero/sectional-hero.tpl",
-            "publish_date": "1541454120"
-        },
-        {
-            "name": "sectional-template.tpl",
-            "from_path": "/web files/templates/interiors/sectional-template.tpl",
-            "to_path": "/web files/templates/interiors/sectional-template.tpl",
-            "publish_date": "1541454120"
-        },
-        {
-            "name": "sectional-two-col.tpl",
-            "from_path": "/web files/templates/interiors/sectional-two-col.tpl",
-            "to_path": "/web files/templates/interiors/sectional-two-col.tpl",
-            "publish_date": "1541454120"
-        },
-        {
-            "name": "sectional-with-form.tpl",
-            "from_path": "/web files/templates/interiors/sectional-with-form.tpl",
-            "to_path": "/web files/templates/interiors/sectional-with-form.tpl",
-            "publish_date": "1541454120"
         },
         {
             "name": "services.jpg",
@@ -3684,6 +3683,21 @@
             "publish_date": 1542741961
         },
         {
+            "name": "shop-detail.tpl",
+            "from_path": "/web files/content/shop/shop-detail.tpl",
+            "to_path": "/web files/content/shop/shop-detail.tpl"
+        },
+        {
+            "name": "shop-repeater.tpl",
+            "from_path": "/web files/content/shop/shop-repeater.tpl",
+            "to_path": "/web files/content/shop/shop-repeater.tpl"
+        },
+        {
+            "name": "shop.jpg",
+            "from_path": "/www/_/images/sectional-images/shop.jpg",
+            "to_path": "/www/_/images/sectional-images/shop.jpg"
+        },
+        {
             "name": "shortcodes.php",
             "from_path": "/www/_/php/shortcodes.php",
             "to_path": "/www/_/php/shortcodes.php",
@@ -3696,21 +3710,9 @@
             "publish_date": "1541454120"
         },
         {
-            "name": "side-nav.tpl",
-            "from_path": "/web files/templates/nav/side-nav.tpl",
-            "to_path": "/web files/templates/nav/side-nav.tpl",
-            "publish_date": "1541454120"
-        },
-        {
             "name": "site-explorer-form.tpl",
-            "from_path": "/web files/managers/Site Explorer/_Assets/site-explorer-form.tpl",
-            "to_path": "/web files/managers/Site Explorer/_Assets/site-explorer-form.tpl"
-        },
-        {
-            "name": "site-explorer.tpl",
-            "from_path": "/web files/templates/nav/site-explorer.tpl",
-            "to_path": "/web files/templates/nav/site-explorer.tpl",
-            "publish_date": "1541454120"
+            "from_path": "/web files/managers/I Want To/_Assets/site-explorer-form.tpl",
+            "to_path": "/web files/managers/I Want To/_Assets/site-explorer-form.tpl"
         },
         {
             "name": "sitemap.stml",
@@ -3742,11 +3744,6 @@
                     "from_path": "/web files/templates/nav/top-nav.tpl"
                 },
                 {
-                    "area": "dd.0.1",
-                    "type": "file",
-                    "from_path": "/web files/templates/hero/sectional-hero.tpl"
-                },
-                {
                     "area": "dd.0.2",
                     "type": "file",
                     "from_path": "/web files/templates/nav/breadcrumb.tpl"
@@ -3754,7 +3751,7 @@
                 {
                     "area": "dd.0.3",
                     "type": "file",
-                    "from_path": "/web files/templates/interiors/sectional-full.tpl"
+                    "from_path": "/web files/templates/content/1-column-template.tpl"
                 },
                 {
                     "area": "dd.0.3.0",
@@ -3770,6 +3767,11 @@
                     "area": "dd.0.7",
                     "type": "file",
                     "from_path": "/web files/templates/footer/footer.tpl"
+                },
+                {
+                    "area": "dd.0.1",
+                    "type": "file",
+                    "from_path": "/web files/templates/hero/hero.tpl"
                 }
             ]
         },
@@ -3804,6 +3806,16 @@
             "publish_date": 1543255432
         },
         {
+            "name": "slider-blog.tpl",
+            "from_path": "/web files/templates/components/slider-blog.tpl",
+            "to_path": "/web files/templates/components/slider-blog.tpl"
+        },
+        {
+            "name": "slider-testimonials.tpl",
+            "from_path": "/web files/templates/components/slider-testimonials.tpl",
+            "to_path": "/web files/templates/components/slider-testimonials.tpl"
+        },
+        {
             "name": "slider.js",
             "from_path": "/web files/js/slider.js",
             "to_path": "/web files/js/slider.js",
@@ -3820,12 +3832,6 @@
             "from_path": "/web files/managers/Partners/_Assets/smartco.png",
             "to_path": "/web files/managers/Partners/_Assets/smartco.png",
             "publish_date": 1553117596
-        },
-        {
-            "name": "socials-fixed.tpl",
-            "from_path": "/web files/templates/nav/socials-fixed.tpl",
-            "to_path": "/web files/templates/nav/socials-fixed.tpl",
-            "publish_date": "1542399540"
         },
         {
             "name": "softtech.png",
@@ -3917,11 +3923,6 @@
                     "from_path": "/web files/templates/nav/top-nav.tpl"
                 },
                 {
-                    "area": "dd.0.1",
-                    "type": "file",
-                    "from_path": "/web files/templates/hero/sectional-hero.tpl"
-                },
-                {
                     "area": "dd.0.2",
                     "type": "file",
                     "from_path": "/web files/templates/nav/breadcrumb.tpl"
@@ -3929,7 +3930,7 @@
                 {
                     "area": "dd.0.3",
                     "type": "file",
-                    "from_path": "/web files/templates/interiors/sectional-full.tpl"
+                    "from_path": "/web files/templates/content/1-column-template.tpl"
                 },
                 {
                     "area": "dd.0.3.0",
@@ -3945,6 +3946,11 @@
                     "area": "dd.0.7",
                     "type": "file",
                     "from_path": "/web files/templates/footer/footer.tpl"
+                },
+                {
+                    "area": "dd.0.1",
+                    "type": "file",
+                    "from_path": "/web files/templates/hero/hero.tpl"
                 }
             ]
         },
@@ -4002,11 +4008,6 @@
                     "from_path": "/web files/templates/nav/top-nav.tpl"
                 },
                 {
-                    "area": "dd.0.1",
-                    "type": "file",
-                    "from_path": "/web files/templates/hero/sectional-hero.tpl"
-                },
-                {
                     "area": "dd.0.2",
                     "type": "file",
                     "from_path": "/web files/templates/nav/breadcrumb.tpl"
@@ -4014,7 +4015,7 @@
                 {
                     "area": "dd.0.3",
                     "type": "file",
-                    "from_path": "/web files/templates/interiors/sectional-template.tpl"
+                    "from_path": "/web files/templates/content/two-column-template.tpl"
                 },
                 {
                     "area": "dd.0.3.0",
@@ -4024,7 +4025,7 @@
                 {
                     "area": "dd.0.3.1",
                     "type": "file",
-                    "from_path": "/web files/templates/sections/banner-repeater.tpl"
+                    "from_path": null
                 },
                 {
                     "area": "dd.0.3.4",
@@ -4035,6 +4036,11 @@
                     "area": "dd.0.7",
                     "type": "file",
                     "from_path": "/web files/templates/footer/footer.tpl"
+                },
+                {
+                    "area": "dd.0.1",
+                    "type": "file",
+                    "from_path": "/web files/templates/hero/hero.tpl"
                 }
             ]
         },
@@ -4121,12 +4127,6 @@
             "to_path": "/web files/managers/Testimonials/_Assets/testimonials-form.tpl"
         },
         {
-            "name": "testimonials-slider.tpl",
-            "from_path": "/web files/templates/sections/testimonials-slider.tpl",
-            "to_path": "/web files/templates/sections/testimonials-slider.tpl",
-            "publish_date": "1541794620"
-        },
-        {
             "name": "testimonials1.jpg",
             "from_path": "/www/_/images/testimonials1.jpg",
             "to_path": "/www/_/images/testimonials1.jpg",
@@ -4146,8 +4146,8 @@
             "structure": "0",
             "rank": null,
             "menu": null,
-            "meta_description": null,
-            "meta_keywords": null,
+            "meta_description": "Thank you for contacting You will be contacted about your message shortly.",
+            "meta_keywords": "thank,contacting,site,contacted,message,shortly",
             "description": null,
             "headerBlock": null,
             "content_title": null,
@@ -4167,14 +4167,9 @@
                     "from_path": "/web files/templates/nav/top-nav.tpl"
                 },
                 {
-                    "area": "dd.0.1",
-                    "type": "file",
-                    "from_path": "/web files/templates/hero/sectional-hero.tpl"
-                },
-                {
                     "area": "dd.0.2",
                     "type": "file",
-                    "from_path": "/web files/templates/interiors/sectional-full.tpl"
+                    "from_path": "/web files/templates/content/1-column-template.tpl"
                 },
                 {
                     "area": "dd.0.2.0",
@@ -4185,6 +4180,11 @@
                     "area": "dd.0.7",
                     "type": "file",
                     "from_path": "/web files/templates/footer/footer.tpl"
+                },
+                {
+                    "area": "dd.0.1",
+                    "type": "file",
+                    "from_path": "/web files/templates/hero/hero.tpl"
                 }
             ]
         },
@@ -4225,6 +4225,11 @@
             "publish_date": 1541454156
         },
         {
+            "name": "two-column-template.tpl",
+            "from_path": "/web files/templates/content/two-column-template.tpl",
+            "to_path": "/web files/templates/content/two-column-template.tpl"
+        },
+        {
             "name": "typography.scss",
             "from_path": "/web files/scss/components/typography.scss",
             "to_path": "/web files/scss/components/typography.scss",
@@ -4247,30 +4252,6 @@
             "from_path": "/web files/managers/Updates/_Assets/updates-3.jpg",
             "to_path": "/web files/managers/Updates/_Assets/updates-3.jpg",
             "publish_date": 1553118965
-        },
-        {
-            "name": "updates-category.tpl",
-            "from_path": "/web files/content/updates/updates-category.tpl",
-            "to_path": "/web files/content/updates/updates-category.tpl",
-            "publish_date": "1544202960"
-        },
-        {
-            "name": "updates-detail.tpl",
-            "from_path": "/web files/content/updates/updates-detail.tpl",
-            "to_path": "/web files/content/updates/updates-detail.tpl",
-            "publish_date": "1541454120"
-        },
-        {
-            "name": "updates-repeater.tpl",
-            "from_path": "/web files/content/updates/updates-repeater.tpl",
-            "to_path": "/web files/content/updates/updates-repeater.tpl",
-            "publish_date": "1541454120"
-        },
-        {
-            "name": "updates.jpg",
-            "from_path": "/www/_/images/sectional-images/updates.jpg",
-            "to_path": "/www/_/images/sectional-images/updates.jpg",
-            "publish_date": "1542385620"
         },
         {
             "name": "valkyrie.png",
@@ -4305,8 +4286,8 @@
             "publish_date": 1541454161,
             "structure": 1,
             "menu": null,
-            "meta_description": null,
-            "meta_keywords": null,
+            "meta_description": "From Surface to Space in Minutes Test As the lean, mean \u201cmuscle\u201d of the LunarXP fleet, the Valkyrie-1 series makes safe transportation from surface to.",
+            "meta_keywords": "valkyrie,surface,orbit,lunar,docks,easily,escape,transport,launch,supplies",
             "description": null,
             "headerBlock": null,
             "content_title": null,
@@ -4326,11 +4307,6 @@
                     "from_path": "/web files/templates/nav/top-nav.tpl"
                 },
                 {
-                    "area": "dd.0.1",
-                    "type": "file",
-                    "from_path": "/web files/templates/hero/sectional-hero.tpl"
-                },
-                {
                     "area": "dd.0.2",
                     "type": "file",
                     "from_path": "/web files/templates/nav/breadcrumb.tpl"
@@ -4338,7 +4314,7 @@
                 {
                     "area": "dd.0.3",
                     "type": "file",
-                    "from_path": "/web files/templates/interiors/sectional-template.tpl"
+                    "from_path": "/web files/templates/content/two-column-template.tpl"
                 },
                 {
                     "area": "dd.0.3.0",
@@ -4354,6 +4330,11 @@
                     "area": "dd.0.6",
                     "type": "file",
                     "from_path": "/web files/templates/footer/footer.tpl"
+                },
+                {
+                    "area": "dd.0.1",
+                    "type": "file",
+                    "from_path": "/web files/templates/hero/hero.tpl"
                 }
             ]
         },
@@ -4389,8 +4370,8 @@
             "structure": 1,
             "rank": null,
             "menu": null,
-            "meta_description": null,
-            "meta_keywords": null,
+            "meta_description": "Welcome to Your New Off-World Community The XP-1 community model brings everything you\u2019ll need to survive and thrive on the moon\u2019s surface. Our settlement.",
+            "meta_keywords": "moon,community,xp,settlements,transportation,locations,large,centers,facilities,site",
             "description": null,
             "headerBlock": null,
             "content_title": null,
@@ -4410,11 +4391,6 @@
                     "from_path": "/web files/templates/nav/top-nav.tpl"
                 },
                 {
-                    "area": "dd.0.1",
-                    "type": "file",
-                    "from_path": "/web files/templates/hero/sectional-hero.tpl"
-                },
-                {
                     "area": "dd.0.2",
                     "type": "file",
                     "from_path": "/web files/templates/nav/breadcrumb.tpl"
@@ -4422,7 +4398,7 @@
                 {
                     "area": "dd.0.3",
                     "type": "file",
-                    "from_path": "/web files/templates/interiors/sectional-template.tpl"
+                    "from_path": "/web files/templates/content/two-column-template.tpl"
                 },
                 {
                     "area": "dd.0.3.4",
@@ -4438,6 +4414,11 @@
                     "area": "dd.0.11",
                     "type": "file",
                     "from_path": "/web files/templates/footer/footer.tpl"
+                },
+                {
+                    "area": "dd.0.1",
+                    "type": "file",
+                    "from_path": "/web files/templates/hero/hero.tpl"
                 }
             ]
         },
@@ -4535,6 +4516,12 @@
             "title": "components"
         },
         {
+            "from_path": "/web files/templates/components",
+            "to_path": "/web files/templates/components",
+            "title": "sections",
+            "structure": "0"
+        },
+        {
             "from_path": "/web files/content/contact",
             "to_path": "/web files/content/contact",
             "title": "Contact"
@@ -4544,6 +4531,11 @@
             "to_path": "/www/contact",
             "title": "Contact",
             "structure": 1
+        },
+        {
+            "from_path": "/web files/templates/content",
+            "to_path": "/web files/templates/content",
+            "structure": "0"
         },
         {
             "from_path": "/web files/content",
@@ -4623,24 +4615,6 @@
             "structure": 1
         },
         {
-            "from_path": "/web files/managers/Gear",
-            "to_path": "/web files/managers/Gear",
-            "structure": "0"
-        },
-        {
-            "from_path": "/www/gear",
-            "to_path": "/www/gear",
-            "title": "Gear",
-            "structure": 1,
-            "datatable_category_group": "/web files/managers/Gear/Gear Categories"
-        },
-        {
-            "from_path": "/web files/content/gear",
-            "to_path": "/web files/content/gear",
-            "title": "Gear",
-            "structure": "0"
-        },
-        {
             "from_path": "/web files/templates/hero",
             "to_path": "/web files/templates/hero",
             "title": "hero"
@@ -4655,13 +4629,14 @@
             "title": "home"
         },
         {
-            "from_path": "/www/_/images",
-            "to_path": "/www/_/images"
+            "from_path": "/web files/managers/I Want To",
+            "to_path": "/web files/managers/I Want To",
+            "title": "Site Explorer",
+            "structure": "0"
         },
         {
-            "from_path": "/web files/templates/interiors",
-            "to_path": "/web files/templates/interiors",
-            "title": "interior"
+            "from_path": "/www/_/images",
+            "to_path": "/www/_/images"
         },
         {
             "from_path": "/www/intranet",
@@ -4706,6 +4681,18 @@
             "from_path": "/web files/templates/nav",
             "to_path": "/web files/templates/nav",
             "title": "nav"
+        },
+        {
+            "from_path": "/www/news",
+            "to_path": "/www/news",
+            "title": "News",
+            "structure": 1,
+            "datatable_category_group": "/web files/managers/Updates/Updates Categories"
+        },
+        {
+            "from_path": "/web files/content/news",
+            "to_path": "/web files/content/news",
+            "structure": "0"
         },
         {
             "from_path": "/www/about/partners",
@@ -4756,11 +4743,6 @@
             "title": "Sectional Images"
         },
         {
-            "from_path": "/web files/templates/sections",
-            "to_path": "/web files/templates/sections",
-            "title": "sections"
-        },
-        {
             "from_path": "/web files/content/intranet/secure",
             "to_path": "/web files/content/intranet/secure",
             "title": "Secure",
@@ -4785,9 +4767,20 @@
             "structure": "0"
         },
         {
-            "from_path": "/web files/managers/Site Explorer",
-            "to_path": "/web files/managers/Site Explorer",
-            "title": "Site Explorer",
+            "from_path": "/web files/managers/Shop",
+            "to_path": "/web files/managers/Shop",
+            "structure": "0"
+        },
+        {
+            "from_path": "/www/shop",
+            "to_path": "/www/shop",
+            "title": "Shop",
+            "structure": 1,
+            "datatable_category_group": "/web files/managers/Shop/Shop Categories"
+        },
+        {
+            "from_path": "/web files/content/shop",
+            "to_path": "/web files/content/shop",
             "structure": "0"
         },
         {
@@ -4825,21 +4818,8 @@
             "structure": "0"
         },
         {
-            "from_path": "/www/updates",
-            "to_path": "/www/updates",
-            "title": "Updates",
-            "structure": 1,
-            "datatable_category_group": "/web files/managers/Updates/Updates Categories"
-        },
-        {
             "from_path": "/web files/managers/Updates",
             "to_path": "/web files/managers/Updates",
-            "structure": "0"
-        },
-        {
-            "from_path": "/web files/content/updates",
-            "to_path": "/web files/content/updates",
-            "title": "Updates",
             "structure": "0"
         },
         {
@@ -4883,8 +4863,8 @@
             "to_path": "/web files/managers/Landing Pages/_Assets"
         },
         {
-            "from_path": "/web files/managers/Gear/_Assets",
-            "to_path": "/web files/managers/Gear/_Assets"
+            "from_path": "/web files/managers/Shop/_Assets",
+            "to_path": "/web files/managers/Shop/_Assets"
         },
         {
             "from_path": "/web files/managers/Blog/_Assets",
@@ -4895,8 +4875,8 @@
             "to_path": "/web files/managers/FAQs/_Assets"
         },
         {
-            "from_path": "/web files/managers/Site Explorer/_Assets",
-            "to_path": "/web files/managers/Site Explorer/_Assets"
+            "from_path": "/web files/managers/I Want To/_Assets",
+            "to_path": "/web files/managers/I Want To/_Assets"
         },
         {
             "from_path": "/web files/managers/Photo Galleries/_Assets",
@@ -5000,11 +4980,11 @@
                         "team"
                     ],
                     "categories": [
-                        "news"
+                        "company-info"
                     ],
                     "fields": {
                         "entry_status": "publish",
-                        "event_title": "LunarXP \u201cXPlorer\u201d Recruitment Program Seeks to Fill Immediate Colonial Positions",
+                        "event_title": "LunarXP Seeks to Fill Immediate Colonial Positions",
                         "start_time": "1542206340",
                         "listing_image": {
                             "path": "/web files/managers/Blog/_Assets/blog-5.jpg",
@@ -5016,8 +4996,8 @@
                         "post_status": "Published",
                         "post_author": "Johnny Smith",
                         "resourceType": "Listing Image",
-                        "post_intro": "LunarXP is hiring dozens of talented pilots, engineers, and other key positions for our XP-1 Colony - and many of these roles will be announced as part of our new XPlorer Recruitment Program to be held in New York, Houston and Los Angeles throughout January.",
-                        "post_content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, nisi. Ullam dolores minus laboriosam aut quasi aliquam praesentium porro cumque! Odio ullam quisquam architecto nobis sint illo cumque ipsam odit.&nbsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, nisi. Ullam dolores minus laboriosam aut quasi aliquam praesentium porro cumque! Odio ullam quisquam architecto nobis sint illo cumque ipsam odit.&nbsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, nisi. Ullam dolores minus laboriosam aut quasi aliquam praesentium porro cumque! Odio ullam quisquam architecto nobis sint illo cumque ipsam odit.</p>\r\n\r\n<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, nisi. Ullam dolores minus laboriosam aut quasi aliquam praesentium porro cumque! Odio ullam quisquam architecto nobis sint illo cumque ipsam odit.&nbsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, nisi. Ullam dolores minus laboriosam aut quasi aliquam praesentium porro cumque! Odio ullam quisquam architecto nobis sint illo cumque ipsam odit.&nbsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, nisi. Ullam dolores minus laboriosam aut quasi aliquam praesentium porro cumque! Odio ullam quisquam architecto nobis sint illo cumque ipsam odit.</p>\r\n",
+                        "post_intro": "LunarXP is hiring dozens of talented pilots, engineers, and other key positions as part of our new XPlorer Recruitment Program.",
+                        "post_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\r\n\r\n<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>\r\n\r\n<div class=\"embed-responsive embed-responsive-16by9\"><iframe frameborder=\"0\" src=\"https://www.youtube.com/embed/0e8U2wQ51l0\"></iframe></div>\r\n\r\n<blockquote>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</blockquote>\r\n\r\n<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>\r\n\r\n<p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>\r\n",
                         "meta_description": null,
                         "meta_keywords": null,
                         "meta_tags": null
@@ -5025,11 +5005,11 @@
                 },
                 {
                     "categories": [
-                        "press-releases"
+                        "habitats"
                     ],
                     "fields": {
                         "entry_status": "publish",
-                        "event_title": "LunarXP Colony Expands Habitat Offerings to Include New Hydroponics Lab",
+                        "event_title": "Habitat Offerings to Include New Hydroponics Lab",
                         "start_time": "1542206220",
                         "listing_image": {
                             "path": "/web files/managers/Blog/_Assets/blog-4.jpg",
@@ -5041,8 +5021,8 @@
                         "post_status": "Published",
                         "post_author": "Johnny Smith",
                         "resourceType": "Listing Image",
-                        "post_intro": "The next wave of [site_name] colonial missions will include a \"natural\" addition to our growing community: a state-of-the-art hydroponics lab. This unit will continue to support the sustainability of planet-side food sources for our team of scientists and civilians.",
-                        "post_content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, nisi. Ullam dolores minus laboriosam aut quasi aliquam praesentium porro cumque! Odio ullam quisquam architecto nobis sint illo cumque ipsam odit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, nisi. Ullam dolores minus laboriosam aut quasi aliquam praesentium porro cumque! Odio ullam quisquam architecto nobis sint illo cumque ipsam odit.&nbsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, nisi. Ullam dolores minus laboriosam aut quasi aliquam praesentium porro cumque! Odio ullam quisquam architecto nobis sint illo cumque ipsam odit.</p>\r\n",
+                        "post_intro": "The next wave of colonial missions will include a \"natural\" addition to our growing community: a state-of-the-art hydroponics lab.",
+                        "post_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\r\n\r\n<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>\r\n\r\n<div class=\"embed-responsive embed-responsive-16by9\"><iframe frameborder=\"0\" src=\"https://www.youtube.com/embed/0e8U2wQ51l0\"></iframe></div>\r\n\r\n<blockquote>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</blockquote>\r\n\r\n<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>\r\n\r\n<p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>\r\n",
                         "meta_description": null,
                         "meta_keywords": null,
                         "meta_tags": null
@@ -5050,11 +5030,11 @@
                 },
                 {
                     "categories": [
-                        "press-releases"
+                        "ships"
                     ],
                     "fields": {
                         "entry_status": "publish",
-                        "event_title": "Building The Talon-2",
+                        "event_title": "An Inside Look into Building The Talon-2 Spacecraft",
                         "start_time": "1539710220",
                         "listing_image": {
                             "path": "/web files/managers/Blog/_Assets/blog-3.jpg",
@@ -5066,7 +5046,7 @@
                         "post_status": "Published",
                         "post_author": "Johnny Smith",
                         "resourceType": "Listing Image",
-                        "post_intro": "See our process for making the Talon-2 Ship",
+                        "post_intro": "The newest member of our fleet, the Talon-2 series is a feat of impossible engineering and radical imagination.",
                         "post_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\r\n\r\n<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>\r\n\r\n<div class=\"embed-responsive embed-responsive-16by9\"><iframe frameborder=\"0\" src=\"https://www.youtube.com/embed/0e8U2wQ51l0\"></iframe></div>\r\n\r\n<blockquote>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</blockquote>\r\n\r\n<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>\r\n\r\n<p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>\r\n",
                         "meta_description": null,
                         "meta_keywords": null,
@@ -5075,7 +5055,7 @@
                 },
                 {
                     "categories": [
-                        "press-releases"
+                        "company-info"
                     ],
                     "fields": {
                         "entry_status": "publish",
@@ -5099,6 +5079,9 @@
                     }
                 },
                 {
+                    "categories": [
+                        "ships"
+                    ],
                     "fields": {
                         "entry_status": "publish",
                         "event_title": "New Features on the Valkyrie-1 Spacecraft",
@@ -5440,140 +5423,6 @@
             ]
         },
         {
-            "name": "Gear",
-            "module_type": "Calendar",
-            "display_type": "Calendar",
-            "has_photo_gallery": "0",
-            "icon_type": "fas fa-tshirt",
-            "to_path": "/web files/managers/Gear/Gear",
-            "form_template": {
-                "file_path": "/web files/managers/Gear/_Assets/resources-form.tpl"
-            },
-            "datatable_category_group": "/web files/managers/Gear/Gear Categories",
-            "entries": [
-                {
-                    "categories": [
-                        "mission-t-shirts"
-                    ],
-                    "fields": {
-                        "event_title": "LunarXP T-Shirt (Gray)",
-                        "start_time": "1539898080",
-                        "resource_file": null,
-                        "link_url": "https://www.solodev.com",
-                        "post_status": "Published",
-                        "resource_type": "Link"
-                    }
-                },
-                {
-                    "categories": [
-                        "command-hats"
-                    ],
-                    "fields": {
-                        "event_title": "LunarXP Hat (Gray)",
-                        "start_time": "1539898560",
-                        "resource_file": null,
-                        "link_url": "https://www.solodev.com",
-                        "post_status": "Published",
-                        "resource_type": "Link"
-                    }
-                },
-                {
-                    "categories": [
-                        "mission-t-shirts"
-                    ],
-                    "fields": {
-                        "event_title": "LunarXP T-Shirt (White)",
-                        "start_time": "1539898560",
-                        "resource_file": null,
-                        "link_url": "https://www.solodev.com",
-                        "post_status": "Published",
-                        "resource_type": "Document"
-                    }
-                },
-                {
-                    "categories": [
-                        "command-hats"
-                    ],
-                    "fields": {
-                        "event_title": "LunarXP Hat (White)",
-                        "start_time": "1539898680",
-                        "resource_file": null,
-                        "link_url": "https://www.solodev.com",
-                        "post_status": "Published",
-                        "resource_type": "Link"
-                    }
-                },
-                {
-                    "categories": [
-                        "pilot-aviator-glasses"
-                    ],
-                    "fields": {
-                        "event_title": "LunarXP Glasses (Polarized)",
-                        "start_time": "1539898740",
-                        "resource_file": null,
-                        "link_url": "https://www.solodev.com",
-                        "post_status": "Published",
-                        "resource_type": "Link"
-                    }
-                },
-                {
-                    "categories": [
-                        "pilot-aviator-glasses"
-                    ],
-                    "fields": {
-                        "event_title": "LunarXP Glasses (Non-Polarized)",
-                        "start_time": "1539898920",
-                        "resource_file": null,
-                        "link_url": "https://www.solodev.com",
-                        "post_status": "Published",
-                        "resource_type": "Link"
-                    }
-                },
-                {
-                    "categories": [
-                        "pilot-aviator-glasses"
-                    ],
-                    "fields": {
-                        "event_title": "LunarXP Glasses (White)",
-                        "start_time": "1539952260",
-                        "resource_file": null,
-                        "link_url": "https://www.solodev.com",
-                        "post_status": "Published",
-                        "resource_type": "Link"
-                    }
-                },
-                {
-                    "categories": [
-                        "command-hats"
-                    ],
-                    "fields": {
-                        "event_title": "LunarXP Hat (Black)",
-                        "start_time": "1539952320",
-                        "resource_file": {
-                            "path": "/web files/managers/Gear/_Assets/blog-2.jpg",
-                            "name": "blog-2.jpg"
-                        },
-                        "link_url": null,
-                        "post_status": "Published",
-                        "resource_type": "Document"
-                    }
-                },
-                {
-                    "categories": [
-                        "mission-t-shirts"
-                    ],
-                    "fields": {
-                        "event_title": "LunarXP T-Shirt (Black)",
-                        "start_time": "1539952380",
-                        "resource_file": null,
-                        "link_url": null,
-                        "post_status": "Published",
-                        "resource_type": "Document"
-                    }
-                }
-            ]
-        },
-        {
             "name": "Hero Slider",
             "module_type": "Calendar",
             "display_type": "Forum",
@@ -5599,6 +5448,104 @@
                         "button_link": "/ships/",
                         "button_text": "Tour Our Ships",
                         "link_external": "0"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "I Want To",
+            "module_type": "Calendar",
+            "display_type": "Calendar",
+            "has_photo_gallery": "0",
+            "icon_type": "fas fa-concierge-bell",
+            "to_path": "/web files/managers/I Want To/I Want To",
+            "form_template": {
+                "file_path": "/web files/managers/I Want To/_Assets/site-explorer-form.tpl"
+            },
+            "entries": [
+                {
+                    "fields": {
+                        "entry_status": "publish",
+                        "event_title": "Training Programs",
+                        "start_time": "1539801840",
+                        "quick_title": "Training",
+                        "quick_ref": "/updates/",
+                        "quick_icon": null,
+                        "meta_title": null,
+                        "post_status": "Published",
+                        "post_featured": "Yes",
+                        "quick_external": "No",
+                        "meta_description": null,
+                        "meta_keywords": null,
+                        "post_javascript": null
+                    }
+                },
+                {
+                    "fields": {
+                        "entry_status": "publish",
+                        "event_title": "Launch Schedule",
+                        "start_time": "1539801900",
+                        "quick_title": "Launch Schedule",
+                        "quick_ref": "/404/",
+                        "quick_icon": "fa-bus",
+                        "meta_title": null,
+                        "post_status": "Published",
+                        "post_featured": "Yes",
+                        "quick_external": "No",
+                        "meta_description": null,
+                        "meta_keywords": null,
+                        "post_javascript": null
+                    }
+                },
+                {
+                    "fields": {
+                        "entry_status": "publish",
+                        "event_title": "Log in",
+                        "start_time": "1539801960",
+                        "quick_title": "Log in ",
+                        "quick_ref": "/intranet/",
+                        "quick_icon": null,
+                        "meta_title": null,
+                        "post_status": "Published",
+                        "post_featured": "Yes",
+                        "quick_external": "Yes",
+                        "meta_description": null,
+                        "meta_keywords": null,
+                        "post_javascript": null
+                    }
+                },
+                {
+                    "fields": {
+                        "entry_status": "publish",
+                        "event_title": "Apply for a Job",
+                        "start_time": "1539802080",
+                        "quick_title": "Apply for a Job",
+                        "quick_ref": "/careers/",
+                        "quick_icon": null,
+                        "meta_title": null,
+                        "post_status": "Published",
+                        "post_featured": "Yes",
+                        "quick_external": "Yes",
+                        "meta_description": null,
+                        "meta_keywords": null,
+                        "post_javascript": null
+                    }
+                },
+                {
+                    "fields": {
+                        "entry_status": "publish",
+                        "event_title": "Conference",
+                        "start_time": "1539802140",
+                        "quick_title": "Conference",
+                        "quick_ref": "/events/conference/astronauticon.stml",
+                        "quick_icon": null,
+                        "meta_title": null,
+                        "post_status": "Published",
+                        "post_featured": "Yes",
+                        "quick_external": "No",
+                        "meta_description": null,
+                        "meta_keywords": null,
+                        "post_javascript": null
                     }
                 }
             ]
@@ -6055,99 +6002,135 @@
             ]
         },
         {
-            "name": "Site Explorer",
+            "name": "Shop",
             "module_type": "Calendar",
             "display_type": "Calendar",
             "has_photo_gallery": "0",
-            "icon_type": "fab fa-wpexplorer",
-            "to_path": "/web files/managers/Site Explorer/Site Explorer",
+            "icon_type": "fas fa-tshirt",
+            "to_path": "/web files/managers/Shop/Shop",
             "form_template": {
-                "file_path": "/web files/managers/Site Explorer/_Assets/site-explorer-form.tpl"
+                "file_path": "/web files/managers/Shop/_Assets/resources-form.tpl"
             },
+            "datatable_category_group": "/web files/managers/Shop/Shop Categories",
             "entries": [
                 {
+                    "categories": [
+                        "mission-t-shirts"
+                    ],
                     "fields": {
-                        "entry_status": "publish",
-                        "event_title": "Training Programs",
-                        "start_time": "1539801840",
-                        "quick_title": "Training",
-                        "quick_ref": "/updates/",
-                        "quick_icon": null,
-                        "meta_title": null,
+                        "event_title": "LunarXP T-Shirt (Gray)",
+                        "start_time": "1539898080",
+                        "resource_file": null,
+                        "link_url": "https://www.solodev.com",
                         "post_status": "Published",
-                        "post_featured": "Yes",
-                        "quick_external": "No",
-                        "meta_description": null,
-                        "meta_keywords": null,
-                        "post_javascript": null
+                        "resource_type": "Link"
                     }
                 },
                 {
+                    "categories": [
+                        "command-hats"
+                    ],
                     "fields": {
-                        "entry_status": "publish",
-                        "event_title": "Launch Schedule",
-                        "start_time": "1539801900",
-                        "quick_title": "Launch Schedule",
-                        "quick_ref": "/404/",
-                        "quick_icon": "fa-bus",
-                        "meta_title": null,
+                        "event_title": "LunarXP Hat (Gray)",
+                        "start_time": "1539898560",
+                        "resource_file": null,
+                        "link_url": "https://www.solodev.com",
                         "post_status": "Published",
-                        "post_featured": "Yes",
-                        "quick_external": "No",
-                        "meta_description": null,
-                        "meta_keywords": null,
-                        "post_javascript": null
+                        "resource_type": "Link"
                     }
                 },
                 {
+                    "categories": [
+                        "mission-t-shirts"
+                    ],
                     "fields": {
-                        "entry_status": "publish",
-                        "event_title": "Log in",
-                        "start_time": "1539801960",
-                        "quick_title": "Log in ",
-                        "quick_ref": "/intranet/",
-                        "quick_icon": null,
-                        "meta_title": null,
+                        "event_title": "LunarXP T-Shirt (White)",
+                        "start_time": "1539898560",
+                        "resource_file": null,
+                        "link_url": "https://www.solodev.com",
                         "post_status": "Published",
-                        "post_featured": "Yes",
-                        "quick_external": "Yes",
-                        "meta_description": null,
-                        "meta_keywords": null,
-                        "post_javascript": null
+                        "resource_type": "Document"
                     }
                 },
                 {
+                    "categories": [
+                        "command-hats"
+                    ],
                     "fields": {
-                        "entry_status": "publish",
-                        "event_title": "Apply for a Job",
-                        "start_time": "1539802080",
-                        "quick_title": "Apply for a Job",
-                        "quick_ref": "/careers/",
-                        "quick_icon": null,
-                        "meta_title": null,
+                        "event_title": "LunarXP Hat (White)",
+                        "start_time": "1539898680",
+                        "resource_file": null,
+                        "link_url": "https://www.solodev.com",
                         "post_status": "Published",
-                        "post_featured": "Yes",
-                        "quick_external": "Yes",
-                        "meta_description": null,
-                        "meta_keywords": null,
-                        "post_javascript": null
+                        "resource_type": "Link"
                     }
                 },
                 {
+                    "categories": [
+                        "pilot-aviator-glasses"
+                    ],
                     "fields": {
-                        "entry_status": "publish",
-                        "event_title": "Conference",
-                        "start_time": "1539802140",
-                        "quick_title": "Conference",
-                        "quick_ref": "/events/conference/astronauticon.stml",
-                        "quick_icon": null,
-                        "meta_title": null,
+                        "event_title": "LunarXP Glasses (Polarized)",
+                        "start_time": "1539898740",
+                        "resource_file": null,
+                        "link_url": "https://www.solodev.com",
                         "post_status": "Published",
-                        "post_featured": "Yes",
-                        "quick_external": "No",
-                        "meta_description": null,
-                        "meta_keywords": null,
-                        "post_javascript": null
+                        "resource_type": "Link"
+                    }
+                },
+                {
+                    "categories": [
+                        "pilot-aviator-glasses"
+                    ],
+                    "fields": {
+                        "event_title": "LunarXP Glasses (Non-Polarized)",
+                        "start_time": "1539898920",
+                        "resource_file": null,
+                        "link_url": "https://www.solodev.com",
+                        "post_status": "Published",
+                        "resource_type": "Link"
+                    }
+                },
+                {
+                    "categories": [
+                        "pilot-aviator-glasses"
+                    ],
+                    "fields": {
+                        "event_title": "LunarXP Glasses (White)",
+                        "start_time": "1539952260",
+                        "resource_file": null,
+                        "link_url": "https://www.solodev.com",
+                        "post_status": "Published",
+                        "resource_type": "Link"
+                    }
+                },
+                {
+                    "categories": [
+                        "command-hats"
+                    ],
+                    "fields": {
+                        "event_title": "LunarXP Hat (Black)",
+                        "start_time": "1539952320",
+                        "resource_file": {
+                            "path": "/web files/managers/Shop/_Assets/blog-2.jpg",
+                            "name": "blog-2.jpg"
+                        },
+                        "link_url": null,
+                        "post_status": "Published",
+                        "resource_type": "Document"
+                    }
+                },
+                {
+                    "categories": [
+                        "mission-t-shirts"
+                    ],
+                    "fields": {
+                        "event_title": "LunarXP T-Shirt (Black)",
+                        "start_time": "1539952380",
+                        "resource_file": null,
+                        "link_url": null,
+                        "post_status": "Published",
+                        "resource_type": "Document"
                     }
                 }
             ]
@@ -6318,13 +6301,13 @@
             "icon_type": "far fa-newspaper",
             "to_path": "/web files/managers/Updates/Updates",
             "asset_category_map_anchor": {
-                "file_path": "/www/updates"
+                "file_path": "/www/news"
             },
             "form_template": {
                 "file_path": "/web files/managers/Updates/_Assets/news-form.tpl"
             },
             "html_template": {
-                "file_path": "/www/updates/detail.stml"
+                "file_path": "/www/news/detail.stml"
             },
             "datatable_category_group": "/web files/managers/Updates/Updates Categories",
             "entries": [
@@ -6346,7 +6329,7 @@
                         "post_status": "Draft",
                         "post_author": "AUTHOR_NAME",
                         "news_detail": "internalPage",
-                        "post_intro": "Read about LunarXP's plan for the first successful Mars Mission",
+                        "post_intro": "LunarXP is thrilled to announce the next chapter in its journey across the our solar system: MarsXP.",
                         "post_content": "<p>The Red Planet has fascinated both astrophysicists and sci-fi fans for decades \u2013 but today, we're closer than ever to visiting and living on Mars. LunarXP is thrilled to announce the next chapter in its journey across the our solar system: MarsXP.</p>\r\n\r\n<p>This exciting new chapter will leverage the vast network of LunarXP resources as a \"jumping off\" point for reaching Mars in the next two to five years. The initiative will begin with a orbital lab and docking station for planetary colonization. Using the same template for colonization as the LunarXP program, MarsXP will build a network of critical stations for scientific and resource development initiatives.</p>\r\n\r\n<p></p>\r\n",
                         "meta_description": null,
                         "meta_keywords": null,
@@ -6371,7 +6354,7 @@
                         "post_status": "Published",
                         "post_author": "None",
                         "news_detail": "internalPage",
-                        "post_intro": "The new bill gives LunarXP a budget to fulfill their mission.",
+                        "post_intro": "The new bill gives LunarXP a decade-long budget to fulfill the mission of space exploration.",
                         "post_content": "<p>LunarXP is proud to partner with the National Aeronautics and Space Administration (NASA) on a fiscal omnibus bill to fund critical government services on the moon's surface. In the groundbreaking bill, Congress and the President have given significant funding to help ensure national security and exploration interested through the private company, providing additional resources to fund mining and scientific initiatives that will give the United States access to \"astro fuels\" and new forms of energy.</p>\r\n\r\n<p>The bill, which was just signed on Monday, will provide funding through the next decade. While NASA has traditionally shouldered much of the space services involved, LunarXP has provided a free market option that saves tax payers significantly over the long term and helps advance the private sector's interests in space industries.</p>\r\n\r\n<p>The bill also includes additional dollars for roadmapping a Mars initiative in the next five years. LunarXP has already launched a new initiative \u2013 MarsXP \u2013 to service this program, and plans to have its first landing site and Martian orbital platform by late next year.</p>\r\n\r\n<p></p>\r\n",
                         "meta_description": null,
                         "meta_keywords": null,
@@ -6396,7 +6379,7 @@
                         "post_status": "Published",
                         "post_author": "AUTHOR_NAME",
                         "news_detail": "internalPage",
-                        "post_intro": "LunarXP has won a prestigious award for their participation in the space mission.",
+                        "post_intro": "LunarXP has won a prestigious award for its participation in a variety of cosmic explorations.",
                         "post_content": "<p>(Cape Canaveral, FL) LunarXP, the leader in moon exploration and colonization, is proud to announce that it is the recipient of the prestigious \"Space Innovator of the Year\" Award. This marks the third year in a row that the private interstellar travel and resource development organization has received the distinction.</p>\r\n\r\n<blockquote>\"We're thrilled to be honored by the international space community once again this year,\" said Shane Morrison, Chief Space Officer of LunarXP and commander of the moon-based container fleet. \"This company was founded on a dream: to explore the stars. Together, we've been able to make that dream a reality and turn this mission into a commercially viable enterprise. We look forward to continuing our exploration to Mars and beyond in the coming years.\"</blockquote>\r\n\r\n<p>LunarXP is running daily flights from Cape Canaveral, FL and San Jose, CA to the orbiting XPlatform, where multiple Lunar XPlorer vessels ferry passengers to a growing number of lunar habitats. LunarXP is currently hiring specialists in a number of key areas for part- and full-time employment in their permanent moon settlements.</p>\r\n\r\n<p>\"Not only is LunarXP exploring new worlds, but our scientists are developing new technologies that are impacting the earth's reliance on fossil fuels and renewable energy sources,\" said Morrison. \"We're mining new types of metals and minerals that have unlimited applications across industries. We excited to be sharing our discoveries with the world.\"</p>\r\n",
                         "meta_description": null,
                         "meta_keywords": null,
@@ -6414,23 +6397,18 @@
             "html_template": "/www/blog/category.stml",
             "categories": [
                 {
-                    "name": "blog-posts",
-                    "title": "Blog Posts",
+                    "name": "ships",
+                    "title": "Ships",
                     "menu": null
                 },
                 {
-                    "name": "case-studies",
-                    "title": "Case Studies",
+                    "name": "habitats",
+                    "title": "Habitats",
                     "menu": null
                 },
                 {
-                    "name": "news",
-                    "title": "News",
-                    "menu": null
-                },
-                {
-                    "name": "press-releases",
-                    "title": "Press Releases",
+                    "name": "company-info",
+                    "title": "Company Info",
                     "menu": null
                 }
             ]
@@ -6482,32 +6460,6 @@
         },
         {
             "module_type": "Datatable_Category_Group",
-            "name": "Gear Categories",
-            "to_path": "/web files/managers/Gear/Gear Categories",
-            "html_template": "/www/gear/category.stml",
-            "categories": [
-                {
-                    "name": "pilot-aviator-glasses",
-                    "title": "Pilot Aviator Glasses",
-                    "menu": null,
-                    "category_image": "/web files/managers/Gear/_Assets/0000332-Gear_Glasses.jpg"
-                },
-                {
-                    "name": "command-hats",
-                    "title": "Command Hats",
-                    "menu": null,
-                    "category_image": "/web files/managers/Gear/_Assets/0000333-Gear_Hat.jpg"
-                },
-                {
-                    "name": "mission-t-shirts",
-                    "title": "Mission T-Shirts",
-                    "menu": null,
-                    "category_image": "/web files/managers/Gear/_Assets/0000334-Gear_Tshirt.jpg"
-                }
-            ]
-        },
-        {
-            "module_type": "Datatable_Category_Group",
             "name": "Partner Categories",
             "to_path": "/web files/managers/Partners/Partner Categories",
             "categories": [
@@ -6535,9 +6487,35 @@
         },
         {
             "module_type": "Datatable_Category_Group",
+            "name": "Shop Categories",
+            "to_path": "/web files/managers/Shop/Shop Categories",
+            "html_template": "/www/shop/category.stml",
+            "categories": [
+                {
+                    "name": "pilot-aviator-glasses",
+                    "title": "Pilot Aviator Glasses",
+                    "menu": null,
+                    "category_image": "/web files/managers/Shop/_Assets/0000332-Gear_Glasses.jpg"
+                },
+                {
+                    "name": "command-hats",
+                    "title": "Command Hats",
+                    "menu": null,
+                    "category_image": "/web files/managers/Shop/_Assets/0000333-Gear_Hat.jpg"
+                },
+                {
+                    "name": "mission-t-shirts",
+                    "title": "Mission T-Shirts",
+                    "menu": null,
+                    "category_image": "/web files/managers/Shop/_Assets/0000334-Gear_Tshirt.jpg"
+                }
+            ]
+        },
+        {
+            "module_type": "Datatable_Category_Group",
             "name": "Updates Categories",
             "to_path": "/web files/managers/Updates/Updates Categories",
-            "html_template": "/www/updates/category.stml",
+            "html_template": "/www/news/category.stml",
             "categories": [
                 {
                     "name": "missions",
@@ -6608,7 +6586,29 @@
             },
             "return_template": {
                 "file_path": "/web files/forms/_Assets/0000455-thank-you-form.tpl"
-            }
+            },
+            "entries": [
+                {
+                    "fields": {
+                        "first_name": "Ashleypoite",
+                        "last_name": "Ashleypoite",
+                        "email": "ashley22@mail.com",
+                        "phone": 84373481812,
+                        "site_info": "select",
+                        "message": "Hello, I want to work in your company on a voluntary basis, can you offer me anything? \r\na little about me:https://about.me/kurdimova/"
+                    }
+                },
+                {
+                    "fields": {
+                        "first_name": "JeromeFug",
+                        "last_name": "JeromeFug",
+                        "email": "savemoney@takecreditcardsfree.com",
+                        "phone": 343188516,
+                        "site_info": "select",
+                        "message": "Hello I was wanting to see, if you wanted to stop paying fees to accept credit cards? I am with http://www.TakeCreditCardsFree.com and with us, you can take every type of credit card, you get your money deposited within 2 business days and you pay 0% plus $0.00 per transaction, the only thing you pay is a $25 per month account fee, and then you just use your existing terminal, or buy/lease one from us. What\u2019s the catch? The catch is, instead of charging you, your customer is charged a small convenience fee via the credit card machine we send you,  of just 40 cents per every $10 to which the customer is spending and that\u2019s it. Would you be interested in this? If so go to our website or call/text us at 720-791-3210 or go to our website http://www.takecreditcardsfree.com"
+                    }
+                }
+            ]
         }
     ],
     "Scheduler": [
@@ -6626,7 +6626,7 @@
                 {
                     "name": "Default Explore Our Ships",
                     "my_module_object_id": 2,
-                    "object_id": "/web files/content/home/home-content.tpl",
+                    "object_id": "/web files/content/home/home-ships.tpl",
                     "start_date": "1550250060"
                 }
             ]
@@ -6647,7 +6647,7 @@
                     "my_module_object_id": 2,
                     "percentage": "50",
                     "active": 1,
-                    "views": "102",
+                    "views": 228,
                     "conversions": 4,
                     "ga_experiment_variant": "0"
                 },
@@ -6659,7 +6659,7 @@
                     "my_module_object_id": 2,
                     "percentage": "50",
                     "active": 1,
-                    "views": 84,
+                    "views": "201",
                     "conversions": "0",
                     "ga_experiment_variant": 1
                 }

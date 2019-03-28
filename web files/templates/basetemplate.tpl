@@ -4,7 +4,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
 <!-- Start Alert Bar -->
-
 [repeater id='<%%{"path":"/web files/managers/Alerts/Alerts","type":"Calendar"}%%>'  limit="0,1" display_type="news"]
   <div id="top-alert-bar" class="w-100 bg-secondary text-center">
     <div class="container position-relative py-3">
@@ -23,33 +22,36 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <i id="alert-close" class="pointer fas fa-times text-white mr-3"></i>
       </div>
     </div>
- </div>
+  </div>
 [/repeater]
-
 <!-- End Alert Bar -->
 
+<!-- Top Nav -->
 <div class="dynamicDiv"></div>
+<!-- End Top Nav -->
 
+<!-- Hero -->
 <div class="dynamicDiv"></div>
+<!-- End Hero -->
 
+<!-- Breadcrumbs -->
 <div class="dynamicDiv"></div>
-<div class="dynamicDiv"></div>
-<div class="dynamicDiv"></div>
+<!-- End Breadcrumbs -->
 
+<!-- Content -->
 <div class="dynamicDiv"></div>
+<!-- End Content Template -->
 
+<!-- Footer Form -->
 <div class="dynamicDiv"></div>
+<!-- End Footer Form -->
 
+<!-- Footer -->
 <div class="dynamicDiv"></div>
+<!-- End Footer -->
 
-<div class="dynamicDiv"></div>
-
-<div class="dynamicDiv"></div>
-
-<div class="dynamicDiv"></div>
-
-<div class="dynamicDiv"></div>
-
-[privacy_banner consent="true" color="#ff910e" url="/terms/privacy-policy.stml"]
+<!-- Start Privacy Bar -->
+[privacy_banner consent="true" color="#ff910e" url="/privacy-policy.stml"]
 We use cookies to provide and improve our services. By using our site, you consent to cookies.
 [/privacy_banner]
+<!-- End Privacy Bar -->

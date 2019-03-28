@@ -10,7 +10,7 @@
 			</tr>
 		</thead>
 		<tbody>
-			[repeater id='<%%{"path":"/web files/managers/Gear/Gear","type":"Calendar"}%%>'  pages="22" order="start_time desc" display_type="news"]
+			[repeater id='<%%{"path":"/web files/managers/Shop/Shop","type":"Calendar"}%%>'  pages="22" order="start_time desc" display_type="news"]
 				[cond type="is" subject="{{resource_type}}" value="Document"]
 					<tr>
 						<td><a href="[get_asset_file_url id='{{resource_file}}']" target="_blank">{{event_title}}</a></td>

@@ -5,7 +5,9 @@
   <div class="container">
     <div class="row align-items-center">
       <div class="col-xl-3 col-lg-2 col-sm-4 col-5">
-        <a href="/"><img alt="[site_name] Logo" class="img-fluid py-3" src="[site_logo]" aria-role="logo" /></a>
+        <a href="/">
+          <img alt="[site_name] Logo" class="img-fluid py-3" src="[site_logo]" aria-role="logo" />
+        </a>
       </div>
       <div class="col-xl-9 col-lg-10 col-sm-8 col-7">
         <div class="d-sm-flex d-none justify-content-end pt-2 w-100 mw-100">
@@ -47,21 +49,52 @@
             </div>
           </li>
           <li class="nav-item px-3 text-uppercase mb-0 position-relative d-none d-lg-flex">
-            <a class="d-block w-100 h-100 text-black py-4 position-relative top-link" href="/gear/"><strong>Gear</strong></a>
+            <a class="d-block w-100 h-100 text-black py-4 position-relative top-link" href="/shop/"><strong>Shop</strong></a>
           </li>
           <li class="nav-item px-3 text-uppercase mb-0 position-relative d-none d-lg-flex">
-            <a class="d-block w-100 h-100 text-black py-4 position-relative top-link" href="/updates/"><strong>Updates</strong></a>
+            <a class="d-block w-100 h-100 text-black py-4 position-relative top-link" href="/news/"><strong>News</strong></a>
           </li>
           <li class="nav-item px-3 text-uppercase mb-0 position-relative d-none d-lg-flex">
             <a class="d-block w-100 h-100 text-black py-4 position-relative top-link" href="/contact/"><strong>Contact</strong></a>
           </li>
-          <li class="d-none d-sm-flex nav-item my-3 my-lg-0 mr-5 mr-lg-4 mr-xl-5"><a href="#" class="btn btn-lg btn-primary">Site Explorer</a>
-            <ul class="list-unstyled">
-              <?php include('site-explorer.tpl'); ?>
+          <li class="d-none d-sm-flex nav-item my-3 my-lg-0 mr-5 mr-lg-4 mr-xl-5"><a href="#" class="btn btn-lg btn-primary">I Want To</a>
+            <ul class="list-unstyled">             	
+			  <li class="text-uppercase mb-0">
+				<div class="dropdown position-absolute w-md-550p w-xl-600p bg-primary right-0 p-2 px-md-5 pb-md-5 pt-md-4 site-explorer">
+				  <div class="row">
+					<div class="col-md-6">
+					  <ul class="pl-0 list-unstyled">											
+						[repeater id='<%%{"path":"/web files/managers/I Want To/I Want To","type":"Calendar"}%%>'  limit="0,2" order="start_time desc" display_type="news" ]
+						  [is_set value="{{quick_title}}"]
+							<li class="mb-0 text-black"><a class="px-2 px-lg-3 text-white d-block w-100 h-100" href="{{quick_ref}}">{{quick_title}}</a></li>
+						  [/is_set]
+						  [is_empty value="{{quick_title}}"]
+							<li class="mb-0 text-black"><a class="px-2 px-lg-3 text-white d-block w-100 h-100" href="{{quick_ref}}">{{event_title}}</a></li>
+						  [/is_empty]
+						[/repeater]												
+					  </ul>
+					</div>
+					<div class="col-md-6">
+					  <ul class="pl-0 list-unstyled">
+						[repeater id='<%%{"path":"/web files/managers/I Want To/I Want To","type":"Calendar"}%%>'  limit="3,2" order="start_time desc" display_type="news"]
+						  [is_set value="{{quick_title}}"]
+							<li class="mb-0 text-black"><a class="px-2 px-lg-3 text-white d-block w-100 h-100" href="{{quick_ref}}">{{quick_title}}</a></li>
+						  [/is_set]
+						  [is_empty value="{{quick_title}}"]
+							<li class="mb-0 text-black"><a class="px-2 px-lg-3 text-white d-block w-100 h-100" href="{{quick_ref}}">{{event_title}}</a></li>
+						  [/is_empty]
+						[/repeater]
+					  </ul>
+					</div>
+					<div class="col-sm-12 text-center mt-4">
+					  <a class="btn btn-white btn-lg d-none d-md-block" href="/search.stml">I want to find something else</a>
+					</div>
+				  </div>
+				</div>
+			  </li>																					
             </ul>
           </li>
         </ul>
-
         <button id="sidenav-open-btn" class="menu-hamburger position-absolute pointer p-0">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -87,4 +120,4 @@
   </div>
 </nav>
 
-<?php include_once("side-nav.tpl"); ?>
+<?php include_once("mobile-nav.tpl"); ?>

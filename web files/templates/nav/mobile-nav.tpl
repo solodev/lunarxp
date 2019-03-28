@@ -7,38 +7,43 @@
   </div>
   <ul class="nav my-4 text-uppercase">
     <div class="w-50">
-    <li class="nav-item">
-      <a href="/blog/" class="nav-link text-white px-4"><strong>Blog</strong></a>
-    </li>
-    <li class="nav-item">
-      <a href="/careers/" class="nav-link text-white px-4"><strong>Careers</strong></a>
-    </li>
-    <li class="nav-item">
-      <a href="/events/" class="nav-link text-white px-4"><strong>Events</strong></a>
-    </li>
-    <li class="nav-item">
-      <a href="/faq/" class="nav-link text-white px-4"><strong>FAQ</strong></a>
-    </li>
+      <li class="nav-item">
+        <a href="/blog/" class="nav-link text-white px-4"><strong>Blog</strong></a>
+      </li>
+      <li class="nav-item">
+        <a href="/careers/" class="nav-link text-white px-4"><strong>Careers</strong></a>
+      </li>
+      <li class="nav-item">
+        <a href="/events/" class="nav-link text-white px-4"><strong>Events</strong></a>
+      </li>
+      <li class="nav-item">
+        <a href="/faq/" class="nav-link text-white px-4"><strong>FAQ</strong></a>
+      </li>
     </div>
     <div class="w-50">
-    <li class="nav-item">
-      <a href="/updates/" class="nav-link text-white px-4"><strong>Updates</strong></a>
-    </li>
-    <li class="nav-item">
-      <a href="/gallery/" class="nav-link text-white px-4"><strong>Gallery</strong></a>
-    </li>
-    <li class="nav-item">
-      <a href="/about/team/" class="nav-link text-white px-4"><strong>Team</strong></a>
-    </li>
-    <li class="nav-item">
-      <a href="/contact/" class="nav-link text-white px-4"><strong>Contact</strong></a>
-    </li>
+      <li class="nav-item">
+        <a href="/news/" class="nav-link text-white px-4"><strong>News</strong></a>
+      </li>
+      <li class="nav-item">
+        <a href="/gallery/" class="nav-link text-white px-4"><strong>Gallery</strong></a>
+      </li>
+      <li class="nav-item">
+        <a href="/about/team/" class="nav-link text-white px-4"><strong>Team</strong></a>
+      </li>
+      <li class="nav-item">
+        <a href="/contact/" class="nav-link text-white px-4"><strong>Contact</strong></a>
+      </li>
     </div>
   </ul>
-  <div class="sub-nav border-top border-alpha2-white p-4 text-white">
-    <p class="small">[site_address] <br> [site_city], [site_state] [site_postal_code]</p>
-    <p class="small mt-3"><a class="text-white" href="tel:[site_phone]">[site_phone] <br><a class="text-white" href="mailto:[site_email]">[site_email]</a></p>
-    <ul class="list-inline mt-4">
+  <div class="sub-nav border-top border-alpha2-white p-4 text-white text-center">
+    <p class="small">
+      [site_address]<br>
+      [site_city], [site_state] [site_postal_code]
+    </p>
+    <p class="small mt-3">
+      <a class="text-white" href="tel:[site_phone]">[site_phone] <br><a class="text-white" href="mailto:[site_email]">[site_email]</a>
+    </p>
+    <ul class="list-inline mt-4 text-center">
       <li class="list-inline-item mb-0 mr-3">
         <a href="[site_facebook]" target="_blank"><i class="fab fa-lg fa-facebook-f text-orange"></i></a>
       </li>

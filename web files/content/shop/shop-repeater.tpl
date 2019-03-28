@@ -6,7 +6,7 @@
 </div>
   
 <div class="row py-5">
-	[category_list id='<%%{"path":"/web files/managers/Gear/Gear Categories","type":"Datatable_Category_Group"}%%>' ]
+	[category_list id='<%%{"path":"/web files/managers/Shop/Shop Categories","type":"Datatable_Category_Group"}%%>' ]
     	<div class="col-md-4 mt-4 mt-sm-0">
 			<div class="bg-primary bg-hover-primary-dark text-center h-100">
         		<a href="{{name}}/">
