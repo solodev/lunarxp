@@ -3,7 +3,7 @@
     <h2 class="h3 text-center text-uppercase">Recent News</h2>
     <div class="row mt-5">
     
-      [repeater id='<%%{"path":"/web files/managers/Updates/Updates","type":"Calendar"}%%>'  limit="0,3" order="start_time desc" display_type="news"]
+      [repeater id='<%%{"path":"/web files/managers/News/News","type":"Calendar"}%%>'  limit="0,3" order="start_time desc" display_type="news"]
         <div class="col-md-4 my-2 my-md-0">
           <a href="{{path}}">
             <div class="bg-white bg-hover-light-gray p-3 box-sizing box-shadow h-100">

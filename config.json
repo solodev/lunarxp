@@ -305,15 +305,15 @@
         },
         {
             "name": "blog-2.jpg",
-            "from_path": "/web files/managers/Shop/_Assets/blog-2.jpg",
-            "to_path": "/web files/managers/Shop/_Assets/blog-2.jpg",
-            "publish_date": "1542650874"
-        },
-        {
-            "name": "blog-2.jpg",
             "from_path": "/www/_/images/blog-2.jpg",
             "to_path": "/www/_/images/blog-2.jpg",
             "publish_date": "1541454096"
+        },
+        {
+            "name": "blog-2.jpg",
+            "from_path": "/web files/managers/Shop/_Assets/blog-2.jpg",
+            "to_path": "/web files/managers/Shop/_Assets/blog-2.jpg",
+            "publish_date": "1542650874"
         },
         {
             "name": "blog-2.jpg",
@@ -1786,8 +1786,8 @@
         },
         {
             "name": "hab-1.html",
-            "from_path": "/web files/content/colony/hab-1.html",
-            "to_path": "/web files/content/colony/hab-1.html"
+            "from_path": "/web files/content/colonies/hab-1.html",
+            "to_path": "/web files/content/colonies/hab-1.html"
         },
         {
             "name": "hab-1.jpg",
@@ -1797,8 +1797,8 @@
         },
         {
             "name": "hab-1.stml",
-            "from_path": "/www/colony/hab-1.stml",
-            "to_path": "/www/colony/hab-1.stml",
+            "from_path": "/www/colonies/hab-1.stml",
+            "to_path": "/www/colonies/hab-1.stml",
             "title": "HAB-1",
             "publish_date": "1545345074",
             "structure": 1,
@@ -1842,7 +1842,7 @@
                 {
                     "area": "dd.0.3.0",
                     "type": "file",
-                    "from_path": "/web files/content/colony/hab-1.html"
+                    "from_path": "/web files/content/colonies/hab-1.html"
                 },
                 {
                     "area": "dd.0.11",
@@ -2857,6 +2857,72 @@
         },
         {
             "name": "index.stml",
+            "from_path": "/www/colonies/index.stml",
+            "to_path": "/www/colonies/index.stml",
+            "title": "Colonies",
+            "publish_date": 1545345724,
+            "structure": "0",
+            "rank": null,
+            "menu": null,
+            "meta_description": null,
+            "meta_keywords": null,
+            "description": null,
+            "headerBlock": null,
+            "content_title": null,
+            "body_id": null,
+            "body_role": null,
+            "body_class": null,
+            "isTemplate": "0",
+            "contents": [
+                {
+                    "area": "dd.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/basetemplate.tpl"
+                },
+                {
+                    "area": "dd.0.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/nav/top-nav.tpl"
+                },
+                {
+                    "area": "dd.0.2",
+                    "type": "file",
+                    "from_path": "/web files/templates/nav/breadcrumb.tpl"
+                },
+                {
+                    "area": "dd.0.11",
+                    "type": "file",
+                    "from_path": "/web files/templates/footer/footer.tpl"
+                },
+                {
+                    "area": "dd.0.3",
+                    "type": "file",
+                    "from_path": "/web files/templates/content/1-column-template.tpl"
+                },
+                {
+                    "area": "dd.0.3.0",
+                    "type": "file",
+                    "from_path": "/web files/content/colonies/index.tpl"
+                },
+                {
+                    "area": "dd.0.1",
+                    "type": "file",
+                    "from_path": "/web files/templates/hero/hero.tpl"
+                },
+                {
+                    "area": "dd.0.4",
+                    "type": "file",
+                    "from_path": "/web files/templates/footer/footer-form.tpl"
+                },
+                {
+                    "area": "dd.0.5",
+                    "type": "file",
+                    "from_path": "/web files/templates/footer/footer.tpl"
+                }
+            ]
+        },
+        {
+            "name": "index.stml",
             "from_path": "/www/news/index.stml",
             "to_path": "/www/news/index.stml",
             "title": "News",
@@ -2923,72 +2989,6 @@
                     "area": "dd.0.1",
                     "type": "file",
                     "from_path": "/web files/templates/hero/hero.tpl"
-                }
-            ]
-        },
-        {
-            "name": "index.stml",
-            "from_path": "/www/colony/index.stml",
-            "to_path": "/www/colony/index.stml",
-            "title": "Colony",
-            "publish_date": 1545345724,
-            "structure": "0",
-            "rank": null,
-            "menu": null,
-            "meta_description": null,
-            "meta_keywords": null,
-            "description": null,
-            "headerBlock": null,
-            "content_title": null,
-            "body_id": null,
-            "body_role": null,
-            "body_class": null,
-            "isTemplate": "0",
-            "contents": [
-                {
-                    "area": "dd.0",
-                    "type": "file",
-                    "from_path": "/web files/templates/basetemplate.tpl"
-                },
-                {
-                    "area": "dd.0.0",
-                    "type": "file",
-                    "from_path": "/web files/templates/nav/top-nav.tpl"
-                },
-                {
-                    "area": "dd.0.2",
-                    "type": "file",
-                    "from_path": "/web files/templates/nav/breadcrumb.tpl"
-                },
-                {
-                    "area": "dd.0.11",
-                    "type": "file",
-                    "from_path": "/web files/templates/footer/footer.tpl"
-                },
-                {
-                    "area": "dd.0.3",
-                    "type": "file",
-                    "from_path": "/web files/templates/content/1-column-template.tpl"
-                },
-                {
-                    "area": "dd.0.3.0",
-                    "type": "file",
-                    "from_path": "/web files/content/colony/index.tpl"
-                },
-                {
-                    "area": "dd.0.1",
-                    "type": "file",
-                    "from_path": "/web files/templates/hero/hero.tpl"
-                },
-                {
-                    "area": "dd.0.4",
-                    "type": "file",
-                    "from_path": "/web files/templates/footer/footer-form.tpl"
-                },
-                {
-                    "area": "dd.0.5",
-                    "type": "file",
-                    "from_path": "/web files/templates/footer/footer.tpl"
                 }
             ]
         },
@@ -3071,8 +3071,8 @@
         },
         {
             "name": "index.tpl",
-            "from_path": "/web files/content/colony/index.tpl",
-            "to_path": "/web files/content/colony/index.tpl",
+            "from_path": "/web files/content/colonies/index.tpl",
+            "to_path": "/web files/content/colonies/index.tpl",
             "publish_date": "1545345420"
         },
         {
@@ -3348,8 +3348,8 @@
         },
         {
             "name": "news-form.tpl",
-            "from_path": "/web files/managers/Updates/_Assets/news-form.tpl",
-            "to_path": "/web files/managers/Updates/_Assets/news-form.tpl"
+            "from_path": "/web files/managers/News/_Assets/news-form.tpl",
+            "to_path": "/web files/managers/News/_Assets/news-form.tpl"
         },
         {
             "name": "news-repeater.tpl",
@@ -3381,8 +3381,8 @@
         },
         {
             "name": "orbiter-1.html",
-            "from_path": "/web files/content/colony/orbiter-1.html",
-            "to_path": "/web files/content/colony/orbiter-1.html"
+            "from_path": "/web files/content/colonies/orbiter-1.html",
+            "to_path": "/web files/content/colonies/orbiter-1.html"
         },
         {
             "name": "orbiter-1.jpg",
@@ -3392,8 +3392,8 @@
         },
         {
             "name": "orbiter-1.stml",
-            "from_path": "/www/colony/orbiter-1.stml",
-            "to_path": "/www/colony/orbiter-1.stml",
+            "from_path": "/www/colonies/orbiter-1.stml",
+            "to_path": "/www/colonies/orbiter-1.stml",
             "title": "Orbiter-1",
             "publish_date": "1545345059",
             "structure": 1,
@@ -3437,7 +3437,7 @@
                 {
                     "area": "dd.0.3.0",
                     "type": "file",
-                    "from_path": "/web files/content/colony/orbiter-1.html"
+                    "from_path": "/web files/content/colonies/orbiter-1.html"
                 },
                 {
                     "area": "dd.0.11",
@@ -4522,20 +4522,20 @@
         },
         {
             "name": "updates-1.jpg",
-            "from_path": "/web files/managers/Updates/_Assets/updates-1.jpg",
-            "to_path": "/web files/managers/Updates/_Assets/updates-1.jpg",
+            "from_path": "/web files/managers/News/_Assets/updates-1.jpg",
+            "to_path": "/web files/managers/News/_Assets/updates-1.jpg",
             "publish_date": 1553118943
         },
         {
             "name": "updates-2.jpg",
-            "from_path": "/web files/managers/Updates/_Assets/updates-2.jpg",
-            "to_path": "/web files/managers/Updates/_Assets/updates-2.jpg",
+            "from_path": "/web files/managers/News/_Assets/updates-2.jpg",
+            "to_path": "/web files/managers/News/_Assets/updates-2.jpg",
             "publish_date": 1553118955
         },
         {
             "name": "updates-3.jpg",
-            "from_path": "/web files/managers/Updates/_Assets/updates-3.jpg",
-            "to_path": "/web files/managers/Updates/_Assets/updates-3.jpg",
+            "from_path": "/web files/managers/News/_Assets/updates-3.jpg",
+            "to_path": "/web files/managers/News/_Assets/updates-3.jpg",
             "publish_date": 1553118965
         },
         {
@@ -4647,8 +4647,8 @@
         },
         {
             "name": "xp-1.html",
-            "from_path": "/web files/content/colony/xp-1.html",
-            "to_path": "/web files/content/colony/xp-1.html"
+            "from_path": "/web files/content/colonies/xp-1.html",
+            "to_path": "/web files/content/colonies/xp-1.html"
         },
         {
             "name": "xp-1.jpg",
@@ -4658,8 +4658,8 @@
         },
         {
             "name": "xp-1.stml",
-            "from_path": "/www/colony/xp-1.stml",
-            "to_path": "/www/colony/xp-1.stml",
+            "from_path": "/www/colonies/xp-1.stml",
+            "to_path": "/www/colonies/xp-1.stml",
             "title": "XP-1",
             "publish_date": "1545345086",
             "structure": 1,
@@ -4703,7 +4703,7 @@
                 {
                     "area": "dd.0.3.0",
                     "type": "file",
-                    "from_path": "/web files/content/colony/xp-1.html"
+                    "from_path": "/web files/content/colonies/xp-1.html"
                 },
                 {
                     "area": "dd.0.11",
@@ -4806,14 +4806,15 @@
             "title": "Careers"
         },
         {
-            "from_path": "/www/colony",
-            "to_path": "/www/colony",
-            "title": "Colony"
+            "from_path": "/www/colonies",
+            "to_path": "/www/colonies",
+            "title": "Colonies",
+            "structure": "0"
         },
         {
-            "from_path": "/web files/content/colony",
-            "to_path": "/web files/content/colony",
-            "title": "Colony"
+            "from_path": "/web files/content/colonies",
+            "to_path": "/web files/content/colonies",
+            "structure": "0"
         },
         {
             "from_path": "/web files/templates/components",
@@ -4988,6 +4989,11 @@
             "title": "nav"
         },
         {
+            "from_path": "/web files/managers/News",
+            "to_path": "/web files/managers/News",
+            "structure": "0"
+        },
+        {
             "from_path": "/web files/content/news",
             "to_path": "/web files/content/news",
             "structure": "0"
@@ -4997,7 +5003,7 @@
             "to_path": "/www/news",
             "title": "News",
             "structure": 1,
-            "datatable_category_group": "/web files/managers/Updates/Updates Categories"
+            "datatable_category_group": "/web files/managers/News/News Categories"
         },
         {
             "from_path": "/www/about/partners",
@@ -5123,11 +5129,6 @@
             "structure": "0"
         },
         {
-            "from_path": "/web files/managers/Updates",
-            "to_path": "/web files/managers/Updates",
-            "structure": "0"
-        },
-        {
             "from_path": "/web files",
             "to_path": "/web files"
         },
@@ -5160,8 +5161,8 @@
             "to_path": "/web files/forms/_Assets"
         },
         {
-            "from_path": "/web files/managers/Updates/_Assets",
-            "to_path": "/web files/managers/Updates/_Assets"
+            "from_path": "/web files/managers/News/_Assets",
+            "to_path": "/web files/managers/News/_Assets"
         },
         {
             "from_path": "/web files/managers/Testimonials/_Assets",
@@ -5441,7 +5442,7 @@
                         "post_content": null,
                         "meta_description": null,
                         "meta_keywords": null,
-                        "post_javascript": null
+                        "meta_tags": null
                     }
                 },
                 {
@@ -5458,7 +5459,7 @@
                         "post_content": null,
                         "meta_description": null,
                         "meta_keywords": null,
-                        "post_javascript": null
+                        "meta_tags": null
                     }
                 },
                 {
@@ -5475,7 +5476,7 @@
                         "post_content": null,
                         "meta_description": null,
                         "meta_keywords": null,
-                        "post_javascript": null
+                        "meta_tags": null
                     }
                 },
                 {
@@ -5492,7 +5493,7 @@
                         "post_content": null,
                         "meta_description": null,
                         "meta_keywords": null,
-                        "post_javascript": null
+                        "meta_tags": null
                     }
                 },
                 {
@@ -5509,7 +5510,7 @@
                         "post_content": null,
                         "meta_description": null,
                         "meta_keywords": null,
-                        "post_javascript": null
+                        "meta_tags": null
                     }
                 },
                 {
@@ -5526,7 +5527,7 @@
                         "post_content": null,
                         "meta_description": null,
                         "meta_keywords": null,
-                        "post_javascript": null
+                        "meta_tags": null
                     }
                 }
             ]
@@ -5573,7 +5574,7 @@
                         "post_content": "<p>Listen to a panel of legendary astronauts on their experiences and advice on how to become a great astronaut.</p>\r\n",
                         "meta_description": null,
                         "meta_keywords": null,
-                        "post_javascript": null
+                        "meta_tags": ""
                     }
                 },
                 {
@@ -5600,7 +5601,7 @@
                         "post_content": "<p>This conference, hosted by [site_name], is a gathering of some of the best authorities in the business of Mars exploration!</p>\r\n",
                         "meta_description": null,
                         "meta_keywords": null,
-                        "post_javascript": null
+                        "meta_tags": ""
                     }
                 }
             ]
@@ -5916,7 +5917,6 @@
                         "mid_content_supporting": "How far away citizens of distant epochs preserve and cherish that pale blue dot descended from astronomers something incredible is waiting to be known tingling of the spine.",
                         "meta_description": null,
                         "meta_keywords": null,
-                        "post_javascript": null,
                         "job_id": null,
                         "top_section_bg_color": null,
                         "top_section_text_color": null,
@@ -5941,7 +5941,103 @@
                         "bottom_content_1": null,
                         "bottom_content_2": null,
                         "bottom_content_3": null,
-                        "post_author": null
+                        "post_author": null,
+                        "meta_tags": null
+                    }
+                }
+            ]
+        },
+        {
+            "name": "News",
+            "module_type": "Calendar",
+            "display_type": "News",
+            "has_photo_gallery": "0",
+            "icon_type": "far fa-newspaper",
+            "to_path": "/web files/managers/News/News",
+            "asset_category_map_anchor": {
+                "file_path": "/www/news"
+            },
+            "form_template": {
+                "file_path": "/web files/managers/News/_Assets/news-form.tpl"
+            },
+            "html_template": {
+                "file_path": "/www/news/detail.stml"
+            },
+            "datatable_category_group": "/web files/managers/News/News Categories",
+            "entries": [
+                {
+                    "categories": [
+                        "missions"
+                    ],
+                    "fields": {
+                        "entry_status": "publish",
+                        "event_title": "LunarXP Sets Target for First Mars Landing in 2030",
+                        "start_time": "1539338400",
+                        "news_image": {
+                            "path": "/web files/managers/News/_Assets/updates-3.jpg",
+                            "name": "updates-3.jpg"
+                        },
+                        "site_link": null,
+                        "heading_title": null,
+                        "meta_title": null,
+                        "post_status": "Draft",
+                        "post_author": "AUTHOR_NAME",
+                        "news_detail": "internalPage",
+                        "post_intro": "LunarXP is thrilled to announce the next chapter in its journey across the our solar system: MarsXP.",
+                        "post_content": "<p>The Red Planet has fascinated both astrophysicists and sci-fi fans for decades \u2013 but today, we're closer than ever to visiting and living on Mars. LunarXP is thrilled to announce the next chapter in its journey across the our solar system: MarsXP.</p>\r\n\r\n<p>This exciting new chapter will leverage the vast network of LunarXP resources as a \"jumping off\" point for reaching Mars in the next two to five years. The initiative will begin with a orbital lab and docking station for planetary colonization. Using the same template for colonization as the LunarXP program, MarsXP will build a network of critical stations for scientific and resource development initiatives.</p>\r\n\r\n<p></p>\r\n",
+                        "meta_description": null,
+                        "meta_keywords": null,
+                        "meta_tags": null
+                    }
+                },
+                {
+                    "categories": [
+                        "mentions"
+                    ],
+                    "fields": {
+                        "entry_status": "publish",
+                        "event_title": "New Spending Bill Expands Funding for Space Exploration",
+                        "start_time": "1539622500",
+                        "news_image": {
+                            "path": "/web files/managers/News/_Assets/updates-2.jpg",
+                            "name": "updates-2.jpg"
+                        },
+                        "site_link": null,
+                        "heading_title": null,
+                        "meta_title": null,
+                        "post_status": "Published",
+                        "post_author": "None",
+                        "news_detail": "internalPage",
+                        "post_intro": "The new bill gives LunarXP a decade-long budget to fulfill the mission of space exploration.",
+                        "post_content": "<p>LunarXP is proud to partner with the National Aeronautics and Space Administration (NASA) on a fiscal omnibus bill to fund critical government services on the moon's surface. In the groundbreaking bill, Congress and the President have given significant funding to help ensure national security and exploration interested through the private company, providing additional resources to fund mining and scientific initiatives that will give the United States access to \"astro fuels\" and new forms of energy.</p>\r\n\r\n<p>The bill, which was just signed on Monday, will provide funding through the next decade. While NASA has traditionally shouldered much of the space services involved, LunarXP has provided a free market option that saves tax payers significantly over the long term and helps advance the private sector's interests in space industries.</p>\r\n\r\n<p>The bill also includes additional dollars for roadmapping a Mars initiative in the next five years. LunarXP has already launched a new initiative \u2013 MarsXP \u2013 to service this program, and plans to have its first landing site and Martian orbital platform by late next year.</p>\r\n\r\n<p></p>\r\n",
+                        "meta_description": null,
+                        "meta_keywords": null,
+                        "meta_tags": null
+                    }
+                },
+                {
+                    "categories": [
+                        "awards"
+                    ],
+                    "fields": {
+                        "entry_status": "publish",
+                        "event_title": "LunarXP Wins  Space Innovator of the Year Award",
+                        "start_time": "1539720000",
+                        "news_image": {
+                            "path": "/web files/managers/News/_Assets/updates-1.jpg",
+                            "name": "updates-1.jpg"
+                        },
+                        "site_link": null,
+                        "heading_title": null,
+                        "meta_title": null,
+                        "post_status": "Published",
+                        "post_author": "AUTHOR_NAME",
+                        "news_detail": "internalPage",
+                        "post_intro": "LunarXP has won a prestigious award for its participation in a variety of cosmic explorations.",
+                        "post_content": "<p>(Cape Canaveral, FL) LunarXP, the leader in moon exploration and colonization, is proud to announce that it is the recipient of the prestigious \"Space Innovator of the Year\" Award. This marks the third year in a row that the private interstellar travel and resource development organization has received the distinction.</p>\r\n\r\n<blockquote>\"We're thrilled to be honored by the international space community once again this year,\" said Shane Morrison, Chief Space Officer of LunarXP and commander of the moon-based container fleet. \"This company was founded on a dream: to explore the stars. Together, we've been able to make that dream a reality and turn this mission into a commercially viable enterprise. We look forward to continuing our exploration to Mars and beyond in the coming years.\"</blockquote>\r\n\r\n<p>LunarXP is running daily flights from Cape Canaveral, FL and San Jose, CA to the orbiting XPlatform, where multiple Lunar XPlorer vessels ferry passengers to a growing number of lunar habitats. LunarXP is currently hiring specialists in a number of key areas for part- and full-time employment in their permanent moon settlements.</p>\r\n\r\n<p>\"Not only is LunarXP exploring new worlds, but our scientists are developing new technologies that are impacting the earth's reliance on fossil fuels and renewable energy sources,\" said Morrison. \"We're mining new types of metals and minerals that have unlimited applications across industries. We excited to be sharing our discoveries with the world.\"</p>\r\n",
+                        "meta_description": null,
+                        "meta_keywords": null,
+                        "meta_tags": null
                     }
                 }
             ]
@@ -5988,7 +6084,7 @@
                         "post_content": "<p>Logic is one of the leading talent recruitment and outplacement firms for the architecture, interior design, engineering and manufacturing industries. The focus of Logic's business is talent recruitment and placement so security is a high priority in order to protect the confidential nature of the job search process. That's one reason Solodev CMS's secure content management software was the right choice for this project.</p>\r\n\r\n<p>A dynamic jobs portal integrates with Logic's applicant tracking system and the multi-segmented blog allows visitors to select their areas of interest. A slider manager allows Logic staff to easily keep the site looking fresh with new homepages visuals.</p>\r\n",
                         "meta_description": null,
                         "meta_keywords": null,
-                        "post_javascript": null
+                        "meta_tags": null
                     }
                 },
                 {
@@ -6013,7 +6109,7 @@
                         "post_content": "<p>Zenia is one of the leading talent recruitment and outplacement firms for the architecture, interior design, engineering and manufacturing industries. The focus of Zeina's business is talent recruitment and placement so security is a high priority in order to protect the confidential nature of the job search process. That's one reason Solodev CMS's secure content management software was the right choice for this project.</p>\r\n\r\n<p>A dynamic jobs portal integrates with Zeina's applicant tracking system and the multi-segmented blog allows visitors to select their areas of interest. A slider manager allows Zeina staff to easily keep the site looking fresh with new homepages visuals.</p>\r\n",
                         "meta_description": null,
                         "meta_keywords": null,
-                        "post_javascript": null
+                        "meta_tags": null
                     }
                 },
                 {
@@ -6038,7 +6134,7 @@
                         "post_content": "<p>Smart is one of the leading talent recruitment and outplacement firms for the architecture, interior design, engineering and manufacturing industries. The focus of Smart Co.'s business is talent recruitment and placement so security is a high priority in order to protect the confidential nature of the job search process. That's one reason Solodev CMS's secure content management software was the right choice for this project.</p>\r\n\r\n<p>A dynamic jobs portal integrates with Smart Co.'s applicant tracking system and the multi-segmented blog allows visitors to select their areas of interest. A slider manager allows Smart Co.staff to easily keep the site looking fresh with new homepages visuals.</p>\r\n",
                         "meta_description": null,
                         "meta_keywords": null,
-                        "post_javascript": null
+                        "meta_tags": null
                     }
                 },
                 {
@@ -6063,7 +6159,7 @@
                         "post_content": "<p>Softtech is one of the leading talent recruitment and outplacement firms for the architecture, interior design, engineering and manufacturing industries. The focus of Softtech's business is talent recruitment and placement so security is a high priority in order to protect the confidential nature of the job search process. That's one reason Solodev CMS's secure content management software was the right choice for this project.</p>\r\n\r\n<p>A dynamic jobs portal integrates with Softtech's applicant tracking system and the multi-segmented blog allows visitors to select their areas of interest. A slider manager allows Softtech staff to easily keep the site looking fresh with new homepages visuals.</p>\r\n",
                         "meta_description": null,
                         "meta_keywords": null,
-                        "post_javascript": null
+                        "meta_tags": null
                     }
                 },
                 {
@@ -6088,7 +6184,7 @@
                         "post_content": "<p>Wheel&nbsp;is one of the leading talent recruitment and outplacement firms for the architecture, interior design, engineering and manufacturing industries. The focus of Wheel's business is talent recruitment and placement so security is a high priority in order to protect the confidential nature of the job search process. That's one reason Solodev CMS's secure content management software was the right choice for this project.</p>\r\n\r\n<p>A dynamic jobs portal integrates with Wheel's applicant tracking system and the multi-segmented blog allows visitors to select their areas of interest. A slider manager allows Wheel staff to easily keep the site looking fresh with new homepages visuals.</p>\r\n",
                         "meta_description": null,
                         "meta_keywords": null,
-                        "post_javascript": null
+                        "meta_tags": null
                     }
                 },
                 {
@@ -6114,7 +6210,7 @@
                         "post_content": "<p>3designs is one of the leading talent recruitment and outplacement firms for the architecture, interior design, engineering and manufacturing industries. The focus of 3designs's business is talent recruitment and placement so security is a high priority in order to protect the confidential nature of the job search process. That's one reason Solodev CMS's secure content management software was the right choice for this project.</p>\r\n\r\n<p>A dynamic jobs portal integrates with 3designs's applicant tracking system and the multi-segmented blog allows visitors to select their areas of interest. A slider manager allows 3designs&nbsp;staff to easily keep the site looking fresh with new homepages visuals.</p>\r\n",
                         "meta_description": null,
                         "meta_keywords": null,
-                        "post_javascript": null
+                        "meta_tags": null
                     }
                 },
                 {
@@ -6140,7 +6236,7 @@
                         "post_content": "<p>Heart is one of the leading talent recruitment and outplacement firms for the architecture, interior design, engineering and manufacturing industries. The focus of Devtech's business is talent recruitment and placement so security is a high priority in order to protect the confidential nature of the job search process. That's one reason Solodev CMS's secure content management software was the right choice for this project.</p>\r\n\r\n<p>A dynamic jobs portal integrates with Heart's applicant tracking system and the multi-segmented blog allows visitors to select their areas of interest. A slider manager allows Devtech staff to easily keep the site looking fresh with new homepages visuals.</p>\r\n",
                         "meta_description": null,
                         "meta_keywords": null,
-                        "post_javascript": null
+                        "meta_tags": null
                     }
                 },
                 {
@@ -6166,7 +6262,7 @@
                         "post_content": "<p>Devtech is one of the leading talent recruitment and outplacement firms for the architecture, interior design, engineering and manufacturing industries. The focus of Devtech's business is talent recruitment and placement so security is a high priority in order to protect the confidential nature of the job search process. That's one reason Solodev CMS's secure content management software was the right choice for this project.</p>\r\n\r\n<p>A dynamic jobs portal integrates with Devtech's applicant tracking system and the multi-segmented blog allows visitors to select their areas of interest. A slider manager allows Devtech staff to easily keep the site looking fresh with new homepages visuals.</p>\r\n",
                         "meta_description": null,
                         "meta_keywords": null,
-                        "post_javascript": null
+                        "meta_tags": null
                     }
                 },
                 {
@@ -6192,7 +6288,7 @@
                         "post_content": "<p>Chartz is one of the leading talent recruitment and outplacement firms for the architecture, interior design, engineering and manufacturing industries. The focus of Chartz's business is talent recruitment and placement so security is a high priority in order to protect the confidential nature of the job search process. That's one reason Solodev CMS's secure content management software was the right choice for this project.</p>\r\n\r\n<p>A dynamic jobs portal integrates with Chartz's applicant tracking system and the multi-segmented blog allows visitors to select their areas of interest. A slider manager allows Chartz staff to easily keep the site looking fresh with new homepages visuals.</p>\r\n",
                         "meta_description": null,
                         "meta_keywords": null,
-                        "post_javascript": null
+                        "meta_tags": null
                     }
                 }
             ]
@@ -6241,7 +6337,7 @@
                         "post_author": "None",
                         "meta_description": null,
                         "meta_keywords": null,
-                        "post_javascript": null
+                        "meta_tags": null
                     }
                 },
                 {
@@ -6271,7 +6367,7 @@
                         "post_author": "AUTHOR_NAME",
                         "meta_description": null,
                         "meta_keywords": null,
-                        "post_javascript": null
+                        "meta_tags": null
                     }
                 },
                 {
@@ -6301,7 +6397,7 @@
                         "post_author": "None",
                         "meta_description": null,
                         "meta_keywords": null,
-                        "post_javascript": null
+                        "meta_tags": null
                     }
                 }
             ]
@@ -6478,7 +6574,7 @@
                         "post_content": "<p>Veronica has been an&nbsp;Astromedicine practitioner for LunarXP since 2014.</p>\r\n",
                         "meta_description": null,
                         "meta_keywords": null,
-                        "post_javascript": null
+                        "meta_tags": null
                     }
                 },
                 {
@@ -6502,7 +6598,7 @@
                         "post_content": "<p>Nathan has been a pilot for LunarXP since 2010.</p>\r\n",
                         "meta_description": null,
                         "meta_keywords": null,
-                        "post_javascript": null
+                        "meta_tags": null
                     }
                 },
                 {
@@ -6526,7 +6622,7 @@
                         "post_content": "<p>Jacquelyn has been with LunarXP since the beginning of the program.</p>\r\n",
                         "meta_description": null,
                         "meta_keywords": null,
-                        "post_javascript": null
+                        "meta_tags": null
                     }
                 },
                 {
@@ -6550,7 +6646,7 @@
                         "post_content": "<p>Adam has been a commander for LunarXP since 2010.</p>\r\n",
                         "meta_description": null,
                         "meta_keywords": null,
-                        "post_javascript": null
+                        "meta_tags": null
                     }
                 }
             ]
@@ -6575,10 +6671,10 @@
                         "testimonial_author_title": "Astronaut",
                         "post_status": "Published",
                         "testimonial_content": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam labore harum, perspiciatis nobis maiores dolorum est autem ea eaque facilis architecto amet, enim, laboriosam fugit. Enim ab officia possimus illo.",
-                        "post_javascript": null,
                         "meta_title": null,
                         "meta_description": null,
-                        "meta_keywords": null
+                        "meta_keywords": null,
+                        "meta_tags": null
                     }
                 },
                 {
@@ -6590,105 +6686,10 @@
                         "testimonial_author_title": "Colony Botanist",
                         "post_status": "Published",
                         "testimonial_content": "<p>\"Living in the Lunar XP-1 colony has been a childhood dream come true! Every single day, we're breaking new scientific ground and exploring places that no human has gone before. This is more than a job - it's an adventure.\"</p>\r\n",
-                        "post_javascript": null,
                         "meta_title": null,
-                        "meta_description": null,
-                        "meta_keywords": null
-                    }
-                }
-            ]
-        },
-        {
-            "name": "Updates",
-            "module_type": "Calendar",
-            "display_type": "News",
-            "has_photo_gallery": "0",
-            "icon_type": "far fa-newspaper",
-            "to_path": "/web files/managers/Updates/Updates",
-            "asset_category_map_anchor": {
-                "file_path": "/www/news"
-            },
-            "form_template": {
-                "file_path": "/web files/managers/Updates/_Assets/news-form.tpl"
-            },
-            "html_template": {
-                "file_path": "/www/news/detail.stml"
-            },
-            "datatable_category_group": "/web files/managers/Updates/Updates Categories",
-            "entries": [
-                {
-                    "categories": [
-                        "missions"
-                    ],
-                    "fields": {
-                        "entry_status": "publish",
-                        "event_title": "LunarXP Sets Target for First Mars Landing in 2030",
-                        "start_time": "1539338400",
-                        "news_image": {
-                            "path": "/web files/managers/Updates/_Assets/updates-3.jpg",
-                            "name": "updates-3.jpg"
-                        },
-                        "site_link": null,
-                        "heading_title": null,
-                        "meta_title": null,
-                        "post_status": "Draft",
-                        "post_author": "AUTHOR_NAME",
-                        "news_detail": "internalPage",
-                        "post_intro": "LunarXP is thrilled to announce the next chapter in its journey across the our solar system: MarsXP.",
-                        "post_content": "<p>The Red Planet has fascinated both astrophysicists and sci-fi fans for decades \u2013 but today, we're closer than ever to visiting and living on Mars. LunarXP is thrilled to announce the next chapter in its journey across the our solar system: MarsXP.</p>\r\n\r\n<p>This exciting new chapter will leverage the vast network of LunarXP resources as a \"jumping off\" point for reaching Mars in the next two to five years. The initiative will begin with a orbital lab and docking station for planetary colonization. Using the same template for colonization as the LunarXP program, MarsXP will build a network of critical stations for scientific and resource development initiatives.</p>\r\n\r\n<p></p>\r\n",
                         "meta_description": null,
                         "meta_keywords": null,
-                        "post_javascript": null
-                    }
-                },
-                {
-                    "categories": [
-                        "mentions"
-                    ],
-                    "fields": {
-                        "entry_status": "publish",
-                        "event_title": "New Spending Bill Expands Funding for Space Exploration",
-                        "start_time": "1539622500",
-                        "news_image": {
-                            "path": "/web files/managers/Updates/_Assets/updates-2.jpg",
-                            "name": "updates-2.jpg"
-                        },
-                        "site_link": null,
-                        "heading_title": null,
-                        "meta_title": null,
-                        "post_status": "Published",
-                        "post_author": "None",
-                        "news_detail": "internalPage",
-                        "post_intro": "The new bill gives LunarXP a decade-long budget to fulfill the mission of space exploration.",
-                        "post_content": "<p>LunarXP is proud to partner with the National Aeronautics and Space Administration (NASA) on a fiscal omnibus bill to fund critical government services on the moon's surface. In the groundbreaking bill, Congress and the President have given significant funding to help ensure national security and exploration interested through the private company, providing additional resources to fund mining and scientific initiatives that will give the United States access to \"astro fuels\" and new forms of energy.</p>\r\n\r\n<p>The bill, which was just signed on Monday, will provide funding through the next decade. While NASA has traditionally shouldered much of the space services involved, LunarXP has provided a free market option that saves tax payers significantly over the long term and helps advance the private sector's interests in space industries.</p>\r\n\r\n<p>The bill also includes additional dollars for roadmapping a Mars initiative in the next five years. LunarXP has already launched a new initiative \u2013 MarsXP \u2013 to service this program, and plans to have its first landing site and Martian orbital platform by late next year.</p>\r\n\r\n<p></p>\r\n",
-                        "meta_description": null,
-                        "meta_keywords": null,
-                        "post_javascript": null
-                    }
-                },
-                {
-                    "categories": [
-                        "awards"
-                    ],
-                    "fields": {
-                        "entry_status": "publish",
-                        "event_title": "LunarXP Wins  Space Innovator of the Year Award",
-                        "start_time": "1539720000",
-                        "news_image": {
-                            "path": "/web files/managers/Updates/_Assets/updates-1.jpg",
-                            "name": "updates-1.jpg"
-                        },
-                        "site_link": null,
-                        "heading_title": null,
-                        "meta_title": null,
-                        "post_status": "Published",
-                        "post_author": "AUTHOR_NAME",
-                        "news_detail": "internalPage",
-                        "post_intro": "LunarXP has won a prestigious award for its participation in a variety of cosmic explorations.",
-                        "post_content": "<p>(Cape Canaveral, FL) LunarXP, the leader in moon exploration and colonization, is proud to announce that it is the recipient of the prestigious \"Space Innovator of the Year\" Award. This marks the third year in a row that the private interstellar travel and resource development organization has received the distinction.</p>\r\n\r\n<blockquote>\"We're thrilled to be honored by the international space community once again this year,\" said Shane Morrison, Chief Space Officer of LunarXP and commander of the moon-based container fleet. \"This company was founded on a dream: to explore the stars. Together, we've been able to make that dream a reality and turn this mission into a commercially viable enterprise. We look forward to continuing our exploration to Mars and beyond in the coming years.\"</blockquote>\r\n\r\n<p>LunarXP is running daily flights from Cape Canaveral, FL and San Jose, CA to the orbiting XPlatform, where multiple Lunar XPlorer vessels ferry passengers to a growing number of lunar habitats. LunarXP is currently hiring specialists in a number of key areas for part- and full-time employment in their permanent moon settlements.</p>\r\n\r\n<p>\"Not only is LunarXP exploring new worlds, but our scientists are developing new technologies that are impacting the earth's reliance on fossil fuels and renewable energy sources,\" said Morrison. \"We're mining new types of metals and minerals that have unlimited applications across industries. We excited to be sharing our discoveries with the world.\"</p>\r\n",
-                        "meta_description": null,
-                        "meta_keywords": null,
-                        "post_javascript": null
+                        "meta_tags": null
                     }
                 }
             ]
@@ -6765,6 +6766,29 @@
         },
         {
             "module_type": "Datatable_Category_Group",
+            "name": "News Categories",
+            "to_path": "/web files/managers/News/News Categories",
+            "html_template": "/www/news/category.stml",
+            "categories": [
+                {
+                    "name": "missions",
+                    "title": "Missions",
+                    "menu": null
+                },
+                {
+                    "name": "awards",
+                    "title": "Awards",
+                    "menu": null
+                },
+                {
+                    "name": "mentions",
+                    "title": "Mentions",
+                    "menu": null
+                }
+            ]
+        },
+        {
+            "module_type": "Datatable_Category_Group",
             "name": "Partner Categories",
             "to_path": "/web files/managers/Partners/Partner Categories",
             "categories": [
@@ -6813,29 +6837,6 @@
                     "title": "Mission T-Shirts",
                     "menu": null,
                     "category_image": "/web files/managers/Shop/_Assets/0000334-Gear_Tshirt.jpg"
-                }
-            ]
-        },
-        {
-            "module_type": "Datatable_Category_Group",
-            "name": "Updates Categories",
-            "to_path": "/web files/managers/Updates/Updates Categories",
-            "html_template": "/www/news/category.stml",
-            "categories": [
-                {
-                    "name": "missions",
-                    "title": "Missions",
-                    "menu": null
-                },
-                {
-                    "name": "awards",
-                    "title": "Awards",
-                    "menu": null
-                },
-                {
-                    "name": "mentions",
-                    "title": "Mentions",
-                    "menu": null
                 }
             ]
         }
@@ -6891,29 +6892,7 @@
             },
             "return_template": {
                 "file_path": "/web files/forms/_Assets/0000455-thank-you-form.tpl"
-            },
-            "entries": [
-                {
-                    "fields": {
-                        "first_name": "Ashleypoite",
-                        "last_name": "Ashleypoite",
-                        "email": "ashley22@mail.com",
-                        "phone": 84373481812,
-                        "site_info": "select",
-                        "message": "Hello, I want to work in your company on a voluntary basis, can you offer me anything? \r\na little about me:https://about.me/kurdimova/"
-                    }
-                },
-                {
-                    "fields": {
-                        "first_name": "JeromeFug",
-                        "last_name": "JeromeFug",
-                        "email": "savemoney@takecreditcardsfree.com",
-                        "phone": 343188516,
-                        "site_info": "select",
-                        "message": "Hello I was wanting to see, if you wanted to stop paying fees to accept credit cards? I am with http://www.TakeCreditCardsFree.com and with us, you can take every type of credit card, you get your money deposited within 2 business days and you pay 0% plus $0.00 per transaction, the only thing you pay is a $25 per month account fee, and then you just use your existing terminal, or buy/lease one from us. What\u2019s the catch? The catch is, instead of charging you, your customer is charged a small convenience fee via the credit card machine we send you,  of just 40 cents per every $10 to which the customer is spending and that\u2019s it. Would you be interested in this? If so go to our website or call/text us at 720-791-3210 or go to our website http://www.takecreditcardsfree.com"
-                    }
-                }
-            ]
+            }
         }
     ],
     "Scheduler": [

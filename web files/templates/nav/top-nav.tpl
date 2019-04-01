@@ -11,11 +11,12 @@
       </div>
       <div class="col-xl-9 col-lg-10 col-sm-8 col-7">
         <div class="d-sm-flex d-none justify-content-end pt-2 w-100 mw-100">
-          <a class="text-secondary text-hover-primary px-2 px-md-3 small" href="/gallery/">Gallery</a>
-          <a class="text-secondary text-hover-primary px-2 px-md-3 small" href="/faq/">FAQs</a>
-          <a class="text-secondary text-hover-primary px-2 px-md-3 small" href="/events/">Events</a>
           <a class="text-secondary text-hover-primary px-2 px-md-3 small" href="/blog/">Blog</a>
           <a class="text-secondary text-hover-primary px-2 px-md-3 small" href="/careers/">Careers</a>
+          <a class="text-secondary text-hover-primary px-2 px-md-3 small" href="/events/">Events</a>
+          <a class="text-secondary text-hover-primary px-2 px-md-3 small" href="/faq/">FAQs</a>
+          <a class="text-secondary text-hover-primary px-2 px-md-3 small" href="/gallery/">Gallery</a>
+          <a class="text-secondary text-hover-primary px-2 px-md-3 small" href="/news/">News</a>                 
           <i id="nav-search-open-btn" class="nav-search-btn fas fa-search fa-lg pointer text-secondary-light"></i>
         </div>
         <ul class="navbar-nav flex-row justify-content-end flex-wrap align-items-center mr-lg-4 mr-xl-0">
@@ -32,6 +33,22 @@
               </ul>
             </div>
           </li>
+          <li class="nav-item px-3 text-uppercase mb-0 position-relative d-none d-lg-flex">
+            <a class="d-block w-100 h-100 text-black py-4 position-relative top-link" href="/colonies/"><strong>Colonies</strong></a>
+            <div class="dropdown position-absolute">
+              <ul class="list-unstyled">
+                <li class="bg-primary nav-item">
+                  <a class="text-white px-2 d-block w-100" href="/colonies/xp-1.stml">XP-1</a>
+                </li>
+                <li class="bg-primary nav-item">
+                  <a class="text-white px-2 d-block w-100" href="/colonies/hab-1.stml">HAB-1</a>
+                </li>
+                <li class="bg-primary nav-item">
+                  <a class="text-white px-2 d-block w-100" href="/colonies/orbiter-1.stml">Orbiter-1</a>
+                </li>
+              </ul>
+            </div>
+          </li>          
           <li class="nav-item px-3 text-uppercase mb-0 position-relative d-none d-lg-flex">
             <a class="d-block w-100 h-100 text-black py-4 position-relative top-link" href="/ships/"><strong>Ships</strong></a>
             <div class="dropdown position-absolute">
@@ -50,9 +67,6 @@
           </li>
           <li class="nav-item px-3 text-uppercase mb-0 position-relative d-none d-lg-flex">
             <a class="d-block w-100 h-100 text-black py-4 position-relative top-link" href="/shop/"><strong>Shop</strong></a>
-          </li>
-          <li class="nav-item px-3 text-uppercase mb-0 position-relative d-none d-lg-flex">
-            <a class="d-block w-100 h-100 text-black py-4 position-relative top-link" href="/news/"><strong>News</strong></a>
           </li>
           <li class="nav-item px-3 text-uppercase mb-0 position-relative d-none d-lg-flex">
             <a class="d-block w-100 h-100 text-black py-4 position-relative top-link" href="/contact/"><strong>Contact</strong></a>

@@ -18,7 +18,7 @@
 </div>
 
 <div class="row">
-	[repeater id='<%%{"path":"/web files/managers/Updates/Updates","type":"Calendar"}%%>'  pages="22" order="start_time desc" display_type="news"]
+	[repeater id='<%%{"path":"/web files/managers/News/News","type":"Calendar"}%%>'  pages="22" order="start_time desc" display_type="news"]
 		<div class="col-sm-6 col-lg-4 mt-4">
 			<div class="bg-light-gray bg-hover-light-gray-dark pointer box-sizing h-100" onclick="location.href='{{path}}'">
 				<img alt="{{event_title}}" src="[get_asset_file_url id='{{news_image}}']" class="img-fluid h-200p cover w-100">

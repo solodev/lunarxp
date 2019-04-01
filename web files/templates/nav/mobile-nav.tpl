@@ -22,10 +22,10 @@
     </div>
     <div class="w-50">
       <li class="nav-item">
-        <a href="/news/" class="nav-link text-white px-4"><strong>News</strong></a>
+        <a href="/gallery/" class="nav-link text-white px-4"><strong>Gallery</strong></a>
       </li>
       <li class="nav-item">
-        <a href="/gallery/" class="nav-link text-white px-4"><strong>Gallery</strong></a>
+        <a href="/news/" class="nav-link text-white px-4"><strong>News</strong></a>
       </li>
       <li class="nav-item">
         <a href="/about/team/" class="nav-link text-white px-4"><strong>Team</strong></a>
