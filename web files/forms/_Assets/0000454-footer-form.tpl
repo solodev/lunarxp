@@ -1,53 +1,35 @@
-<div class="row">
-  <div class="col-12">
-    <div class="form-group">
-      <label class="sr-only" for="site_info">What do you want to know about?</label>
-      <select class="form-control font-weight-bold form-lg" id="site_info" name="site_info">
-        <option value="select">What do you want to know about?</option>
-        <option value="ships">Ships</option>
-        <option value="gear">Gear</option>
-        <option value="updates">Updates</option>
-      </select>
-    </div>
-  </div>
+<div id="bottom-signup-form">
+	<div class="text-center">
+		<h2>Get Started Today</h2>
+		<p class="sub-heading">Join people and businesses across the globe that trust LunarXP</p>
+	</div>
+	<div class="row mt-5 d-md-flex align-items-end">
+		<div class="form-group col-lg-3 p-md-2 mt-lg-0">
+			<label for="name">Name <span class="text-red">*</span></label>
+			<input type="text" id="name" name="name" placeholder="John Doe" required class="form-control border-top-1 border-left-1 border-right-1" data-error="Please Enter a Name">
+			<div class="help-block with-errors"></div>
+		</div>
+		<div class="form-group col-lg-3 p-md-2 mt-lg-0">
+			<label for="email">Email <span class="text-red">*</span></label>
+			<input type="email" id="email" name="email" placeholder="you@example.com" required class="form-control border-top-1 border-left-1 border-right-1" data-error="Please Enter an Email">
+			<div class="help-block with-errors"></div>
+		</div>
+		<div class="form-group col-lg-3 p-md-2 mt-lg-0">
+			<label for="phone">Phone <span class="text-red">*</span></label>
+			<input type="phone" id="phone" placeholder="123-456-7890" name="password" required class="form-control border-top-1 border-left-1 border-right-1" data-error="Please Enter a Phone Number">
+			<div class="help-block with-errors"></div>
+		</div>
+		<div class="form-group col-lg-3 p-md-2 mt-lg-0 text-center text-lg-left mt-4">
+			<input type="submit" value="Contact LunarXP" class="btn btn-primary text-white w-250p">
+		</div>
+	</div>
 </div>
-<div class="row">
-  <div class="col-sm-6">
-    <div class="form-group">
-      <label class="sr-only" for="first_name">First Name *</label> 
-      <input class="form-control required" id="first_name" name="first_name" placeholder="First Name *" required type="text" />
-       <div class="invalid-feedback text-white">Please Enter a First Name</div>
-    </div>
-  </div>
-  <div class="col-sm-6">
-    <div class="form-group">
-      <label class="sr-only" for="last_name">Last Name *</label> 
-      <input class="form-control required" id="last_name" name="last_name" placeholder="Last Name *" required type="text" />
-      <div class="invalid-feedback text-white">Please Enter a Last Name</div>
-    </div>
-  </div>
-  <div class="col-sm-6">
-    <div class="form-group">
-      <label class="sr-only" for="email">Email *</label> 
-      <input class="form-control required" id="email" name="email" placeholder="Email *"  required type="email" />
-      <div class="invalid-feedback text-white">Please Enter an Email</div>
-    </div>
-  </div>
-  <div class="col-sm-6">
-    <div class="form-group">
-      <label class="sr-only" for="phone">Phone *</label> 
-      <input class="form-control required" id="phone" name="phone" placeholder="Phone *" required type="text" />
-      <div class="invalid-feedback text-white">Please Enter a Phone Number</div>
-    </div>
-  </div>
-  <div class="col-12">
-    <div class="form-group">
-      <label class="sr-only" for="message">Questions or comments</label>
-      <textarea class="form-control" id="message" name="message" placeholder="Questions or comments" rows="6"></textarea>
-    </div>
-    <p class="text-right">* Required Field</p>
-  </div>
-  <div class="col-12 text-center mt-3 mb-5">
-    <button class="btn btn-lg btn-yellow" type="submit" id="experiment1">Send Message</button>
-  </div>
-</div>
+
+<script>
+	$("#name").attr("required", "");
+	$("#name").attr("data-error", "Please Enter a Username");
+	$("#email").attr("required", "");
+	$("#email").attr("data-error", "Please Enter an Email");
+	$("#phone").attr("required", "");
+	$("#phone").attr("data-error", "Please Enter a Phone Number");
+</script>
