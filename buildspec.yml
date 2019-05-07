@@ -31,6 +31,10 @@ phases:
       - cd web\ files && sed -i 's@https://www.linkedin.com/@'"$SITELINKEDIN"'@' settings.json
       - cd web\ files && sed -i 's@https://www.youtube.com/@'"$SITEYOUTUBE"'@' settings.json
       - cd web\ files && sed -i 's@https://www.instagram.com/@'"$SITEINSTAGRAM"'@' settings.json
+      - cd web\ files && sed -i 's@#d60e96@'"$SITEPRIMARY"'@' scss/_theme-variables.scss
+      - cd web\ files && sed -i 's@#3d5d6f@'"$SITESECONDARY"'@' scss/_theme-variables.scss
+      - cd web\ files && sed -i 's@#ff9b27@'"$SITETERTIARY"'@' scss/_theme-variables.scss
+      - cd web\ files && sed -i 's@#ff8d02@'"$SITEQUATERNARY"'@' scss/_theme-variables.scss
       - zip --symlinks -r lunarxp.zip web\ files www config.json
       - aws s3 cp lunarxp.zip s3://solodev-aws-ha
       - mkdir marketplace
