@@ -34,33 +34,33 @@
             </div>
           </li>
           <li class="nav-item px-3 text-uppercase mb-0 position-relative d-none d-lg-flex">
-            <a class="d-block w-100 h-100 text-black py-4 position-relative top-link" href="/colonies/"><strong>Colonies</strong></a>
+            <a class="d-block w-100 h-100 text-black py-4 position-relative top-link" href="/locations/"><strong>Locations</strong></a>
             <div class="dropdown position-absolute">
               <ul class="list-unstyled">
                 <li class="bg-primary nav-item">
-                  <a class="text-white px-2 d-block w-100" href="/colonies/xp-1.stml">XP-1</a>
+                  <a class="text-white px-2 d-block w-100" href="/locations/xp-1.stml">XP-1</a>
                 </li>
                 <li class="bg-primary nav-item">
-                  <a class="text-white px-2 d-block w-100" href="/colonies/hab-1.stml">HAB-1</a>
+                  <a class="text-white px-2 d-block w-100" href="/locations/hab-1.stml">HAB-1</a>
                 </li>
                 <li class="bg-primary nav-item">
-                  <a class="text-white px-2 d-block w-100" href="/colonies/orbiter-1.stml">Orbiter-1</a>
+                  <a class="text-white px-2 d-block w-100" href="/locations/orbiter-1.stml">Orbiter-1</a>
                 </li>
               </ul>
             </div>
           </li>          
           <li class="nav-item px-3 text-uppercase mb-0 position-relative d-none d-lg-flex">
-            <a class="d-block w-100 h-100 text-black py-4 position-relative top-link" href="/ships/"><strong>Ships</strong></a>
+            <a class="d-block w-100 h-100 text-black py-4 position-relative top-link" href="/products/"><strong>Products</strong></a>
             <div class="dropdown position-absolute">
               <ul class="list-unstyled">
                 <li class="bg-primary nav-item">
-                  <a class="text-white px-2 d-block w-100" href="/ships/valkyrie1.stml">Valkyrie-1</a>
+                  <a class="text-white px-2 d-block w-100" href="/products/valkyrie1.stml">Valkyrie-1</a>
                 </li>
                 <li class="bg-primary nav-item">
-                  <a class="text-white px-2 d-block w-100" href="/ships/talon2.stml">Talon-2</a>
+                  <a class="text-white px-2 d-block w-100" href="/products/talon2.stml">Talon-2</a>
                 </li>
                 <li class="bg-primary nav-item">
-                  <a class="text-white px-2 d-block w-100" href="/ships/lunar_xplorer.stml">Lunar XPlorer</a>
+                  <a class="text-white px-2 d-block w-100" href="/products/lunar_xplorer.stml">Lunar XPlorer</a>
                 </li>
               </ul>
             </div>

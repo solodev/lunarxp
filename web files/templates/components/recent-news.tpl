@@ -31,8 +31,17 @@
           </div>
         [/repeater]
         
-        <div class="text-center w-100 mt-5"><a class="text-uppercase small" href="/news/"><strong>View All News</strong></a>
+        <div class="text-center w-100 mt-5"><a class="text-uppercase small" href="#"><strong>View All News</strong></a>
       </div>
     </div>
   </div>
 </section>
+
+<script>
+var captureOutboundLink = function(url) {
+   ga('send', 'event', 'outbound', 'click', url, {
+     'transport': 'beacon',
+     'hitCallback': function(){document.location = url;}
+   });
+}
+</script>

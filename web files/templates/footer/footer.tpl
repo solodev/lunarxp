@@ -12,49 +12,49 @@
       </div>
       <div class="col-md-2 offset-md-2 pl-3 mt-4 mt-md-2">
         <div class="position-relative ">
-          <h4 class="h5 text-uppercase"><strong><a class="text-white" href="/colony/">Colony</a></strong></h4>
+          <h4 class="h5 text-uppercase"><strong><a class="text-white" href="/locations/">Locations</a></strong></h4>
           <a class="pointer d-md-none" aria-role="button" data-toggle="collapse" data-target="#collapseAbout" aria-expanded="false" aria-controls="#collapseAbout">
             <div class="position-absolute top-0 right-0 h-100 d-flex align-items-center"><i class="fas fa-plus"></i></div>
           </a>
         </div>
         <div id="collapseAbout" class="collapse d-md-block">
           <ul class="list-unstyled small border-left pl-4 mt-md-4 border-alpha4-white">
-            <li><a class="text-white" href="/colony/xp-1.stml">XP-1</a></li>
-            <li><a class="text-white" href="/colony/hab-1.stml">HAB-1</a></li>
-            <li><a class="text-white" href="/colony/orbiter-1.stml">Orbiter-1</a></li>
+            <li><a class="text-white" href="/locations/xp-1.stml">XP-1</a></li>
+            <li><a class="text-white" href="/locations/hab-1.stml">HAB-1</a></li>
+            <li><a class="text-white" href="/locations/orbiter-1.stml">Orbiter-1</a></li>
           </ul>
         </div>
       </div>
       <div class="col-md-2 pl-3 mt-2">
         <div class="position-relative">
-          <h4 class="h5 text-uppercase"><strong><a class="text-white" href="/ships/">Ships</a></strong></h4>
+          <h4 class="h5 text-uppercase"><strong><a class="text-white" href="/products/">Products</a></strong></h4>
           <a class="pointer d-md-none text-white" aria-role="button" data-toggle="collapse" data-target="#collapseShips" aria-expanded="false" aria-controls="#collapseShips">
             <div class="position-absolute top-0 right-0 h-100 d-flex align-items-center"><i class="fas fa-plus"></i></div>
           </a>
         </div>
         <div id="collapseShips" class="collapse d-md-block">
           <ul class="list-unstyled small border-left pl-4 mt-md-4 border-alpha4-white">
-            <li><a class="text-white" href="/ships/valkyrie1.stml">Valkyrie-1</a>
+            <li><a class="text-white" href="/products/valkyrie1.stml">Valkyrie-1</a>
             </li>
-            <li><a class="text-white" href="/ships/talon2.stml">Talon-2</a>
+            <li><a class="text-white" href="/products/talon2.stml">Talon-2</a>
             </li>
-            <li><a class="text-white" href="/ships/lunar_xplorer.stml">Lunar XPlorer</a>
+            <li><a class="text-white" href="/products/lunar_xplorer.stml">Lunar XPlorer</a>
             </li>
           </ul>
         </div>
       </div>
       <div class="col-md-2 pl-3 mt-2">
         <div class="position-relative">
-          <h4 class="h5 text-uppercase"><strong><a class="text-white" href="/gear/">Gear</a></strong></h4>
+          <h4 class="h5 text-uppercase"><strong><a class="text-white" href="/shop/">Shop</a></strong></h4>
           <a class="pointer d-md-none text-white" aria-role="button" data-toggle="collapse" data-target="#collapseGear" aria-expanded="false" aria-controls="#collapseGear">
             <div class="position-absolute top-0 right-0 h-100 d-flex align-items-center d-md-none"><i class="fas fa-plus"></i></div>
           </a>
         </div>
         <div id="collapseGear" class="collapse d-md-block">
           <ul class="list-unstyled small border-left pl-4 mt-md-4 border-alpha4-white">
-            <li><a class="text-white" href="/gear/pilot-aviator-glasses/">Aviator Glasses</a></li>
-            <li><a class="text-white" href="/gear/command-hats/">Command Hats</a></li>
-            <li><a class="text-white" href="/gear/mission-t-shirts/">T-shirts</a></li>
+            <li><a class="text-white" href="/shop/pilot-aviator-glasses/">Aviator Glasses</a></li>
+            <li><a class="text-white" href="/shop/command-hats/">Command Hats</a></li>
+            <li><a class="text-white" href="/shop/mission-t-shirts/">T-shirts</a></li>
 
           </ul>
         </div>

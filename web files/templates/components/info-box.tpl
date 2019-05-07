@@ -7,7 +7,7 @@
           <li><i class="fa fa-question pr-2"></i> <a href="/features/integrations.stml">Marketing integration offerings</a></li>
           <li><i class="fa fa-question pr-2"></i> <a href="/features/customer-experience.stml">Customer experience (CX) tips</a></li>
         </ul>
-        <a href="https://solodev.zendesk.com/hc/en-us" target="_blank" class="text-orange font-weight-normal">View our support documentation <i class="fa fa-long-arrow-right pl-2"></i></a>
+        <a href="https://solodev.zendesk.com/hc/en-us" target="_blank" class="font-weight-normal">View our support documentation →</a>
       </div>
       <div class="mt-4">
         <p><strong>Still have questions?</strong></p>

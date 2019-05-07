@@ -16,6 +16,12 @@ function getSiteSettings()  {
 		echo '<script>console.log("Shortcode Error: settings.json cannot be found.");</script>';
 	}
 }
+function test_short($atts, $content = null){
+	notify_solodev_shortcode();
+	
+	echo "test short";
+}
+add_shortcode('test_short', 'test_short');
 
 function site_name($atts, $content = null){
 	notify_solodev_shortcode();
@@ -258,18 +264,16 @@ function get_asset_from_folder($atts, $content= null) {
           	  $hasParentImage = true;
           } 
       }
-      if($hasSelfImage) {
+      if($hasSelfImage && $pageName) {
       	$imageFilePath = "/core/fileparse.php/" . $path_id . "/urlt/" . $pageName . ".jpg";
-      } else if($hasParentImage) {
+      } else if($hasParentImage && $parentDate->name) {
          $imageFilePath = "/core/fileparse.php/" . $path_id . "/urlt/" . $parentData->name . ".jpg";
       } else {
          $imageFilePath = "/core/fileparse.php/" . $path_id . "/urlt/default.jpg";
        }
     }
    	unset($image);
-    
-   
-    
+  
     return $imageFilePath;
 }
 add_shortcode('get_asset_from_folder', 'get_asset_from_folder');
@@ -351,3 +355,5 @@ function social_share_fa_2($atts, $content = null) {
   return do_shortcode($social_html);
 }
 add_shortcode('social_share_fa_2', 'social_share_fa_2');
+
+?>
