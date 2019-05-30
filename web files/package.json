@@ -16,21 +16,11 @@
 	},
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"css": "npm-run-all css-compile css-prefix css-minify",
-		"css-compile": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 scss/app.scss ./../www/_/css/app.css",
-		"css-prefix": "postcss --config node_modules/bootstrap/build/postcss.config.js --replace ./../www/_/css/*.css",
-		"css-minify": "cleancss --level 1 --source-map --source-map-inline-sources --output ./../www/_/css/app.min.css ./../www/_/css/app.css",
-		"js": "npm-run-all js-compile js-minify",
-		"js-compile": "shx cat node_modules/jquery/dist/jquery.min.js node_modules/bootstrap/dist/js/bootstrap.min.js node_modules/echo-js/dist/echo.min.js node_modules/slick-carousel/slick/slick.min.js node_modules/bootstrap-validator/dist/validator.min.js node_modules/baguettebox.js/dist/baguetteBox.min.js js/alert-bar.js js/main.js js/ie.js js/privacy-banner.js js/slider.js js/table.js js/top-nav.js > ./../www/_/js/app.js",
-		"js-minify": "uglifyjs --output ./../www/_/js/app.min.js ./../www/_/js/app.js",
-		"html-compile": "bundle exec jekyll build",
-		"watch": "npm-run-all --parallel watch-css watch-js",
-		"watch-html": "bundle exec jekyll build --watch",
-		"watch-css": "nodemon --ignore ./../www/ --ignore js/  -e scss -x \"npm run css\"",
-		"watch-js": "nodemon --ignore ./../www/ --ignore scss/ -e js -x \"npm run js\"",
-		"postinstall": "npm run compile",
-		"compile": "npm-run-all css js",
-		"app": "npm-run-all css"
+		"css": "gulp styles",
+		"js": "gulp scripts",
+		"watch": "gulp watch",
+		"compile": "gulp",
+		"postinstall": "gulp"
 	},
 	"repository": {
 		"type": "git",
@@ -40,5 +30,18 @@
 	"bugs": {
 		"url": "https://github.com/solodev/lunarxp/issues"
 	},
-	"homepage": "https://github.com/solodev/lunarxp"
+	"homepage": "https://github.com/solodev/lunarxp",
+	"devDependencies": {
+		"autoprefixer": "^9.5.1",
+		"clean-css-cli": "^4.3.0",
+		"gulp": "^4.0.2",
+		"gulp-autoprefixer": "^6.1.0",
+		"gulp-clean": "^0.4.0",
+		"gulp-clean-css": "^4.2.0",
+		"gulp-concat": "^2.6.1",
+		"gulp-rename": "^1.4.0",
+		"gulp-sass": "^4.0.2",
+		"gulp-uglify": "^3.0.2",
+		"node-sass": "^4.12.0"
+	}
 }

@@ -1,2 +1,5 @@
+build/
+node_modules/
+
 README.md
 buildspec.yml
