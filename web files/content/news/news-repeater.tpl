@@ -24,7 +24,7 @@
 				<img alt="{{event_title}}" src="[get_asset_file_url id='{{news_image}}']" class="img-fluid h-200p cover w-100">
 				<div class="p-3 p-lg-4">					
 					[entry_categories_repeat id="{{calendar_entry_id}}"]
-						<a class="btn btn-outline-secondary rounded-0 p-1 px-3" href="/updates/{{{name}}}">{{{title}}}</a>
+						<a class="btn btn-outline-secondary rounded-0 p-1 px-3" href="/news/{{{name}}}">{{{title}}}</a>
 					[/entry_categories_repeat]
 					
 					<h2 class="h4 mt-4 post-intro">

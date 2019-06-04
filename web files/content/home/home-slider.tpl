@@ -9,10 +9,10 @@
 								<h2 class="display-4 mb-0">{{small_text}} <span class="d-block font-weight-bold">{{large_text}}</span></h2>
 								<p class="lead my-4">{{slider_content}}</span></p>
                                 [cond type="is" subject="{{link_external}}" value="1"]
-									<a class="btn btn-outline-gradient btn-lg w-max mt-2 text-white" href="{{button_link}}" target="_blank">{{button_text}}</a>
+									<a class="btn btn-primary w-max mt-2 text-white" href="{{button_link}}" target="_blank">{{button_text}}</a>
 								[/cond]
 								[cond type="is_not" subject="{{link_external}}" value="1"]
-                                	<a class="btn btn-outline-gradient btn-lg w-max mt-2 text-white" href="{{button_link}}">{{button_text}}</a>
+                                	<a class="btn btn-primary w-max mt-2 text-white" href="{{button_link}}">{{button_text}}</a>
 								[/cond]                                
 						</div>
 					</div>

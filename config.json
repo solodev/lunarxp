@@ -414,6 +414,12 @@
             "publish_date": 1556137595
         },
         {
+            "name": "category.html",
+            "from_path": "/web files/content/events/category.html",
+            "to_path": "/web files/content/events/category.html",
+            "publish_date": "1559139650"
+        },
+        {
             "name": "category.stml",
             "from_path": "/www/blog/category.stml",
             "to_path": "/www/blog/category.stml",
@@ -818,6 +824,12 @@
             "publish_date": 1556137586
         },
         {
+            "name": "detail.html",
+            "from_path": "/web files/content/careers/detail.html",
+            "to_path": "/web files/content/careers/detail.html",
+            "publish_date": "1559140121"
+        },
+        {
             "name": "detail.stml",
             "from_path": "/www/about/team/detail.stml",
             "to_path": "/www/about/team/detail.stml",
@@ -1185,6 +1197,11 @@
                     "area": "dd.0.3.0",
                     "type": "file",
                     "from_path": "/web files/content/blog/blog-detail.tpl"
+                },
+                {
+                    "area": "dd.0.3.4",
+                    "type": "file",
+                    "from_path": "/web files/templates/nav/left-nav.tpl"
                 }
             ]
         },
@@ -1649,6 +1666,12 @@
             "from_path": "/www/_/images/sectional-images/gallery.jpg",
             "to_path": "/www/_/images/sectional-images/gallery.jpg",
             "publish_date": 1556137587
+        },
+        {
+            "name": "gulpfile.js",
+            "from_path": "/web files/gulpfile.js",
+            "to_path": "/web files/gulpfile.js",
+            "publish_date": "1559681056"
         },
         {
             "name": "hab-1.html",
@@ -2216,7 +2239,7 @@
             "name": "index.stml",
             "from_path": "/www/blog/index.stml",
             "to_path": "/www/blog/index.stml",
-            "title": "LunarXP Blog",
+            "title": "Blog",
             "publish_date": 1541454169,
             "structure": "0",
             "rank": null,
@@ -2356,6 +2379,87 @@
         },
         {
             "name": "index.stml",
+            "from_path": "/www/index.stml",
+            "to_path": "/www/index.stml",
+            "publish_date": 1541453832,
+            "title": null,
+            "structure": "0",
+            "rank": null,
+            "menu": null,
+            "meta_description": "..",
+            "meta_keywords": "marketing,business,learn,webcorpco,content,cms,sales,data,management,big",
+            "description": null,
+            "headerBlock": null,
+            "content_title": null,
+            "body_id": null,
+            "body_role": null,
+            "body_class": null,
+            "isTemplate": "0",
+            "contents": [
+                {
+                    "area": "dd.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/basetemplate.tpl"
+                },
+                {
+                    "area": "dd.0.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/nav/top-nav.tpl"
+                },
+                {
+                    "area": "dd.0.1",
+                    "type": "file",
+                    "from_path": "/web files/content/home/home-slider.tpl"
+                },
+                {
+                    "area": "dd.0.11",
+                    "type": "file",
+                    "from_path": "/web files/templates/footer/footer.tpl"
+                },
+                {
+                    "area": "dd.0.10",
+                    "type": "file",
+                    "from_path": "/web files/templates/footer/footer-form.tpl"
+                },
+                {
+                    "area": "dd.0.5",
+                    "type": "file",
+                    "from_path": "/web files/templates/footer/footer.tpl"
+                },
+                {
+                    "area": "dd.0.4",
+                    "type": "file",
+                    "from_path": "/web files/templates/footer/footer-form.tpl"
+                },
+                {
+                    "area": "dd.0.3",
+                    "type": "file",
+                    "from_path": "/web files/templates/content/full-width-template.tpl"
+                },
+                {
+                    "area": "dd.0.3.1",
+                    "type": "file",
+                    "from_path": "/web files/templates/components/recent-blog.tpl"
+                },
+                {
+                    "area": "dd.0.3.2",
+                    "type": "file",
+                    "from_path": "/web files/content/home/home-ships.tpl"
+                },
+                {
+                    "area": "dd.0.3.3",
+                    "type": "file",
+                    "from_path": null
+                },
+                {
+                    "area": "dd.0.3.0",
+                    "type": "Experiment",
+                    "from_path": "/web files/content/experiments/Homepage Video Button Color"
+                }
+            ]
+        },
+        {
+            "name": "index.stml",
             "from_path": "/www/careers/index.stml",
             "to_path": "/www/careers/index.stml",
             "title": "Careers",
@@ -2427,87 +2531,6 @@
                     "area": "dd.0.2",
                     "type": "file",
                     "from_path": "/web files/templates/nav/breadcrumb.tpl"
-                }
-            ]
-        },
-        {
-            "name": "index.stml",
-            "from_path": "/www/index.stml",
-            "to_path": "/www/index.stml",
-            "publish_date": 1541453832,
-            "title": null,
-            "structure": "0",
-            "rank": null,
-            "menu": null,
-            "meta_description": "..",
-            "meta_keywords": "marketing,business,learn,webcorpco,content,cms,sales,data,management,big",
-            "description": null,
-            "headerBlock": null,
-            "content_title": null,
-            "body_id": null,
-            "body_role": null,
-            "body_class": null,
-            "isTemplate": "0",
-            "contents": [
-                {
-                    "area": "dd.0",
-                    "type": "file",
-                    "from_path": "/web files/templates/basetemplate.tpl"
-                },
-                {
-                    "area": "dd.0.0",
-                    "type": "file",
-                    "from_path": "/web files/templates/nav/top-nav.tpl"
-                },
-                {
-                    "area": "dd.0.1",
-                    "type": "file",
-                    "from_path": "/web files/content/home/home-slider.tpl"
-                },
-                {
-                    "area": "dd.0.11",
-                    "type": "file",
-                    "from_path": "/web files/templates/footer/footer.tpl"
-                },
-                {
-                    "area": "dd.0.10",
-                    "type": "file",
-                    "from_path": "/web files/templates/footer/footer-form.tpl"
-                },
-                {
-                    "area": "dd.0.5",
-                    "type": "file",
-                    "from_path": "/web files/templates/footer/footer.tpl"
-                },
-                {
-                    "area": "dd.0.4",
-                    "type": "file",
-                    "from_path": "/web files/templates/footer/footer-form.tpl"
-                },
-                {
-                    "area": "dd.0.3",
-                    "type": "file",
-                    "from_path": "/web files/templates/content/full-width-template.tpl"
-                },
-                {
-                    "area": "dd.0.3.0",
-                    "type": "Experiment",
-                    "from_path": "/web files/content/experiments/Homepage Video Button Color"
-                },
-                {
-                    "area": "dd.0.3.1",
-                    "type": "file",
-                    "from_path": "/web files/templates/components/recent-blog.tpl"
-                },
-                {
-                    "area": "dd.0.3.2",
-                    "type": "file",
-                    "from_path": "/web files/content/home/home-ships.tpl"
-                },
-                {
-                    "area": "dd.0.3.3",
-                    "type": "file",
-                    "from_path": null
                 }
             ]
         },
@@ -3580,6 +3603,72 @@
             "publish_date": 1541454143
         },
         {
+            "name": "scott-test.stml",
+            "from_path": "/www/scott-test.stml",
+            "to_path": "/www/scott-test.stml",
+            "publish_date": "1557755704",
+            "title": null,
+            "structure": "0",
+            "rank": null,
+            "menu": null,
+            "meta_description": "Houston, we have a 404 problem... Looks like this destination might be lost in space. Maybe the URL is wrong or the page no longer.",
+            "meta_keywords": "like,houston,longer,need,control,mission,contact,alderaan,exists,wrong",
+            "description": null,
+            "headerBlock": null,
+            "content_title": null,
+            "body_id": null,
+            "body_role": null,
+            "body_class": null,
+            "isTemplate": "0",
+            "contents": [
+                {
+                    "area": "dd.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/basetemplate.tpl"
+                },
+                {
+                    "area": "dd.0.0",
+                    "type": "file",
+                    "from_path": "/web files/templates/nav/top-nav.tpl"
+                },
+                {
+                    "area": "dd.0.5",
+                    "type": "file",
+                    "from_path": "/web files/templates/footer/footer.tpl"
+                },
+                {
+                    "area": "dd.0.1",
+                    "type": "file",
+                    "from_path": "/web files/templates/hero/hero.tpl"
+                },
+                {
+                    "area": "dd.0.2",
+                    "type": "file",
+                    "from_path": "/web files/templates/nav/breadcrumb.tpl"
+                },
+                {
+                    "area": "dd.0.3",
+                    "type": "file",
+                    "from_path": "/web files/templates/content/two-column-template.tpl"
+                },
+                {
+                    "area": "dd.0.3.4",
+                    "type": "file",
+                    "from_path": "/web files/templates/nav/left-nav.tpl"
+                },
+                {
+                    "area": "dd.0.3.0",
+                    "type": "file",
+                    "from_path": "/web files/content/about/about.html"
+                },
+                {
+                    "area": "dd.0.3.1",
+                    "type": "file",
+                    "from_path": "/web files/content/about/about-boxes.tpl"
+                }
+            ]
+        },
+        {
             "name": "search.stml",
             "from_path": "/www/search.stml",
             "to_path": "/www/search.stml",
@@ -4572,7 +4661,7 @@
             "to_path": "/www/faq",
             "title": "Faq",
             "structure": 1,
-            "datatable_category_group": "/web files/managers/FAQs/FAQs Categories"
+            "datatable_category_group": null
         },
         {
             "from_path": "/web files/managers/FAQs",
@@ -5317,12 +5406,8 @@
             "form_template": {
                 "file_path": "/web files/managers/FAQs/_Assets/faqs-form.tpl"
             },
-            "datatable_category_group": "/web files/managers/FAQs/FAQs Categories",
             "entries": [
                 {
-                    "categories": [
-                        "about-contacting-us"
-                    ],
                     "fields": {
                         "entry_status": "publish",
                         "event_title": "Call Time",
@@ -5338,9 +5423,6 @@
                     }
                 },
                 {
-                    "categories": [
-                        "about-our-services"
-                    ],
                     "fields": {
                         "entry_status": "publish",
                         "event_title": "Contact Info",
@@ -5356,9 +5438,6 @@
                     }
                 },
                 {
-                    "categories": [
-                        "about-contacting-us"
-                    ],
                     "fields": {
                         "entry_status": "publish",
                         "event_title": "Best Email",
@@ -5374,9 +5453,6 @@
                     }
                 },
                 {
-                    "categories": [
-                        "about-our-mission"
-                    ],
                     "fields": {
                         "entry_status": "publish",
                         "event_title": "Purpose",
@@ -5392,9 +5468,6 @@
                     }
                 },
                 {
-                    "categories": [
-                        "about-our-mission"
-                    ],
                     "fields": {
                         "entry_status": "publish",
                         "event_title": "Mission",
@@ -5410,9 +5483,6 @@
                     }
                 },
                 {
-                    "categories": [
-                        "about-our-services"
-                    ],
                     "fields": {
                         "entry_status": "publish",
                         "event_title": "More Wanted",
@@ -6445,28 +6515,6 @@
         },
         {
             "module_type": "Datatable_Category_Group",
-            "name": "FAQs Categories",
-            "to_path": "/web files/managers/FAQs/FAQs Categories",
-            "categories": [
-                {
-                    "name": "about-our-services",
-                    "title": "Our Services",
-                    "menu": null
-                },
-                {
-                    "name": "about-contacting-us",
-                    "title": "Contacting Us",
-                    "menu": null
-                },
-                {
-                    "name": "about-our-mission",
-                    "title": "Our Mission",
-                    "menu": null
-                }
-            ]
-        },
-        {
-            "module_type": "Datatable_Category_Group",
             "name": "News Categories",
             "to_path": "/web files/managers/News/News Categories",
             "html_template": "/www/news/category.stml",
@@ -6582,6 +6630,96 @@
                 "file_path": "/web files/forms/_Assets/0000020-0000299-contact-us-thanks.tpl"
             },
             "entries": [
+                {
+                    "fields": {
+                        "prospect_name": "lunarxp.com",
+                        "email": "micgyhaeldug@gmail.com",
+                        "company": null,
+                        "phone": 278475736,
+                        "message": "lunarxp.com   exquisiteoffers \r\n Are you in?  \r\nhttps://drive.google.com/file/d/1nzh3NNvTQzMqv1vqQlH66zQ8P7Q65Fi3/preview",
+                        "prospect_lname": "lunarxp.com"
+                    }
+                },
+                {
+                    "fields": {
+                        "prospect_name": "Robertfax",
+                        "email": "angelaProoffWough@gmail.com",
+                        "company": null,
+                        "phone": 12485957829,
+                        "message": "Ciao!  lunarxp.com \r\n \r\nWe propose \r\n \r\nSending your message through the feedback form which can be found on the sites in the Communication partition. Contact form are filled in by our software and the captcha is solved. The superiority of this method is that messages sent through feedback forms are whitelisted. This technique increases the chances that your message will be open. Mailing is done in the same way as you received this message. \r\nYour  commercial offer will be seen by millions of site administrators and those who have access to the sites! \r\n \r\nThe cost of sending 1 million messages is $ 49 instead of $ 99. (you can select any country or country domain) \r\nAll USA - (10 million messages sent) - $399 instead of $699 \r\nAll Europe (7 million messages sent)- $ 299 instead of $599 \r\nAll sites in the world (25 million messages sent) - $499 instead of $999 \r\nThere is a possibility of FREE TEST MAILING. \r\n \r\n \r\nDiscounts are valid until May 31. \r\nFeedback and warranty! \r\nDelivery report! \r\nIn the process of sending messages we don't break the rules GDRP. \r\n \r\nThis message is automatically generated to use our contacts for communication. \r\n \r\n \r\n \r\nContact us. \r\nTelegram - @FeedbackFormEU \r\nSkype \u2013 FeedbackForm2019 \r\nEmail - FeedbackForm@make-success.com \r\nWhatsApp - +44 7598 509161 \r\nhttp://bit.ly/2W8OiFl \r\n \r\nThank you for your attention.",
+                        "prospect_lname": "Robertfax"
+                    }
+                },
+                {
+                    "fields": {
+                        "prospect_name": "JordanAxots",
+                        "email": "micgyhaeldug@gmail.com",
+                        "company": null,
+                        "phone": 274647526,
+                        "message": " Hy there,  Complimentary front-page news ! an stimulatingoblation \r\n Are you in?  \r\nhttps://drive.google.com/file/d/1f4y6tKzSGzZr8eF-vuFMM98X04dAab-0/preview",
+                        "prospect_lname": "JordanAxots"
+                    }
+                },
+                {
+                    "fields": {
+                        "prospect_name": "Timothypacle",
+                        "email": "jennings052@gmail.com",
+                        "company": null,
+                        "phone": 364125216,
+                        "message": "Hello, \r\n \r\nDo you want to achieve better advertising result for your business today? We are experts who can help increase your new customers and sales activity while lowering your advertising costs. \r\n \r\nWe live and breathe Facebook ads and digital advertising. As we constantly invest ourselves into latest training and hacks out there, we get to stay on top of what's happening around Facebook ads. \r\n \r\nOur Expertise Are in: \r\n \r\nCreate/setup New ad campaign \r\nOptimize New or Old Campaign \r\nRemove Bad Performing Ads/Page \r\nTarget Audience by Demographics, Interests or Behaviors \r\nManual or Auto Bid \r\nManual Ad Placement \r\n \r\nCampaigns Which We Can Setup & Run: \r\n \r\n \r\nWebsite Visit Campaign (Traffic) \r\nLead Generation Campaigns (Best for Email Generation) \r\nMessenger Ads & Near Me (Location Based Ads) \r\nBrand Awareness Campaign \r\nPost Engagement Campaign \r\nService-Based Campaign \r\nStore Visits Campaign \r\n \r\nHow does the process work?  Each week we will send you leads from prospective clients who have expressed interest in your product or service.  You pay only for the leads that you receive, with no additional costs.  This is a low risk method of advertising. You know exactly what you are getting and you know the exact result.  And most importantly, you know that you can afford it because the money you spend is directly correlated to new business. \r\n \r\nLooking forward to showing you how we can do business. Reach out to us today and lets get you started. \r\n \r\nPeter Brighton \r\nAzdumi Ads Team. \r\nhttps://adzumi.com/ \r\nemail peter@peterbrighton.com \r\nSkype: peterbrighton1",
+                        "prospect_lname": "Timothypacle"
+                    }
+                },
+                {
+                    "fields": {
+                        "prospect_name": "Test",
+                        "email": "test@solodev.com",
+                        "company": null,
+                        "phone": "123-465-7890",
+                        "message": "Test form submission",
+                        "prospect_lname": "Form"
+                    }
+                },
+                {
+                    "fields": {
+                        "prospect_name": "RobertTom",
+                        "email": "svetlanacol0sova@yandex.ua",
+                        "company": null,
+                        "phone": 322426721,
+                        "message": "Let your bitcoins brings you +10% per 2 days. \r\nGet paid automatically and earn again! \r\n \r\nTry  http://dc-btc.site \r\none click registration and getting asset \r\n \r\nPowered by Mutual assistance Algorithm and Blockchain. \r\nWarranty!",
+                        "prospect_lname": "RobertTom"
+                    }
+                },
+                {
+                    "fields": {
+                        "prospect_name": "Stacey",
+                        "email": "yourpressrelease@outlook.com",
+                        "company": null,
+                        "phone": "555-555-5555",
+                        "message": "Hi,\r\n\r\nWould you like lunarxp.com featured on ABC, NBC, CBS plus 400 major news and media websites with millions of visitors?\r\n\r\nGet your business or yourself featured on the very top websites without spending a fortune.\r\nThis is Guaranteed Media Coverage.\r\n\r\nBeing on the world\u2019s major news and media websites is no doubt one of the most successful ways to promote your business. \r\n\r\nFor a Limited Time:\r\nYour press release will be written and sent to 400 major news and media websites is just $249 complete.\r\n\r\nFor more info and to request a recently completed sample press release\r\nplease go to https://traffic-stampede.com/#Three and contact us on our site.\r\n\r\n\r\nBest,\r\nStacey\r\nTS\r\n",
+                        "prospect_lname": "Hutton"
+                    }
+                },
+                {
+                    "fields": {
+                        "prospect_name": "JosephNuh",
+                        "email": "michaeldug@gmail.com",
+                        "company": null,
+                        "phone": 235775574,
+                        "message": " Hy there,  Look what we arrange in the service of you! an foremostoffering \r\n To condition click on the link below  \r\n \r\nhttps://drive.google.com/file/d/1RIXixLJgfk7KxZmnaFoVIFLQEBClUEzA/preview",
+                        "prospect_lname": "JosephNuh"
+                    }
+                },
+                {
+                    "fields": {
+                        "prospect_name": "Francesactiots",
+                        "email": "angelaProoffWough@gmail.com",
+                        "company": null,
+                        "phone": 19252251362,
+                        "message": "Hi!  lunarxp.com \r\n \r\nWe propose \r\n \r\nSending your business proposition through the Contact us form which can be found on the sites in the contact section. Contact form are filled in by our program and the captcha is solved. The advantage of this method is that messages sent through feedback forms are whitelisted. This method improve the odds that your message will be open. Mailing is done in the same way as you received this message. \r\nYour  commercial offer will be seen by millions of site administrators and those who have access to the sites! \r\n \r\nThe cost of sending 1 million messages is $ 49 instead of $ 99. (you can select any country or country domain) \r\nAll USA - (10 million messages sent) - $399 instead of $699 \r\nAll Europe (7 million messages sent)- $ 299 instead of $599 \r\nAll sites in the world (25 million messages sent) - $499 instead of $999 \r\n \r\n \r\nDiscounts are valid until May 10. \r\nFeedback and warranty! \r\nDelivery report! \r\nIn the process of sending messages we don't break the rules GDRP. \r\n \r\nThis message is automatically generated to use our contacts for communication. \r\n \r\n \r\n \r\nContact us. \r\nTelegram - @FeedbackFormEU \r\nSkype \u2013 FeedbackForm2019 \r\nEmail - FeedbackForm@make-success.com \r\nWhatsApp - +44 7598 509161 \r\nhttp://bit.ly/2WazBl0 \r\n \r\nThanks for reading.",
+                        "prospect_lname": "Francesactiots"
+                    }
+                },
                 {
                     "fields": {
                         "prospect_name": "MatthewNut",

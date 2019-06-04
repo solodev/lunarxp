@@ -1,8 +1,10 @@
+RewriteEngine On
+RewriteBase /
+
 ### .htaccess file ###
 ErrorDocument 404 /404.stml
 
 ### 301 Redirects ###
 Redirect 301 /sample-redirect/ http://www.lunarxp.com/about/index.stml
 Redirect 301 /additional-redirect/ http://www.lunarxp.com/ships/index.stml
-Redirect 301 /test.stml http://www.lunarxp.com/about/index.stml
-Redirect 301 /test2.stml http://www.lunarxp.com/about/index.stml
+Redirect 301 /page-redirect.stml http://www.lunarxp.com/about/index.stml
