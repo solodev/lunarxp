@@ -1,15 +1,14 @@
 [entry]
-	<div class="row">
-		<div class="col-12 text-center">
-		<p class="lead">{{post_intro}}</p>
-	</div>
 	<div class="row mt-5 px-3 px-lg-5">
 		<div class="col-lg-8">
+        <div class="text-center">
+        	<img src="[get_asset_file_url id={{featured_client_image}}]" class="w-200p mw-100">
+        </div>
 			[is_set value={{heading_title}}]
-				<h2 class="mb-5"><strong>{{heading_title}}</strong></h2>
+				<h2 class="mt-3 mb-5"><strong>{{heading_title}}</strong></h2>
 			[/is_set]
 			[is_empty value={{heading_title}}]
-				<h2 class="mb-5"><strong>{{event_title}}</strong></h2>
+				<h2 class="mt-3 mb-5"><strong>{{event_title}}</strong></h2>
 			[/is_empty]
 			{{post_content}}
 			<div class="text-center mt-5">
@@ -29,11 +28,11 @@
 					<a class="text-secondary" href="#" target="_blank"><i class="pl-3 text-hover-primary fa-lg fab fa-linkedin-in"></i></a>
 				</li>
 			</ul>
-			<h3 class="border-top pt-3">Services Included</h3>
+			<h3 class="border-top pt-3 h4">Services Included</h3>
 			<ul class="list-unstyled">
-				<li style="list-style: none">[entry_categories_repeat id="{{calendar_entry_id}}"]</li>
-					<li>{{{title}}}</li>
-				<li style="list-style: none">[/entry_categories_repeat]</li>
+				[entry_categories_repeat id="{{calendar_entry_id}}"]
+					<li class="text-uppercase">{{{title}}}</li>
+				[/entry_categories_repeat]
 			</ul>
 		</div>
 	</div>

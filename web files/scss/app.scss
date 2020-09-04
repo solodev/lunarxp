@@ -11,6 +11,7 @@ $fa-font-path: "/_/css/fonts";
 
 @import "../node_modules/animate.css/animate";
 @import "../node_modules/slick-carousel/slick/slick.scss";
+@import "../node_modules/slick-carousel/slick/slick-theme.scss";
 @import "../node_modules/baguettebox.js/src/baguetteBox.scss";
 
 @import "theme-variables";
@@ -32,4 +33,6 @@ $fa-font-path: "/_/css/fonts";
 @import "components/buttons.scss";
 @import "components/home-news.scss";
 @import "components/clients.scss";
+@import "components/search.scss";
 @import "components/fonts/fonts.scss";
+

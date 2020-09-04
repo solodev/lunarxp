@@ -322,6 +322,7 @@ document.addEventListener("DOMContentLoaded", function (evt) {
   }
 });
 $(document).ready(function () {
+
   $('.slick').slick({
     lazyLoad: 'ondemand',
     slidesToShow: 1,
@@ -329,6 +330,18 @@ $(document).ready(function () {
     dots: true,
     arrows: false
   });
+  
+    $('.image-slider').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    speed: 4000,
+    dots: false,
+    arrows: true
+  });
+  
+  
+  
 });
 
 document.addEventListener("DOMContentLoaded", function (evt) {

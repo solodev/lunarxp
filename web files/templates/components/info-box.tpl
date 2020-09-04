@@ -1,11 +1,11 @@
 <div class="border p-4">
         <h2 class="h3"> Need more information?</h2>
         <p class="mt-3">It’s okay to have questions. Here’s what our clients have looked for in the past: </p>
-        <ul class="wrap list-unstyled mt-3">
-          <li><i class="fa fa-question pr-2"></i> <a href="/features/hosting.stml">Cloud hosting options</a></li>
-          <li><i class="fa fa-question pr-2"></i> <a href="/features/web-content-management.stml">Specific CMS features</a></li>
-          <li><i class="fa fa-question pr-2"></i> <a href="/features/integrations.stml">Marketing integration offerings</a></li>
-          <li><i class="fa fa-question pr-2"></i> <a href="/features/customer-experience.stml">Customer experience (CX) tips</a></li>
+        <ul class="wrap mt-3">
+          <li><a href="/features/hosting.stml">Cloud hosting options</a></li>
+          <li><a href="/features/web-content-management.stml">Specific CMS features</a></li>
+          <li><a href="/features/integrations.stml">Marketing integration offerings</a></li>
+          <li><a href="/features/customer-experience.stml">Customer experience (CX) tips</a></li>
         </ul>
         <a href="https://solodev.zendesk.com/hc/en-us" target="_blank" class="font-weight-normal">View our support documentation →</a>
       </div>

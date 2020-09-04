@@ -356,4 +356,32 @@ function social_share_fa_2($atts, $content = null) {
 }
 add_shortcode('social_share_fa_2', 'social_share_fa_2');
 
+/* blockquote shortcode*/
+
+function blockquote($atts, $content = null){
+notify_solodev_shortcode();
+
+$quote_author = $atts['name'];
+
+$blockquote .= '<div class="blockquote">
+                 <i class="fa fa-quote-left fa-2x '. $sClasses.'"></i>
+                 <p class="lead mt-4 mb-4">'.$content.'</p>
+                 <p class="quote-author">'.$quote_author.'</p>
+                </div> ';
+return $blockquote;
+}
+add_shortcode('blockquote', 'blockquote');
+
+function file_last_modified($atts, $content = null){
+	notify_solodev_shortcode();
+
+	if($atts["id"]){
+    	$asset_file = new Asset_File($atts["id"]);
+    	return date("F j, Y g:ia",$asset_file->date_modified);
+  	}
+  	return "";
+}
+add_shortcode('file_last_modified', 'file_last_modified');
+
+
 ?>
